@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
+import bundleAnalyzer from "@next/bundle-analyzer";
+
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
 
 const nextConfig: NextConfig = {
+  swcMinify: true,
   experimental: {
+    optimizePackageImports: ["react", "react-dom"],
     turbo: {
       rules: {
         "*.svg": {
@@ -23,4 +30,5 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(nextConfig);
+
