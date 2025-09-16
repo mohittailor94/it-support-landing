@@ -37,8 +37,7 @@ export default function OurCoreServices() {
               style={{ opacity: 1, transform: "none" }}
               key={`ourCoreService-${core.label}-${index}`}
             >
-              <Link
-                href={core.href}
+              <span className="cursor-pointer"
                 key={`ourCoreService-${core.label}-${index}`}
               >
                 <div className="flex items-center mb-4">
@@ -51,7 +50,7 @@ export default function OurCoreServices() {
                   </h3>
                 </div>
                 <p className="text-gray-700">{core.desc}</p>
-              </Link>
+              </span>
             </div>
           ))}
         </div>

@@ -26,7 +26,7 @@ export default function OurGlobalPresence() {
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/us">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 United States
               </h3>
@@ -34,13 +34,13 @@ export default function OurGlobalPresence() {
                 Supporting tech, finance, healthcare, and retail sectors with
                 24/7 remote services.
               </p>
-            </Link>
+            </span>
           </div>
           <div
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/uk">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 United Kingdom
               </h3>
@@ -48,13 +48,13 @@ export default function OurGlobalPresence() {
                 Providing GDPR-compliant IT solutions and responsive tech
                 support.
               </p>
-            </Link>
+            </span>
           </div>
           <div
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/in">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 India
               </h3>
@@ -62,13 +62,13 @@ export default function OurGlobalPresence() {
                 Scalable, cost-effective IT support for startups, SMBs, and
                 enterprises.
               </p>
-            </Link>
+            </span>
           </div>
           <div
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/au">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 Australia
               </h3>
@@ -76,13 +76,13 @@ export default function OurGlobalPresence() {
                 Reliable network, cloud, and hardware solutions for businesses
                 nationwide.
               </p>
-            </Link>
+            </span>
           </div>
           <div
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/de">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 Germany
               </h3>
@@ -90,13 +90,13 @@ export default function OurGlobalPresence() {
                 Industry-focused IT services for manufacturing, finance, and
                 healthcare sectors.
               </p>
-            </Link>
+            </span>
           </div>
           <div
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/fr">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 France
               </h3>
@@ -104,13 +104,13 @@ export default function OurGlobalPresence() {
                 Expert remote support and cloud management tailored to French
                 business requirements.
               </p>
-            </Link>
+            </span>
           </div>
           <div
             className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group"
             style={{ opacity: 1, transform: "none" }}
           >
-            <Link href="/locations/ca">
+            <span className="cursor-pointer">
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
                 Canada
               </h3>
@@ -118,7 +118,7 @@ export default function OurGlobalPresence() {
                 Fast, multilingual IT assistance for finance, tech, and
                 e-commerce industries.
               </p>
-            </Link>
+            </span>
           </div>
         </div>
       </div>

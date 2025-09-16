@@ -30,14 +30,13 @@ const FooterLinkList: React.FC<FooterLinkListProps> = ({
     </h3>
     <ul className="space-y-2">
       {links?.map((link) => (
-        <li key={link.href}>
-          <Link
-            className="flex items-center px-5 md:px-0 text-gray-300 hover:text-sky-400 transition-colors text-sm"
-            href={link.href}
-          >
-            {link.icon && <span dangerouslySetInnerHTML={{ __html: link.icon }} ></span>}
+        <li key={`FooterLinkList-link.href-${link.href}`}>
+          <span className="cursor-pointer flex items-center px-5 md:px-0 text-gray-300 hover:text-sky-400 transition-colors text-sm">
+            {link.icon && (
+              <span dangerouslySetInnerHTML={{ __html: link.icon }}></span>
+            )}
             {link.label}
-          </Link>
+          </span>
         </li>
       ))}
     </ul>

@@ -40,9 +40,9 @@ export default function ITSupportInsights() {
             </div>
             <div className="p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors">
-                <Link href="/insights/blog/top-it-support-services-business-needs-2025">
+                <span className="cursor-pointer">
                   Top IT Support Services Every Business Needs in 2025
-                </Link>
+                </span>
               </h3>
               <p className="text-gray-600 mb-4 line-clamp-3">
                 In the rapidly evolving digital landscape, businesses rely
@@ -86,9 +86,9 @@ export default function ITSupportInsights() {
             </div>
             <div className="p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors">
-                <Link href="/insights/blog/top-it-support-services-business-needs-2025">
+                <span className="cursor-pointer">
                   Top IT Support Services Every Business Needs in 2025
-                </Link>
+                </span>
               </h3>
               <p className="text-gray-600 mb-4 line-clamp-3">
                 In the rapidly evolving digital landscape, businesses rely
@@ -132,9 +132,9 @@ export default function ITSupportInsights() {
             </div>
             <div className="p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors">
-                <Link href="/insights/blog/top-it-support-services-business-needs-2025">
+                <span className="cursor-pointer">
                   Top IT Support Services Every Business Needs in 2025
-                </Link>
+                </span>
               </h3>
               <p className="text-gray-600 mb-4 line-clamp-3">
                 In the rapidly evolving digital landscape, businesses rely
@@ -153,10 +153,7 @@ export default function ITSupportInsights() {
           </article>
         </div>
         <div className="text-center mt-12">
-          <Link
-            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
-            href="/insights/blog"
-          >
+          <span className="cursor-pointer inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors">
             View All Blog Posts
             <svg
               className="ml-2 -mr-1 w-5 h-5"
@@ -169,7 +166,7 @@ export default function ITSupportInsights() {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </Link>
+          </span>
         </div>
       </div>
     </section>

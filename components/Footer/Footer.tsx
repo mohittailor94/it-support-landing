@@ -129,24 +129,20 @@ export default function Footer() {
               <span>2024 IT Support. All rights reserved.</span>
             </div>
             <div className="flex space-x-6 text-sm">
-              <Link
-                className="text-gray-400 hover:text-sky-400 transition-colors"
-                href="/privacy"
+              <span
+                className="text-gray-400 hover:text-sky-400 transition-colors cursor-pointer"
+                
               >
                 Privacy Policy
-              </Link>
-              <Link
-                className="text-gray-400 hover:text-sky-400 transition-colors"
-                href="/terms"
+              </span>
+              <span
+                className="text-gray-400 hover:text-sky-400 transition-colors cursor-pointer"
               >
                 Terms of Service
-              </Link>
-              <Link
-                className="text-gray-400 hover:text-sky-400 transition-colors"
-                href="/cookies"
-              >
+              </span>
+              <span className="cursor-pointer text-gray-400 hover:text-sky-400 transition-colors">
                 Cookie Policy
-              </Link>
+              </span>
               <a
                 className="text-gray-400 hover:text-sky-400 transition-colors"
                 href="/sitemap.xml"

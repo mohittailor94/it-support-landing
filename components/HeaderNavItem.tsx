@@ -20,8 +20,6 @@ export default function HeaderNavItem({
 }: HeaderNavItemProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  console.log("openIndex????", openIndex);
-
   return (
     <div className="flex items-center space-x-2 justify-center">
       {navItems.map((item, index) =>
@@ -78,9 +76,8 @@ export default function HeaderNavItem({
 
                 {item.submenu &&
                   item.submenu.map((sub) => (
-                    <Link
-                      className="flex items-center gap-3 px-4 py-2 border-b hover:text-[#61CE70] transition"
-                      href={sub.href}
+                    <span
+                      className="flex items-center gap-3 px-4 py-2 border-b hover:text-[#61CE70] transition cursor-pointer"
                       key={`submenu-${sub.href}`}
                     >
                       <span>
@@ -102,7 +99,7 @@ export default function HeaderNavItem({
                         )}
                       </span>
                       <span>{sub.label}</span>
-                    </Link>
+                    </span>
                   ))}
               </div>
             </div>
