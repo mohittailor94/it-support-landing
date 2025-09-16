@@ -39,7 +39,10 @@ const JsonLdSchemas = [
     name: "IT services, Technical support",
     url: "https://www.itsupport.net.in/",
     image: "",
-    author: "Mike",
+    author: {
+      "@type": "Person",
+      name: "Mike",
+    },
     reviewBody: "best IT support in usa",
     reviewRating: {
       "@type": "Rating",
@@ -48,8 +51,7 @@ const JsonLdSchemas = [
     itemReviewed: {
       "@type": "LocalBusiness",
       name: "L4RG US LLC",
-      priceRange: "12000",
-      image: "",
+      priceRange: 12000,
       address: {
         "@type": "PostalAddress",
         streetAddress: "L4RG US LLC, 105 ELMSFORD ST, DURHAM, NC 27703, USA",
@@ -77,7 +79,10 @@ const JsonLdSchemas = [
       streetAddress: "L4RG US LLC, 105 ELMSFORD ST, DURHAM, NC 27703, USA",
       addressLocality: "ELMSFORD ST",
       postalCode: "27703",
-      addressCountry: "USA",
+      addressCountry: {
+        "@type": "Country",
+        name: "United State",
+      },
     },
     geo: {
       "@type": "GeoCoordinates",
@@ -112,7 +117,7 @@ const JsonLdSchemas = [
     ratingValue: "95",
     bestRating: "100",
     worstRating: "1",
-    ratingCount: "4.9",
+    ratingCount: 4.9,
   },
   {
     "@context": "https://schema.org",

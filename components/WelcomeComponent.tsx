@@ -87,9 +87,10 @@ export default function WelcomeComponent() {
       >
         <video
           className="w-full h-full object-contain rounded-4xl"
-          src="/assets/it-support.mp4"
-          autoPlay={false}
-          loop={false}
+          src="https://d3euc6irt3la1j.cloudfront.net/it-support-services.mp4"
+          muted
+          autoPlay={true}
+          loop={true}
           playsInline={false}
           preload="auto"
         ></video>
