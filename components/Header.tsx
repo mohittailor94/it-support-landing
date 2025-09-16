@@ -29,8 +29,8 @@ export default function Header() {
             <Image
               alt="it-support-logo"
               loading="lazy"
-              width="250"
-              height="100"
+              width="640"
+              height="141"
               decoding="async"
               data-nimg="1"
               className="w-full h-full"
