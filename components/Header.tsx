@@ -28,16 +28,13 @@ export default function Header() {
           <Link href="/">
             <Image
               alt="it-support-logo"
-              loading="lazy"
-              width="640"
-              height="141"
+              width="250"
+              height="55"
               decoding="async"
               data-nimg="1"
               className="w-full h-full"
               src="/it-support-logo.webp"
-              fill
               priority
-              placeholder="blur"
             />
           </Link>
         </div>
