@@ -13,7 +13,7 @@ export default function WelcomeComponent() {
         >
           Welcome to{" "}
           <a
-            href="https://www.itsupport.net.in"
+            href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
           >
             {" "}
@@ -26,7 +26,7 @@ export default function WelcomeComponent() {
         >
           For over 20 years,{" "}
           <a
-            href="https://www.itsupport.net.in"
+            href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
           >
             {" "}
