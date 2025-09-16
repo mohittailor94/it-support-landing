@@ -147,7 +147,9 @@ export default function RootLayout({
         <div className="items-center justify-items-center min-h-screen">
           <Header />
           <main className="mt-16 md:mt-20 px-4 sm:px-6 md:px-40 w-full">
-            {children}
+            <div className="min-h-screen flex flex-col bg-white text-gray-900 font-[family-name:var(--font-geist-sans)]">
+              {children}
+            </div>
           </main>
           <Footer />
         </div>

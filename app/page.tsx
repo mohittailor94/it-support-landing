@@ -37,18 +37,16 @@ const ScrollToTop = dynamic(() => import("@/components/ScrollToTop"), {
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-white text-gray-900 font-[family-name:var(--font-geist-sans)]">
-        <WelcomeComponent />
-        <OurCoreServices />
-        <IndustriesWeServe />
-        <OurGlobalPresence />
-        <WhyChoose />
-        <OurCommitment />
-        <ITSupportInsights />
-        <FAQs />
+      <WelcomeComponent />
+      <OurCoreServices />
+      <IndustriesWeServe />
+      <OurGlobalPresence />
+      <WhyChoose />
+      <OurCommitment />
+      <ITSupportInsights />
+      <FAQs />
 
-        <ScrollToTop />
-      </div>
+      <ScrollToTop />
     </>
   );
 }
