@@ -1,14 +1,45 @@
-import Head from "next/head";
+import dynamic from "next/dynamic";
 
-import FAQs from "@/components/FAQ/FAQs";
-import IndustriesWeServe from "@/components/IndustriesWeServe";
-import ITSupportInsights from "@/components/ITSupportInsights";
-import OurCommitment from "@/components/OurCommitment";
-import OurCoreServices from "@/components/OurCoreServices";
-import OurGlobalPresence from "@/components/OurGlobalPresence";
-import ScrollToTop from "@/components/ScrollToTop";
 import WelcomeComponent from "@/components/WelcomeComponent";
-import WhyChoose from "@/components/WhyChoose";
+import OurCoreServices from "@/components/OurCoreServices";
+
+const FAQs = dynamic(() => import("@/components/FAQ/FAQs"), {
+  ssr: false,
+  loading: () => <p>Loading…</p>,
+});
+const IndustriesWeServe = dynamic(
+  () => import("@/components/IndustriesWeServe"),
+  {
+    ssr: false,
+    loading: () => <p>Loading…</p>,
+  }
+);
+const ITSupportInsights = dynamic(
+  () => import("@/components/ITSupportInsights"),
+  {
+    ssr: false,
+    loading: () => <p>Loading…</p>,
+  }
+);
+const OurCommitment = dynamic(() => import("@/components/OurCommitment"), {
+  ssr: false,
+  loading: () => <p>Loading…</p>,
+});
+const OurGlobalPresence = dynamic(
+  () => import("@/components/OurGlobalPresence"),
+  {
+    ssr: false,
+    loading: () => <p>Loading…</p>,
+  }
+);
+const WhyChoose = dynamic(() => import("@/components/WhyChoose"), {
+  ssr: false,
+  loading: () => <p>Loading…</p>,
+});
+const ScrollToTop = dynamic(() => import("@/components/ScrollToTop"), {
+  ssr: false,
+  loading: () => <p>Loading…</p>,
+});
 
 export default function Home() {
   return (

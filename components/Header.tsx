@@ -35,6 +35,9 @@ export default function Header() {
               data-nimg="1"
               className="w-full h-full"
               src="/it-support-logo.webp"
+              fill
+              priority
+              placeholder="blur"
             />
           </Link>
         </div>

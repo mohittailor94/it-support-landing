@@ -21,9 +21,9 @@ const FooterLinkList: React.FC<FooterLinkListProps> = ({
   <div className="md:col-span-1">
     <h3 className="text-lg font-semibold text-sky-400 mb-4 text-center md:text-left">
       {titleHref ? (
-        <Link className="hover:text-sky-300 transition-colors" href={titleHref}>
+        <span className="cursor-pointer hover:text-sky-300 transition-colors">
           {title}
-        </Link>
+        </span>
       ) : (
         title
       )}
