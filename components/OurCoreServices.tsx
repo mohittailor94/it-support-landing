@@ -1,5 +1,6 @@
 import outCoreData from "@/utils/constant/outCoreData";
 import Link from "next/link";
+import CoreServiceCard from "./cards/CoreServiceCard";
 
 export default function OurCoreServices() {
   return (
@@ -32,26 +33,12 @@ export default function OurCoreServices() {
           style={{ opacity: 1 }}
         >
           {outCoreData.map((core, index) => (
-            <div
-              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group"
-              style={{ opacity: 1, transform: "none" }}
+            <CoreServiceCard
               key={`ourCoreService-${core.label}-${index}`}
-            >
-              <span className="cursor-pointer"
-                key={`ourCoreService-${core.label}-${index}`}
-              >
-                <div className="flex items-center mb-4">
-                  <div
-                    className="w-12 h-12 bg-[#61CE70] rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-500 transition-colors duration-300"
-                    dangerouslySetInnerHTML={{ __html: core.icon }}
-                  ></div>
-                  <h3 className="text-xl font-semibold text-gray-900 group-hover:text-[#61CE70] transition-colors duration-300">
-                    {core.label}
-                  </h3>
-                </div>
-                <p className="text-gray-700">{core.desc}</p>
-              </span>
-            </div>
+              label={core.label}
+              desc={core.desc}
+              icon={core.icon}
+            />
           ))}
         </div>
       </div>
