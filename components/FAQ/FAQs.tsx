@@ -1,7 +1,21 @@
-import FAQData from "@/utils/constant/FAQData";
+import { HomeScreenFAQData } from "@/utils/constant/FAQData";
 import FAQCard from "./FAQCard";
 
-export default function FAQs() {
+export interface FAQItem {
+  label: string;
+  desc: string;
+  expanded?: boolean;
+}
+
+interface FAQsProps {
+  data?: FAQItem[];
+  title?: string;
+}
+
+export default function FAQs({
+  data = HomeScreenFAQData,
+  title = "Frequently Asked Questions (FAQs)",
+}: FAQsProps) {
   return (
     <section className="py-16 px-4 sm:px-6 bg-white">
       <div className="max-w-4xl mx-auto" style={{ opacity: 1 }}>
@@ -9,7 +23,7 @@ export default function FAQs() {
           className="text-3xl sm:text-4xl font-bold text-center mb-12"
           style={{ opacity: 1, transform: "none" }}
         >
-          Frequently Asked Questions (FAQs)
+          {title}
         </h2>
         <div style={{ opacity: 1, transform: "none" }}>
           <section className="bg-white rounded-lg shadow-md p-8 my-5">
@@ -18,7 +32,7 @@ export default function FAQs() {
             </h3>
 
             <div className="mx-auto py-2">
-              {FAQData.map((faq, index) => (
+              {data.map((faq, index) => (
                 <FAQCard {...faq} key={`FAQData-${faq.label}-${index}`} />
               ))}
             </div>

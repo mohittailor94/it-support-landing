@@ -10,7 +10,7 @@ export interface FooterLink {
 interface FooterLinkListProps {
   title: string;
   links?: FooterLink[];
-  titleHref?: string;
+  titleHref: string;
 }
 
 const FooterLinkList: React.FC<FooterLinkListProps> = ({
@@ -31,12 +31,20 @@ const FooterLinkList: React.FC<FooterLinkListProps> = ({
     <ul className="space-y-2">
       {links?.map((link) => (
         <li key={`FooterLinkList-link.href-${link.href}`}>
-          <span className="cursor-pointer flex items-center px-5 md:px-0 text-gray-300 hover:text-sky-400 transition-colors text-sm">
-            {link.icon && (
-              <span dangerouslySetInnerHTML={{ __html: link.icon }}></span>
-            )}
-            {link.label}
-          </span>
+          {title === "Services" ? (
+            <Link
+              href={link.href}
+              className="cursor-pointer flex items-center px-5 md:px-0 text-gray-300 hover:text-sky-400 transition-colors text-sm"
+            >
+              {link.icon && link.icon}
+              {link.label}
+            </Link>
+          ) : (
+            <span className="cursor-pointer flex items-center px-5 md:px-0 text-gray-300 hover:text-sky-400 transition-colors text-sm">
+              {link.icon && link.icon}
+              {link.label}
+            </span>
+          )}
         </li>
       ))}
     </ul>

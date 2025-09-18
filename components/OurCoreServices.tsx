@@ -38,6 +38,7 @@ export default function OurCoreServices() {
               label={core.label}
               desc={core.desc}
               icon={core.icon}
+              href={core.href}
             />
           ))}
         </div>

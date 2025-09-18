@@ -1,4 +1,4 @@
-const FAQData = [
+const HomeScreenFAQData = [
   {
     label: "How do I contact tech support?",
     desc: "You can reach our support team 24/7 through multiple channels. Call our toll-free number (1-800-TECH-CARE), initiate a live chat directly from our website, or send us an email at support@techcarepro.com. For urgent issues, phone support typically provides the fastest response time.",
@@ -36,4 +36,58 @@ const FAQData = [
   },
 ];
 
-export default FAQData;
+const PrinterFAQData = [
+  {
+    label: "Why is my printer not printing, even though it's turned on?",
+    desc: 'This could be due to several reasons, including connectivity issues (Wi-Fi/USB), empty paper trays, low ink/toner, a paused print queue, or an "offline" status.',
+    expanded: true,
+  },
+  {
+    label: "How do I fix a paper jam when there's no paper visible?",
+    desc: "Often, small pieces of paper or debris can be stuck. Turn off the printer, unplug it, and carefully check all accessible areas (paper trays, back panel, inside the printer) using a flashlight.",
+    expanded: false,
+  },
+  {
+    label:
+      "My wireless printer won't connect to my new Wi-Fi network. What should I do?",
+    desc: "You'll typically need to put your printer into setup mode and reconnect it to the new Wi-Fi network, often by entering the new Wi-Fi password. Refer to your printer's manual for specific steps.",
+    expanded: false,
+  },
+  {
+    label: "Why are my printouts faded or streaky?",
+    desc: "For inkjet printers, this usually indicates clogged print heads or low ink. For laser printers, it could be low toner or a problem with the drum unit. Cleaning the print heads or replacing cartridges often resolves this.",
+    expanded: false,
+  },
+  {
+    label: "How often should I update my printer drivers?",
+    desc: "It's good practice to update your printer drivers if you experience issues, install a new operating system, or if your printer manufacturer releases significant updates. Otherwise, if it's working fine, frequent updates aren't always necessary.",
+    expanded: false,
+  },
+  {
+    label: "Can ITSupport.net.in help with all printer brands?",
+    desc: "Yes, our technicians are experienced with a wide range of printer brands, including HP, Epson, Canon, Brother, Lexmark, Samsung, and more.",
+    expanded: false,
+  },
+  {
+    label: 'What does it mean when my printer says "offline"?',
+    desc: 'An "offline" status means your computer isn\'t communicating with your printer. This can be caused by connection issues (cable, Wi-Fi), an incorrect printer setting, or a driver problem.',
+    expanded: false,
+  },
+  {
+    label: "Is it better to use genuine or compatible ink/toner cartridges?",
+    desc: "While compatible cartridges can be cheaper, genuine cartridges often offer better print quality and reliability, and their use typically doesn't void your printer's warranty.",
+    expanded: false,
+  },
+  {
+    label: "How can I clear the print queue on my computer?",
+    desc: 'Go to "Devices and Printers" (Windows) or "Printers & Scanners" (Mac), double-click your printer, and then select "Open Print Queue." You can then cancel all documents.',
+    expanded: false,
+  },
+  {
+    label: "Do you offer remote printer support?",
+    desc: "Yes, a significant portion of our printer support can be provided remotely, allowing us to quickly diagnose and fix software, driver, and connectivity issues without an on-site visit.",
+    expanded: false,
+  },
+];
+
+export { PrinterFAQData, HomeScreenFAQData };
