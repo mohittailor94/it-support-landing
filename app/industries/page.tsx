@@ -5,5 +5,3 @@ export default function Industries() {
     </div>
   );
 }
-
-// https://it-support-landing.vercel.app/pricing?_rsc=3lb4g

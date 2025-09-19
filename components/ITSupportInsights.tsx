@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function ITSupportInsights() {
   const t = useTranslations("Insights");
@@ -22,13 +23,15 @@ export default function ITSupportInsights() {
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
               <div className="relative h-48">
-                <img
+                <Image
                   alt={t("article.imageAlt")}
                   loading="lazy"
                   decoding="async"
                   data-nimg="fill"
                   className="object-cover"
                   sizes="100vw"
+                  height={192}
+                  width={384}
                   src="/_next/image?url=%2Fassets%2Fserviceshero.png&amp;w=3840&amp;q=75"
                   style={{
                     position: "absolute",

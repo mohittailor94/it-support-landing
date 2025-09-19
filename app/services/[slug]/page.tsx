@@ -9,16 +9,17 @@ import ServiceCard from "./_components/ServiceCard";
 import IssueCategory from "./_components/IssueCategory";
 import SpecificIssue from "./_components/SpecificIssue";
 import FeatureCard from "./_components/FeatureCard";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ServiceWhyChoose from "../_component/ServiceWhyChoose";
+import Image from "next/image";
 
 interface Props {
   params: { slug: string };
 }
 
-
 export default function ServiceDetail({ params }: Props) {
   const decodedString = decodeURIComponent(params.slug);
+  const t = useTranslations();
   const locale = useLocale();
 
   let service = {};
@@ -74,7 +75,7 @@ export default function ServiceDetail({ params }: Props) {
                   }}
                 >
                   <span className="inline-flex items-center gap-2">
-                    Get Support Now
+                    {t("getSupportNow")}
                   </span>
                 </Link>
               </div>

@@ -5,6 +5,7 @@ import footerServicesLinks, {
 } from "@/utils/constant/footerServicesLinks";
 import footerSocialIconLinks from "@/utils/constant/footerSocialIconLinks";
 import FooterLinkList, { FooterLink } from "./FooterLinkList";
+import Image from "next/image";
 
 export default function Footer() {
   const locale = useLocale();
@@ -22,7 +23,7 @@ export default function Footer() {
           <div className="md:col-span-1 flex flex-col items-center md:items-start">
             <div className="text-center md:text-left mb-6">
               <Link className="inline-block" href="/">
-                <img
+                <Image
                   alt="it-support-logo"
                   loading="lazy"
                   width="250"
