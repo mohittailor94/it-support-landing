@@ -1,6 +1,7 @@
 "use client";
 
 import defaultNavLinks from "@/utils/constant/defaultNavLinks";
+import defaultNavLinksES from "@/utils/constant/defaultNavLinksES";
 import Link from "next/link";
 import { ReactNode, useState } from "react";
 

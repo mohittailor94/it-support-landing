@@ -1,7 +1,6 @@
 import Link from "next/link";
 import FAQs from "@/components/FAQ/FAQs";
 import Typography from "@/components/ui/Typography";
-import { PrinterFAQData } from "@/utils/constant/FAQData";
 import { servicesDetailData } from "@/utils/constant/serviceDetailData";
 import ServiceCard from "./_components/ServiceCard";
 import IssueCategory from "./_components/IssueCategory";

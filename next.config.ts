@@ -1,4 +1,5 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 import bundleAnalyzer from "@next/bundle-analyzer";
 
 const withBundleAnalyzer = bundleAnalyzer({
@@ -30,5 +31,5 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
-export default withBundleAnalyzer(nextConfig);
-
+const withNextIntl = createNextIntlPlugin();
+export default withBundleAnalyzer(withNextIntl(nextConfig));

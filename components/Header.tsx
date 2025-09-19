@@ -4,9 +4,14 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import HeaderNavItem from "./HeaderNavItem";
+import { useLocale, useTranslations } from "next-intl";
+import defaultNavLinksEs from "@/utils/constant/defaultNavLinksES";
+import defaultNavLinks from "@/utils/constant/defaultNavLinks";
 
 export default function Header() {
   const [isTop, setIsTop] = useState(true);
+  const t = useTranslations("Header");
+  const locale = useLocale();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,7 +32,7 @@ export default function Header() {
         <div className="flex items-center w-60 px-0">
           <Link href="/">
             <Image
-              alt="it-support-logo"
+              alt={t("logoAlt")}
               width="250"
               height="55"
               decoding="async"
@@ -41,7 +46,9 @@ export default function Header() {
         <div className="hidden lg:flex flex-1 justify-center">
           <nav className="w-full">
             <div className="hidden lg:flex items-center justify-center w-full">
-              <HeaderNavItem />
+              <HeaderNavItem
+                navItems={locale === "es" ? defaultNavLinksEs : defaultNavLinks}
+              />
             </div>
           </nav>
         </div>
@@ -51,7 +58,7 @@ export default function Header() {
             href="/contact"
           >
             <span className="btn-title tracking-wide uppercase drop-shadow-sm">
-              Contact US
+              {t("contact")}
             </span>
             <svg
               className="w-4 h-4 md:w-6 md:h-6 text-white group-hover:animate-bounce"
@@ -71,7 +78,7 @@ export default function Header() {
         </div>
         <button
           className="text-[#61CE70] text-2xl md:text-3xl focus:outline-none lg:hidden"
-          aria-label="Open menu"
+          aria-label={t("openMenu")}
         >
           <svg
             stroke="currentColor"

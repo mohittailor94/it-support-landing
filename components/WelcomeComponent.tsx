@@ -1,6 +1,10 @@
+import { useTranslations } from "next-intl";
+
 import Link from "next/link";
 
 export default function WelcomeComponent() {
+  const t = useTranslations("Welcome");
+
   return (
     <section className="flex md:flex-row flex-col h-auto py-5 px-4 bg-gradient-to-b from-[#f8fafc] to-white">
       <div
@@ -11,7 +15,7 @@ export default function WelcomeComponent() {
           className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center leading-tight"
           style={{ opacity: 1, transform: "none" }}
         >
-          Welcome to{" "}
+          {t("welcome")}{" "}
           <a
             href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
@@ -24,7 +28,7 @@ export default function WelcomeComponent() {
           className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed"
           style={{ opacity: 1, transform: "none" }}
         >
-          For over 20 years,{" "}
+          {t("intro1.prefix")}{" "}
           <a
             href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
@@ -32,21 +36,13 @@ export default function WelcomeComponent() {
             {" "}
             ITSupport.net.in
           </a>{" "}
-          has been a pioneer in delivering remote IT and technical support
-          worldwide. With a proven track record of solving over 3 lakh issues
-          and serving 50,000 satisfied clients across 50+ countries, we have
-          become the go-to partner for businesses seeking reliable, efficient,
-          and cost-effective IT solutions.
+          {t("intro1.suffix")}
         </p>
         <p
           className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mt-6"
           style={{ opacity: 1, transform: "none" }}
         >
-          Whether you are a small startup or a global enterprise, our team
-          ensures your technology ecosystem runs smoothly, minimizing downtime
-          and maximizing productivity. Our commitment to excellence, rapid
-          response times, and tailored solutions have positioned us as leaders
-          in remote tech support services.
+          {t("intro2")}
         </p>
         <div
           className="flex w-full justify-center md:justify-baseline mt-5"
@@ -62,7 +58,7 @@ export default function WelcomeComponent() {
             }}
           >
             <span className="inline-flex items-center gap-2">
-              Explore Our Services
+              {t("exploreServices")}
               <svg
                 className="w-5 h-5 text-white group-hover:translate-x-1 group-hover:scale-110 transition-transform duration-300"
                 fill="none"

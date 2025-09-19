@@ -1,0 +1,148 @@
+{
+  "greeting": "Hello",
+  "Welcome": {
+    "welcome": "Welcome to",
+    "intro1": {
+      "prefix": "For over 20 years,",
+      "suffix": "has been a pioneer in delivering remote IT and technical support worldwide. With a proven track record of solving over 3 lakh issues and serving 50,000 satisfied clients across 50+ countries, we have become the go-to partner for businesses seeking reliable, efficient, and cost-effective IT solutions."
+    },
+    "intro2": "Whether you are a small startup or a global enterprise, our team ensures your technology ecosystem runs smoothly, minimizing downtime and maximizing productivity. Our commitment to excellence, rapid response times, and tailored solutions have positioned us as leaders in remote tech support services.",
+    "exploreServices": "Explore Our Services"
+  },
+  "CoreServices": {
+    "title": "Our Core Services",
+    "intro": {
+      "prefix": "At ",
+      "suffix": ", we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions:"
+    }
+  },
+  "Industries": {
+    "title": "Industries We Serve",
+    "intro": "Our expertise spans multiple sectors, allowing us to provide industry-specific IT solutions. Discover how we can support your industry:",
+    "healthcare": {
+      "title": "Healthcare",
+      "desc": "Support for medical software, patient management systems, secure data handling, and HIPAA-compliant solutions."
+    },
+    "finance": {
+      "title": "Finance & Banking",
+      "desc": "Secure financial transactions, network monitoring, cybersecurity, and compliance support."
+    },
+    "retail": {
+      "title": "Retail & E-Commerce",
+      "desc": "Seamless online operations, payment gateway support, and network reliability."
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "desc": "Automation, hardware monitoring, and network reliability for factories and production lines."
+    },
+    "education": {
+      "title": "Education",
+      "desc": "IT support for schools, colleges, and online learning platforms."
+    },
+    "professional": {
+      "title": "Professional Services",
+      "desc": "Technical support for law firms, consulting agencies, and corporate offices."
+    },
+    "travel": {
+      "title": "Travel & Hospitality",
+      "desc": "System management, booking platform support, and network solutions for hotels and travel companies."
+    },
+    "construction": {
+      "title": "Construction",
+      "desc": "Field support, project management tools, and secure data communication."
+    },
+    "logistics": {
+      "title": "Logistics",
+      "desc": "Real-time tracking systems, connectivity, and IT support for supply chain management."
+    }
+  },
+  "GlobalPresence": {
+    "title": "Our Global Presence",
+    "intro": "We proudly serve clients across the globe, ensuring businesses in each region have localized support and timely assistance. Learn more about our presence in your region:",
+    "us": {
+      "title": "United States",
+      "desc": "Supporting tech, finance, healthcare, and retail sectors with 24/7 remote services."
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "desc": "Providing GDPR-compliant IT solutions and responsive tech support."
+    },
+    "in": {
+      "title": "India",
+      "desc": "Scalable, cost-effective IT support for startups, SMBs, and enterprises."
+    },
+    "au": {
+      "title": "Australia",
+      "desc": "Reliable network, cloud, and hardware solutions for businesses nationwide."
+    },
+    "de": {
+      "title": "Germany",
+      "desc": "Industry-focused IT services for manufacturing, finance, and healthcare sectors."
+    },
+    "fr": {
+      "title": "France",
+      "desc": "Expert remote support and cloud management tailored to French business requirements."
+    },
+    "ca": {
+      "title": "Canada",
+      "desc": "Fast, multilingual IT assistance for finance, tech, and e-commerce industries."
+    }
+  },
+  "WhyChoose": {
+    "title": {
+      "prefix": "Why Choose ",
+      "suffix": "?"
+    },
+    "experienced": {
+      "title": "Experienced Team",
+      "desc": "Over 20 years of expertise in remote technical support across multiple industries."
+    },
+    "global": {
+      "title": "Global Reach",
+      "desc": "Support for clients in 50+ countries, ensuring businesses never face downtime."
+    },
+    "rapid": {
+      "title": "Rapid Response",
+      "desc": "Our remote assistance model resolves issues quickly, reducing operational delays."
+    },
+    "comprehensive": {
+      "title": "Comprehensive Services",
+      "desc": "From data backup to cloud management, we cover all IT requirements under one roof."
+    },
+    "industry": {
+      "title": "Industry-Specific Solutions",
+      "desc": "Tailored services that meet regulatory and operational needs of different sectors."
+    },
+    "customer": {
+      "title": "Customer Satisfaction",
+      "desc": "50,000+ satisfied clients trust us for dependable IT support."
+    }
+  },
+  "Commitment": {
+    "title": "Our Commitment",
+    "intro": {
+      "prefix": "At ",
+      "suffix": ", we are dedicated to delivering unmatched IT support and customer service. Whether you need emergency troubleshooting, preventive maintenance, or strategic IT consultation, our team is ready to ensure your technology infrastructure operates flawlessly."
+    },
+    "mission": "Our mission is to empower businesses to focus on growth while we take care of their IT needs with efficiency, reliability, and expertise.",
+    "cta": "Get Started Today"
+  },
+  "Insights": {
+    "latestTitle": "Latest IT Support Insights",
+    "latestIntro": "Stay updated with expert tips, industry trends, and best practices for your business technology needs",
+    "viewAll": "View All Blog Posts",
+    "article": {
+      "imageAlt": "Top IT Support Services Every Business Needs in 2025",
+      "category": "IT Support",
+      "title": "Top IT Support Services Every Business Needs in 2025",
+      "desc": "In the rapidly evolving digital landscape, businesses rely heavily on IT infrastructure to operate efficiently. Whether it's small startups or global enterprises, robust IT support ensures smooth workflows, security, and business continuity.",
+      "readTime": "8 min read",
+      "published": "Published: 1/15/2025"
+    }
+  },
+  "Header": {
+    "logoAlt": "it-support-logo",
+    "contact": "Contact US",
+    "openMenu": "Open menu"
+  }
+}

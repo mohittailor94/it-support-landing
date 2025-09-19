@@ -1,30 +1,28 @@
+import { useTranslations } from "next-intl";
+
 export default function WhyChoose() {
+  const t = useTranslations("WhyChoose");
+
   return (
     <section className="py-16 px-4 sm:px-6 bg-white">
       <div className="max-w-6xl mx-auto" style={{ opacity: 1 }}>
-        <h2
-          className="text-3xl sm:text-4xl font-bold text-center mb-12"
-          style={{ opacity: 1, transform: "none" }}
-        >
-          Why Choose{" "}
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
+          {t("title.prefix")}
           <a
             href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
           >
-            {" "}
             ITSupport.net.in
           </a>
-          ?
+          {t("title.suffix")}
         </h2>
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          style={{ opacity: 1 }}
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div
             className="text-center group"
             style={{ opacity: 1, transform: "scale(0.8)" }}
           >
             <div className="w-16 h-16 bg-[#61CE70] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-500 group-hover:scale-110 transition-all duration-300">
+              {/* SVG unchanged */}
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -40,12 +38,9 @@ export default function WhyChoose() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#61CE70] transition-colors duration-300">
-              Experienced Team
+              {t("experienced.title")}
             </h3>
-            <p className="text-gray-700">
-              Over 20 years of expertise in remote technical support across
-              multiple industries.
-            </p>
+            <p className="text-gray-700">{t("experienced.desc")}</p>
           </div>
           <div
             className="text-center group"
@@ -67,12 +62,9 @@ export default function WhyChoose() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#61CE70] transition-colors duration-300">
-              Global Reach
+              {t("global.title")}
             </h3>
-            <p className="text-gray-700">
-              Support for clients in 50+ countries, ensuring businesses never
-              face downtime.
-            </p>
+            <p className="text-gray-700">{t("global.desc")}</p>
           </div>
           <div
             className="text-center group"
@@ -94,12 +86,9 @@ export default function WhyChoose() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#61CE70] transition-colors duration-300">
-              Rapid Response
+              {t("rapid.title")}
             </h3>
-            <p className="text-gray-700">
-              Our remote assistance model resolves issues quickly, reducing
-              operational delays.
-            </p>
+            <p className="text-gray-700">{t("rapid.desc")}</p>
           </div>
           <div
             className="text-center group"
@@ -121,12 +110,9 @@ export default function WhyChoose() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#61CE70] transition-colors duration-300">
-              Comprehensive Services
+              {t("comprehensive.title")}
             </h3>
-            <p className="text-gray-700">
-              From data backup to cloud management, we cover all IT requirements
-              under one roof.
-            </p>
+            <p className="text-gray-700">{t("comprehensive.desc")}</p>
           </div>
           <div
             className="text-center group"
@@ -148,12 +134,9 @@ export default function WhyChoose() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#61CE70] transition-colors duration-300">
-              Industry-Specific Solutions
+              {t("industry.title")}
             </h3>
-            <p className="text-gray-700">
-              Tailored services that meet regulatory and operational needs of
-              different sectors.
-            </p>
+            <p className="text-gray-700">{t("industry.desc")}</p>
           </div>
           <div
             className="text-center group"
@@ -175,11 +158,9 @@ export default function WhyChoose() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#61CE70] transition-colors duration-300">
-              Customer Satisfaction
+              {t("customer.title")}
             </h3>
-            <p className="text-gray-700">
-              50,000+ satisfied clients trust us for dependable IT support.
-            </p>
+            <p className="text-gray-700">{t("customer.desc")}</p>
           </div>
         </div>
       </div>
