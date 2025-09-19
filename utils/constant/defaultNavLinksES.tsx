@@ -2,7 +2,7 @@ export const servicesMenuItemEs = [
   {
     label: "Soporte de copia de seguridad de datos",
     desc: "Proteja los datos críticos de su empresa con soluciones de respaldo seguras. Ofrecemos servicios automatizados de copia de seguridad y recuperación que garantizan que su información esté segura, recuperable y cumpla con los estándares de la industria.",
-    href: "/services/best-data-backup-and-recovery-services",
+    href: "/services/soporte-remoto-de-ti",
     icon: (
       <svg
         stroke="currentColor"
@@ -21,7 +21,7 @@ export const servicesMenuItemEs = [
   {
     label: "Servicios de soporte antivirus",
     desc: "Asegure una conectividad Wi-Fi sin interrupciones para sus oficinas, almacenes o campus educativos. Nuestro equipo se encarga de la configuración, optimización, seguridad y solución de problemas de redes inalámbricas.",
-    href: "/services/antivirus-support-services",
+    href: "/services/soporte-presencial",
     icon: (
       <svg
         stroke="currentColor"
@@ -40,7 +40,7 @@ export const servicesMenuItemEs = [
   {
     label: "Servicios de soporte para impresoras",
     desc: "Resuelva eficientemente todos los problemas relacionados con impresoras. Desde la configuración e instalación de controladores hasta la solución de problemas de impresoras en red o inalámbricas, nuestro soporte garantiza que sus operaciones de impresión no interrumpan el flujo de trabajo.",
-    href: "/services/printer-support-services",
+    href: "/services/mesa-de-ayuda-24-7",
     icon: (
       <svg
         stroke="currentColor"
@@ -59,7 +59,7 @@ export const servicesMenuItemEs = [
   {
     label: "Servicios de soporte de red",
     desc: "Mantenga una red robusta y confiable con nuestro soporte experto en LAN, WAN y VPN. Solucionamos problemas de conectividad, optimizamos el rendimiento de la red y ofrecemos monitoreo proactivo para prevenir tiempos de inactividad.",
-    href: "/services/networking-support-services",
+    href: "/services/soporte-de-red-wifi",
     icon: (
       <svg
         stroke="currentColor"
@@ -78,7 +78,7 @@ export const servicesMenuItemEs = [
   {
     label: "Servicios de soporte en la nube",
     desc: "Gestione sin problemas su infraestructura en la nube con nuestros servicios de soporte. Desde la migración hasta el mantenimiento en plataformas como AWS, Azure y Google Cloud, garantizamos el mejor rendimiento y seguridad.",
-    href: "/services/professional-cloud-support-services",
+    href: "/services/servicios-de-soporte-de-antivirus",
     icon: (
       <svg
         stroke="currentColor"
@@ -97,7 +97,7 @@ export const servicesMenuItemEs = [
   {
     label: "Servicios de soporte para comercio electrónico",
     desc: "Para negocios en línea, el tiempo de actividad es crítico. Brindamos soporte de comercio electrónico, asegurando que su tienda, pasarelas de pago y sistemas funcionen perfectamente, mejorando la experiencia del cliente y los ingresos.",
-    href: "/services/e-commerce-support-services",
+    href: "/services/servicios-de-soporte-para-reparaci%C3%B3n-de-hardware",
     icon: (
       <svg
         stroke="currentColor"
@@ -116,7 +116,7 @@ export const servicesMenuItemEs = [
   {
     label: "Servicios de soporte de reparación de hardware",
     desc: "Nuestros técnicos expertos atienden PCs, laptops, servidores y periféricos. Ofrecemos diagnóstico, reparación y mantenimiento para prolongar la vida útil del hardware y evitar interrupciones operativas.",
-    href: "/services/hardware-repair-support-services",
+    href: "/services/servicios-gestionados-de-ti",
     icon: (
       <svg
         stroke="currentColor"
@@ -135,7 +135,7 @@ export const servicesMenuItemEs = [
   {
     label: "Soporte de alojamiento web y dominio",
     desc: "Le ayudamos con el alojamiento de sitios web, gestión de dominios y configuraciones técnicas, asegurando que su presencia en línea sea confiable, segura y rápida.",
-    href: "/services/website-hosting-domain-support-services",
+    href: "/services/soporte-para-la-configuraci%C3%B3n-de-correo-electr%C3%B3nico",
     icon: (
       <svg
         stroke="currentColor"
@@ -154,7 +154,7 @@ export const servicesMenuItemEs = [
   {
     label: "Soporte para configuración de correo electrónico",
     desc: "La comunicación por correo electrónico es vital para cualquier organización. Ofrecemos configuración, migración y solución de problemas de correo en plataformas como Microsoft 365, Gmail y Outlook.",
-    href: "/services/email-setup-support",
+    href: "/services/servicios-de-soporte-para-comercio-electr%C3%B3nico",
     icon: (
       <svg
         stroke="currentColor"
@@ -173,7 +173,7 @@ export const servicesMenuItemEs = [
   {
     label: "Soporte de red Wi-Fi",
     desc: "Asegure conectividad Wi-Fi sin interrupciones en oficinas, almacenes o campus educativos. Nuestro equipo se encarga de la configuración, optimización, seguridad y solución de problemas de redes inalámbricas.",
-    href: "/services/wifi-network-support",
+    href: "/services/servicios-de-soporte-de-impresoras",
     icon: (
       <svg
         stroke="currentColor"

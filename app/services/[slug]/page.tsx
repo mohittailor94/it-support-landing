@@ -1,11 +1,12 @@
 import Link from "next/link";
 import FAQs from "@/components/FAQ/FAQs";
 import Typography from "@/components/ui/Typography";
-import { servicesDetailData } from "@/utils/constant/serviceDetailData";
+import { serviceDetailDataEs, servicesDetailData } from "@/utils/constant/serviceDetailData";
 import ServiceCard from "./_components/ServiceCard";
 import IssueCategory from "./_components/IssueCategory";
 import SpecificIssue from "./_components/SpecificIssue";
 import FeatureCard from "./_components/FeatureCard";
+import { useLocale } from "next-intl";
 
 interface Props {
   params: { slug: string };
@@ -106,7 +107,16 @@ const whyChooseData = [
 ];
 
 export default function ServiceDetail({ params }: Props) {
-  const service = servicesDetailData.find((s) => s.slug === params.slug);
+  const decodedString = decodeURIComponent(params.slug);
+  const locale = useLocale();
+
+  let service = {}
+
+  if (locale === "es") {
+    service = serviceDetailDataEs.find((s) => s.slug === decodedString) || {};
+  } else {
+    service = servicesDetailData.find((s) => s.slug === decodedString) || {};
+  }
 
   if (!service) {
     return <div className="p-8">Service not found</div>;

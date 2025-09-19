@@ -38,7 +38,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 448 512"
             className="inline mr-2 text-blue-500"
             height="1em"
@@ -56,7 +56,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 512 512"
             className="inline mr-2 text-green-500"
             height="1em"
@@ -74,7 +74,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 512 512"
             className="inline mr-2 text-gray-500"
             height="1em"
@@ -92,7 +92,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 640 512"
             className="inline mr-2 text-[#61CE70]"
             height="1em"
@@ -110,7 +110,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 640 512"
             className="inline mr-2 text-sky-500"
             height="1em"
@@ -128,7 +128,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 576 512"
             className="inline mr-2 text-pink-500"
             height="1em"
@@ -146,7 +146,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 512 512"
             className="inline mr-2 text-red-500"
             height="1em"
@@ -164,7 +164,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 496 512"
             className="inline mr-2 text-indigo-500"
             height="1em"
@@ -182,7 +182,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 512 512"
             className="inline mr-2 text-orange-500"
             height="1em"
@@ -200,7 +200,7 @@ const footerServicesLinks: any[] = [
           <svg
             stroke="currentColor"
             fill="currentColor"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 640 512"
             className="inline mr-2 text-teal-500"
             height="1em"

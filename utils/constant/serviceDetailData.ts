@@ -1166,3 +1166,1157 @@ export const servicesDetailData: Service[] = [
     ],
   },
 ];
+
+export const serviceDetailDataEs: Service[] = [
+  {
+    slug: "soporte-remoto-de-ti",
+    title: "Soporte de Copia de Seguridad de Datos",
+    subtitle: "Soluciones de respaldo automatizadas y seguras",
+    heroImage:
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Servicios confiables de copia de seguridad de datos",
+      subheadline: "Proteja los datos críticos de su empresa",
+      description:
+        "Nuestros servicios de respaldo de datos garantizan que sus archivos y datos empresariales críticos permanezcan seguros y recuperables en caso de emergencia. Utilizamos soluciones líderes en la industria para automatizar, monitorear y restaurar sus datos.",
+      image:
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro respaldo de datos?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Respaldos automatizados",
+          description: "Olvídese de los respaldos manuales.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Almacenamiento híbrido",
+          description: "Opciones en la nube y local para máxima seguridad.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Recuperación ante desastres",
+          description: "Restauración rápida en caso de emergencia.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de respaldo de datos",
+      subTitle: "Resolvemos fallos de respaldo, restauraciones lentas y más.",
+      issueCategories: [
+        {
+          title: "Fallos de respaldo",
+          description: "Respaldos automáticos o manuales que no se completan.",
+          issues: [
+            {
+              title: "El respaldo programado no se ejecuta",
+              problemDescription:
+                "Los respaldos no se activan según lo programado por problemas de software o permisos.",
+              solution:
+                "Revisamos los registros de respaldo, permisos y reconfiguramos los horarios.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Nuestros servicios de respaldo de datos garantizan que sus archivos y datos empresariales críticos permanezcan seguros y recuperables en caso de emergencia.",
+    features: [
+      "Respaldos diarios y semanales automatizados",
+      "Soluciones híbridas en la nube y locales",
+      "Asistencia rápida en recuperación ante desastres",
+    ],
+    faqs: [
+      {
+        label:
+          "¿Por qué necesito servicios profesionales de respaldo de datos?",
+        desc: "El respaldo profesional asegura que sus archivos importantes estén protegidos contra fallos de hardware, ciberataques y eliminación accidental.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden recuperar datos después de un fallo del sistema?",
+        desc: "Sí, nuestras soluciones de recuperación ante desastres ayudan a restaurar sus archivos rápidamente tras un fallo.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "soporte-presencial",
+    title: "Soporte Antivirus",
+    subtitle: "Manténgase protegido contra amenazas en línea",
+    heroImage:
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Soluciones antivirus integrales",
+      subheadline: "Proteja sus dispositivos contra malware",
+      description:
+        "Manténgase protegido contra virus, malware y amenazas en línea con nuestros servicios confiables de instalación y soporte antivirus.",
+      image:
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Nuestros servicios antivirus",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Protección en tiempo real",
+          description: "Monitoreo continuo de amenazas.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Soporte para múltiples dispositivos",
+          description: "Proteja todos sus dispositivos.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Eliminación experta",
+          description: "Eliminamos incluso el malware más difícil.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de antivirus",
+      subTitle:
+        "Resolvemos problemas de instalación, actualización y detección.",
+      issueCategories: [
+        {
+          title: "Problemas de instalación",
+          description: "El antivirus no se instala o activa.",
+          issues: [
+            {
+              title: "Fallo de activación",
+              problemDescription:
+                "La clave de licencia no es aceptada o está vencida.",
+              solution:
+                "Verificamos su licencia y reinstalamos si es necesario.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Manténgase protegido contra virus, malware y amenazas en línea con nuestros servicios confiables de instalación y soporte antivirus.",
+    features: [
+      "Configuración e instalación de software antivirus",
+      "Monitoreo y eliminación de amenazas en tiempo real",
+      "Actualizaciones regulares para máxima seguridad",
+    ],
+    faqs: [
+      {
+        label: "¿Qué marcas de antivirus soportan?",
+        desc: "Soportamos soluciones populares como Norton, McAfee, Kaspersky, Avast y más.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen actualizaciones regulares de antivirus?",
+        desc: "Sí, aseguramos que su antivirus esté actualizado regularmente para la mejor protección.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "mesa-de-ayuda-24-7",
+    title: "Soporte de Impresoras",
+    subtitle:
+      "Reparación de impresoras en sitio y remota • Soluciones de impresión gestionadas",
+    heroImage:
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Servicios expertos de soporte de impresoras por ",
+      subheadline:
+        "Su socio de confianza para impresiones perfectas por más de una década",
+      description:
+        "En ITSupport.net.in, entendemos que una impresora funcionando correctamente es crucial tanto para hogares como empresas. Por más de 10 años, hemos atendido con orgullo a más de 10,000 clientes globalmente, brindando servicios confiables y completos de soporte de impresoras. Nuestra amplia experiencia garantiza que podamos diagnosticar y resolver rápidamente una gran variedad de problemas, minimizando su tiempo de inactividad y maximizando su productividad.",
+      image:
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Nuestros servicios integrales de soporte de impresoras",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Soporte integral",
+          description:
+            "Soluciones expertas para todas las marcas y modelos de impresoras",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Tiempo de respuesta rápido",
+          description: "Diagnóstico rápido y resolución eficiente de problemas",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Técnicos certificados",
+          description: "Profesionales capacitados con años de experiencia",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de impresoras que resolvemos",
+      subTitle:
+        "Las impresoras, aunque esenciales, pueden ser fuente de frustración. Desde fallos menores hasta grandes averías, nuestros técnicos expertos están preparados para todo. Aquí un resumen de los problemas más comunes que resolvemos eficazmente.",
+      issueCategories: [
+        {
+          title: "Problemas de conectividad",
+          description:
+            "Uno de los problemas más frecuentes es lograr que la impresora se conecte correctamente a la computadora o red.",
+          issues: [
+            {
+              title: "Impresora inalámbrica no se conecta",
+              problemDescription:
+                "Su impresora inalámbrica aparece como fuera de línea, no se une a la red Wi-Fi o pierde conexión intermitentemente. Puede deberse a configuraciones incorrectas, interferencias, drivers desactualizados o problemas con el router.",
+              solution:
+                "Solucionamos la configuración de red, actualizamos el firmware, verificamos la IP y resolvemos conflictos de conectividad.",
+            },
+            {
+              title: "Impresora USB no reconocida",
+              problemDescription:
+                "Al conectar la impresora USB, la computadora no la detecta o aparece como 'dispositivo desconocido'. Suele ser por cables defectuosos, puertos dañados o drivers faltantes/corruptos.",
+              solution:
+                "Verificamos los cables, probamos los puertos USB, reinstalamos o actualizamos los drivers necesarios y resolvemos conflictos.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de calidad de impresión",
+          description:
+            "Nada es más frustrante que un documento con rayas, texto desvanecido o colores incorrectos.",
+          issues: [
+            {
+              title: "Rayas, líneas y impresiones desvanecidas",
+              problemDescription:
+                "Las páginas impresas tienen líneas horizontales/verticales, rayas de tinta o aparecen desvanecidas. Suele ser por cabezales obstruidos, bajo nivel de tóner, rodillos sucios o problemas con la unidad de tambor.",
+              solution:
+                "Realizamos limpieza/alineación de cabezales, revisamos niveles de tinta/tóner, limpiamos componentes internos y reemplazamos consumibles defectuosos.",
+            },
+            {
+              title: "Colores incorrectos o manchas",
+              problemDescription:
+                "Los colores no coinciden con la pantalla o hay manchas de tinta/tóner. Puede deberse a calibración incorrecta, cartuchos incompatibles o cabezales/fusores dañados.",
+              solution:
+                "Recalibramos los colores, aseguramos el uso de cartuchos genuinos y solucionamos daños físicos.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de manejo de papel",
+          description:
+            "Los atascos de papel son frustrantes, pero no son el único problema relacionado.",
+          issues: [
+            {
+              title: "Atascos de papel constantes",
+              problemDescription:
+                "La impresora reporta atascos aunque no haya papel visible, o se atasca físicamente al alimentar. Puede ser por bandejas mal alineadas, rodillos desgastados, papel incorrecto o residuos internos.",
+              solution:
+                "Inspeccionamos el recorrido del papel, limpiamos y alineamos rodillos, verificamos la carga y recomendamos el tipo de papel adecuado.",
+            },
+            {
+              title: "El papel no se alimenta correctamente",
+              problemDescription:
+                "La impresora no toma el papel o toma varias hojas a la vez. Suele ser por rodillos desgastados, problemas con la bandeja o humedad en el papel.",
+              solution:
+                "Limpiamos o reemplazamos rodillos y asesoramos sobre almacenamiento y carga de papel.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de software y drivers",
+          description:
+            "Las impresoras dependen de software y drivers correctos para comunicarse con la computadora.",
+          issues: [
+            {
+              title: "Errores de instalación de drivers",
+              problemDescription:
+                "No puede instalar el driver o se instala incorrectamente, impidiendo la impresión. Puede ser por archivos corruptos, conflictos de sistema operativo o restos de instalaciones previas.",
+              solution:
+                "Eliminamos drivers antiguos, instalamos los correctos y resolvemos conflictos de software.",
+            },
+            {
+              title: "Estado fuera de línea de la impresora",
+              problemDescription:
+                'La impresora aparece como "fuera de línea" aunque esté encendida y conectada. Puede ser por drivers, problemas de red o configuración incorrecta del puerto.',
+              solution:
+                "Reconfiguramos los puertos, actualizamos/reinstalamos drivers y solucionamos la conectividad.",
+            },
+          ],
+        },
+        {
+          title: "Rendimiento y mensajes de error",
+          description:
+            "Impresión lenta o mensajes de error pueden detener su trabajo.",
+          issues: [
+            {
+              title: "Impresión extremadamente lenta",
+              problemDescription:
+                "La impresora tarda mucho en imprimir incluso documentos simples. Puede ser por calidad alta, disco fragmentado, poca RAM o congestión de red.",
+              solution:
+                "Optimizamos la configuración, limpiamos la cola de impresión y recomendamos mejoras.",
+            },
+            {
+              title: "Códigos de error misteriosos",
+              problemDescription:
+                "La impresora muestra códigos alfanuméricos sin explicación, impidiendo su uso.",
+              solution:
+                "Interpretamos los mensajes, solucionamos el fallo y realizamos reparaciones o reinicios necesarios.",
+            },
+          ],
+        },
+      ],
+    },
+    faqs: [
+      {
+        label: "¿Por qué mi impresora no imprime aunque esté encendida?",
+        desc: "Puede deberse a problemas de conectividad (Wi-Fi/USB), bandejas vacías, poca tinta/tóner, cola de impresión pausada o estado 'fuera de línea'.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo soluciono un atasco de papel si no hay papel visible?",
+        desc: "A menudo hay pequeños trozos de papel o residuos. Apague la impresora, desconéctela y revise todas las áreas accesibles con una linterna.",
+        expanded: false,
+      },
+      {
+        label:
+          "Mi impresora inalámbrica no se conecta a la nueva red Wi-Fi. ¿Qué hago?",
+        desc: "Debe poner la impresora en modo configuración y conectarla a la nueva red, ingresando la contraseña. Consulte el manual para pasos específicos.",
+        expanded: false,
+      },
+      {
+        label: "¿Por qué mis impresiones salen desvanecidas o con rayas?",
+        desc: "En impresoras de inyección suele ser por cabezales obstruidos o poca tinta. En láser, por bajo tóner o problemas con el tambor. Limpiar cabezales o cambiar cartuchos suele resolverlo.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Con qué frecuencia debo actualizar los drivers de la impresora?",
+        desc: "Actualice los drivers si tiene problemas, instala un nuevo sistema operativo o hay actualizaciones importantes. Si funciona bien, no es necesario hacerlo frecuentemente.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿ITSupport.net.in puede ayudar con todas las marcas de impresoras?",
+        desc: "Sí, nuestros técnicos tienen experiencia con HP, Epson, Canon, Brother, Lexmark, Samsung y más.",
+        expanded: false,
+      },
+      {
+        label: '¿Qué significa que mi impresora esté "fuera de línea"?',
+        desc: "Significa que la computadora no se comunica con la impresora. Puede ser por problemas de conexión, configuración o drivers.",
+        expanded: false,
+      },
+      {
+        label: "¿Es mejor usar cartuchos originales o compatibles?",
+        desc: "Los compatibles pueden ser más baratos, pero los originales ofrecen mejor calidad y fiabilidad, y no suelen anular la garantía.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo limpio la cola de impresión en mi computadora?",
+        desc: 'Vaya a "Dispositivos e impresoras" (Windows) o "Impresoras y escáneres" (Mac), haga doble clic en la impresora y seleccione "Abrir cola de impresión" para cancelar los documentos.',
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen soporte remoto para impresoras?",
+        desc: "Sí, gran parte del soporte puede ser remoto para diagnosticar y solucionar problemas de software, drivers y conectividad.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "soporte-de-red-wifi",
+    title: "Soporte de Redes",
+    subtitle: "Soluciones de red rápidas, seguras y confiables",
+    heroImage:
+      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Soporte experto de redes para hogar y empresa",
+      subheadline: "Manténgase conectado y productivo",
+      description:
+        "Nuestros expertos en redes garantizan conexiones rápidas, seguras y confiables para su oficina o hogar. Diseñamos, instalamos y mantenemos infraestructuras robustas para que su negocio funcione sin problemas.",
+      image:
+        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro soporte de redes?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Configuración de LAN y Wi-Fi",
+          description:
+            "Instalación y configuración profesional para conectividad sin interrupciones.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Optimización de rendimiento",
+          description:
+            "Identificamos y resolvemos cuellos de botella para máxima velocidad.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Monitoreo de seguridad",
+          description: "Monitoreo continuo para proteger su red de amenazas.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de red que resolvemos",
+      subTitle:
+        "Desde velocidades lentas hasta amenazas de seguridad, resolvemos todos sus desafíos de red.",
+      issueCategories: [
+        {
+          title: "Problemas de conectividad",
+          description: "Problemas al conectar dispositivos a la red.",
+          issues: [
+            {
+              title: "Cortes frecuentes de Wi-Fi",
+              problemDescription:
+                "Los dispositivos pierden conexión o sufren cortes intermitentes.",
+              solution:
+                "Optimizamos la ubicación del router, actualizamos el firmware y reducimos interferencias.",
+            },
+            {
+              title: "Ethernet no funciona",
+              problemDescription:
+                "Los dispositivos cableados no acceden a la red.",
+              solution:
+                "Verificamos cables, puertos de switch y configuración del adaptador.",
+            },
+          ],
+        },
+        {
+          title: "Rendimiento lento de la red",
+          description: "La red está lenta o no responde.",
+          issues: [
+            {
+              title: "Internet lento",
+              problemDescription: "Las webs y apps en la nube cargan despacio.",
+              solution:
+                "Diagnosticamos el uso de ancho de banda, optimizamos QoS y recomendamos mejoras.",
+            },
+            {
+              title: "Retrasos en videollamadas o streaming",
+              problemDescription:
+                "Las videollamadas se congelan o hay buffering.",
+              solution:
+                "Priorizamos el tráfico y aseguramos conexiones estables para apps críticas.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de seguridad",
+          description: "Proteja su red de accesos no autorizados.",
+          issues: [
+            {
+              title: "Wi-Fi no seguro",
+              problemDescription: "La red está abierta o usa cifrado débil.",
+              solution: "Configuramos WPA3 y contraseñas fuertes.",
+            },
+            {
+              title: "Dispositivos desconocidos en la red",
+              problemDescription:
+                "Aparecen dispositivos no reconocidos en su red.",
+              solution:
+                "Auditamos los dispositivos conectados y bloqueamos accesos no autorizados.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Nuestros expertos en redes garantizan conexiones rápidas, seguras y confiables para su oficina o hogar.",
+    features: [
+      "Configuración de LAN y Wi-Fi",
+      "Optimización del rendimiento de la red",
+      "Monitoreo de firewall y seguridad",
+    ],
+    faqs: [
+      {
+        label: "¿Pueden optimizar velocidades lentas de internet?",
+        desc: "Sí, identificamos cuellos de botella y optimizamos su red para mayor velocidad y estabilidad.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen configuración de redes seguras?",
+        desc: "Por supuesto, configuramos firewalls y cifrado para proteger su red.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "servicios-de-soporte-de-antivirus",
+    title: "Soporte en la Nube",
+    subtitle: "Integración y soporte en la nube sin interrupciones",
+    heroImage:
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Desbloquea el poder de la nube",
+      subheadline: "Soluciones en la nube flexibles, seguras y escalables",
+      description:
+        "Desbloquea el poder de la nube con nuestros servicios personalizados de soporte para almacenamiento, colaboración y seguridad. Te ayudamos a migrar, gestionar y optimizar tu entorno en la nube para máxima eficiencia.",
+      image:
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Nuestros servicios de soporte en la nube",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Migración a la nube",
+          description:
+            "Migración sin interrupciones de tus datos y aplicaciones a la nube.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Sincronización de datos",
+          description:
+            "Mantén tus archivos actualizados y accesibles en todos los dispositivos.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Respaldo seguro",
+          description:
+            "Respaldos automatizados y cifrados para tu tranquilidad.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes en la nube que resolvemos",
+      subTitle:
+        "Te ayudamos a superar desafíos de migración, acceso y seguridad.",
+      issueCategories: [
+        {
+          title: "Desafíos de migración",
+          description: "Dificultades al mover datos y aplicaciones a la nube.",
+          issues: [
+            {
+              title: "Pérdida de datos durante la migración",
+              problemDescription:
+                "Algunos archivos o correos faltan después de la migración.",
+              solution:
+                "Verificamos la integridad de los datos y migramos nuevamente los elementos faltantes.",
+            },
+            {
+              title: "Tiempo de inactividad durante la migración",
+              problemDescription:
+                "Las operaciones se interrumpen durante la migración.",
+              solution:
+                "Planificamos migraciones fuera de horario y minimizamos el tiempo de inactividad.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de acceso y sincronización",
+          description: "Problemas al acceder o sincronizar datos en la nube.",
+          issues: [
+            {
+              title: "Archivos no se sincronizan",
+              problemDescription:
+                "Los cambios realizados en un dispositivo no aparecen en otros.",
+              solution:
+                "Solucionamos la configuración de sincronización y resolvemos conflictos.",
+            },
+            {
+              title: "Errores de permisos",
+              problemDescription:
+                "Los usuarios no pueden acceder a carpetas o archivos compartidos.",
+              solution:
+                "Revisamos y actualizamos la configuración de permisos y compartición.",
+            },
+          ],
+        },
+        {
+          title: "Seguridad y cumplimiento",
+          description:
+            "Asegurando que tus datos en la nube estén seguros y cumplan normativas.",
+          issues: [
+            {
+              title: "Acceso no autorizado",
+              problemDescription:
+                "Se detectan inicios de sesión sospechosos o brechas de datos.",
+              solution:
+                "Activamos autenticación multifactor y monitoreamos registros de acceso.",
+            },
+            {
+              title: "Preocupaciones de privacidad de datos",
+              problemDescription:
+                "Dudas sobre dónde y cómo se almacenan los datos.",
+              solution:
+                "Configuramos residencia de datos y ajustes de cumplimiento.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Desbloquea el poder de la nube con nuestros servicios personalizados de soporte para almacenamiento, colaboración y seguridad.",
+    features: [
+      "Asistencia en migración y configuración en la nube",
+      "Sincronización de datos entre dispositivos",
+      "Opciones de respaldo y almacenamiento seguro en la nube",
+    ],
+    faqs: [
+      {
+        label: "¿Qué proveedores de nube soportan?",
+        desc: "Trabajamos con AWS, Google Cloud, Microsoft Azure y otras plataformas.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden migrar mis datos existentes a la nube?",
+        desc: "Sí, ofrecemos servicios de migración a la nube sin interrupciones y de forma segura.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "servicios-de-soporte-en-la-nube",
+    title: "Soporte para E-Commerce",
+    subtitle: "Mejora el rendimiento y la seguridad de tu tienda online",
+    heroImage:
+      "https://images.unsplash.com/photo-1515168833906-d2a3b82b3027?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Soporte experto de e-commerce para todas las plataformas",
+      subheadline: "Haz crecer tu negocio online con confianza",
+      description:
+        "Nuestros servicios de soporte para e-commerce te ayudan a lanzar, gestionar y asegurar tu tienda online. Desde la configuración de la plataforma hasta la integración de pagos y el mantenimiento continuo, aseguramos que tu negocio funcione de manera fluida y segura.",
+      image:
+        "https://images.unsplash.com/photo-1515168833906-d2a3b82b3027?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro soporte de e-commerce?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Experiencia en plataformas",
+          description: "Soporte para Shopify, WooCommerce, Magento y más.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Integración de pagos",
+          description:
+            "Configuración de pasarelas de pago segura y sin problemas.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Seguridad y disponibilidad",
+          description: "Monitoreo continuo para compras seguras y confiables.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de e-commerce que resolvemos",
+      subTitle:
+        "Desde la configuración hasta la seguridad, resolvemos todos tus desafíos de e-commerce.",
+      issueCategories: [
+        {
+          title: "Configuración y lanzamiento de la tienda",
+          description:
+            "Dificultades para poner tu tienda en línea o configurar productos.",
+          issues: [
+            {
+              title: "Conflictos de temas o plugins",
+              problemDescription:
+                "El diseño de la tienda se rompe o las funciones dejan de funcionar tras instalar nuevos temas o plugins.",
+              solution:
+                "Solucionamos, actualizamos o reemplazamos plugins y temas conflictivos.",
+            },
+            {
+              title: "Errores al subir productos",
+              problemDescription:
+                "Los productos no se suben o se muestran incorrectamente.",
+              solution:
+                "Verificamos formatos de datos, corregimos scripts de subida y aseguramos la configuración adecuada.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de pago y checkout",
+          description: "Problemas con pasarelas de pago o abandono de carrito.",
+          issues: [
+            {
+              title: "La pasarela de pago no funciona",
+              problemDescription:
+                "Los clientes no pueden completar compras por errores de pago.",
+              solution:
+                "Verificamos credenciales, actualizamos plugins y resolvemos problemas de integración.",
+            },
+            {
+              title: "Alto abandono de carrito",
+              problemDescription:
+                "Muchos clientes abandonan sin finalizar la compra.",
+              solution:
+                "Optimizamos el flujo de checkout y resolvemos barreras técnicas o de experiencia de usuario.",
+            },
+          ],
+        },
+        {
+          title: "Seguridad y rendimiento",
+          description: "Protege tu tienda y mantenla rápida.",
+          issues: [
+            {
+              title: "Tienda hackeada o comprometida",
+              problemDescription:
+                "Se detecta malware o cambios no autorizados en tu tienda.",
+              solution:
+                "Eliminamos malware, restauramos respaldos y reforzamos la seguridad.",
+            },
+            {
+              title: "Carga lenta de la tienda",
+              problemDescription:
+                "Las páginas tardan mucho en cargar, afectando las ventas.",
+              solution:
+                "Optimizamos imágenes, código y hosting para mayor velocidad.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Mejora el rendimiento de tu tienda online con nuestro soporte experto en plataformas, pagos y seguridad.",
+    features: [
+      "Configuración y puesta en marcha de la tienda",
+      "Integración de pasarelas de pago",
+      "Monitoreo de seguridad y disponibilidad",
+    ],
+    faqs: [
+      {
+        label: "¿Soportan todas las plataformas de e-commerce?",
+        desc: "Sí, damos soporte a Shopify, WooCommerce, Magento y otras plataformas.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden ayudar con problemas de pasarelas de pago?",
+        desc: "Sí, ofrecemos configuración y solución de problemas para pagos en línea seguros.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "servicios-de-soporte-para-reparación-de-hardware",
+    title: "Soporte de Reparación de Hardware",
+    subtitle: "Reparaciones de hardware de TI rápidas y confiables",
+    heroImage:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline:
+        "Reparación profesional de hardware para todos los dispositivos",
+      subheadline:
+        "Minimice el tiempo de inactividad, maximice la productividad",
+      description:
+        "Ofrecemos servicios rápidos y confiables de reparación para computadoras de escritorio, portátiles y hardware de TI. Nuestros técnicos certificados diagnostican y solucionan problemas rápidamente para que pueda volver a trabajar con mínima interrupción.",
+      image:
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro servicio de reparación de hardware?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Todas las marcas principales",
+          description: "Reparaciones para Dell, HP, Lenovo, Apple y más.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Entrega rápida",
+          description:
+            "La mayoría de las reparaciones se completan en 24–48 horas.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Mantenimiento preventivo",
+          description:
+            "Actualizaciones y mantenimiento para evitar problemas futuros.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de hardware que resolvemos",
+      subTitle:
+        "Desde pantallas rotas hasta discos fallando, lo arreglamos todo.",
+      issueCategories: [
+        {
+          title: "Problemas de inicio y energía",
+          description:
+            "Los dispositivos no encienden o se apagan aleatoriamente.",
+          issues: [
+            {
+              title: "Sin energía o falla de arranque",
+              problemDescription:
+                "El dispositivo no enciende o se queda atascado al iniciar.",
+              solution:
+                "Revisamos la fuente de poder, la placa madre y reemplazamos componentes defectuosos.",
+            },
+            {
+              title: "Apagados aleatorios",
+              problemDescription: "La computadora se apaga inesperadamente.",
+              solution:
+                "Verificamos sobrecalentamiento, ventiladores y problemas de energía.",
+            },
+          ],
+        },
+        {
+          title: "Rendimiento y almacenamiento",
+          description: "Computadoras lentas o fallas de almacenamiento.",
+          issues: [
+            {
+              title: "Rendimiento lento",
+              problemDescription: "La computadora está lenta o no responde.",
+              solution:
+                "Actualizamos la RAM, reemplazamos discos duros y eliminamos malware.",
+            },
+            {
+              title: "Falla de disco duro",
+              problemDescription:
+                "Pérdida de datos o ruidos extraños en el disco.",
+              solution: "Recuperamos datos y reemplazamos discos defectuosos.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de pantalla y periféricos",
+          description: "Problemas con pantallas, teclados u otros periféricos.",
+          issues: [
+            {
+              title: "Pantalla rota",
+              problemDescription:
+                "La pantalla del portátil o monitor está rota o no muestra imagen.",
+              solution: "Reemplazamos pantallas y probamos conexiones.",
+            },
+            {
+              title: "Teclado/ratón no funciona",
+              problemDescription: "Los dispositivos de entrada no responden.",
+              solution: "Reparamos o reemplazamos periféricos defectuosos.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Ofrecemos servicios rápidos y confiables de reparación para computadoras de escritorio, portátiles y hardware de TI para minimizar el tiempo de inactividad.",
+    features: [
+      "Diagnóstico y reparación de problemas de hardware",
+      "Reemplazo de componentes defectuosos",
+      "Mantenimiento preventivo y actualizaciones",
+    ],
+    faqs: [
+      {
+        label: "¿Reparan todas las marcas de computadoras?",
+        desc: "Sí, damos servicio a Dell, HP, Lenovo, Apple y otras marcas principales.",
+        expanded: false,
+      },
+      {
+        label: "¿Cuánto tiempo tarda normalmente una reparación de hardware?",
+        desc: "La mayoría de las reparaciones se completan en 24–48 horas, según el problema.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "servicios-gestionados-de-ti",
+    title: "Soporte de Hosting y Dominio Web",
+    subtitle: "Soluciones confiables de hosting y dominio",
+    heroImage:
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Soporte profesional de hosting y dominio web",
+      subheadline: "Ponga su sitio en línea, rápido y seguro",
+      description:
+        "Obtenga soporte profesional para hosting web, configuración de dominios y gestión eficiente de su sitio con nuestros servicios expertos. Garantizamos que su sitio esté siempre accesible, seguro y fácil de administrar.",
+      image:
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro soporte de hosting y dominio?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Gestión de dominios",
+          description:
+            "Compra, transferencia y configuración de dominios fácilmente.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Migración sin interrupciones",
+          description:
+            "Migración de sitios web y correo electrónico con mínima interrupción.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "SSL y seguridad",
+          description:
+            "Configuración de certificados SSL y monitoreo proactivo de seguridad.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de hosting y dominio que resolvemos",
+      subTitle:
+        "Desde errores de DNS hasta migraciones complicadas, lo manejamos todo.",
+      issueCategories: [
+        {
+          title: "Problemas de dominio y DNS",
+          description: "Problemas con la configuración de dominio o DNS.",
+          issues: [
+            {
+              title: "El dominio no resuelve",
+              problemDescription:
+                "Su sitio web no carga por errores de DNS o mala configuración.",
+              solution:
+                "Revisamos los registros DNS, actualizamos los servidores de nombres y aseguramos la propagación correcta.",
+            },
+            {
+              title: "Correo no funciona tras cambio de dominio",
+              problemDescription:
+                "El correo deja de funcionar tras transferir el dominio o actualizar DNS.",
+              solution:
+                "Actualizamos los registros MX y verificamos la configuración de enrutamiento de correo.",
+            },
+          ],
+        },
+        {
+          title: "Problemas de hosting y migración",
+          description: "Dificultades al mover o gestionar su sitio web.",
+          issues: [
+            {
+              title: "Tiempo de inactividad en migración",
+              problemDescription:
+                "El sitio está fuera de línea durante la migración.",
+              solution:
+                "Planificamos migraciones en horas de baja actividad y aseguramos una transición fluida.",
+            },
+            {
+              title: "Errores de certificado SSL",
+              problemDescription:
+                "El navegador muestra advertencias de seguridad por problemas de SSL.",
+              solution:
+                "Instalamos y renovamos certificados SSL y corregimos errores de contenido mixto.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Obtenga soporte profesional para hosting web, configuración de dominios y gestión eficiente de su sitio con nuestros servicios expertos.",
+    features: [
+      "Compra de dominios y configuración de DNS",
+      "Configuración y migración de hosting",
+      "Configuración de correo electrónico y certificados SSL",
+    ],
+    faqs: [
+      {
+        label: "¿Pueden ayudarme a transferir mi dominio?",
+        desc: "Sí, asistimos en transferencias de dominio y configuración de DNS.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen soporte para migración de sitios web?",
+        desc: "Por supuesto, gestionamos migraciones de sitios con mínima interrupción.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "soporte-para-la-configuración-de-correo-electrónico",
+    title: "Soporte para Configuración de Email",
+    subtitle: "Configuración de correo electrónico empresarial y personal",
+    heroImage:
+      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Soporte experto en configuración de email",
+      subheadline: "Manténgase conectado con correo confiable",
+      description:
+        "Simplifique la configuración y gestión de su correo electrónico con nuestro soporte experto para cuentas empresariales y personales. Garantizamos que su email funcione perfectamente en todos sus dispositivos.",
+      image:
+        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro soporte de email?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Configuración en múltiples dispositivos",
+          description:
+            "Configure correo en computadoras, portátiles y dispositivos móviles.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Integración de email empresarial",
+          description:
+            "Configuración profesional de correo para empresas con dominios personalizados.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Spam y seguridad",
+          description:
+            "Filtrado avanzado de spam y configuración segura de email.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de configuración de email que resolvemos",
+      subTitle:
+        "Desde errores de configuración hasta problemas de spam, lo solucionamos todo.",
+      issueCategories: [
+        {
+          title: "Problemas de configuración",
+          description:
+            "Dificultades al configurar o sincronizar cuentas de correo.",
+          issues: [
+            {
+              title: "No se puede agregar la cuenta de email",
+              problemDescription:
+                "No se puede agregar la cuenta en Outlook, Gmail o dispositivo móvil.",
+              solution:
+                "Verificamos la configuración del servidor, puertos y credenciales para una configuración exitosa.",
+            },
+            {
+              title: "Los correos no se sincronizan",
+              problemDescription:
+                "Los emails no aparecen en todos los dispositivos.",
+              solution:
+                "Revisamos la configuración IMAP/POP y resolvemos conflictos de sincronización.",
+            },
+          ],
+        },
+        {
+          title: "Seguridad y spam",
+          description: "Problemas con spam o seguridad en el correo.",
+          issues: [
+            {
+              title: "Recibo demasiado spam",
+              problemDescription:
+                "La bandeja de entrada está llena de correos no deseados.",
+              solution:
+                "Activamos filtros avanzados de spam y bloqueamos remitentes sospechosos.",
+            },
+            {
+              title: "Alertas de inicio de sesión sospechoso",
+              problemDescription:
+                "El proveedor de correo advierte sobre accesos no autorizados.",
+              solution:
+                "Actualizamos contraseñas y activamos la autenticación en dos pasos.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Simplifique la configuración y gestión de su correo electrónico con nuestro soporte experto para cuentas empresariales y personales.",
+    features: [
+      "Configuración y gestión de cuentas de email",
+      "Integración con Outlook, Gmail y más",
+      "Filtrado de spam y configuración de seguridad",
+    ],
+    faqs: [
+      {
+        label: "¿Pueden configurar email en varios dispositivos?",
+        desc: "Sí, configuramos cuentas de correo en computadoras, portátiles y móviles.",
+        expanded: false,
+      },
+      {
+        label: "¿Soportan configuraciones de email empresarial?",
+        desc: "Sí, configuramos correo profesional para empresas con dominios personalizados.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "servicios-de-soporte-para-comercio-electrónico",
+    title: "Soporte de Red Wi-Fi",
+    subtitle: "Conectividad inalámbrica rápida y segura",
+    heroImage:
+      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline: "Soporte confiable para redes Wi-Fi",
+      subheadline: "Manténgase conectado en cualquier lugar",
+      description:
+        "Asegure una conectividad inalámbrica rápida y confiable con nuestros servicios de soporte Wi-Fi para hogares y empresas. Optimizamos su red para velocidad, cobertura y seguridad.",
+      image:
+        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "¿Por qué elegir nuestro soporte Wi-Fi?",
+      services: [
+        {
+          icon: "<svg>...</svg>",
+          title: "Configuración y optimización de router",
+          description:
+            "Instalación y configuración profesional para máxima cobertura.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Aumento de señal",
+          description: "Extensión de rango y eliminación de zonas muertas.",
+        },
+        {
+          icon: "<svg>...</svg>",
+          title: "Red segura",
+          description: "Wi-Fi cifrado y configuración de contraseñas fuertes.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Problemas comunes de Wi-Fi que resolvemos",
+      subTitle:
+        "Desde señales débiles hasta riesgos de seguridad, solucionamos todos sus problemas de Wi-Fi.",
+      issueCategories: [
+        {
+          title: "Problemas de cobertura y señal",
+          description: "Dificultades con el alcance o zonas muertas de Wi-Fi.",
+          issues: [
+            {
+              title: "Señal Wi-Fi débil",
+              problemDescription:
+                "La señal Wi-Fi es débil o se pierde en ciertas áreas.",
+              solution:
+                "Optimizamos la ubicación del router e instalamos extensores de rango.",
+            },
+            {
+              title: "Zonas muertas",
+              problemDescription:
+                "No hay cobertura Wi-Fi en algunas habitaciones.",
+              solution:
+                "Agregamos sistemas mesh o puntos de acceso adicionales.",
+            },
+          ],
+        },
+        {
+          title: "Seguridad y conectividad",
+          description: "Problemas de seguridad o conexión de dispositivos.",
+          issues: [
+            {
+              title: "Wi-Fi no seguro",
+              problemDescription:
+                "La red Wi-Fi está abierta o usa cifrado débil.",
+              solution: "Configuramos WPA3 y contraseñas seguras.",
+            },
+            {
+              title: "Los dispositivos no se conectan",
+              problemDescription:
+                "Algunos dispositivos no logran conectarse a Wi-Fi.",
+              solution:
+                "Solucionamos la configuración y actualizamos el firmware.",
+            },
+          ],
+        },
+      ],
+    },
+    description:
+      "Asegure una conectividad inalámbrica rápida y confiable con nuestros servicios de soporte Wi-Fi para hogares y empresas.",
+    features: [
+      "Configuración y optimización de router Wi-Fi",
+      "Aumento de señal y extensión de rango",
+      "Configuración de red segura",
+    ],
+    faqs: [
+      {
+        label: "¿Pueden solucionar señales Wi-Fi débiles?",
+        desc: "Sí, optimizamos la cobertura y ofrecemos soluciones como extensores de señal.",
+        expanded: false,
+      },
+      {
+        label: "¿Instalan redes Wi-Fi seguras?",
+        desc: "Sí, configuramos Wi-Fi cifrado con contraseñas fuertes para proteger sus datos.",
+        expanded: false,
+      },
+    ],
+  },
+];

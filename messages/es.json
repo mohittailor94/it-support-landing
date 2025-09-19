@@ -144,5 +144,9 @@
     "logoAlt": "it-support-logo",
     "contact": "Contáctanos",
     "openMenu": "Abrir menú"
+  },
+  "FAQs": {
+    "title": "Preguntas frecuentes (FAQs)",
+    "subtitle": "Preguntas frecuentes"
   }
 }
