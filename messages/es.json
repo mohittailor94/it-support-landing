@@ -148,5 +148,33 @@
   "FAQs": {
     "title": "Preguntas frecuentes (FAQs)",
     "subtitle": "Preguntas frecuentes"
+  },
+  "Services": {
+    "heroTitle": "Nuestro ",
+    "heroHighlight": "Soporte IT Remoto",
+    "heroServices": " Servicios",
+    "heroIntro1": "En ",
+    "heroIntro2": ", ofrecemos soluciones IT confiables y rentables, confiadas por empresas de todo el mundo. Con más de 20 años de experiencia, nuestra experiencia probada garantiza operaciones tecnológicas sin problemas, mínimo tiempo de inactividad y máxima productividad.",
+    "getSupportNow": "Solicitar Soporte Ahora",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbServices": "Servicios",
+    "breadcrumbTechSupport": "Soporte Técnico",
+    "coreServices": "Servicios Principales",
+    "reliableITSupport": "Soporte IT ",
+    "reliableHighlight": "confiable",
+    "forEveryBusinessStage": " para cada etapa de su empresa",
+    "comprehensiveRange1": "En ",
+    "comprehensiveRange2": " ofrecemos una gama completa de servicios diseñados para cubrir cada aspecto de su infraestructura IT. Haga clic en cualquier servicio para conocer más sobre nuestras soluciones especializadas:"
+  },
+  "Footer": {
+    "description": "Su socio de confianza para soluciones integrales de IT. Brindamos soporte experto para empresas y particulares en todo el mundo.",
+    "phone": "+1 (555) 123-4567",
+    "email": "support@itsupport.com",
+    "address": "123 Calle Tecnología, Ciudad Digital, DC 12345",
+    "copyright": "IT Support. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookiePolicy": "Política de Cookies",
+    "sitemap": "Mapa del Sitio"
   }
 }

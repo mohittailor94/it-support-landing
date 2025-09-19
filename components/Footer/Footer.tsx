@@ -1,9 +1,20 @@
 import Link from "next/link";
-import FooterLinkList, { FooterLink } from "./FooterLinkList";
-import footerServicesLinks from "@/utils/constant/footerServicesLinks";
+import { useLocale, useTranslations } from "next-intl";
+import footerServicesLinks, {
+  footerServicesLinksEs,
+} from "@/utils/constant/footerServicesLinks";
 import footerSocialIconLinks from "@/utils/constant/footerSocialIconLinks";
+import FooterLinkList, { FooterLink } from "./FooterLinkList";
 
 export default function Footer() {
+  const locale = useLocale();
+  const t = useTranslations("Footer");
+  const newDate = new Date();
+  const currentYear = newDate.getFullYear();
+
+  const footerServices =
+    locale === "es" ? footerServicesLinksEs : footerServicesLinks;
+
   return (
     <footer className="flex flex-col items-center justify-center w-full md:justify-around bg-gray-900 text-white sm:px-6 md:px-40 lg:px-40 xl:px-40">
       <div className="py-12">
@@ -23,8 +34,7 @@ export default function Footer() {
                 />
               </Link>
               <p className="text-gray-400 mt-4 text-sm leading-relaxed">
-                Your trusted partner for comprehensive IT solutions. We provide
-                expert support for businesses and individuals worldwide.
+                {t("description")}
               </p>
             </div>
             <div className="space-y-3 mb-6">
@@ -47,7 +57,7 @@ export default function Footer() {
                   className="text-sm hover:text-sky-400 transition-colors"
                   href="tel:+15551234567"
                 >
-                  +1 (555) 123-4567
+                  {t("phone")}
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-gray-300 hover:text-sky-400 transition-colors">
@@ -69,7 +79,7 @@ export default function Footer() {
                   className="text-sm hover:text-sky-400 transition-colors"
                   href="mailto:support@itsupport.com"
                 >
-                  support@itsupport.com
+                  {t("email")}
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-gray-300 hover:text-sky-400 transition-colors">
@@ -91,15 +101,15 @@ export default function Footer() {
                   className="text-sm hover:text-sky-400 transition-colors"
                   href="#"
                 >
-                  123 Tech Street, Digital City, DC 12345
+                  {t("address")}
                 </a>
               </div>
             </div>
           </div>
 
-          {footerServicesLinks &&
-            footerServicesLinks.length > 0 &&
-            footerServicesLinks.map((section, index) => (
+          {footerServices &&
+            footerServices.length > 0 &&
+            footerServices.map((section, index) => (
               <FooterLinkList
                 key={`servicesLinks-${section.href}`}
                 titleHref={section.href}
@@ -126,23 +136,25 @@ export default function Footer() {
               >
                 <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm117.134 346.753c-1.592 1.867-39.776 45.731-109.851 45.731-84.692 0-144.484-63.26-144.484-145.567 0-81.303 62.004-143.401 143.762-143.401 66.957 0 101.965 37.315 103.422 38.904a12 12 0 0 1 1.238 14.623l-22.38 34.655c-4.049 6.267-12.774 7.351-18.234 2.295-.233-.214-26.529-23.88-61.88-23.88-46.116 0-73.916 33.575-73.916 76.082 0 39.602 25.514 79.692 74.277 79.692 38.697 0 65.28-28.338 65.544-28.625 5.132-5.565 14.059-5.033 18.508 1.053l24.547 33.572a12.001 12.001 0 0 1-.553 14.866z"></path>
               </svg>
-              <span>2024 IT Support. All rights reserved.</span>
+              <span>
+                {currentYear} {t("copyright")}
+              </span>
             </div>
             <div className="flex space-x-6 text-sm">
               <span className="text-gray-400 hover:text-sky-400 transition-colors cursor-pointer">
-                Privacy Policy
+                {t("privacyPolicy")}
               </span>
               <span className="text-gray-400 hover:text-sky-400 transition-colors cursor-pointer">
-                Terms of Service
+                {t("termsOfService")}
               </span>
               <span className="cursor-pointer text-gray-400 hover:text-sky-400 transition-colors">
-                Cookie Policy
+                {t("cookiePolicy")}
               </span>
               <a
                 className="text-gray-400 hover:text-sky-400 transition-colors"
                 href="/sitemap.xml"
               >
-                Sitemap
+                {t("sitemap")}
               </a>
             </div>
 
