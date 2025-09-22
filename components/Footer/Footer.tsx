@@ -31,7 +31,7 @@ export default function Footer() {
                   decoding="async"
                   data-nimg="1"
                   className="w-full h-full"
-                  src="/_next/image?url=%2Fit-support-logo.webp&amp;w=640&amp;q=75"
+                   src="/it-support-logo.webp"
                 />
               </Link>
               <p className="text-gray-400 mt-4 text-sm leading-relaxed">

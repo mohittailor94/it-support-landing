@@ -12,6 +12,7 @@ export default function OurCommitment() {
           data-aos-duration="700">
             {t("title")}
           </h2>
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-lg-12 mb-6 relative rounded-full"></div>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed" data-aos="fade-up"
           data-aos-delay={100}
           data-aos-duration="700">

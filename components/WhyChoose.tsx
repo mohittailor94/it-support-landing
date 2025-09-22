@@ -7,7 +7,7 @@ export default function WhyChoose() {
     <section className="py-16 bg-white">
       <div className="md:px-40  py-10" style={{ opacity: 1 }}>
         <section className="section-heading">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12"
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-lg-12 mb-6"
           data-aos="fade-up"
           data-aos-duration="700">
             {t("title.prefix")}
@@ -19,6 +19,8 @@ export default function WhyChoose() {
             </a>
             {t("title.suffix")}
           </h2>
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-lg-12 mb-6 relative rounded-full"></div>
+          
         </section>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div

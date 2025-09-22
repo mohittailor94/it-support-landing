@@ -8,12 +8,12 @@ export default function ITSupportInsights() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="md:px-40  py-10">
-        <div className="section-heading text-center mb-12">
+        <div className="section-heading text-center mb-lg-12 mb-6">
           <h2 className="text-3xl font-bold text-gray-900 mb-4" data-aos="fade-up"
           data-aos-duration="700">
             {t("latestTitle")}
           </h2>
-          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-12 relative rounded-full"></div>
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-lg-12 mb-6 relative rounded-full"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto" data-aos="fade-up"
           data-aos-delay={100}
           data-aos-duration="700">
@@ -70,8 +70,12 @@ export default function ITSupportInsights() {
             </article>
           ))}
         </div>
-        <div className="text-center mt-12">
-          <span className="cursor-pointer inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors">
+        <div className="text-center mt-12"
+          data-aos="fade-up"
+          data-aos-delay={200}
+          data-aos-duration="700"
+        >
+          <span className="cursor-pointer inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-500 text-white font-bold rounded-full shadow-xl transition-all duration-300 ease-in-out transform hover:from-indigo-500 hover:to-teal-400 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 group text-sm md:text-base transition-colors">
             {t("viewAll")}
             <svg
               className="ml-2 -mr-1 w-5 h-5"
