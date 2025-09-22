@@ -5,7 +5,7 @@ export interface ServiceFAQ {
 }
 
 export interface ServiceHighlight {
-  icon: string; // SVG as string or ReactNode if you render directly
+  icon: string | React.ReactNode; // SVG as string or ReactNode if you render directly
   title: string;
   description: string;
 }
@@ -89,17 +89,78 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our Data Backup?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 12a9 3 0 0 0 5 2.69"></path>
+              <path d="M21 9.3V5"></path>
+              <path d="M3 5v14a9 3 0 0 0 6.47 2.88"></path>
+              <path d="M12 12v4h4"></path>
+              <path d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16"></path>
+            </svg>
+          ),
           title: "Automated Backups",
           description: "Never worry about manual backups again.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+              <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+              <path d="M10 9H8"></path>
+              <path d="M16 13H8"></path>
+              <path d="M16 17H8"></path>
+            </svg>
+          ),
           title: "Hybrid Storage",
           description: "Cloud + local options for maximum safety.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 2v8"></path>
+              <path d="m16 6-4 4-4-4"></path>
+              <rect width="20" height="8" x="2" y="14" rx="2"></rect>
+              <path d="M6 18h.01"></path>
+              <path d="M10 18h.01"></path>
+            </svg>
+          ),
           title: "Disaster Recovery",
           description: "Fast restoration in case of emergencies.",
         },
@@ -304,13 +365,13 @@ export const servicesDetailData: Service[] = [
       {
         label:
           "What types of data loss can ITSupport.net.in's services protect against?",
-        desc: "Our services are designed to protect you from a wide range of data loss scenarios, including hardware failures (e.g., hard drive crashes), human error (accidental deletions, overwriting files), cyber-attacks (ransomware, malware), software corruption, and even physical damage from natural disasters. We aim to ensure your data is resilient against virtually any threat.",
+        desc: "Our services are designed to protect you from a wide range of data loss scenarios, including <strong>hardware failures</strong> (e.g., hard drive crashes), <strong>human error</strong> (accidental deletions, overwriting files), <strong>cyber-attacks</strong> (ransomware, malware), <strong>software corruption</strong>, and even <strong>physical damage</strong> from natural disasters. We aim to ensure your data is resilient against virtually any threat.",
         expanded: true,
       },
       {
         label:
           "How often should I back up my data, and do you automate this process?",
-        desc: "The ideal backup frequency depends on how often your data changes and its criticality. We help you determine the most suitable schedule (daily, hourly, or even continuous). Yes, we configure automated backup solutions so your data is backed up regularly without manual intervention, ensuring consistency and reliability. We also monitor these backups to confirm they're always successful.",
+        desc: "The ideal backup frequency depends on how often your data changes and its criticality. We help you determine the most suitable schedule (daily, hourly, or even continuous). Yes, we configure <strong>automated backup solutions</strong> so your data is backed up regularly without manual intervention, ensuring consistency and reliability. We also monitor these backups to confirm they're always successful.",
         expanded: false,
       },
       {
@@ -353,17 +414,77 @@ export const servicesDetailData: Service[] = [
       title: "Our Antivirus Services",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M7 3.34V5a3 3 0 0 0 3 3"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M12 2a10 10 0 1 0 9.54 13"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
           title: "Real-Time Protection",
           description: "Continuous monitoring for threats.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"></path>
+              <path d="M10 19v-3.96 3.15"></path>
+              <path d="M7 19h5"></path>
+              <rect width="6" height="10" x="16" y="12" rx="2"></rect>
+            </svg>
+          ),
           title: "Multi-Device Support",
           description: "Protect all your devices.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="m14.5 12.5-5-5"></path>
+              <path d="m9.5 12.5 5-5"></path>
+              <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+              <path d="M12 17v4"></path>
+              <path d="M8 21h8"></path>
+            </svg>
+          ),
           title: "Expert Removal",
           description: "We remove even the toughest malware.",
         },
@@ -573,17 +694,76 @@ export const servicesDetailData: Service[] = [
       title: "Our Comprehensive Printer Support Services",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 21V7"></path>
+              <path d="m16 12 2 2 4-4"></path>
+              <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3"></path>
+            </svg>
+          ),
           title: "Comprehensive Support",
           description: "Expert solutions for all printer brands and models",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z"></path>
+              <path d="M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z"></path>
+            </svg>
+          ),
           title: "Fast Response Time",
           description: "Quick diagnosis and efficient problem resolution",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M10 10 7 7"></path>
+              <path d="m10 14-3 3"></path>
+              <path d="m14 10 3-3"></path>
+              <path d="m14 14 3 3"></path>
+              <path d="M14.205 4.139a4 4 0 1 1 5.439 5.863"></path>
+              <path d="M19.637 14a4 4 0 1 1-5.432 5.868"></path>
+              <path d="M4.367 10a4 4 0 1 1 5.438-5.862"></path>
+              <path d="M9.795 19.862a4 4 0 1 1-5.429-5.873"></path>
+              <rect x="10" y="8" width="4" height="8" rx="1"></rect>
+            </svg>
+          ),
           title: "Certified Technicians",
           description: "Skilled professionals with years of experience",
         },
@@ -776,18 +956,86 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our Network Support?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 20h.01"></path>
+              <path d="M2 8.82a15 15 0 0 1 20 0"></path>
+              <path d="M5 12.859a10 10 0 0 1 14 0"></path>
+              <path d="M8.5 16.429a5 5 0 0 1 7 0"></path>
+            </svg>
+          ),
           title: "LAN & Wi-Fi Setup",
           description:
             "Professional installation and configuration for seamless connectivity.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18 12h2"></path>
+              <path d="M18 16h2"></path>
+              <path d="M18 20h2"></path>
+              <path d="M18 4h2"></path>
+              <path d="M18 8h2"></path>
+              <path d="M4 12h2"></path>
+              <path d="M4 16h2"></path>
+              <path d="M4 20h2"></path>
+              <path d="M4 4h2"></path>
+              <path d="M4 8h2"></path>
+              <path d="M8 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-1.5c-.276 0-.494.227-.562.495a2 2 0 0 1-3.876 0C9.994 2.227 9.776 2 9.5 2z"></path>
+            </svg>
+          ),
           title: "Performance Optimization",
           description: "We identify and resolve bottlenecks for maximum speed.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 9v1.258"></path>
+              <path d="M16 3v5.46"></path>
+              <path d="M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75"></path>
+              <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z"></path>
+              <path d="M3 15h7"></path>
+              <path d="M3 9h12.142"></path>
+              <path d="M8 15v6"></path>
+              <path d="M8 3v6"></path>
+            </svg>
+          ),
           title: "Security Monitoring",
           description:
             "Continuous monitoring to protect your network from threats.",
@@ -974,18 +1222,80 @@ export const servicesDetailData: Service[] = [
       title: "Our Cloud Support Services",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="m10.852 19.772-.383.924"></path>
+              <path d="m13.148 14.228.383-.923"></path>
+              <path d="M13.148 19.772a3 3 0 1 0-2.296-5.544l-.383-.923"></path>
+              <path d="m13.53 20.696-.382-.924a3 3 0 1 1-2.296-5.544"></path>
+              <path d="m14.772 15.852.923-.383"></path>
+              <path d="m14.772 18.148.923.383"></path>
+              <path d="M4.2 15.1a7 7 0 1 1 9.93-9.858A7 7 0 0 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.2"></path>
+              <path d="m9.228 15.852-.923-.383"></path>
+              <path d="m9.228 18.148-.923.383"></path>
+            </svg>
+          ),
           title: "Cloud Migration",
           description: "Seamless migration of your data and apps to the cloud.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="m17 15-5.5 5.5L9 18"></path>
+              <path d="M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742"></path>
+            </svg>
+          ),
           title: "Data Synchronization",
           description:
             "Keep your files updated and accessible across all devices.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 12a9 3 0 0 0 5 2.69"></path>
+              <path d="M21 9.3V5"></path>
+              <path d="M3 5v14a9 3 0 0 0 6.47 2.88"></path>
+              <path d="M12 12v4h4"></path>
+              <path d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16"></path>
+            </svg>
+          ),
           title: "Secure Backup",
           description: "Automated, encrypted backups for peace of mind.",
         },
@@ -1357,17 +1667,80 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our E-Commerce Support?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18.2 12.27 20 6H4l1.8 6.27a1 1 0 0 0 .95.73h10.5a1 1 0 0 0 .96-.73Z"></path>
+              <path d="M8 13v9"></path>
+              <path d="M16 22v-9"></path>
+              <path d="m9 6 1 7"></path>
+              <path d="m15 6-1 7"></path>
+              <path d="M12 6V2"></path>
+              <path d="M13 2h-2"></path>
+            </svg>
+          ),
           title: "Platform Expertise",
           description: "Support for Shopify, WooCommerce, Magento, and more.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"></path>
+              <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"></path>
+              <path d="m2 16 6 6"></path>
+              <circle cx="16" cy="9" r="2.9"></circle>
+              <circle cx="6" cy="5" r="3"></circle>
+            </svg>
+          ),
           title: "Payment Integration",
           description: "Seamless and secure payment gateway setup.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M7 3.34V5a3 3 0 0 0 3 3"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M12 2a10 10 0 1 0 9.54 13"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
           title: "Security & Uptime",
           description: "Continuous monitoring for safe and reliable shopping.",
         },
@@ -1686,17 +2059,80 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our Hardware Repair?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+              <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+              <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+              <path d="M10 6h4"></path>
+              <path d="M10 10h4"></path>
+              <path d="M10 14h4"></path>
+              <path d="M10 18h4"></path>
+            </svg>
+          ),
           title: "All Major Brands",
           description: "Repairs for Dell, HP, Lenovo, Apple, and more.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M6 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"></path>
+              <path d="M6 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2"></path>
+              <path d="M6 6h.01"></path>
+              <path d="M6 18h.01"></path>
+              <path d="m13 6-4 6h6l-4 6"></path>
+            </svg>
+          ),
           title: "Quick Turnaround",
           description: "Most repairs completed within 24–48 hours.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 3V2"></path>
+              <path d="m15.4 17.4 3.2-2.8a2 2 0 1 1 2.8 2.9l-3.6 3.3c-.7.8-1.7 1.2-2.8 1.2h-4c-1.1 0-2.1-.4-2.8-1.2l-1.302-1.464A1 1 0 0 0 6.151 19H5"></path>
+              <path d="M2 14h12a2 2 0 0 1 0 4h-2"></path>
+              <path d="M4 10h16"></path>
+              <path d="M5 10a7 7 0 0 1 14 0"></path>
+              <path d="M5 14v6a1 1 0 0 1-1 1H2"></path>
+            </svg>
+          ),
           title: "Preventive Maintenance",
           description: "Upgrades and maintenance to prevent future issues.",
         },
@@ -2101,18 +2537,78 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our Hosting & Domain Support?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <circle cx="12" cy="12" r="10"></circle>
+            </svg>
+          ),
           title: "Domain Management",
           description: "Purchase, transfer, and configure domains with ease.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+            </svg>
+          ),
           title: "Seamless Migration",
           description:
             "Smooth website and email migration with minimal downtime.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 9v1.258"></path>
+              <path d="M16 3v5.46"></path>
+              <path d="M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75"></path>
+              <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z"></path>
+              <path d="M3 15h7"></path>
+              <path d="M3 9h12.142"></path>
+              <path d="M8 15v6"></path>
+              <path d="M8 3v6"></path>
+            </svg>
+          ),
           title: "SSL & Security",
           description:
             "SSL certificate setup and proactive security monitoring.",
@@ -2449,19 +2945,77 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our Email Setup Support?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"></path>
+              <path d="M10 19v-3.96 3.15"></path>
+              <path d="M7 19h5"></path>
+              <rect width="6" height="10" x="16" y="12" rx="2"></rect>
+            </svg>
+          ),
           title: "Multi-Device Setup",
           description:
             "Configure email on desktops, laptops, and mobile devices.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M17 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 1-1.732"></path>
+              <path d="m22 5.5-6.419 4.179a2 2 0 0 1-2.162 0L7 5.5"></path>
+              <rect x="7" y="3" width="15" height="12" rx="2"></rect>
+            </svg>
+          ),
           title: "Business Email Integration",
           description:
             "Professional email setup for businesses using custom domains.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M7 3.34V5a3 3 0 0 0 3 3"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M12 2a10 10 0 1 0 9.54 13"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
           title: "Spam & Security",
           description:
             "Advanced spam filtering and secure email configuration.",
@@ -3073,18 +3627,80 @@ export const servicesDetailData: Service[] = [
       title: "Why Choose Our Wi-Fi Support?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <rect width="20" height="8" x="2" y="14" rx="2"></rect>
+              <path d="M6.01 18H6"></path>
+              <path d="M10.01 18H10"></path>
+              <path d="M15 10v4"></path>
+              <path d="M17.84 7.17a4 4 0 0 0-5.66 0"></path>
+              <path d="M20.66 4.34a8 8 0 0 0-11.31 0"></path>
+            </svg>
+          ),
           title: "Router Setup & Optimization",
           description:
             "Professional installation and configuration for maximum coverage.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M4.9 16.1C1 12.2 1 5.8 4.9 1.9"></path>
+              <path d="M7.8 4.7a6.14 6.14 0 0 0-.8 7.5"></path>
+              <circle cx="12" cy="9" r="2"></circle>
+              <path d="M16.2 4.8c2 2 2.26 5.11.8 7.47"></path>
+              <path d="M19.1 1.9a9.96 9.96 0 0 1 0 14.1"></path>
+              <path d="M9.5 18h5"></path>
+              <path d="m8 22 4-11 4 11"></path>
+            </svg>
+          ),
           title: "Signal Boosting",
           description: "Range extension and dead zone elimination.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13"></path>
+              <path d="M2 12h8.5"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
           title: "Secure Network",
           description: "Encrypted Wi-Fi and strong password setup.",
         },

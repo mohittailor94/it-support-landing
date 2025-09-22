@@ -78,50 +78,24 @@ export default function ServiceDetail({ params }: Props) {
               className="flex flex-col justify-center items-center h-full w-full md:w-1/2 relative"
               style={{ opacity: 1, transform: "none", height: "inherit" }}
             >
-              <h1
-                className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-left leading-tight w-full"
-                style={{ opacity: 1, transform: "none" }}
+              <Typography
+                className="mb-4 leading-tight w-full text-left"
+                variant="h1"
               >
-                <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
-                  {service.title}{" "}
-                </span>
-                Services
-              </h1>
-              <p
-                className="text-lg sm:text-xl text-gray-700 max-w-4xl leading-relaxed text-left w-full"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                {service.title} Services
+              </Typography>
+              <p className="text-base sm:text-base text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
                 {service.subtitle}
               </p>
+
               {service.subtitle1 && (
-                <p
-                  className="text-lg sm:text-xl text-gray-700 max-w-4xl leading-relaxed text-left w-full"
-                  style={{ opacity: 1, transform: "none" }}
-                >
+                <p className="text-base sm:text-base text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
                   {service.subtitle1}
                 </p>
               )}
-              {/* <div
-                className="flex w-full md:justify-baseline mt-5"
-                style={{ opacity: 1, transform: "none" }}
-              >
-                <Link
-                  className="inline-block bg-gradient-to-r from-[#61CE70] via-blue-500 to-[#61CE70] text-white px-8 py-3 sm:px-10 sm:py-4 rounded-full font-extrabold shadow-xl hover:from-blue-500 hover:to-[#61CE70] hover:scale-105 transition-all duration-300 text-lg sm:text-xl tracking-wide ring-2 ring-[#61CE70] hover:ring-4 focus:outline-none focus:ring-4 focus:ring-[#61CE70]/60 group"
-                  href="/services"
-                  style={{
-                    boxShadow:
-                      "rgba(97, 206, 112, 0.25) 0px 8px 32px 0px, rgba(10, 25, 47, 0.1) 0px 1.5px 8px 0px",
-                    letterSpacing: "0.04em",
-                  }}
-                >
-                  <span className="inline-flex items-center gap-2">
-                    {t("getSupportNow")}
-                  </span>
-                </Link>
-              </div> */}
               <div
                 className="delay-1000 animate-fill-forwards w-full mt-6 absolute"
-                style={{ position: "absolute", bottom: 60 }}
+                style={{ position: "absolute", bottom: 0 }}
               >
                 <div className="flex items-center gap-2 text-xs">
                   <span>Home</span>
@@ -163,11 +137,11 @@ export default function ServiceDetail({ params }: Props) {
               </div>
             </div>
             <div
-              className="w-full h-full p-16 flex rounded-4xl md:w-1/2"
+              className="w-full h-full p-3 flex rounded-lg md:w-1/2"
               style={{ opacity: 1, transform: "none" }}
             >
               <img
-                className="w-full h-full object-contain rounded-4xl"
+                className="w-full h-full object-contain rounded-lg"
                 src={service.heroImage}
                 alt="Service illustration 1"
               />
@@ -200,7 +174,7 @@ export default function ServiceDetail({ params }: Props) {
               <ServiceCard
                 key={`service-service-highlights-service-${servIndex}-${service.title}`}
                 icon={
-                  <svg
+                  typeof serv.icon === "string" ? <svg
                     stroke="currentColor"
                     fill="currentColor"
                     strokeWidth="0"
@@ -211,7 +185,8 @@ export default function ServiceDetail({ params }: Props) {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"></path>
-                  </svg>
+                  </svg>:
+                  serv.icon || <></>
                 }
                 title={serv.title}
                 description={serv.description}
@@ -321,7 +296,7 @@ export default function ServiceDetail({ params }: Props) {
 
       <ServiceWhyChoose />
 
-      <FAQs data={service.faqs} />
+      <FAQs data={service.faqs} descHTMLString />
     </>
   );
 }

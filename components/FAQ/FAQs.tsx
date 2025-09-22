@@ -11,10 +11,13 @@ export interface FAQItem {
 interface FAQsProps {
   data?: FAQItem[];
   title?: string;
+  descHTMLString?: boolean;
 }
 
 export default function FAQs({
+  title,
   data = HomeScreenFAQData,
+  descHTMLString = false,
 }: FAQsProps) {
   const t = useTranslations("FAQs");
 
@@ -25,7 +28,7 @@ export default function FAQs({
           className="text-3xl sm:text-4xl font-bold text-center mb-12"
           style={{ opacity: 1, transform: "none" }}
         >
-          {t("title")}
+          {title || t("title")}
         </h2>
         <div style={{ opacity: 1, transform: "none" }}>
           <section className="bg-white rounded-lg shadow-md p-8 my-5">
@@ -33,7 +36,11 @@ export default function FAQs({
 
             <div className="mx-auto py-2">
               {data.map((faq, index) => (
-                <FAQCard {...faq} key={`FAQData-${faq.label}-${index}`} />
+                <FAQCard
+                  {...faq}
+                  key={`FAQData-${faq.label}-${index}`}
+                  descHTMLString={descHTMLString}
+                />
               ))}
             </div>
           </section>
