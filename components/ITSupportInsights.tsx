@@ -7,16 +7,22 @@ export default function ITSupportInsights() {
 
   return (
     <section className="py-16 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+      <div className="md:px-40  py-10">
+        <div className="section-heading text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4" data-aos="fade-up"
+          data-aos-duration="700">
             {t("latestTitle")}
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-12 relative rounded-full"></div>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto" data-aos="fade-up"
+          data-aos-delay={100}
+          data-aos-duration="700">
             {t("latestIntro")}
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up"
+        data-aos-delay={200}
+        data-aos-duration="700">
           {[1, 2, 3].map((i) => (
             <article
               key={i}
@@ -32,7 +38,7 @@ export default function ITSupportInsights() {
                   sizes="100vw"
                   height={192}
                   width={384}
-                  src="/_next/image?url=%2Fassets%2Fserviceshero.png&amp;w=3840&amp;q=75"
+                  src="/assets/web-development.webp"
                   style={{
                     position: "absolute",
                     height: "100%",

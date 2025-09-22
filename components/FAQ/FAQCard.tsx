@@ -22,9 +22,12 @@ const FAQCard: React.FC<FAQCardProps> = ({
   }, []);
 
   return (
-    <div className="bg-[#f5f8fa] rounded-xl mb-2 shadow-sm border border-[#e6ecf1]">
+    <div className=" rounded-xl mb-5 shadow-md border border-[#e6ecf1]" 
+      data-aos="fade-up"
+      data-aos-duration="700"
+    >
       <button
-        className="w-full text-left px-8 py-2 bg-transparent border-none font-bold text-[1.25rem] text-[#183153] cursor-pointer outline-none flex items-center justify-between"
+        className="w-full text-left px-6 py-4 bg-transparent border-none font-medium text-[1.25rem] text-[#183153] cursor-pointer outline-none flex items-center justify-between"
         aria-expanded="true"
         type="button"
         onClick={() => {
@@ -32,13 +35,13 @@ const FAQCard: React.FC<FAQCardProps> = ({
         }}
       >
         <h3>{label}</h3>
-        <h3 className="text-[#183153] ml-3">{isExpand ? "-" : "+"} </h3>
+        <h3 className="text-[#183153] text-xl  ml-3">{isExpand ? "-" : "+"} </h3>
       </button>
       <p
         className={
           isExpand
-            ? "faq-answer mx-4 bg-white rounded-lg  text-[#4a5a6a] leading-relaxed shadow-sm transition-all duration-300 ease-in-out opacity-100 mb-4 p-6 max-h-[500px] pointer-events-auto"
-            : "faq-answer mx-4 bg-white rounded-lg  text-[#4a5a6a] leading-relaxed shadow-sm transition-all duration-300 ease-in-out opacity-0 h-0 pointer-events-none"
+            ? "faq-answer text-md  text-[#4a5a6a] leading-relaxed transition-all duration-300 ease-in-out border-top-1 opacity-100 mb-0 pt-0 p-6 max-h-[500px] pointer-events-auto"
+            : "faq-answer text-md   text-[#4a5a6a] leading-relaxed transition-all duration-300 ease-in-out opacity-0 pt-0 h-0 pointer-events-none"
         }
         style={{ overflow: "hidden" }}
       >

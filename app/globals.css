@@ -32,3 +32,23 @@ body {
   line-height: 1.6;
 }
 
+.bar::after{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 0.60rem;
+  height: 0.60rem;
+  background-color: #61ce70;
+  z-index: 1;
+  border-radius: 100%;
+  animation: bar-dot-move-left 3s ease-in-out infinite alternate;
+  will-change: left;
+  pointer-events: none;
+
+}
+
+@keyframes bar-dot-move-left {
+  0% { left: 0; }
+  100% { left: calc(100% - 0.60rem); }
+}

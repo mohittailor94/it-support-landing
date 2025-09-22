@@ -7,6 +7,8 @@ interface CoreServiceCardProps {
   icon?: string | React.ReactNode;
   href?: string;
   children?: React.ReactNode;
+  dataAos?: string;
+  dataAosDelay?: number;
 }
 
 export default function CoreServiceCard({
@@ -15,12 +17,15 @@ export default function CoreServiceCard({
   icon,
   href,
   children,
+  dataAos,
+  dataAosDelay,
 }: CoreServiceCardProps) {
   if (children) {
     return (
       <div
         className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group"
-        style={{ opacity: 1, transform: "none" }}
+        data-aos={dataAos}
+        data-aos-delay={dataAosDelay}
       >
         {children}
       </div>
@@ -30,7 +35,8 @@ export default function CoreServiceCard({
   return (
     <div
       className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group"
-      style={{ opacity: 1, transform: "none" }}
+      data-aos={dataAos}
+      data-aos-delay={dataAosDelay}
     >
       <Link href={href || "/"} className="cursor-pointer">
         <div className="flex items-center mb-4">

@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 import WelcomeComponent from "@/components/WelcomeComponent";
 import OurCoreServices from "@/components/OurCoreServices";
@@ -46,15 +47,34 @@ export default function Home() {
 
   return (
     <>
-      <WelcomeComponent />
-      <OurCoreServices />
-      <IndustriesWeServe />
-      <OurGlobalPresence />
-      <WhyChoose />
-      <OurCommitment />
-
-      <ITSupportInsights />
-      <FAQs data={FAQsData} />
+      <section className="hero-section">
+        <WelcomeComponent />
+      </section>
+      <section className="our-service-section">
+        <div className="shape2">
+          {/* Use a public asset (available at /assets) */}
+          {/* <Image src="/assets/shape1.svg" alt="shape" width={24} height={24} priority/> */}
+        </div>
+        <OurCoreServices />
+      </section>
+      <section className="industries-section">
+        <IndustriesWeServe />
+      </section>
+      <section className="global-presence-section">
+        <OurGlobalPresence />
+      </section>
+      <section className="why-choose-section">
+        <WhyChoose />
+      </section>
+      <section className="our-commitment-section">
+        <OurCommitment />
+      </section>
+      <section className="it-support-insights-section">
+        <ITSupportInsights />
+      </section>
+      <section className="faq-section">
+        <FAQs data={FAQsData} />
+      </section>
 
       <ScrollToTop />
     </>

@@ -5,10 +5,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer/Footer";
 
 import "./globals.css";
+import "aos/dist/aos.css";
 import { JsonLd } from "@/components/JsonLd";
 import JsonLdSchemas from "@/utils/constant/JsonLdSchemas";
 import LocaleProvider from "@/components/LocaleProvider";
 import { NextIntlClientProvider } from "next-intl";
+
+import AOSInit from '@/components/AOSInit';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,7 +46,7 @@ export const metadata: Metadata = {
       "IT support, Tech support, IT services, Technical support, Computer repair near me, Wifi help, Printer repair, Virus removal, Laptop repair, Home tech support",
     "twitter:image:type": "images/webp",
     author: "IT Support, L4RG US LLC",
-    copyright: "© 2025",
+    copyright: " 2025",
   },
   icons: {
     icon: [
@@ -147,10 +150,10 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider>
           <JsonLd data={JsonLdSchemas} />
-
+          <AOSInit />
           <div className="items-center justify-items-center min-h-screen">
             <Header />
-            <main className="mt-16 md:mt-20 px-4 sm:px-6 md:px-40 w-full">
+            <main className="mt-16 md:mt-20  w-full">
               <div className="min-h-screen flex flex-col text-gray-900 font-[family-name:var(--font-geist-sans)]">
                 {children}
               </div>

@@ -5,16 +5,30 @@ export default function IndustriesWeServe() {
   const t = useTranslations("Industries");
 
   return (
-    <section className="py-16 px-4 sm:px-6 bg-white">
-      <div className="max-w-6xl mx-auto" style={{ opacity: 1 }}>
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
-          {t("title")}
-        </h2>
-        <p className="text-lg text-center text-gray-700 mb-12 max-w-4xl mx-auto">
-          {t("intro")}
-        </p>
+    <section className="py-16 bg-white">
+      <div className="sm:px-6 md:px-40  py-10 px-4">
+        <div className="section-heading">
+          <h2 
+            className="text-3xl sm:text-4xl font-bold text-center pb-4"
+            data-aos="fade-up"
+            data-aos-duration="700">
+            {t("title")}
+          </h2>
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-12 relative rounded-full"></div>
+          <p 
+            className="text-lg text-center text-gray-700 mb-12 max-w-4xl mx-auto" 
+            data-aos="fade-up"
+            data-aos-delay={100}
+            data-aos-duration="700">
+            {t("intro")}
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-blue-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-blue-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={100}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("healthcare.title")}
@@ -24,7 +38,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-green-50 to-green-100 border-green-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-green-50 to-green-100 border-green-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={100}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("finance.title")}
@@ -34,7 +52,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 border-purple-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-purple-50 to-purple-100 border-purple-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={100}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("retail.title")}
@@ -44,7 +66,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-orange-50 to-orange-100 border-orange-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-orange-50 to-orange-100 border-orange-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={100}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("manufacturing.title")}
@@ -54,7 +80,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-red-50 to-red-100 border-red-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-red-50 to-red-100 border-red-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={200}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("education.title")}
@@ -64,7 +94,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 border-indigo-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 border-indigo-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={200}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("professional.title")}
@@ -74,7 +108,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-yellow-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-yellow-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={200}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("travel.title")}
@@ -84,7 +122,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-teal-50 to-teal-100 border-teal-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-teal-50 to-teal-100 border-teal-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={200}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("construction.title")}
@@ -94,7 +136,11 @@ export default function IndustriesWeServe() {
               </p>
             </span>
           </div>
-          <div className="bg-gradient-to-br from-pink-50 to-pink-100 border-pink-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group">
+          <div className="bg-gradient-to-br from-pink-50 to-pink-100 border-pink-500 rounded-lg p-6 border-l-4 hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group" 
+            data-aos="fade-up"
+            data-aos-duration="700" 
+            data-aos-delay={200}
+          >
             <span className="cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                 {t("logistics.title")}

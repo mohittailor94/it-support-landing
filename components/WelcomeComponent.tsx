@@ -1,21 +1,38 @@
+'use client';
 import { useTranslations } from "next-intl";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Link from "next/link";
 
 export default function WelcomeComponent() {
   const t = useTranslations("Welcome");
 
+  useEffect(() => {
+    AOS.init({ duration: 750, easing: "ease-out", once: true, offset: 80 });
+  }, []);
+
   return (
-    <section className="flex md:flex-row flex-col h-auto py-5 px-4 bg-gradient-to-b from-[#f8fafc] to-white">
+    <section className="relative flex md:flex-row flex-col items-center h-auto  px-4 sm:px-6 md:px-40  py-10 px-4  overflow-hidden">
+      {/* Decorative background glow */}
       <div
-        className="flex flex-col h-full justify-center mb-5"
-        style={{ opacity: 1, transform: "none" }}
+        aria-hidden
+        className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[#61CE70]/10 blur-3xl"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-400/10 blur-3xl"
+      />
+      <div
+        className="flex flex-col h-full justify-center mb-8 md:mb-5 items-start max-w-3xl w-full"
+         data-aos="fade-right"
       >
         <h1
-          className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center leading-tight"
-          style={{ opacity: 1, transform: "none" }}
+          className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-left leading-tight"
+          data-aos="fade-in"
         >
-          {t("welcome")}{" "}
+          {t("welcome")} {" "}
           <a
             href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
@@ -25,10 +42,11 @@ export default function WelcomeComponent() {
           </a>
         </h1>
         <p
-          className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed"
-          style={{ opacity: 1, transform: "none" }}
+          className="text-lg sm:text-xl text-gray-700 max-w-3xl leading-relaxed text-left"
+          data-aos="fade-in"
+          data-aos-delay="100"
         >
-          {t("intro1.prefix")}{" "}
+          {t("intro1.prefix")} {" "}
           <a
             href="https://it-support-landing.vercel.app"
             className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
@@ -39,14 +57,16 @@ export default function WelcomeComponent() {
           {t("intro1.suffix")}
         </p>
         <p
-          className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mt-6"
-          style={{ opacity: 1, transform: "none" }}
+          className="text-lg sm:text-xl text-gray-700 max-w-3xl leading-relaxed mt-6 text-left"
+          data-aos="fade-in"
+          data-aos-delay="200"
         >
           {t("intro2")}
         </p>
         <div
-          className="flex w-full justify-center md:justify-baseline mt-5"
-          style={{ opacity: 1, transform: "none" }}
+          className="flex w-full justify-start mt-6"
+          data-aos="fade-in"
+          data-aos-delay="300"
         >
           <Link
             className="inline-block bg-gradient-to-r from-[#61CE70] via-blue-500 to-[#61CE70] text-white px-8 py-3 sm:px-10 sm:py-4 rounded-full font-extrabold shadow-xl hover:from-blue-500 hover:to-[#61CE70] hover:scale-105 transition-all duration-300 text-lg sm:text-xl tracking-wide ring-2 ring-[#61CE70] hover:ring-4 focus:outline-none focus:ring-4 focus:ring-[#61CE70]/60 group"
@@ -78,11 +98,12 @@ export default function WelcomeComponent() {
         </div>
       </div>
       <div
-        className="w-full h-full p-2.5 flex rounded-4xl"
-        style={{ opacity: 1, transform: "none" }}
+        className="w-full h-full p-2.5 md:pl-8 flex rounded-4xl"
+        data-aos="fade-left"
+        data-aos-delay="200"
       >
         <video
-          className="w-full h-full object-contain rounded-4xl"
+          className="w-full h-full object-cover rounded-3xl shadow-xl ring-1 ring-black/5"
           src="https://d3euc6irt3la1j.cloudfront.net/it-support-services.mp4"
           muted
           autoPlay={true}
