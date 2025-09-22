@@ -4,6 +4,11 @@ import { useTranslations } from "next-intl";
 export default function OurExpertise() {
   const t = useTranslations("Expertise");
 
+   const richTextComponent = {
+    b: (chunks:React.ReactNode) => (
+      <strong className="font-extrabold">{chunks}</strong>
+    ),
+  };
   const cards = [
     {
       title: t("managedIt.title"),
@@ -37,5 +42,5 @@ export default function OurExpertise() {
     },
   ];
 
-  return <GradientCardSection title={t("title")} cards={cards} intro={t("intro")} footerIntro={t("footeIintro")} />;
+  return <GradientCardSection title={t("title")} cards={cards} intro={t.rich("intro", richTextComponent)} footerIntro={t.rich("footeIintro", richTextComponent)} />;
 }

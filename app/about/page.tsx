@@ -3,6 +3,10 @@ import OurExpertise from "./_components/OurExperties";
 import OurAchievements from "./_components/OurAchievements";
 import WhyChooseUS from "./_components/WhyChooseUs";
 import AboutFAQs from "./_components/AboutFAQs";
+import WhoWeAre from "./_components/WhoWeAre";
+import OurHistory from "./_components/OurHistory";
+import OurMission from "./_components/OurMission";
+import OurVision from "./_components/OurVision";
 
 const OurCoreValues = dynamic(
   () => import("@/app/about/_components/OurCoreValues"),
@@ -13,13 +17,17 @@ const OurCoreValues = dynamic(
 
 export default function About() {
   return (
-    <div className="min-h-screen flex flex-col bg-white text-gray-900 font-[family-name:var(--font-geist-sans)]">
+    <>
+      <WhoWeAre/>
+      <OurHistory/>
+      <OurMission/>
+      <OurVision/>
       <OurCoreValues/>
       <OurExpertise/>
       <OurAchievements/>
       <WhyChooseUS/>
       <AboutFAQs/>
-    </div>
+    </>
   );
 }
 
