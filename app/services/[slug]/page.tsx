@@ -13,6 +13,7 @@ import { useLocale, useTranslations } from "next-intl";
 import ServiceWhyChoose from "../_component/ServiceWhyChoose";
 import Image from "next/image";
 import ServiceOffer from "../_component/ServiceOffer";
+import SpecificIssueList from "./_components/SpecificIssueList";
 
 interface Props {
   params: { slug: string };
@@ -259,14 +260,22 @@ export default function ServiceDetail({ params }: Props) {
                   description={cat.description}
                   bottomDesc={cat.bottomDesc}
                 >
-                  {cat?.issues?.map((catIssue) => (
-                    <SpecificIssue
-                      key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
-                      title={catIssue.title}
-                      problemDescription={catIssue.problemDescription}
-                      solution={catIssue.solution}
-                    />
-                  ))}
+                  {cat?.issues?.map((catIssue) =>
+                    catIssue.type === "list" ? (
+                      <SpecificIssueList
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        options={catIssue.options || []}
+                      />
+                    ) : (
+                      <SpecificIssue
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        problemDescription={catIssue.problemDescription}
+                        solution={catIssue.solution}
+                      />
+                    )
+                  )}
                 </IssueCategory>
               </div>
             ))}
