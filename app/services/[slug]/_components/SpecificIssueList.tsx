@@ -4,7 +4,7 @@ interface SpecificIssueListProps {
   title: string;
   options: { title: string; desc: string }[];
   problemDescription?: string;
-  solution: string;
+  solution?: string;
 }
 
 const SpecificIssueList = ({

@@ -26,8 +26,8 @@ export interface IssueCategory {
 }
 
 export interface Service {
-  slug: string;
-  title: string;
+  slug?: string;
+  title?: string;
   subtitle?: string;
   subtitle1?: string;
   heroImage?: string;
@@ -44,6 +44,7 @@ export interface Service {
   issuecategory?: {
     title: string;
     subTitle: string;
+    bottomDesc?: string;
     issueCategories: IssueCategory[];
   };
   issuecategory2?: {
@@ -64,7 +65,7 @@ export interface Service {
   description?: string;
   features?: string[];
   whyChoose?: any[];
-  faqs: ServiceFAQ[];
+  faqs?: ServiceFAQ[];
 }
 
 export const servicesDetailData: Service[] = [

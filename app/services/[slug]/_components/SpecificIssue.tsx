@@ -3,7 +3,7 @@
 interface SpecificIssueProps {
   title: string;
   problemDescription?: string;
-  solution: string;
+  solution?: string;
 }
 
 const SpecificIssue = ({
