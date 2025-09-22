@@ -12,20 +12,22 @@ export interface ServiceHighlight {
 
 export interface SpecificIssue {
   title: string;
-  problemDescription: string;
-  solution: string;
+  problemDescription?: string;
+  solution?: string;
 }
 
 export interface IssueCategory {
   title: string;
   description: string;
-  issues: SpecificIssue[];
+  bottomDesc?: string;
+  issues?: SpecificIssue[];
 }
 
 export interface Service {
   slug: string;
   title: string;
   subtitle?: string;
+  subtitle1?: string;
   heroImage?: string;
   intro?: {
     headline: string;
@@ -42,23 +44,42 @@ export interface Service {
     subTitle: string;
     issueCategories: IssueCategory[];
   };
+  issuecategory2?: {
+    title: string;
+    subTitle: string;
+    issueCategories: IssueCategory[];
+  };
+  issuecategory3?: {
+    title: string;
+    subTitle: string;
+    issueCategories: IssueCategory[];
+  };
+  issuecategory4?: {
+    title: string;
+    subTitle: string;
+    issueCategories: IssueCategory[];
+  };
   description?: string;
   features?: string[];
+  whyChoose?: any[];
   faqs: ServiceFAQ[];
 }
 
 export const servicesDetailData: Service[] = [
   {
     slug: "best-data-backup-and-recovery-services",
-    title: "Data Backup Support",
-    subtitle: "Automated & Secure Data Backup Solutions",
+    title: "Unbreakable Data Security: Expert Backup & Recovery Support",
+    subtitle:
+      "In the digital age, data is the lifeblood of every business and the repository of every personal memory. From critical business documents and financial records to cherished family photos and vital creative projects, your data represents invaluable assets. Yet, these assets are constantly vulnerable to loss from countless threats – hardware failures, human error, cyber-attacks, natural disasters, and software corruptions.",
+    subtitle1:
+      "Losing data can mean financial ruin for businesses, irreparable damage to personal history, and immense stress. At ITSupport.net.in, we understand the profound importance of your data. We offer comprehensive Data Backup & Recovery support services designed to protect your information, ensure business continuity, and provide ultimate peace of mind.",
     heroImage:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Reliable Data Backup Services",
+      headline: "The Critical Importance of Data Backup & Recovery",
       subheadline: "Protect Your Business-Critical Data",
       description:
-        "Our data backup services ensure your critical files and business data remain safe, secure, and recoverable during emergencies. We use industry-leading solutions to automate, monitor, and restore your data.",
+        "Many only realize the true value of their data once it's gone. Proactive backup and a solid recovery plan are not just good practices; they are essential for survival in the digital world.",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     },
@@ -83,21 +104,190 @@ export const servicesDetailData: Service[] = [
       ],
     },
     issuecategory: {
-      title: "Common Data Backup Issues",
-      subTitle: "We resolve backup failures, slow restores, and more.",
+      title: "Protect Your Data",
+      subTitle: "",
       issueCategories: [
         {
-          title: "Backup Failures",
-          description: "Automated or manual backups not completing.",
+          title: "The Silent Threat of Data Loss",
+          description:
+            "Data loss isn't always a dramatic event. It can stem from a variety of sources:",
+          bottomDesc:
+            "Without a robust backup and recovery strategy, any of these scenarios can lead to devastating consequences.",
           issues: [
             {
-              title: "Scheduled Backup Not Running",
-              problemDescription:
-                "Backups are not triggered as per schedule due to software or permission issues.",
+              title: "Hardware Failure",
+              solution: "Hard drives crash, SSDs fail, and devices wear out.",
+            },
+            {
+              title: "Human Error",
               solution:
-                "We check backup logs, permissions, and reconfigure schedules.",
+                "Accidental deletions, overwriting files, or formatting the wrong drive.",
+            },
+            {
+              title: "Cyber-Attacks",
+              solution:
+                "Ransomware encrypts files, malware corrupts data, and hackers steal sensitive information.",
+            },
+            {
+              title: "Software Corruption",
+              solution:
+                "Operating system errors, application crashes, or corrupt files.",
+            },
+            {
+              title: "Natural Disasters",
+              solution:
+                "Fires, floods, or other physical damage to your devices.",
             },
           ],
+        },
+        {
+          title: "Business Continuity & Personal Peace of Mind",
+          description:
+            "For businesses, data loss translates directly into downtime, financial losses, reputational damage, and potential legal liabilities. A quick and effective recovery plan ensures business continuity, minimizing disruption and getting you back on track swiftly. For individuals, losing irreplaceable photos, videos, or documents can be emotionally taxing. Secure backups safeguard these precious memories.",
+        },
+        {
+          title: "Beyond Simple Copies",
+          description:
+            "Simply dragging and dropping files to an external drive isn't a comprehensive backup solution. True data protection requires systematic, automated, verified backups, and a clear, tested recovery plan. It involves strategy, technology, and ongoing management, which is where professional support becomes indispensable.",
+        },
+        {
+          title: "ITSupport.net.in: Your Fortress for Precious Data",
+          description:
+            "For over a decade, ITSupport.net.in has been the trusted name in tech support, safeguarding digital assets for clients around the globe. Our expertise in data backup and recovery is built on years of hands-on experience and a relentless commitment to security.",
+        },
+        {
+          title: "A Decade of Data Guardianship",
+          description:
+            "With <strong>10 years of dedicated tech support services</strong>, ITSupport.net.in has cultivated unparalleled expertise in protecting digital information. We've navigated countless data loss scenarios, perfecting our strategies to provide solutions that are not just effective but also resilient and future-proof. Our long-standing presence signifies our reliability and deep understanding of evolving data challenges.",
+        },
+        {
+          title: "10,000+ Customers, Global Trust",
+          description:
+            "Our reputation is built on the satisfaction of our clients. We are proud to serve <strong>10,000+ satisfied customers globally,</strong> from individual users to growing businesses. This extensive experience across diverse sectors and geographical locations underscores our ability to deliver tailored, effective, and dependable data backup and recovery solutions, earning trust one client at a time.",
+        },
+      ],
+    },
+    issuecategory2: {
+      title: "Our Comprehensive Data Backup & Recovery Support Services",
+      subTitle:
+        "ITSupport.net.in offers a full suite of services designed to implement robust backup strategies and ensure swift, successful data recovery.",
+      issueCategories: [
+        {
+          title: "Tailored Backup Solutions",
+          description:
+            "One size does not fit all when it comes to data protection. We assess your unique needs to design the perfect strategy.",
+        },
+        {
+          title: "On-Premise Backup Setup",
+          description:
+            "We configure local backup solutions using external drives, NAS devices, or dedicated servers for quick access and control over your data.",
+        },
+        {
+          title: "Cloud Backup Implementation",
+          description:
+            "Leverage the power and flexibility of cloud storage (e.g., Google Drive, OneDrive, specialized backup services) for secure, off-site data replication.",
+        },
+        {
+          title: "Hybrid Backup Strategies",
+          description:
+            "For ultimate resilience, we design hybrid solutions combining local and cloud backups, offering the best of both worlds.",
+        },
+        {
+          title: "Automated Backup Configuration & Monitoring",
+          description:
+            "Manual backups are prone to human error and inconsistency. We automate the process for you.",
+        },
+        {
+          title: "Set-and-Forget Reliability",
+          description:
+            "We configure automated backup schedules, ensuring your data is regularly backed up without manual intervention.",
+        },
+        {
+          title: "Proactive Monitoring for Success",
+          description:
+            "Our team proactively monitors your backup jobs, verifying their successful completion and addressing any issues immediately, so you never have to worry.",
+        },
+        {
+          title: "Proactive Monitoring for Success",
+          description:
+            "Our team proactively monitors your backup jobs, verifying their successful completion and addressing any issues immediately, so you never have to worry.",
+        },
+        {
+          title: "Rapid Data Recovery",
+          description:
+            "In the event of data loss, quick recovery is paramount to minimize impact.",
+        },
+        {
+          title: "Disaster Recovery Planning",
+          description:
+            "We help you develop a comprehensive disaster recovery plan, outlining steps to take and resources needed to restore operations swiftly.",
+        },
+        {
+          title: "Expert Data Restoration",
+          description:
+            "Our technicians provide expert assistance in recovering lost or corrupted data from your backups, getting your systems back online with minimal downtime.",
+        },
+        {
+          title: "Data Integrity & Security",
+          description:
+            "Your data's safety is our highest priority, both during backup and recovery.",
+        },
+        {
+          title: "Encryption & Access Control",
+          description:
+            "We implement robust encryption protocols and access controls to protect your backed-up data from unauthorized access, ensuring privacy and compliance.",
+        },
+        {
+          title: "Regular Backup Verification",
+          description:
+            "We implement robust encryption protocols and access controls to protect your backed-up data from unauthorized access, ensuring privacy and compliance.",
+        },
+        {
+          title: "Data Migration & Archiving",
+          description:
+            "Managing data over its lifecycle is crucial for efficiency and compliance.",
+        },
+        {
+          title: "Seamless Data Transfers",
+          description:
+            "Whether you're upgrading hardware or moving to a new system, we ensure secure and seamless data migration with no loss.",
+        },
+        {
+          title: "Long-Term Storage Solutions",
+          description:
+            "We assist with setting up effective data archiving strategies for long-term retention requirements, ensuring accessibility when needed while optimizing storage costs.",
+        },
+        {
+          title: "24/7 Expert Assistance",
+          description:
+            "We assist with setting up effective data archiving strategies for long-term retention requirements, ensuring accessibility when needed while optimizing storage costs.",
+        },
+        {
+          title: "Always There When You Need Us",
+          description:
+            "Our remote tech support team is available around the clock, 24/7, to provide immediate assistance with any backup- or recovery-related issue, ensuring continuous protection and rapid response.",
+        },
+      ],
+    },
+    issuecategory3: {
+      title: "The ITSupport.net.in Advantage in Data Protection",
+      subTitle:
+        "Choosing ITSupport.net.in for your data backup and recovery needs means choosing unparalleled expertise and peace of mind.",
+      issueCategories: [
+        {
+          title: "Proven Expertise & Experience",
+          description:
+            "Our decade of experience means we've refined our processes to offer the most effective and secure backup and recovery solutions. We are industry veterans you can trust.",
+        },
+        {
+          title: "Customized & Scalable Solutions",
+          description:
+            "We don't offer generic fixes. Our solutions are tailored to your specific infrastructure, data volume, and recovery objectives, designed to scale with your growth.",
+        },
+        {
+          title: "Unwavering Commitment to Security",
+          description:
+            "Security is at the core of everything we do. We employ industry best practices to ensure your data is always protected, both in transit and at rest. <br />Protect your most valuable asset today. Partner with ITSupport.net.in for robust Data Backup & Recovery services and ensure your digital future is secure.",
         },
       ],
     },
@@ -110,28 +300,50 @@ export const servicesDetailData: Service[] = [
     ],
     faqs: [
       {
-        label: "Why do I need professional data backup services?",
-        desc: "Professional data backup ensures your important files are safe from hardware failure, cyberattacks, and accidental deletion.",
+        label:
+          "What types of data loss can ITSupport.net.in's services protect against?",
+        desc: "Our services are designed to protect you from a wide range of data loss scenarios, including hardware failures (e.g., hard drive crashes), human error (accidental deletions, overwriting files), cyber-attacks (ransomware, malware), software corruption, and even physical damage from natural disasters. We aim to ensure your data is resilient against virtually any threat.",
+        expanded: true,
+      },
+      {
+        label:
+          "How often should I back up my data, and do you automate this process?",
+        desc: "The ideal backup frequency depends on how often your data changes and its criticality. We help you determine the most suitable schedule (daily, hourly, or even continuous). Yes, we configure automated backup solutions so your data is backed up regularly without manual intervention, ensuring consistency and reliability. We also monitor these backups to confirm they're always successful.",
         expanded: false,
       },
       {
-        label: "Can you recover data after a system crash?",
-        desc: "Yes, our disaster recovery solutions help restore your files quickly after a crash or system failure.",
+        label: "What is the data recovery process like if I lose my data?",
+        desc: "If data loss occurs, our process focuses on rapid restoration. First, we'll assess the extent of the loss. Then, utilizing your secure backups, our experts will meticulously restore your data to your system. We prioritize minimizing downtime and ensuring data integrity throughout the recovery, getting you back up and running as quickly as possible.",
+        expanded: false,
+      },
+      {
+        label:
+          "How secure is my data when backed up through ITSupport.net.in's services?",
+        desc: "Data security is our top priority. We implement robust encryption protocols for data both in transit and at rest. We also set up strict access controls to ensure only authorized personnel can access your backups. Whether you opt for on-premise, cloud, or hybrid solutions, your data's confidentiality and integrity are paramount.",
+        expanded: false,
+      },
+      {
+        label:
+          "What makes ITSupport.net.in's data backup and recovery services stand out?",
+        desc: "Our decade of experience and 10,000+ satisfied customers globally speak volumes. We offer tailored, scalable solutions unique to your needs, not one-size-fits-all fixes. Our certified technicians provide proactive monitoring and 24/7 expert support, meaning we're always there when you need us most. We're not just providing a service; we're building a fortress for your invaluable data.",
         expanded: false,
       },
     ],
   },
   {
     slug: "antivirus-support-services",
-    title: "Antivirus Support",
-    subtitle: "Stay Protected from Online Threats",
+    title: "Safeguard Your Digital World: Expert Antivirus Support",
+    subtitle:
+      "In today's interconnected world, your digital life is constantly under threat. From sophisticated ransomware to elusive spyware, malicious software lurks, ready to compromise your data, disrupt your operations, and steal your peace of mind. A simple antivirus program isn't enough; you need robust, proactive, and expert support to truly protect your digital assets.",
+    subtitle1:
+      "At ITSupport.net.in, we understand the complexities of modern cyber threats. We provide comprehensive antivirus support services designed to keep your systems secure, ensuring you can work, browse, and connect without fear.",
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Comprehensive Antivirus Solutions",
-      subheadline: "Protect Your Devices from Malware",
+      headline: "Why You Need Professional Antivirus Support",
+      subheadline: "",
       description:
-        "Stay protected from viruses, malware, and online threats with our reliable antivirus installation and support services.",
+        "The digital landscape is a battlefield, and your devices are prime targets. Relying solely on basic antivirus software often leaves critical vulnerabilities exposed.",
       image:
         "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     },
@@ -156,22 +368,150 @@ export const servicesDetailData: Service[] = [
       ],
     },
     issuecategory: {
-      title: "Common Antivirus Issues",
-      subTitle: "We resolve installation, update, and detection problems.",
+      title: "Why You Need Professional Antivirus Support",
+      subTitle:
+        "The digital landscape is a battlefield, and your devices are prime targets. Relying solely on basic antivirus software often leaves critical vulnerabilities exposed.",
       issueCategories: [
         {
-          title: "Installation Problems",
-          description: "Antivirus fails to install or activate.",
-          issues: [
-            {
-              title: "Activation Failed",
-              problemDescription: "License key not accepted or expired.",
-              solution: "We verify your license and reinstall if needed.",
-            },
-          ],
+          title: "The Ever-Evolving Threat Landscape",
+          description:
+            "Cybercriminals are constantly innovating. New viruses, malware variants, phishing scams, and ransomware attacks emerge daily, often bypassing generic defenses. Staying protected requires continuous vigilance and up-to-date expertise. A threat detected today might be an old story tomorrow, making dynamic support crucial.",
+        },
+        {
+          title: "Beyond Basic Protection",
+          description:
+            "Many users install an antivirus and forget about it. However, effective protection goes far beyond installation. It involves proper configuration, regular updates, scheduled scans, and quick, expert intervention when a threat is detected or suspected. Without professional guidance, even the best software can leave you exposed.",
+        },
+        {
+          title: "Time and Expertise: Why DIY Isn't Always Best",
+          description:
+            "Dealing with a virus infection can be time-consuming, frustrating, and, if not handled correctly, can lead to permanent data loss or system damage. Diagnosing complex issues, performing deep cleanups, and optimizing security settings requires specialized knowledge and experience that most individuals or small businesses lack.",
         },
       ],
     },
+    issuecategory2: {
+      title: "ITSupport.net.in: Your Trusted Partner in Digital Security",
+      subTitle:
+        "For over a decade, ITSupport.net.in has stood as a beacon of reliability in the tech support landscape. We are committed to providing top-tier antivirus support that ensures your digital environment remains safe and functional.",
+      issueCategories: [
+        {
+          title: "A Decade of Digital Guardianship",
+          description:
+            "With <strong>10 years of dedicated tech support services</strong>, ITSupport.net.in has built a reputation for excellence and unwavering commitment to client satisfaction. Our extensive experience means we've seen it all, and we know exactly how to counter even the most sophisticated cyber threats. We leverage our decade-long expertise to provide solutions that are not just reactive but truly preventative.",
+        },
+        {
+          title: "10,000+ Customers, Global Trust",
+          description:
+            "Our success is measured by the trust of our clients. We are proud to have 10,000+ satisfied customers globally who rely on our expertise for their digital security needs. This global footprint and high satisfaction rate speak volumes about our effective solutions and customer-centric approach. We don't just fix problems; we build long-term relationships based on reliability and peace of mind.",
+        },
+      ],
+    },
+    issuecategory3: {
+      title: "Our Comprehensive Antivirus Support Services",
+      subTitle:
+        "ITSupport.net.in offers a full spectrum of antivirus support services designed to cover every aspect of your digital defense.",
+      issueCategories: [
+        {
+          title: "Antivirus Installation & Configuration",
+          description:
+            "Installing antivirus software correctly is the first critical step.",
+        },
+        {
+          title: "Expert Setup for Optimal Performance",
+          description:
+            "Our technicians ensure your chosen antivirus software is installed flawlessly, preventing conflicts with existing programs.",
+        },
+        {
+          title: "Tailored to Your Needs",
+          description:
+            "We configure settings to match your specific usage patterns and security requirements, maximizing protection without hindering performance.",
+        },
+        {
+          title: "Virus, Malware, & Spyware Removal",
+          description:
+            "When a threat breaches your defenses, swift and thorough action is vital.",
+        },
+        {
+          title: "Deep Scans & Thorough Disinfection",
+          description:
+            "We perform comprehensive scans to detect all forms of malicious software, including hidden threats, and meticulously remove them from your system.",
+        },
+
+        {
+          title: "Data Protection During Removal",
+          description:
+            "Our priority is to eliminate threats without compromising your valuable data. We take every precaution to ensure data integrity during the cleanup process.",
+        },
+        {
+          title: "Regular Updates & Proactive Monitoring",
+          description:
+            "Staying ahead of cybercriminals requires constant vigilance.",
+        },
+        {
+          title: "Staying Ahead of New Threats",
+          description:
+            "We ensure your antivirus software is always updated with the latest virus definitions and security patches, offering real-time protection against emerging threats.",
+        },
+        {
+          title: "Performance Optimization",
+          description:
+            "We optimize your antivirus settings to run efficiently, ensuring it provides maximum protection without slowing down your system.",
+        },
+        {
+          title: "Firewall & Network Security Setup",
+          description:
+            "Your network is the gateway to your devices; securing it is paramount.",
+        },
+        {
+          title: "Strengthening Your Digital Perimeter",
+          description:
+            "We help set up and configure robust firewalls and network security protocols to prevent unauthorized access and protect your entire network from external threats.",
+        },
+        {
+          title: "Data Backup & Recovery Assistance",
+          description:
+            "In the worst-case scenario, having a backup is your ultimate safety net.",
+        },
+        {
+          title: "Protecting Your Priceless Information",
+          description:
+            "While preventing infections is our goal, we also provide guidance and assistance with data backup strategies, ensuring your critical files can be restored if a disaster strikes.",
+        },
+        {
+          title: "24/7 Remote Tech Support",
+          description:
+            "Digital threats don't adhere to business hours, and neither do we.",
+        },
+        {
+          title: "Help Whenever You Need It",
+          description:
+            "Our expert technicians are available round-the-clock, providing instant remote support for any antivirus-related issue, ensuring minimal downtime and continuous protection.",
+        },
+      ],
+    },
+    issuecategory4: {
+      title: "The ITSupport.net.in Advantage",
+      subTitle:
+        "Choosing ITSupport.net.in means opting for expertise, reliability, and peace of mind.",
+      issueCategories: [
+        {
+          title: "Certified & Experienced Technicians",
+          description:
+            "Our team comprises highly skilled and certified professionals with deep knowledge of cybersecurity threats and solutions. They are continuously trained on the latest industry best practices.",
+        },
+        {
+          title: "Certified & Experienced Technicians",
+          description:
+            "Your security and satisfaction are our top priorities. We offer personalized service, clear communication, and tailored solutions to meet your unique needs. We believe in educating our clients, not just fixing their problems.",
+        },
+        {
+          title: "Affordable & Transparent Pricing",
+          description:
+            "We provide premium antivirus support services at competitive and transparent prices, with no hidden fees. Quality protection shouldn't break the bank. <br /> Don't leave your digital security to chance. Partner with ITSupport.net.in today and experience the confidence that comes with truly secure systems.",
+        },
+      ],
+    },
+
     description:
       "Stay protected from viruses, malware, and online threats with our reliable antivirus installation and support services.",
     features: [
@@ -181,13 +521,33 @@ export const servicesDetailData: Service[] = [
     ],
     faqs: [
       {
-        label: "Which antivirus brands do you support?",
-        desc: "We support popular antivirus solutions like Norton, McAfee, Kaspersky, Avast, and more.",
+        label:
+          "What types of threats can ITSupport.net.in's antivirus support services protect me from?",
+        desc: "Our services provide comprehensive protection against a wide array of cyber threats, including viruses, malware, ransomware, spyware, adware, phishing attacks, and rootkits. We ensure your systems are guarded against both known and emerging threats that can compromise your data and system performance.",
+        expanded: true,
+      },
+      {
+        label:
+          "Why do I need professional antivirus support if I already have antivirus software installed?",
+        desc: "While basic antivirus software is a start, professional support from ITSupport.net.in ensures optimal configuration, regular updates, deep threat removal, and proactive monitoring. We go beyond basic installation to truly harden your digital defenses, resolve complex infections that standard scans miss, and offer expert guidance to prevent future attacks, maximizing your software's effectiveness.",
         expanded: false,
       },
       {
-        label: "Do you provide regular antivirus updates?",
-        desc: "Yes, we ensure your antivirus is updated regularly for the best protection.",
+        label:
+          "Do you provide support for all major antivirus brands and operating systems?",
+        desc: "Yes, our certified technicians are highly experienced in providing support for virtually all leading antivirus brands (e.g., Norton, McAfee, Bitdefender, Avast, Kaspersky, AVG) and across various operating systems, including Windows, macOS, Android, and iOS. We ensure seamless integration and troubleshooting, regardless of your chosen security solution.",
+        expanded: false,
+      },
+      {
+        label:
+          "What happens if my system is already infected with a virus or malware?",
+        desc: "If your system is already compromised, our first priority is to isolate the infection to prevent further spread. We then perform deep scans and thorough disinfection, meticulously removing all malicious software. Our process focuses on complete eradication while minimizing data loss and restoring your system to optimal, secure working condition.",
+        expanded: false,
+      },
+      {
+        label:
+          "How do you ensure my antivirus protection remains effective against new and emerging threats?",
+        desc: "The cyber threat landscape is constantly evolving. We ensure your protection remains effective through regular updates of virus definitions and software patches. We also provide guidance on proactive security practices, such as safe Browse habits, firewall management, and timely software updates, to continuously strengthen your digital perimeter against the latest threats.",
         expanded: false,
       },
     ],
@@ -195,15 +555,15 @@ export const servicesDetailData: Service[] = [
   {
     slug: "printer-support-services",
     title: "Printer Support",
-    subtitle: "On-site & Remote Printer Repair • Managed Print Solutions",
+    subtitle:
+      "At ITSupport.net.in, we understand that a smoothly functioning printer is crucial for both homes and businesses. For over 10 years, we have been proudly serving over 10,000 customers globally, providing reliable and comprehensive printer support services. Our extensive experience ensures that we can quickly diagnose and resolve a wide array of printer issues, minimizing your downtime and maximizing your productivity.",
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Expert Printer Support Services by ",
-      subheadline:
-        "Your Trusted Partner for Flawless Printing for Over a Decade",
+      headline: "Common Printer Issues We Resolve",
+      subheadline: "",
       description:
-        "At ITSupport.net.in, we understand that a smoothly functioning printer is crucial for both homes and businesses. For over 10 years, we have been proudly serving over 10,000 customers globally, providing reliable and comprehensive printer support services. Our extensive experience ensures that we can quickly diagnose and resolve a wide array of printer issues, minimizing your downtime and maximizing your productivity.",
+        "Printers, while essential, can often be a source of frustration. From minor glitches to major malfunctions, our expert technicians are equipped to handle it all. Here’s a breakdown of common problems we frequently encounter and effectively resolve:",
       image:
         "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     },
@@ -228,7 +588,7 @@ export const servicesDetailData: Service[] = [
       ],
     },
     issuecategory: {
-      title: "Common Printer Issues We Resolve",
+      title: "Issues that we resolve",
       subTitle:
         "Printers, while essential, can often be a source of frustration. From minor glitches to major malfunctions, our expert technicians are equipped to handle it all. Here’s a breakdown of common problems we frequently encounter and effectively resolve.",
       issueCategories: [

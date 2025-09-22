@@ -12,6 +12,7 @@ import FeatureCard from "./_components/FeatureCard";
 import { useLocale, useTranslations } from "next-intl";
 import ServiceWhyChoose from "../_component/ServiceWhyChoose";
 import Image from "next/image";
+import ServiceOffer from "../_component/ServiceOffer";
 
 interface Props {
   params: { slug: string };
@@ -61,7 +62,15 @@ export default function ServiceDetail({ params }: Props) {
               >
                 {service.subtitle}
               </p>
-              <div
+              {service.subtitle1 && (
+                <p
+                  className="text-lg sm:text-xl text-gray-700 max-w-4xl leading-relaxed text-left w-full"
+                  style={{ opacity: 1, transform: "none" }}
+                >
+                  {service.subtitle1}
+                </p>
+              )}
+              {/* <div
                 className="flex w-full md:justify-baseline mt-5"
                 style={{ opacity: 1, transform: "none" }}
               >
@@ -78,7 +87,7 @@ export default function ServiceDetail({ params }: Props) {
                     {t("getSupportNow")}
                   </span>
                 </Link>
-              </div>
+              </div> */}
               <div
                 className="delay-1000 animate-fill-forwards w-full mt-6 absolute"
                 style={{ position: "absolute", bottom: 60 }}
@@ -136,44 +145,15 @@ export default function ServiceDetail({ params }: Props) {
         </div>
       </section>
 
-      <section className="pt-16 px-4 sm:px-6 bg-[#f4f7fa]">
-        <div className="flex flex-col md:flex-row gap-8 mb-16 w-full">
-          <div className="w-full md:w-[45%] p-4">
-            <Typography
-              variant="h1"
-              className="text-left leading-tight w-full font-bold mb-3"
-            >
-              {service.intro?.headline}{" "}
-              <a
-                href="https://it-support-landing.vercel.app"
-                className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"
-              >
-                ITSupport.net.in
-              </a>
-            </Typography>
-
-            <Typography variant="h2" className="text-left font-semibold mb-6">
-              {service.intro?.subheadline}
-            </Typography>
-
-            <Typography variant="p" className="text-left mb-8 leading-relaxed">
-              {service.intro?.description}
-            </Typography>
-          </div>
-          <div
-            className="flex items-center justify-center md:w-[55%] "
-            style={{ opacity: 1, transform: "none" }}
-          >
-            <div className="rounded-lg overflow-hidden w-full ">
-              <img
-                className="rounded-lg overflow-hidden shadow-xl w-full"
-                src={service.intro?.image}
-                alt="Service illustration 1"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <ServiceOffer
+        serviceProvider={{
+          title: service?.intro?.headline || "",
+          description: service?.intro?.description || "",
+          imageAlt: service?.intro?.headline || "",
+          imageTitle: service?.intro?.headline || "",
+          imageSrc: service?.intro?.image || "",
+        }}
+      />
 
       {/* ------------------------------- */}
       <section className="px-16 sm:px-6 bg-[#f4f7fa]">
@@ -216,20 +196,25 @@ export default function ServiceDetail({ params }: Props) {
           >
             {service.issuecategory?.title}
           </Typography>
-          <Typography
-            variant="p"
-            className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
-          >
-            {service.issuecategory?.subTitle}
-          </Typography>
+          {service.issuecategory?.subTitle && (
+            <Typography
+              variant="p"
+              className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+              htmlString={service?.issuecategory?.subTitle || ""}
+            />
+          )}
 
           {service.issuecategory?.issueCategories.map((cat) => (
             <div
               className="space-y-12 mt-12 flex justify-center"
               key={`service-issue-category-${cat.title}`}
             >
-              <IssueCategory title={cat.title} description={cat.description}>
-                {cat?.issues.map((catIssue) => (
+              <IssueCategory
+                title={cat.title}
+                description={cat.description}
+                bottomDesc={cat.bottomDesc}
+              >
+                {cat?.issues?.map((catIssue) => (
                   <SpecificIssue
                     key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
                     title={catIssue.title}
@@ -240,7 +225,59 @@ export default function ServiceDetail({ params }: Props) {
               </IssueCategory>
             </div>
           ))}
+          <Typography
+            variant="p"
+            className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+          >
+            {service.issuecategory?.bottomDesc}
+          </Typography>
         </div>
+
+        {service?.issuecategory2 && (
+          <div className="py-8 w-full px-4">
+            <Typography
+              variant="h2"
+              className="font-bold mb-8 text-center text-gray-800"
+            >
+              {service.issuecategory2?.title}
+            </Typography>
+            {service.issuecategory2?.subTitle && (
+              <Typography
+                variant="p"
+                className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+                htmlString={service?.issuecategory2?.subTitle || ""}
+              />
+            )}
+
+            {service.issuecategory2?.issueCategories.map((cat) => (
+              <div
+                className="space-y-12 mt-12 flex justify-center"
+                key={`service-issue-category-${cat.title}`}
+              >
+                <IssueCategory
+                  title={cat.title}
+                  description={cat.description}
+                  bottomDesc={cat.bottomDesc}
+                >
+                  {cat?.issues?.map((catIssue) => (
+                    <SpecificIssue
+                      key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                      title={catIssue.title}
+                      problemDescription={catIssue.problemDescription}
+                      solution={catIssue.solution}
+                    />
+                  ))}
+                </IssueCategory>
+              </div>
+            ))}
+            <Typography
+              variant="p"
+              className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+            >
+              {service.issuecategory?.bottomDesc}
+            </Typography>
+          </div>
+        )}
       </section>
 
       <ServiceWhyChoose />

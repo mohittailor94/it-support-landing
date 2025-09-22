@@ -11,6 +11,7 @@ import {
   ServiceFQAsData,
   ServiceFQAsDataEs,
 } from "./_component/constant";
+import ServiceOffer from "./_component/ServiceOffer";
 
 export default function Services() {
   const locale = useLocale();
@@ -18,21 +19,32 @@ export default function Services() {
   const heroServices = locale === "es" ? heroServicesDataEs : heroServicesData;
   const outCore = locale === "es" ? outCoreDataEs : outCoreData;
   const serviceFQA = locale === "es" ? ServiceFQAsDataEs : ServiceFQAsData;
+  console.log("heroServices");
+
+  const serviceProvider = {
+    imageAlt: t("ServiceProvider.imageAlt"),
+    imageTitle: t("ServiceProvider.imageTitle"),
+    imageSrc:
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+    title: t("ServiceProvider.title"),
+    highlight: t("ServiceProvider.highlight"),
+    description: t("ServiceProvider.description"),
+  };
 
   return (
     <>
       <section
-        className="flex md:flex-row flex-col h-auto py-8 px-5 align-center bg-gradient-to-r from-slate-200 via-sky-100 to-indigo-300 shadow-md rounded-lg mb-6"
+        className="flex md:flex-row flex-col h-auto py-5 px-4 align-center bg-gradient-to-r from-slate-200 via-sky-100 to-indigo-300 shadow-md rounded-lg mb-6"
         style={{ alignItems: "center" }}
       >
         <div className="w-full px-4">
-          <div className="flex flex-col md:flex-row w-full justify-center">
+          <div className="flex flex-col md:flex-row gap-4 w-full">
             <div
-              className="flex flex-col justify-center items-center h-full w-full"
+              className="flex flex-col justify-center items-center h-full w-full md:w-2/5 relative"
               style={{ opacity: 1, transform: "none", height: "inherit" }}
             >
               <Typography
-                className="mb-4 leading-tight w-full text-center"
+                className="mb-4 leading-tight w-full text-left"
                 variant="h1"
               >
                 {t("heroTitle")}{" "}
@@ -41,35 +53,16 @@ export default function Services() {
                 </span>{" "}
                 {t("heroServices")}
               </Typography>
-              <Typography
-                variant="p"
-                className="text-gray-700 max-w-4xl leading-relaxed w-full text-center mb-4"
-              >
+              <p className="text-base sm:text-base text-gray-700 max-w-4xl leading-relaxed text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
                 {t("heroIntro1")}{" "}
                 <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
                   ITSupport.net.in
                 </span>
                 {t("heroIntro2")}
-              </Typography>
-
-              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-2xl">
-                {heroServices.map((service, index) => (
-                  <div
-                    key={`hero-services-${service.title}`}
-                    className="rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group border border-green-500/50 hover:border-green-500"
-                  >
-                    <span className="cursor-pointer">
-                      <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#61CE70] transition-colors duration-300">
-                        {service.title}
-                      </h3>
-                      <p className="text-gray-700 text-sm">{service.desc}</p>
-                    </span>
-                  </div>
-                ))}
-              </div>
+              </p>
 
               <div
-                className="flex w-full md:justify-baseline mt-5 justify-center"
+                className="flex w-full md:justify-baseline mt-5"
                 style={{ opacity: 1, transform: "none" }}
               >
                 <Link
@@ -86,9 +79,12 @@ export default function Services() {
                   </span>
                 </Link>
               </div>
-              <div className="delay-1000 animate-fill-forwards w-full mt-6 justify-center flex">
+              <div
+                className="delay-1000 animate-fill-forwards w-full mt-6 absolute"
+                style={{ position: "absolute", bottom: 60 }}
+              >
                 <div className="flex items-center gap-2 text-xs">
-                  <span>{t("breadcrumbHome")}</span>
+                  <span>Home</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -105,13 +101,30 @@ export default function Services() {
                     <path d="M5 12h14"></path>
                     <path d="m12 5 7 7-7 7"></path>
                   </svg>
-                  <span>{t("breadcrumbServices")}</span>
+                  <span>Services</span>
                 </div>
               </div>
+            </div>
+            <div
+              className="w-full h-full p-16 flex rounded-4xl md:w-3/5"
+              style={{ opacity: 1, transform: "none" }}
+            >
+              <img
+                className="w-full h-full object-contain rounded-4xl"
+                src={
+                  "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80"
+                }
+                alt="Service illustration 1"
+              />
             </div>
           </div>
         </div>
       </section>
+
+      <ServiceOffer
+        serviceProvider={serviceProvider}
+        heroServices={heroServices}
+      />
 
       <section className="py-16 px-4 sm:px-6 bg-[#f4f7fa]">
         <div className="flex flex-col md:flex-row gap-4 w-full">

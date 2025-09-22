@@ -1,6 +1,6 @@
 import FeatureCard from "../[slug]/_components/FeatureCard";
 
-const whyChooseData = [
+const whyChooseDataDetail = [
   {
     icon: (
       <svg
@@ -94,7 +94,11 @@ const whyChooseData = [
   },
 ];
 
-export default function ServiceWhyChoose() {
+export default function ServiceWhyChoose({
+  whyChooseData = whyChooseDataDetail,
+}: {
+  whyChooseData?: typeof whyChooseDataDetail;
+}) {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">

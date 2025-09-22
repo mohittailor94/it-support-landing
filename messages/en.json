@@ -164,7 +164,15 @@
     "reliableHighlight": "IT Support",
     "forEveryBusinessStage": " for Every Business Stage",
     "comprehensiveRange1": "At ",
-    "comprehensiveRange2": " , we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions"
+    "comprehensiveRange2": " , we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions",
+    "ServiceProvider": {
+      "imageAlt": "Services",
+      "imageTitle": "Services",
+      "imageSrc": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+      "title": "Complete",
+      "highlight": "Sales Outsourcing",
+      "description": "Transform your sales performance with our comprehensive outsourcing solutions. From lead generation to deal closure, we handle every aspect of your sales process with expertise and precision."
+    }
   },
   "Footer": {
     "description": "Su socio de confianza para soluciones integrales de IT. Brindamos soporte experto para empresas y particulares en todo el mundo.",

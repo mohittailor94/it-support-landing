@@ -1,5 +1,6 @@
 import React from "react";
 import clsx from "clsx";
+import parser from "html-react-parser";
 
 type Variant =
   | "h1"
@@ -16,7 +17,8 @@ type Variant =
 interface TypographyProps {
   variant?: Variant;
   className?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode | string;
+  htmlString?: string | any;
 }
 
 const variantClasses: Record<Variant, string> = {
@@ -36,8 +38,15 @@ export default function Typography({
   variant = "p",
   className = "",
   children,
+  htmlString = "",
 }: TypographyProps) {
   const Tag = variant === "lead" ? "p" : variant === "small" ? "span" : variant;
+
+  if (htmlString) {
+    return <Tag className={clsx(variantClasses[variant], className)}>
+      {parser(htmlString)}
+    </Tag>;
+  }
   return (
     <Tag className={clsx(variantClasses[variant], className)}>{children}</Tag>
   );

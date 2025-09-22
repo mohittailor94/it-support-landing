@@ -165,7 +165,14 @@
     "reliableHighlight": "confiable",
     "forEveryBusinessStage": " para cada etapa de su empresa",
     "comprehensiveRange1": "En ",
-    "comprehensiveRange2": " ofrecemos una gama completa de servicios diseñados para cubrir cada aspecto de su infraestructura IT. Haga clic en cualquier servicio para conocer más sobre nuestras soluciones especializadas:"
+    "comprehensiveRange2": " ofrecemos una gama completa de servicios diseñados para cubrir cada aspecto de su infraestructura IT. Haga clic en cualquier servicio para conocer más sobre nuestras soluciones especializadas:",
+    "ServiceProvider": {
+      "imageAlt": "Servicios",
+      "imageTitle": "Servicios",
+      "title": "Completo",
+      "highlight": "Externalización de Ventas",
+      "description": "Transforme el rendimiento de sus ventas con nuestras soluciones integrales de externalización. Desde la generación de prospectos hasta el cierre de acuerdos, gestionamos cada aspecto de su proceso de ventas con experiencia y precisión."
+    }
   },
   "Footer": {
     "description": "Su socio de confianza para soluciones integrales de IT. Brindamos soporte experto para empresas y particulares en todo el mundo.",

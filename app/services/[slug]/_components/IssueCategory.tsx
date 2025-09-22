@@ -5,25 +5,37 @@ import { ReactNode } from "react";
 
 interface IssueCategoryProps {
   title: string;
-  description: string;
+  description?: string;
   children?: ReactNode;
+  bottomDesc?: string;
 }
 
 const IssueCategory = ({
   title,
   description,
   children,
+  bottomDesc,
 }: IssueCategoryProps) => {
+  console.log("bottomDesc?????", title, description, bottomDesc);
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 max-w-3xl">
       <div className="p-6">
-        <Typography variant="h3" className="font-semibold mb-3 text-gray-800">
-          {title}
-        </Typography>
-        <Typography variant="p" className="text-gray-600 mb-6">
-          {description}
-        </Typography>
+        <Typography
+          variant="h3"
+          className="font-semibold mb-3 text-gray-800"
+          htmlString={title || ""}
+        />
+
+        <Typography
+          variant="p"
+          className="text-gray-600 mb-6"
+          htmlString={description}
+        />
+
         <div className="space-y-8">{children}</div>
+        <Typography variant="p" className="text-gray-600 mt-4">
+          {bottomDesc}
+        </Typography>
       </div>
     </div>
   );
