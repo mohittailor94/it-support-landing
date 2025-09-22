@@ -7,6 +7,8 @@ import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 import { JsonLd } from "@/components/JsonLd";
 import JsonLdSchemas from "@/utils/constant/JsonLdSchemas";
+import LocaleProvider from "@/components/LocaleProvider";
+import { NextIntlClientProvider } from "next-intl";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -132,27 +134,29 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <JsonLd data={JsonLdSchemas} />
+        <NextIntlClientProvider>
+          <JsonLd data={JsonLdSchemas} />
 
-        <div className="items-center justify-items-center min-h-screen">
-          <Header />
-          <main className="mt-16 md:mt-20 px-4 sm:px-6 md:px-40 w-full">
-            <div className="min-h-screen flex flex-col text-gray-900 font-[family-name:var(--font-geist-sans)]">
-              {children}
-            </div>
-          </main>
-          <Footer />
-        </div>
+          <div className="items-center justify-items-center min-h-screen">
+            <Header />
+            <main className="mt-16 md:mt-20 px-4 sm:px-6 md:px-40 w-full">
+              <div className="min-h-screen flex flex-col text-gray-900 font-[family-name:var(--font-geist-sans)]">
+                {children}
+              </div>
+            </main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

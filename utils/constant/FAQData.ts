@@ -36,58 +36,69 @@ const HomeScreenFAQData = [
   },
 ];
 
-const PrinterFAQData = [
+const HomeScreenFAQDataEs = [
   {
-    label: "Why is my printer not printing, even though it's turned on?",
-    desc: 'This could be due to several reasons, including connectivity issues (Wi-Fi/USB), empty paper trays, low ink/toner, a paused print queue, or an "offline" status.',
+    label: "Cómo puedo contactar al soporte técnico?",
+    desc: "Puede comunicarse con nuestro equipo de soporte las 24 horas del día, los 7 días de la semana a través de múltiples canales. Llame a nuestro número gratuito (1-800-TECH-CARE), inicie un chat en vivo directamente desde nuestro sitio web o envíenos un correo electrónico a support@techcarepro.com. Para problemas urgentes, el soporte telefónico generalmente ofrece el tiempo de respuesta más rápido.",
     expanded: true,
   },
   {
-    label: "How do I fix a paper jam when there's no paper visible?",
-    desc: "Often, small pieces of paper or debris can be stuck. Turn off the printer, unplug it, and carefully check all accessible areas (paper trays, back panel, inside the printer) using a flashlight.",
+    label: "En qué horario están disponibles?",
+    desc: "TechCare Pro ofrece soporte 24/7/365 sin excepciones por festivos o fines de semana. Nuestro equipo siempre está disponible para ayudarle con emergencias tecnológicas. Los tiempos de respuesta pueden variar ligeramente según la complejidad del problema y la disponibilidad del personal, pero garantizamos una respuesta inicial en menos de 30 minutos para todas las solicitudes.",
     expanded: false,
   },
   {
-    label:
-      "My wireless printer won't connect to my new Wi-Fi network. What should I do?",
-    desc: "You'll typically need to put your printer into setup mode and reconnect it to the new Wi-Fi network, often by entering the new Wi-Fi password. Refer to your printer's manual for specific steps.",
+    label: "Cuánto cuesta el soporte técnico?",
+    desc: "Nuestra tarifa es transparente y sencilla. Los servicios de soporte remoto comienzan en $49 por una sesión de 30 minutos. La solución de problemas extendida se factura a $79/hora (prorrateada en incrementos de 15 minutos). Los servicios en domicilio tienen una tarifa fija de diagnóstico de $99 más $89/hora de mano de obra. Todos los precios se confirman antes de comenzar el trabajo, y ofrecemos descuentos por paquetes para múltiples problemas o necesidades de servicio recurrentes.",
     expanded: false,
   },
   {
-    label: "Why are my printouts faded or streaky?",
-    desc: "For inkjet printers, this usually indicates clogged print heads or low ink. For laser printers, it could be low toner or a problem with the drum unit. Cleaning the print heads or replacing cartridges often resolves this.",
+    label: "Qué pasa si no pueden resolver mi problema?",
+    desc: "En el raro caso de que no podamos resolver su problema durante el período de servicio inicial, no se le cobrará por ese tiempo. Le recomendaremos soluciones alternativas (como reemplazo de hardware) o escalaremos el caso a nuestros técnicos senior sin costo adicional de diagnóstico. Nuestra garantía de satisfacción significa que solo paga por resoluciones exitosas.",
     expanded: false,
   },
   {
-    label: "How often should I update my printer drivers?",
-    desc: "It's good practice to update your printer drivers if you experience issues, install a new operating system, or if your printer manufacturer releases significant updates. Otherwise, if it's working fine, frequent updates aren't always necessary.",
+    label: "Ofrecen soporte de TI para empresas?",
+    desc: "Ofrecemos paquetes especializados de soporte para pequeñas empresas que incluyen respuesta prioritaria, visitas en sitio, monitoreo de red y mantenimiento preventivo. Nuestros planes empresariales comienzan en $299/mes para hasta 5 dispositivos, con descuentos para implementaciones más grandes. Contacte a nuestro equipo de soluciones empresariales para una cotización personalizada.",
     expanded: false,
   },
   {
-    label: "Can ITSupport.net.in help with all printer brands?",
-    desc: "Yes, our technicians are experienced with a wide range of printer brands, including HP, Epson, Canon, Brother, Lexmark, Samsung, and more.",
+    label: "Qué información necesitan de mí?",
+    desc: "Para la mayoría de los problemas, necesitaremos: marca/modelo del dispositivo, versión del sistema operativo, descripción del problema, pasos ya intentados y cualquier mensaje de error. Para acceso remoto, usamos software seguro de nivel empresarial que requiere su permiso explícito en cada sesión. Podrá monitorear toda la actividad del técnico y finalizar la sesión en cualquier momento.",
     expanded: false,
   },
   {
-    label: 'What does it mean when my printer says "offline"?',
-    desc: 'An "offline" status means your computer isn\'t communicating with your printer. This can be caused by connection issues (cable, Wi-Fi), an incorrect printer setting, or a driver problem.',
-    expanded: false,
-  },
-  {
-    label: "Is it better to use genuine or compatible ink/toner cartridges?",
-    desc: "While compatible cartridges can be cheaper, genuine cartridges often offer better print quality and reliability, and their use typically doesn't void your printer's warranty.",
-    expanded: false,
-  },
-  {
-    label: "How can I clear the print queue on my computer?",
-    desc: 'Go to "Devices and Printers" (Windows) or "Printers & Scanners" (Mac), double-click your printer, and then select "Open Print Queue." You can then cancel all documents.',
-    expanded: false,
-  },
-  {
-    label: "Do you offer remote printer support?",
-    desc: "Yes, a significant portion of our printer support can be provided remotely, allowing us to quickly diagnose and fix software, driver, and connectivity issues without an on-site visit.",
+    label: "Qué tan rápido pueden ayudarme con problemas urgentes?",
+    desc: "Las solicitudes de emergencia tienen prioridad con respuesta inmediata. Nuestro tiempo promedio de conexión para problemas críticos (como interrupciones empresariales o brechas de seguridad) es inferior a 5 minutos durante horas laborales. El tiempo estándar de respuesta es inferior a 30 minutos para todas las demás solicitudes. Las visitas de emergencia en sitio están disponibles en la mayoría de las áreas metropolitanas en menos de 4 horas.",
     expanded: false,
   },
 ];
 
-export { PrinterFAQData, HomeScreenFAQData };
+const AboutScreenFAQData = [
+  {
+    label: "What industries do you serve?",
+    desc: "We provide IT support for finance, healthcare, logistics, construction, manufacturing, retail, travel, hospitality, and more. Our solutions are tailored to meet industry-specific compliance and performance needs.",
+    expanded: true,
+  },
+  {
+    label: "Can you provide remote IT support?",
+    desc: "Yes. We offer remote troubleshooting, system monitoring, and network management to resolve issues without the need for on-site visits, ensuring faster response times.",
+    expanded: false,
+  },
+  {
+    label: "How do you ensure network security?",
+    desc: "We use firewalls, intrusion detection systems, encryption, and regular vulnerability assessments to protect your IT infrastructure from cyber threats.",
+    expanded: false,
+  },
+  {
+    label: "What is your typical response time for urgent issues?",
+    desc: "For critical issues, our response is immediate through our 24/7 help desk, with escalation protocols for rapid on-site support if needed.",
+    expanded: false,
+  },
+  {
+    label: "Do you provide customized IT packages for small businesses?",
+    desc: "Absolutely. We offer flexible, scalable, and budget-friendly IT support packages designed specifically for small and medium-sized businesses.",
+    expanded: false,
+  }
+];
+export { HomeScreenFAQData, HomeScreenFAQDataEs, AboutScreenFAQData };

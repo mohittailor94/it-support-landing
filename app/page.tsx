@@ -2,6 +2,11 @@ import dynamic from "next/dynamic";
 
 import WelcomeComponent from "@/components/WelcomeComponent";
 import OurCoreServices from "@/components/OurCoreServices";
+import { useLocale } from "next-intl";
+import {
+  HomeScreenFAQData,
+  HomeScreenFAQDataEs,
+} from "@/utils/constant/FAQData";
 
 const FAQs = dynamic(() => import("@/components/FAQ/FAQs"), {
   loading: () => <p>Loading…</p>,
@@ -35,6 +40,10 @@ const ScrollToTop = dynamic(() => import("@/components/ScrollToTop"), {
 });
 
 export default function Home() {
+  const locale = useLocale();
+
+  const FAQsData = locale === "es" ? HomeScreenFAQDataEs : HomeScreenFAQData;
+
   return (
     <>
       <WelcomeComponent />
@@ -43,8 +52,9 @@ export default function Home() {
       <OurGlobalPresence />
       <WhyChoose />
       <OurCommitment />
+
       <ITSupportInsights />
-      <FAQs />
+      <FAQs data={FAQsData} />
 
       <ScrollToTop />
     </>

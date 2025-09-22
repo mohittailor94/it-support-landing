@@ -195,6 +195,7 @@ export const industriesMenuItem = [
   {
     label: "Healthcare",
     href: "/industries/healthcare",
+    desc: "Support for medical software, patient management systems, secure data handling, and HIPAA-compliant solutions.",
     icon: (
       <svg
         stroke="currentColor"
@@ -213,6 +214,7 @@ export const industriesMenuItem = [
   {
     label: "Finance & Banking",
     href: "/industries/finance-banking",
+    desc: "Secure financial transactions, network monitoring, cybersecurity, and compliance support.",
     icon: (
       <svg
         stroke="currentColor"
@@ -231,6 +233,7 @@ export const industriesMenuItem = [
   {
     label: "Retail and E-commerce",
     href: "/industries/retail-ecommerce",
+    desc: "Seamless online operations, payment gateway support, and network reliability.",
     icon: (
       <svg
         stroke="currentColor"
@@ -249,6 +252,7 @@ export const industriesMenuItem = [
   {
     label: "Manufacturing",
     href: "/industries/manufacturing",
+    desc: "Automation, hardware monitoring, and network reliability for factories and production lines.",
     icon: (
       <svg
         stroke="currentColor"
@@ -267,6 +271,7 @@ export const industriesMenuItem = [
   {
     label: "Education",
     href: "/industries/education",
+    desc: "IT support for schools, colleges, and online learning platforms.",
     icon: (
       <svg
         stroke="currentColor"
@@ -285,6 +290,7 @@ export const industriesMenuItem = [
   {
     label: "Professional Services",
     href: "/industries/professional",
+    desc: "Technical support for law firms, consulting agencies, and corporate offices.",
     icon: (
       <svg
         stroke="currentColor"
@@ -303,6 +309,7 @@ export const industriesMenuItem = [
   {
     label: "Travel & Hospitality",
     href: "/industries/travel-hospitality",
+    desc: "System management, booking platform support, and network solutions for hotels and travel companies.",
     icon: (
       <svg
         stroke="currentColor"
@@ -321,6 +328,7 @@ export const industriesMenuItem = [
   {
     label: "Construction",
     href: "/industries/construction",
+    desc: "Field support, project management tools, and secure data communication.",
     icon: (
       <svg
         stroke="currentColor"
@@ -339,6 +347,7 @@ export const industriesMenuItem = [
   {
     label: "Logistics",
     href: "/industries/logistics",
+    desc: "Real-time tracking systems, connectivity, and IT support for supply chain management.",
     icon: (
       <svg
         stroke="currentColor"
@@ -572,5 +581,6 @@ export const defaultNavLinks = [
     href: "/pricing",
   },
 ];
+
 
 export default defaultNavLinks;

@@ -1,0 +1,294 @@
+{
+  "greeting": "Hello",
+  "getSupportNow": "Get Support Now",
+  "Welcome": {
+    "welcome": "Welcome to",
+    "intro1": {
+      "prefix": "For over 20 years,",
+      "suffix": "has been a pioneer in delivering remote IT and technical support worldwide. With a proven track record of solving over 3 lakh issues and serving 50,000 satisfied clients across 50+ countries, we have become the go-to partner for businesses seeking reliable, efficient, and cost-effective IT solutions."
+    },
+    "intro2": "Whether you are a small startup or a global enterprise, our team ensures your technology ecosystem runs smoothly, minimizing downtime and maximizing productivity. Our commitment to excellence, rapid response times, and tailored solutions have positioned us as leaders in remote tech support services.",
+    "exploreServices": "Explore Our Services"
+  },
+  "CoreServices": {
+    "title": "Our Core Services",
+    "intro": {
+      "prefix": "At ",
+      "suffix": ", we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions:"
+    }
+  },
+  "Industries": {
+    "title": "Industries We Serve",
+    "intro": "Our expertise spans multiple sectors, allowing us to provide industry-specific IT solutions. Discover how we can support your industry:",
+    "healthcare": {
+      "title": "Healthcare",
+      "desc": "Support for medical software, patient management systems, secure data handling, and HIPAA-compliant solutions."
+    },
+    "finance": {
+      "title": "Finance & Banking",
+      "desc": "Secure financial transactions, network monitoring, cybersecurity, and compliance support."
+    },
+    "retail": {
+      "title": "Retail & E-Commerce",
+      "desc": "Seamless online operations, payment gateway support, and network reliability."
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "desc": "Automation, hardware monitoring, and network reliability for factories and production lines."
+    },
+    "education": {
+      "title": "Education",
+      "desc": "IT support for schools, colleges, and online learning platforms."
+    },
+    "professional": {
+      "title": "Professional Services",
+      "desc": "Technical support for law firms, consulting agencies, and corporate offices."
+    },
+    "travel": {
+      "title": "Travel & Hospitality",
+      "desc": "System management, booking platform support, and network solutions for hotels and travel companies."
+    },
+    "construction": {
+      "title": "Construction",
+      "desc": "Field support, project management tools, and secure data communication."
+    },
+    "logistics": {
+      "title": "Logistics",
+      "desc": "Real-time tracking systems, connectivity, and IT support for supply chain management."
+    }
+  },
+  "GlobalPresence": {
+    "title": "Our Global Presence",
+    "intro": "We proudly serve clients across the globe, ensuring businesses in each region have localized support and timely assistance. Learn more about our presence in your region:",
+    "us": {
+      "title": "United States",
+      "desc": "Supporting tech, finance, healthcare, and retail sectors with 24/7 remote services."
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "desc": "Providing GDPR-compliant IT solutions and responsive tech support."
+    },
+    "in": {
+      "title": "India",
+      "desc": "Scalable, cost-effective IT support for startups, SMBs, and enterprises."
+    },
+    "au": {
+      "title": "Australia",
+      "desc": "Reliable network, cloud, and hardware solutions for businesses nationwide."
+    },
+    "de": {
+      "title": "Germany",
+      "desc": "Industry-focused IT services for manufacturing, finance, and healthcare sectors."
+    },
+    "fr": {
+      "title": "France",
+      "desc": "Expert remote support and cloud management tailored to French business requirements."
+    },
+    "ca": {
+      "title": "Canada",
+      "desc": "Fast, multilingual IT assistance for finance, tech, and e-commerce industries."
+    }
+  },
+  "WhyChoose": {
+    "title": {
+      "prefix": "Why Choose ",
+      "suffix": "?"
+    },
+    "experienced": {
+      "title": "Experienced Team",
+      "desc": "Over 20 years of expertise in remote technical support across multiple industries."
+    },
+    "global": {
+      "title": "Global Reach",
+      "desc": "Support for clients in 50+ countries, ensuring businesses never face downtime."
+    },
+    "rapid": {
+      "title": "Rapid Response",
+      "desc": "Our remote assistance model resolves issues quickly, reducing operational delays."
+    },
+    "comprehensive": {
+      "title": "Comprehensive Services",
+      "desc": "From data backup to cloud management, we cover all IT requirements under one roof."
+    },
+    "industry": {
+      "title": "Industry-Specific Solutions",
+      "desc": "Tailored services that meet regulatory and operational needs of different sectors."
+    },
+    "customer": {
+      "title": "Customer Satisfaction",
+      "desc": "50,000+ satisfied clients trust us for dependable IT support."
+    }
+  },
+  "Commitment": {
+    "title": "Our Commitment",
+    "intro": {
+      "prefix": "At ",
+      "suffix": ", we are dedicated to delivering unmatched IT support and customer service. Whether you need emergency troubleshooting, preventive maintenance, or strategic IT consultation, our team is ready to ensure your technology infrastructure operates flawlessly."
+    },
+    "mission": "Our mission is to empower businesses to focus on growth while we take care of their IT needs with efficiency, reliability, and expertise.",
+    "cta": "Get Started Today"
+  },
+  "Insights": {
+    "latestTitle": "Latest IT Support Insights",
+    "latestIntro": "Stay updated with expert tips, industry trends, and best practices for your business technology needs",
+    "viewAll": "View All Blog Posts",
+    "article": {
+      "imageAlt": "Top IT Support Services Every Business Needs in 2025",
+      "category": "IT Support",
+      "title": "Top IT Support Services Every Business Needs in 2025",
+      "desc": "In the rapidly evolving digital landscape, businesses rely heavily on IT infrastructure to operate efficiently. Whether it's small startups or global enterprises, robust IT support ensures smooth workflows, security, and business continuity.",
+      "readTime": "8 min read",
+      "published": "Published: 1/15/2025"
+    }
+  },
+  "Header": {
+    "logoAlt": "it-support-logo",
+    "contact": "Contact US",
+    "openMenu": "Open menu"
+  },
+  "FAQs": {
+    "title": "Frequently Asked Questions (FAQs)",
+    "subtitle": "Frequently Asked Questions"
+  },
+  "Services": {
+    "heroTitle": "Our Remote",
+    "heroHighlight": "IT Support",
+    "heroServices": " Services",
+    "heroIntro1": "At",
+    "heroIntro2": ", we provide reliable and cost-effective IT solutions trusted by businesses worldwide. With over 20 years of experience, our proven expertise ensures seamless technology operations, minimized downtime, and maximum productivity.",
+    "getSupportNow": "Get Support Now",
+    "breadcrumbHome": "Home",
+    "breadcrumbServices": "Services",
+    "coreServices": "Core Services",
+    "reliableITSupport": "Reliable",
+    "reliableHighlight": "IT Support",
+    "forEveryBusinessStage": " for Every Business Stage",
+    "comprehensiveRange1": "At ",
+    "comprehensiveRange2": " , we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions",
+    "ServiceProvider": {
+      "imageAlt": "Services",
+      "imageTitle": "Services",
+      "imageSrc": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+      "title": "Complete",
+      "highlight": "Sales Outsourcing",
+      "description": "Transform your sales performance with our comprehensive outsourcing solutions. From lead generation to deal closure, we handle every aspect of your sales process with expertise and precision."
+    }
+  },
+  "Footer": {
+    "description": "Su socio de confianza para soluciones integrales de IT. Brindamos soporte experto para empresas y particulares en todo el mundo.",
+    "phone": "+1 (555) 123-4567",
+    "email": "support@itsupport.com",
+    "address": "123 Calle Tecnología, Ciudad Digital, DC 12345",
+    "copyright": "IT Support. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookiePolicy": "Política de Cookies",
+    "sitemap": "Mapa del Sitio"
+  },
+  "CoreValues": {
+  "title": "Our Core Values",
+  "customer": {
+    "title": "Customer Focus",
+    "desc": "Your success is our priority. Every solution we design is aligned with your business goals."
+  },
+  "reliability": {
+    "title": "Reliability",
+    "desc": "We deliver consistent, dependable IT support that you can trust, 24/7."
+  },
+  "innovation": {
+    "title": "Innovation",
+    "desc": "We adopt emerging technologies to give our clients a competitive edge."
+  },
+  "integrity": {
+    "title": "Integrity",
+    "desc": "We operate with transparency, honesty, and ethical practices."
+  },
+  "excellence": {
+    "title": "Excellence",
+    "desc": "We strive for perfection in every project, no matter the scale."
+  }
+},
+  "Expertise": {
+    "title": "Our Expertise",
+    "intro": "We specialize in a wide range of <b>IT support and network solutions</b> designed to cater to both B2B and B2C clients",
+    "footeIintro": "Our <b>certified IT professionals</b> use the latest tools and industry best practices to ensure <b>maximum uptime, security, and efficiency</b>",
+    "managedIt": {
+      "title": "Managed IT Services",
+      "desc": "Proactive monitoring, maintenance, and issue resolution."
+    },
+    "network": {
+      "title": "Network Design & Implementation",
+      "desc": "Secure and high-performance LAN, WAN, and VPN setups."
+    },
+    "cyberSecurity": {
+      "title": "Cybersecurity Services",
+      "desc": "Threat prevention, data protection, and compliance readiness."
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "desc": "Migration, hosting, and hybrid cloud management."
+    },
+    "helpDesk": {
+      "title": "Help Desk Support",
+      "desc": "24/7 technical assistance with quick turnaround times."
+    },
+    "itConsulting": {
+      "title": "IT Consulting",
+      "desc": "Strategic advice for technology adoption and scalability."
+    }
+  },
+  "achievement":{
+     "title": "Our Achievements",
+    "intro": "These achievements are not just numbers—they represent the <b>trust, loyalty, and long-term relationships</b> we’ve built with clients worldwide."
+  },
+  "WhyChooseUs": {
+    "title": {
+      "prefix": "Why Choose ",
+      "suffix": "?"
+    },
+    "global": {
+      "title": "Global Reach, Local Expertise",
+      "desc": "We understand both international standards and regional business needs."
+    },
+    "support": {
+      "title": "24/7 Support Availability",
+      "desc": "We’re always there when you need us, across time zones."
+    },
+    "customized": {
+      "title": "Customized IT Solutions",
+      "desc": "Tailored to fit your business requirements, not one-size-fits-all."
+    },
+    "proactive": {
+      "title": "Proactive Approach",
+      "desc": "Preventing issues before they impact your operations."
+    },
+    "security": {
+      "title": "Security-First Mindset",
+      "desc": "Keeping your business data and operations safe from cyber threats."
+    } 
+  },
+  "About":{
+    "heroTitle": "Who",
+    "heroHighlight": "We Are",
+    "heroIntro1": "For over <b>two decades</b>, ",
+    "heroIntro2": "has been a trusted leader in <b>IT support services</b> and <b>network solutions</b>, serving clients across <b>50+ countries</b>. From small businesses to multinational corporations, we provide <b>tailored, secure, and reliable IT solutions</b> that keep operations running smoothly and efficiently.",
+    "heroIntro3": "With <b>1 million+ service requests successfully resolved</b> and <b>20,000+ satisfied customers worldwide</b>, we have built a solid reputation for <b>quality, innovation, and customer-first service</b>. Whether it’s <b>network troubleshooting, cloud migration, cybersecurity, or managed IT services</b>, we ensure our clients receive solutions that are both <b>technically advanced and business-focused</b>.",
+    "OurHistory": {
+      "title": "Our",
+      "highlight": "History",
+      "description1": "Founded in the early 2000s, ITSupport.net.in began as a small team of passionate IT engineers dedicated to helping businesses resolve their tech challenges. Over the years, we expanded our capabilities, invested in <b>cutting-edge technology</b>, and grew our global presence to meet the evolving needs of the digital world.",
+      "description2": "From our humble beginnings offering <b>basic desktop support</b> to becoming a <b>full-scale IT solutions provider</b>, our journey reflects our commitment to <b>growth, learning, and excellence</b>. Today, we are proud to be a <b>global partner</b> for businesses in industries like <b>finance, healthcare, manufacturing, logistics, retail, travel, and hospitality</b>."
+    },
+    "OurMission": {
+      "title": "Our Mission",
+      "description1": "Our mission is simple yet impactful:",
+      "description2": "To deliver secure, efficient, and innovative IT solutions that empower businesses to thrive in the digital era.",
+      "description3": "We aim to <b>simplify technology for our clients</b>, enabling them to focus on their core business while we handle their IT infrastructure, network management, and technical challenges."
+    },
+    "OurVision": {
+      "title": "Our Vision",
+      "description": "We envision a world where <b>technology is an enabler, not a barrier</b>, for businesses of all sizes. Our goal is to become the <b>go-to IT support partner globally</b>, recognized for <b>unmatched service quality, reliability, and innovation</b> in every project we undertake."
+    }
+
+  }
+}

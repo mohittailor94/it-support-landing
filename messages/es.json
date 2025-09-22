@@ -1,0 +1,188 @@
+{
+  "greeting": "Hello",
+  "getSupportNow": "Solicitar Soporte Ahora",
+  "Welcome": {
+    "welcome": "Bienvenido a",
+    "intro1": {
+      "prefix": "Durante más de 20 años,",
+      "suffix": "ha sido pionero en la prestación de soporte técnico y TI remoto en todo el mundo. Con un historial comprobado de resolver más de 300,000 incidencias y atender a 50,000 clientes satisfechos en más de 50 países, nos hemos convertido en el socio preferido para empresas que buscan soluciones de TI confiables, eficientes y rentables."
+    },
+    "intro2": "Ya sea que sea una pequeña startup o una empresa global, nuestro equipo garantiza que su ecosistema tecnológico funcione sin problemas, minimizando el tiempo de inactividad y maximizando la productividad. Nuestro compromiso con la excelencia, los tiempos de respuesta rápidos y las soluciones personalizadas nos han posicionado como líderes en servicios de soporte técnico remoto.",
+    "exploreServices": "Explora nuestros servicios"
+  },
+  "CoreServices": {
+    "title": "Nuestros Servicios Principales",
+    "intro": {
+      "prefix": "En ",
+      "suffix": ", ofrecemos una gama completa de servicios diseñados para cubrir todos los aspectos de su infraestructura de TI. Haga clic en cualquier servicio para obtener más información sobre nuestras soluciones especializadas:"
+    }
+  },
+  "Industries": {
+    "title": "Industrias que Atendemos",
+    "intro": "Nuestra experiencia abarca múltiples sectores, lo que nos permite ofrecer soluciones de TI específicas para cada industria. Descubra cómo podemos apoyar a su sector:",
+    "healthcare": {
+      "title": "Salud",
+      "desc": "Soporte para software médico, sistemas de gestión de pacientes, manejo seguro de datos y soluciones compatibles con HIPAA."
+    },
+    "finance": {
+      "title": "Finanzas y Banca",
+      "desc": "Transacciones financieras seguras, monitoreo de redes, ciberseguridad y soporte de cumplimiento."
+    },
+    "retail": {
+      "title": "Retail y Comercio Electrónico",
+      "desc": "Operaciones en línea sin interrupciones, soporte para pasarelas de pago y confiabilidad de red."
+    },
+    "manufacturing": {
+      "title": "Manufactura",
+      "desc": "Automatización, monitoreo de hardware y confiabilidad de red para fábricas y líneas de producción."
+    },
+    "education": {
+      "title": "Educación",
+      "desc": "Soporte de TI para escuelas, universidades y plataformas de aprendizaje en línea."
+    },
+    "professional": {
+      "title": "Servicios Profesionales",
+      "desc": "Soporte técnico para despachos legales, agencias de consultoría y oficinas corporativas."
+    },
+    "travel": {
+      "title": "Viajes y Hospitalidad",
+      "desc": "Gestión de sistemas, soporte para plataformas de reservas y soluciones de red para hoteles y empresas de viajes."
+    },
+    "construction": {
+      "title": "Construcción",
+      "desc": "Soporte en campo, herramientas de gestión de proyectos y comunicación de datos segura."
+    },
+    "logistics": {
+      "title": "Logística",
+      "desc": "Sistemas de rastreo en tiempo real, conectividad y soporte de TI para la gestión de la cadena de suministro."
+    }
+  },
+  "GlobalPresence": {
+    "title": "Nuestra Presencia Global",
+    "intro": "Atendemos con orgullo a clientes en todo el mundo, asegurando que las empresas de cada región tengan soporte localizado y asistencia oportuna. Conozca más sobre nuestra presencia en su región:",
+    "us": {
+      "title": "Estados Unidos",
+      "desc": "Apoyando los sectores de tecnología, finanzas, salud y retail con servicios remotos 24/7."
+    },
+    "uk": {
+      "title": "Reino Unido",
+      "desc": "Proporcionando soluciones de TI compatibles con GDPR y soporte técnico ágil."
+    },
+    "in": {
+      "title": "India",
+      "desc": "Soporte de TI escalable y rentable para startups, pymes y empresas."
+    },
+    "au": {
+      "title": "Australia",
+      "desc": "Soluciones confiables de red, nube y hardware para empresas en todo el país."
+    },
+    "de": {
+      "title": "Alemania",
+      "desc": "Servicios de TI enfocados en la industria para manufactura, finanzas y salud."
+    },
+    "fr": {
+      "title": "Francia",
+      "desc": "Soporte remoto experto y gestión de la nube adaptados a los requisitos empresariales franceses."
+    },
+    "ca": {
+      "title": "Canadá",
+      "desc": "Asistencia de TI rápida y multilingüe para los sectores de finanzas, tecnología y comercio electrónico."
+    }
+  },
+  "WhyChoose": {
+    "title": {
+      "prefix": "¿Por qué elegir ",
+      "suffix": "?"
+    },
+    "experienced": {
+      "title": "Equipo experimentado",
+      "desc": "Más de 20 años de experiencia en soporte técnico remoto en múltiples industrias."
+    },
+    "global": {
+      "title": "Alcance global",
+      "desc": "Soporte para clientes en más de 50 países, asegurando que las empresas nunca sufran interrupciones."
+    },
+    "rapid": {
+      "title": "Respuesta rápida",
+      "desc": "Nuestro modelo de asistencia remota resuelve problemas rápidamente, reduciendo retrasos operativos."
+    },
+    "comprehensive": {
+      "title": "Servicios integrales",
+      "desc": "Desde copias de seguridad de datos hasta gestión en la nube, cubrimos todos los requisitos de TI en un solo lugar."
+    },
+    "industry": {
+      "title": "Soluciones específicas para la industria",
+      "desc": "Servicios personalizados que cumplen con las necesidades regulatorias y operativas de diferentes sectores."
+    },
+    "customer": {
+      "title": "Satisfacción del cliente",
+      "desc": "Más de 50,000 clientes satisfechos confían en nosotros para soporte de TI confiable."
+    }
+  },
+  "Commitment": {
+    "title": "Nuestro Compromiso",
+    "intro": {
+      "prefix": "En ",
+      "suffix": ", estamos dedicados a brindar un soporte de TI y atención al cliente inigualables. Ya sea que necesite solución de problemas de emergencia, mantenimiento preventivo o consultoría estratégica de TI, nuestro equipo está listo para garantizar que su infraestructura tecnológica funcione perfectamente."
+    },
+    "mission": "Nuestra misión es permitir que las empresas se enfoquen en el crecimiento mientras nosotros nos encargamos de sus necesidades de TI con eficiencia, confiabilidad y experiencia.",
+    "cta": "Comienza hoy"
+  },
+  "Insights": {
+    "latestTitle": "Últimas novedades de soporte TI",
+    "latestIntro": "Manténgase actualizado con consejos de expertos, tendencias de la industria y mejores prácticas para las necesidades tecnológicas de su empresa",
+    "viewAll": "Ver todas las publicaciones del blog",
+    "article": {
+      "imageAlt": "Servicios de soporte TI que toda empresa necesita en 2025",
+      "category": "Soporte TI",
+      "title": "Servicios de soporte TI que toda empresa necesita en 2025",
+      "desc": "En el panorama digital en rápida evolución, las empresas dependen en gran medida de la infraestructura TI para operar eficientemente. Ya sean pequeñas startups o grandes empresas, un soporte TI robusto garantiza flujos de trabajo fluidos, seguridad y continuidad del negocio.",
+      "readTime": "8 min de lectura",
+      "published": "Publicado: 15/1/2025"
+    }
+  },
+  "Header": {
+    "logoAlt": "it-support-logo",
+    "contact": "Contáctanos",
+    "openMenu": "Abrir menú"
+  },
+  "FAQs": {
+    "title": "Preguntas frecuentes (FAQs)",
+    "subtitle": "Preguntas frecuentes"
+  },
+  "Services": {
+    "heroTitle": "Nuestro ",
+    "heroHighlight": "Soporte IT Remoto",
+    "heroServices": " Servicios",
+    "heroIntro1": "En ",
+    "heroIntro2": ", ofrecemos soluciones IT confiables y rentables, confiadas por empresas de todo el mundo. Con más de 20 años de experiencia, nuestra experiencia probada garantiza operaciones tecnológicas sin problemas, mínimo tiempo de inactividad y máxima productividad.",
+    "getSupportNow": "Solicitar Soporte Ahora",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbServices": "Servicios",
+    "breadcrumbTechSupport": "Soporte Técnico",
+    "coreServices": "Servicios Principales",
+    "reliableITSupport": "Soporte IT ",
+    "reliableHighlight": "confiable",
+    "forEveryBusinessStage": " para cada etapa de su empresa",
+    "comprehensiveRange1": "En ",
+    "comprehensiveRange2": " ofrecemos una gama completa de servicios diseñados para cubrir cada aspecto de su infraestructura IT. Haga clic en cualquier servicio para conocer más sobre nuestras soluciones especializadas:",
+    "ServiceProvider": {
+      "imageAlt": "Servicios",
+      "imageTitle": "Servicios",
+      "title": "Completo",
+      "highlight": "Externalización de Ventas",
+      "description": "Transforme el rendimiento de sus ventas con nuestras soluciones integrales de externalización. Desde la generación de prospectos hasta el cierre de acuerdos, gestionamos cada aspecto de su proceso de ventas con experiencia y precisión."
+    }
+  },
+  "Footer": {
+    "description": "Su socio de confianza para soluciones integrales de IT. Brindamos soporte experto para empresas y particulares en todo el mundo.",
+    "phone": "+1 (555) 123-4567",
+    "email": "support@itsupport.com",
+    "address": "123 Calle Tecnología, Ciudad Digital, DC 12345",
+    "copyright": "IT Support. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookiePolicy": "Política de Cookies",
+    "sitemap": "Mapa del Sitio"
+  }
+}

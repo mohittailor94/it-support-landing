@@ -1,4 +1,5 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 import bundleAnalyzer from "@next/bundle-analyzer";
 
 const withBundleAnalyzer = bundleAnalyzer({
@@ -6,15 +7,14 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 const nextConfig: NextConfig = {
-  swcMinify: true,
   experimental: {
     optimizePackageImports: ["react", "react-dom"],
-    turbo: {
-      rules: {
-        "*.svg": {
-          loaders: ["@svgr/webpack"],
-          as: "*.js",
-        },
+  },
+  turbopack: {
+    rules: {
+      "*.svg": {
+        loaders: ["@svgr/webpack"],
+        as: "*.js",
       },
     },
   },
@@ -30,5 +30,5 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
-export default withBundleAnalyzer(nextConfig);
-
+const withNextIntl = createNextIntlPlugin();
+export default withBundleAnalyzer(withNextIntl(nextConfig));
