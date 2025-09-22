@@ -53,7 +53,7 @@ export default function Services() {
                 </span>{" "}
                 {t("heroServices")}
               </Typography>
-              <p className="text-base sm:text-base text-gray-700 max-w-4xl leading-relaxed text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
+              <p className="text-base sm:text-base text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
                 {t("heroIntro1")}{" "}
                 <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
                   ITSupport.net.in

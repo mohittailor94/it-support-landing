@@ -8,8 +8,8 @@ type Card = {
 
 type GradientCardSectionProps = {
   title: string;
-  intro?: string;
-  footerIntro?: string;
+  intro?: React.ReactNode;
+  footerIntro?: React.ReactNode;
   cards: Card[];
 };
 
