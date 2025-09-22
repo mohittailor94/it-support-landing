@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Head from "next/head";
 import FAQs from "@/components/FAQ/FAQs";
 import Typography from "@/components/ui/Typography";
 import {
@@ -14,15 +14,33 @@ import ServiceWhyChoose from "../_component/ServiceWhyChoose";
 import Image from "next/image";
 import ServiceOffer from "../_component/ServiceOffer";
 import SpecificIssueList from "./_components/SpecificIssueList";
+import { ServiceMeta, servicesMeta } from "@/lib/servicesMeta";
+import { buildMetadata, renderJsonLd } from "@/lib/seo";
 
 interface Props {
   params: { slug: string };
 }
 
+// generateMetadata runs at build/server time and populates <head>
+export async function generateMetadata({ params }: Props) {
+  const meta = servicesMeta[params.slug];
+  if (!meta) return {};
+  return buildMetadata(meta);
+}
+
+// optional: pre-render known service slugs at build
+export async function generateStaticParams() {
+  return Object.values(servicesMeta).map((m) => ({ slug: m?.slug || "" }));
+}
+
 export default function ServiceDetail({ params }: Props) {
+  const meta: ServiceMeta | undefined = servicesMeta[params.slug];
+
   const decodedString = decodeURIComponent(params.slug);
   const t = useTranslations();
   const locale = useLocale();
+
+  const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
 
   let service = {};
 
@@ -38,6 +56,18 @@ export default function ServiceDetail({ params }: Props) {
 
   return (
     <>
+      <Head>
+        <h1>{meta?.title}</h1>
+        <p>{meta?.description}</p>
+      </Head>
+      {jsonLdScripts.map((s) => (
+        <script
+          key={s.key}
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: s.json }}
+        />
+      ))}
       <section
         className="flex md:flex-row flex-col h-auto py-5 px-4 align-center bg-gradient-to-r from-slate-200 via-sky-100 to-indigo-300 shadow-md rounded-lg mb-6"
         style={{ alignItems: "center" }}

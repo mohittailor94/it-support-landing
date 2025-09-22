@@ -16,7 +16,6 @@ const IssueCategory = ({
   children,
   bottomDesc,
 }: IssueCategoryProps) => {
-  console.log("bottomDesc?????", title, description, bottomDesc);
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 max-w-3xl">
       <div className="p-6">
