@@ -175,39 +175,39 @@
     }
   },
   "Footer": {
-    "description": "Su socio de confianza para soluciones integrales de IT. Brindamos soporte experto para empresas y particulares en todo el mundo.",
+    "description": "Your trusted partner for comprehensive IT solutions. We provide expert support for businesses and individuals worldwide.",
     "phone": "+1 (555) 123-4567",
     "email": "support@itsupport.com",
-    "address": "123 Calle Tecnología, Ciudad Digital, DC 12345",
-    "copyright": "IT Support. Todos los derechos reservados.",
-    "privacyPolicy": "Política de Privacidad",
-    "termsOfService": "Términos de Servicio",
-    "cookiePolicy": "Política de Cookies",
-    "sitemap": "Mapa del Sitio"
+    "address": "123 Tech Street, Digital City, DC 12345",
+    "copyright": "IT Support. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "sitemap": "Sitemap"
   },
   "CoreValues": {
-  "title": "Our Core Values",
-  "customer": {
-    "title": "Customer Focus",
-    "desc": "Your success is our priority. Every solution we design is aligned with your business goals."
+    "title": "Our Core Values",
+    "customer": {
+      "title": "Customer Focus",
+      "desc": "Your success is our priority. Every solution we design is aligned with your business goals."
+    },
+    "reliability": {
+      "title": "Reliability",
+      "desc": "We deliver consistent, dependable IT support that you can trust, 24/7."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "desc": "We adopt emerging technologies to give our clients a competitive edge."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "desc": "We operate with transparency, honesty, and ethical practices."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "desc": "We strive for perfection in every project, no matter the scale."
+    }
   },
-  "reliability": {
-    "title": "Reliability",
-    "desc": "We deliver consistent, dependable IT support that you can trust, 24/7."
-  },
-  "innovation": {
-    "title": "Innovation",
-    "desc": "We adopt emerging technologies to give our clients a competitive edge."
-  },
-  "integrity": {
-    "title": "Integrity",
-    "desc": "We operate with transparency, honesty, and ethical practices."
-  },
-  "excellence": {
-    "title": "Excellence",
-    "desc": "We strive for perfection in every project, no matter the scale."
-  }
-},
   "Expertise": {
     "title": "Our Expertise",
     "intro": "We specialize in a wide range of <b>IT support and network solutions</b> designed to cater to both B2B and B2C clients",
@@ -237,8 +237,8 @@
       "desc": "Strategic advice for technology adoption and scalability."
     }
   },
-  "achievement":{
-     "title": "Our Achievements",
+  "achievement": {
+    "title": "Our Achievements",
     "intro": "These achievements are not just numbers—they represent the <b>trust, loyalty, and long-term relationships</b> we’ve built with clients worldwide."
   },
   "WhyChooseUs": {
@@ -265,9 +265,9 @@
     "security": {
       "title": "Security-First Mindset",
       "desc": "Keeping your business data and operations safe from cyber threats."
-    } 
+    }
   },
-  "About":{
+  "About": {
     "heroTitle": "Who",
     "heroHighlight": "We Are",
     "heroIntro1": "For over <b>two decades</b>, ",
@@ -289,6 +289,5 @@
       "title": "Our Vision",
       "description": "We envision a world where <b>technology is an enabler, not a barrier</b>, for businesses of all sizes. Our goal is to become the <b>go-to IT support partner globally</b>, recognized for <b>unmatched service quality, reliability, and innovation</b> in every project we undertake."
     }
-
   }
 }
