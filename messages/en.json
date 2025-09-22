@@ -184,5 +184,111 @@
     "termsOfService": "Términos de Servicio",
     "cookiePolicy": "Política de Cookies",
     "sitemap": "Mapa del Sitio"
+  },
+  "CoreValues": {
+  "title": "Our Core Values",
+  "customer": {
+    "title": "Customer Focus",
+    "desc": "Your success is our priority. Every solution we design is aligned with your business goals."
+  },
+  "reliability": {
+    "title": "Reliability",
+    "desc": "We deliver consistent, dependable IT support that you can trust, 24/7."
+  },
+  "innovation": {
+    "title": "Innovation",
+    "desc": "We adopt emerging technologies to give our clients a competitive edge."
+  },
+  "integrity": {
+    "title": "Integrity",
+    "desc": "We operate with transparency, honesty, and ethical practices."
+  },
+  "excellence": {
+    "title": "Excellence",
+    "desc": "We strive for perfection in every project, no matter the scale."
+  }
+},
+  "Expertise": {
+    "title": "Our Expertise",
+    "intro": "We specialize in a wide range of <b>IT support and network solutions</b> designed to cater to both B2B and B2C clients",
+    "footeIintro": "Our <b>certified IT professionals</b> use the latest tools and industry best practices to ensure <b>maximum uptime, security, and efficiency</b>",
+    "managedIt": {
+      "title": "Managed IT Services",
+      "desc": "Proactive monitoring, maintenance, and issue resolution."
+    },
+    "network": {
+      "title": "Network Design & Implementation",
+      "desc": "Secure and high-performance LAN, WAN, and VPN setups."
+    },
+    "cyberSecurity": {
+      "title": "Cybersecurity Services",
+      "desc": "Threat prevention, data protection, and compliance readiness."
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "desc": "Migration, hosting, and hybrid cloud management."
+    },
+    "helpDesk": {
+      "title": "Help Desk Support",
+      "desc": "24/7 technical assistance with quick turnaround times."
+    },
+    "itConsulting": {
+      "title": "IT Consulting",
+      "desc": "Strategic advice for technology adoption and scalability."
+    }
+  },
+  "achievement":{
+     "title": "Our Achievements",
+    "intro": "These achievements are not just numbers—they represent the <b>trust, loyalty, and long-term relationships</b> we’ve built with clients worldwide."
+  },
+  "WhyChooseUs": {
+    "title": {
+      "prefix": "Why Choose ",
+      "suffix": "?"
+    },
+    "global": {
+      "title": "Global Reach, Local Expertise",
+      "desc": "We understand both international standards and regional business needs."
+    },
+    "support": {
+      "title": "24/7 Support Availability",
+      "desc": "We’re always there when you need us, across time zones."
+    },
+    "customized": {
+      "title": "Customized IT Solutions",
+      "desc": "Tailored to fit your business requirements, not one-size-fits-all."
+    },
+    "proactive": {
+      "title": "Proactive Approach",
+      "desc": "Preventing issues before they impact your operations."
+    },
+    "security": {
+      "title": "Security-First Mindset",
+      "desc": "Keeping your business data and operations safe from cyber threats."
+    } 
+  },
+  "About":{
+    "heroTitle": "Who",
+    "heroHighlight": "We Are",
+    "heroIntro1": "For over <b>two decades</b>, ",
+    "heroIntro2": "has been a trusted leader in <b>IT support services</b> and <b>network solutions</b>, serving clients across <b>50+ countries</b>. From small businesses to multinational corporations, we provide <b>tailored, secure, and reliable IT solutions</b> that keep operations running smoothly and efficiently.",
+    "heroIntro3": "With <b>1 million+ service requests successfully resolved</b> and <b>20,000+ satisfied customers worldwide</b>, we have built a solid reputation for <b>quality, innovation, and customer-first service</b>. Whether it’s <b>network troubleshooting, cloud migration, cybersecurity, or managed IT services</b>, we ensure our clients receive solutions that are both <b>technically advanced and business-focused</b>.",
+    "OurHistory": {
+      "title": "Our",
+      "highlight": "History",
+      "description1": "Founded in the early 2000s, ITSupport.net.in began as a small team of passionate IT engineers dedicated to helping businesses resolve their tech challenges. Over the years, we expanded our capabilities, invested in <b>cutting-edge technology</b>, and grew our global presence to meet the evolving needs of the digital world.",
+      "description2": "From our humble beginnings offering <b>basic desktop support</b> to becoming a <b>full-scale IT solutions provider</b>, our journey reflects our commitment to <b>growth, learning, and excellence</b>. Today, we are proud to be a <b>global partner</b> for businesses in industries like <b>finance, healthcare, manufacturing, logistics, retail, travel, and hospitality</b>."
+    },
+    "OurMission": {
+      "title": "Our Mission",
+      "description1": "Our mission is simple yet impactful:",
+      "description2": "To deliver secure, efficient, and innovative IT solutions that empower businesses to thrive in the digital era.",
+      "description3": "We aim to <b>simplify technology for our clients</b>, enabling them to focus on their core business while we handle their IT infrastructure, network management, and technical challenges."
+    },
+    "OurVision": {
+      "title": "Our Vision",
+      "description": "We envision a world where <b>technology is an enabler, not a barrier</b>, for businesses of all sizes. Our goal is to become the <b>go-to IT support partner globally</b>, recognized for <b>unmatched service quality, reliability, and innovation</b> in every project we undertake."
+    }
+
   }
 }
