@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import parse from "html-react-parser";
+//import parse from "html-react-parser";
 
 export interface FAQCardProps {
   label: string;

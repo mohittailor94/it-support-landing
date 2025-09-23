@@ -28,7 +28,7 @@ export default function ITSupportInsights() {
               key={i}
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
-              <div className="relative h-48">
+              <div className="relative h-60">
                 <Image
                   alt={t("article.imageAlt")}
                   loading="lazy"

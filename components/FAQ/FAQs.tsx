@@ -23,13 +23,7 @@ export default function FAQs({
 
   return (
     <section className="lg:py-16 py:10 px-4 sm:px-6 bg-white">
-      <div className="max-w-4xl mx-auto" style={{ opacity: 1 }}>
-        <h2
-          className="text-3xl sm:text-4xl font-bold text-center mb-12"
-          style={{ opacity: 1, transform: "none" }}
-        >
-          {title || t("title")}
-        </h2>
+      <div className="max-w-4xl mx-auto" style={{ opacity: 1 }}>     
         <div className="section-heading">
             <h2
               className="text-3xl sm:text-4xl font-bold text-center mb-12"
