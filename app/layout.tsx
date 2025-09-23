@@ -14,8 +14,6 @@ export default async function RootLayout({
     <html>
       <body>
         <NextIntlClientProvider>
-          
-
           <div className="items-center justify-items-center min-h-screen">
             <Header />
             <main className="mt-16 md:mt-20 px-4 sm:px-6 md:px-40 w-full">

@@ -71,18 +71,17 @@ export interface Service {
 export const servicesDetailData: Service[] = [
   {
     slug: "best-data-backup-and-recovery-services",
-    title: "Unbreakable Data Security: Expert Backup & Recovery Support",
-    subtitle:
-      "In the digital age, data is the lifeblood of every business and the repository of every personal memory. From critical business documents and financial records to cherished family photos and vital creative projects, your data represents invaluable assets. Yet, these assets are constantly vulnerable to loss from countless threats – hardware failures, human error, cyber-attacks, natural disasters, and software corruptions.",
+    title: "Data Backup & Recovery Services",
+    subtitle: "Backup & Recovery Support Services",
     subtitle1:
-      "Losing data can mean financial ruin for businesses, irreparable damage to personal history, and immense stress. At ITSupport.net.in, we understand the profound importance of your data. We offer comprehensive Data Backup & Recovery support services designed to protect your information, ensure business continuity, and provide ultimate peace of mind.",
+      "In the digital age, data is the lifeblood of every business and the repository of every personal memory. From critical business documents and financial records to cherished family photos and vital creative projects, your data represents invaluable assets. Yet, these assets are constantly vulnerable to loss from countless threats – hardware failures, human error, cyber-attacks, natural disasters, and software corruptions.",
     heroImage:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline: "The Critical Importance of Data Backup & Recovery",
-      subheadline: "Protect Your Business-Critical Data",
+      subheadline: "",
       description:
-        "Many only realize the true value of their data once it's gone. Proactive backup and a solid recovery plan are not just good practices; they are essential for survival in the digital world.",
+        "Losing data can mean financial ruin for businesses, irreparable damage to personal history, and immense stress. At ITSupport.net.in, we understand the profound importance of your data. We offer comprehensive Data Backup & Recovery support services designed to protect your information, ensure business continuity, and provide ultimate peace of mind.",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     },
@@ -396,11 +395,10 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "antivirus-support-services",
-    title: "Safeguard Your Digital World: Expert Antivirus Support",
-    subtitle:
-      "In today's interconnected world, your digital life is constantly under threat. From sophisticated ransomware to elusive spyware, malicious software lurks, ready to compromise your data, disrupt your operations, and steal your peace of mind. A simple antivirus program isn't enough; you need robust, proactive, and expert support to truly protect your digital assets.",
+    title: "Safeguard Your Digital World",
+    subtitle: "Expert Antivirus Support Services",
     subtitle1:
-      "At ITSupport.net.in, we understand the complexities of modern cyber threats. We provide comprehensive antivirus support services designed to keep your systems secure, ensuring you can work, browse, and connect without fear.",
+      "In today's interconnected world, your digital life is constantly under threat. From sophisticated ransomware to elusive spyware, malicious software lurks, ready to compromise your data, disrupt your operations, and steal your peace of mind. A simple antivirus program isn't enough; you need robust, proactive, and expert support to truly protect your digital assets. At ITSupport.net.in, we understand the complexities of modern cyber threats. We provide comprehensive antivirus support services designed to keep your systems secure, ensuring you can work, browse, and connect without fear.",
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -678,8 +676,9 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "printer-support-services",
-    title: "Printer Support",
-    subtitle:
+    title: "Expert Printer Support Services",
+    subtitle: "Trusted Partner for Flawless Printing Over a Decade",
+    subtitle1:
       "At ITSupport.net.in, we understand that a smoothly functioning printer is crucial for both homes and businesses. For over 10 years, we have been proudly serving over 10,000 customers globally, providing reliable and comprehensive printer support services. Our extensive experience ensures that we can quickly diagnose and resolve a wide array of printer issues, minimizing your downtime and maximizing your productivity.",
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
@@ -939,17 +938,17 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "networking-support-services",
-    title: "Robust Network Support Services by ITSupport.net.in",
-    subtitle:
-      "Fast, Secure & Reliable Network SolutionsIn today's interconnected world, a robust and reliable network is the backbone of any successful operation, whether for a home office or a large enterprise. At ITSupport.net.in, we understand the critical role your network plays in daily productivity and communication.",
+    title: "Robust Network Support Services",
+    subtitle: "Seamless Connectivity Over a Decade",
+    subtitle1:
+      "In today's interconnected world, a robust and reliable network is the backbone of any successful operation, whether for a home office or a large enterprise. At ITSupport.net.in, we understand the critical role your network plays in daily productivity and communication. For over 10 years, we have been the trusted partner for over 10,000 customers globally, providing unparalleled network support services that ensure seamless connectivity and minimal downtime. Our deep expertise in network architecture, troubleshooting, and security empowers us to tackle any challenge, keeping your digital infrastructure strong and secure.",
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline:
-        "Seamless Connectivity, Uninterrupted Business: Over a Decade of Global Network Excellence",
+      headline: "Navigating and Resolving Common Network Challenges",
       subheadline: "",
       description:
-        "For over 10 years, we have been the trusted partner for over 10,000 customers globally, providing unparalleled network support services that ensure seamless connectivity and minimal downtime. Our deep expertise in network architecture, troubleshooting, and security empowers us to tackle any challenge, keeping your digital infrastructure strong and secure.",
+        "Network issues can range from minor annoyances to complete system outages, crippling operations and frustrating users. Our certified technicians are adept at diagnosing and resolving a comprehensive spectrum of network problems, ensuring your systems are always online and performing optimally",
       image:
         "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     },
@@ -1204,18 +1203,17 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "professional-cloud-support-services",
-    title:
-      "Elevate Your Business with Expert Cloud Support Services by ITSupport.net.in",
+    title: "Elevate Business with Cloud Services",
     subtitle:
-      "In the modern digital era, cloud computing is no longer just an option – it's a fundamental necessity for agility, scalability, and innovation. At ITSupport.net.in, we've been at the forefront of this transformation for over 10 years, proudly serving more than 1,000 customers globally. We understand that while the cloud offers immense potential, navigating its complexities requires specialized expertise.",
+      "Seamless Cloud Operations: Over a Decade of Global Excellence for 1,000+ Customers",
+    subtitle1: `In the modern digital era, cloud computing is no longer just an option – it's a fundamental necessity for agility, scalability, and innovation. At ITSupport.net.in, we've been at the forefront of this transformation for over 10 years, proudly serving more than 1,000 customers globally. We understand that while the cloud offers immense potential, navigating its complexities requires specialized expertise. Our dedicated Cloud Support Services are designed to ensure your cloud infrastructure is always optimized, secure, and performing at its peak, allowing you to focus on your core business objectives without interruption.`,
     heroImage:
       "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline:
-        "Seamless Cloud Operations: Over a Decade of Global Excellence for 1,000+ Customers",
+      headline: "Navigating the Cloud Landscape: Common Challenges We Resolve",
       subheadline: "",
       description:
-        "Our dedicated Cloud Support Services are designed to ensure your cloud infrastructure is always optimized, secure, and performing at its peak, allowing you to focus on your core business objectives without interruption.",
+        "While cloud platforms offer unparalleled flexibility and power, they also come with their own set of unique challenges. From initial migration hurdles to ongoing optimization and security concerns, managing a cloud environment can be intricate. Our team of certified cloud experts is adept at identifying, diagnosing, and resolving these complex issues, ensuring your cloud journey is smooth and successful.",
       image:
         "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     },
@@ -1649,20 +1647,20 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "e-commerce-support-services",
-    title:
-      "Elevate Your Online Store with Expert E-commerce Support by ITSupport.net.in",
+    title: "Elevate Online Store with Expert",
     subtitle:
-      "In the dynamic world of e-commerce, your online store is more than just a website—it's your storefront, sales team, and customer service hub rolled into one. At ITSupport.net.in, we understand that every moment of downtime or every friction point in the customer journey can mean lost sales and damaged reputation.",
+      "Seamless Digital Retail: Over a Decade of Global Excellence for 500+ Online Businesses",
+    subtitle1: `In the dynamic world of e-commerce, your online store is more than just a website—it's your storefront, sales team, and customer service hub rolled into one. At ITSupport.net.in, we understand that every moment of downtime or every friction point in the customer journey can mean lost sales and damaged reputation. For over 10 years, we have been the trusted ally for over 500 e-commerce businesses globally, providing unparalleled support that ensures your digital storefront operates flawlessly, securely, and efficiently. Our comprehensive e-commerce support services empower you to focus on growth while we handle the technical complexities.`,
     heroImage:
-      "https://images.unsplash.com/photo-1515168833906-d2a3b82b3027?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
-        "Seamless Digital Retail: Over a Decade of Global Excellence for 500+ Online Businesses",
+        "Conquering E-commerce Challenges: Issues We Resolve for Your Online Success",
       subheadline: "",
       description:
-        "For over 10 years, we have been the trusted ally for over 500 e-commerce businesses globally, providing unparalleled support that ensures your digital storefront operates flawlessly, securely, and efficiently. Our comprehensive e-commerce support services empower you to focus on growth while we handle the technical complexities.",
+        "Running a successful e-commerce business involves navigating a myriad of technical and operational hurdles. From website performance to secure transactions and seamless integrations, our expert team is equipped to diagnose and resolve a wide array of e-commerce challenges, ensuring a smooth and profitable online operation.",
       image:
-        "https://images.unsplash.com/photo-1515168833906-d2a3b82b3027?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
       title: "Why Choose Our E-Commerce Support?",
@@ -2042,17 +2040,18 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "hardware-repair-support-services",
-    title: "Unrivaled Hardware Support Services by ITSupport.net.in",
+    title: "Unrivaled Hardware Support Services",
     subtitle:
-      "In the fast-paced digital landscape, reliable hardware is the bedrock of productivity and innovation. Whether it's a critical server, a high-performance workstation, or your everyday laptop, hardware failures can halt operations, frustrate users, and cost businesses dearly. At ITSupport.net.in, we understand the indispensable role hardware plays in your daily workflow. ",
+      "Powering Your Performance: Over a Decade of Global Hardware Excellence for 100,000+ Customers",
+    subtitle1: `In the fast-paced digital landscape, reliable hardware is the bedrock of productivity and innovation. Whether it's a critical server, a high-performance workstation, or your everyday laptop, hardware failures can halt operations, frustrate users, and cost businesses dearly. At ITSupport.net.in, we understand the indispensable role hardware plays in your daily workflow. For over 10 years, we have been the trusted partner for over 100,000 customers globally, providing comprehensive and proactive hardware support services that ensure your devices run smoothly, efficiently, and reliably. From diagnostics to repair and component replacement, our expert team is dedicated to maximizing the lifespan and performance of your valuable hardware assets.`,
     heroImage:
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
-        "Powering Your Performance: Over a Decade of Global Hardware Excellence for 100,000+ Customers",
+        "Conquering Hardware Headaches: Common Issues We Expertly Resolve",
       subheadline: "",
       description:
-        "For over 10 years, we have been the trusted partner for over 100,000 customers globally, providing comprehensive and proactive hardware support services that ensure your devices run smoothly, efficiently, and reliably. From diagnostics to repair and component replacement, our expert team is dedicated to maximizing the lifespan and performance of your valuable hardware assets.",
+        "Hardware problems can manifest in various frustrating ways, often appearing suddenly and bringing work to a standstill. Our certified technicians are skilled at identifying, troubleshooting, and rectifying a broad spectrum of hardware issues, minimizing your downtime and restoring your system's functionality.",
       image:
         "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
     },
@@ -2519,18 +2518,18 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "website-hosting-domain-support-services",
-    title:
-      "Uninterrupted Online Presence: Expert Web Hosting Support by ITSupport.net.in",
+    title: "Uninterrupted Online Presence",
     subtitle:
-      "In today's digital-first world, your website is often the first point of contact for customers, the engine of your online business, and a reflection of your brand. Any hiccup in its availability or performance can translate directly into lost opportunities and revenue. At ITSupport.net.in, we deeply understand the critical importance of a stable, secure, and fast web presence.",
+      "Your Digital Foundation, Our Expertise: Over a Decade of Global Web Hosting Excellence",
+    subtitle1: `In today's digital-first world, your website is often the first point of contact for customers, the engine of your online business, and a reflection of your brand. Any hiccup in its availability or performance can translate directly into lost opportunities and revenue. At ITSupport.net.in, we deeply understand the critical importance of a stable, secure, and fast web presence. For over 10 years, we have proudly served more than 1,000 customers globally, providing comprehensive web hosting support services that ensure your website is always online, responsive, and secure. We handle the complexities of hosting, so you can focus on growing your digital footprint without worry.`,
     heroImage:
       "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
-        "Your Digital Foundation, Our Expertise: Over a Decade of Global Web Hosting Excellence",
+        "Navigating the Hosting Landscape: Common Challenges We Expertly Resolve",
       subheadline: "",
       description:
-        "For over 10 years, we have proudly served more than 1,000 customers globally, providing comprehensive web hosting support services that ensure your website is always online, responsive, and secure. We handle the complexities of hosting, so you can focus on growing your digital footprint without worry.",
+        "Web hosting environments, while robust, are susceptible to a range of issues that can impact your website's performance, security, and accessibility. Our team of certified web hosting specialists is adept at diagnosing, troubleshooting, and resolving these intricate problems, ensuring your online assets remain fully functional and optimized.",
       image:
         "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     },
@@ -2927,18 +2926,18 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "email-setup-support",
-    title:
-      "Seamless Communication: Expert Email Support Services by ITSupport.net.in",
+    title: "Seamless Communication: Email Services",
     subtitle:
-      "In today's interconnected world, email is the lifeblood of communication for businesses and individuals alike. It's how you connect with clients, collaborate with colleagues, and manage critical information. Any disruption to your email service can lead to missed opportunities, operational delays, and significant frustration. At ITSupport.net.in, we understand that a reliable and secure email experience is non-negotiable.",
+      "Your Inbox, Our Priority: Over a Decade of Global Excellence for 100,000+ Customers",
+    subtitle1: "In today's interconnected world, email is the lifeblood of communication for businesses and individuals alike. It's how you connect with clients, collaborate with colleagues, and manage critical information. Any disruption to your email service can lead to missed opportunities, operational delays, and significant frustration. At ITSupport.net.in, we understand that a reliable and secure email experience is non-negotiable. For over 10 years, we have proudly served more than 100,000 customers globally, providing comprehensive email support services that ensure your messages are always delivered, your inboxes are secure, and your communication flows without a hitch. We handle the complexities of email, so you can focus on what truly matters: connecting with your world.",
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
-        "Your Inbox, Our Priority: Over a Decade of Global Excellence for 100,000+ Customers",
+        "Navigating the Email Ecosystem: Common Challenges We Expertly Resolve",
       subheadline: "",
       description:
-        "For over 10 years, we have proudly served more than 100,000 customers globally, providing comprehensive email support services that ensure your messages are always delivered, your inboxes are secure, and your communication flows without a hitch. We handle the complexities of email, so you can focus on what truly matters: connecting with your world.",
+        "Email issues can be incredibly frustrating, impacting personal productivity and entire business operations. From basic access problems to complex deliverability and security threats, our team of dedicated email specialists is adept at diagnosing, troubleshooting, and resolving a broad spectrum of email-related challenges.",
       image:
         "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     },
@@ -3610,9 +3609,10 @@ export const servicesDetailData: Service[] = [
   {
     slug: "wifi-network-support",
     title:
-      "Seamless Connectivity, Unrivaled Speed: Expert Wi-Fi Support by ITSupport.net.in",
+      "Seamless Connectivity and Unrivaled Speed",
     subtitle:
-      "In today's hyper-connected world, Wi-Fi is no longer a luxury; it's the invisible infrastructure powering our homes, offices, and businesses. From streaming entertainment to mission-critical business operations, a reliable and fast wireless connection is paramount. At ITSupport.net.in, we understand that frustrating Wi-Fi issues can disrupt your productivity and peace of mind.",
+      "Your Wireless World, Our Expertise: Over a Decade of Global Excellence for 20,000+ Customers",
+      subtitle1: `In today's hyper-connected world, Wi-Fi is no longer a luxury; it's the invisible infrastructure powering our homes, offices, and businesses. From streaming entertainment to mission-critical business operations, a reliable and fast wireless connection is paramount. At ITSupport.net.in, we understand that frustrating Wi-Fi issues can disrupt your productivity and peace of mind. For over 10 years, we have proudly served over 20,000 customers globally, providing comprehensive Wi-Fi support services that ensure your wireless network is always stable, secure, and optimized for peak performance. We eliminate the guesswork and frustration, empowering you to connect with confidence.`,
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {
