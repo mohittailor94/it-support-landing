@@ -2,8 +2,8 @@
 
 interface SpecificIssueProps {
   title: string;
-  problemDescription: string;
-  solution: string;
+  problemDescription?: string;
+  solution?: string;
 }
 
 const SpecificIssue = ({

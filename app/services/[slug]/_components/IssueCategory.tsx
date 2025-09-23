@@ -15,7 +15,7 @@ const IssueCategory = ({
   children,
 }: IssueCategoryProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 max-w-3xl">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 max-w-3xl w-full">
       <div className="p-6">
         <Typography variant="h3" className="font-semibold mb-3 text-gray-800">
           {title}

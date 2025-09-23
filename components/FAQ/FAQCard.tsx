@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import parse from "html-react-parser";
 
 export interface FAQCardProps {
   label: string;
   desc: string;
   expanded?: boolean;
   onToggle?: () => void;
+  descHTMLString?: boolean;
 }
 
 const FAQCard: React.FC<FAQCardProps> = ({
@@ -14,6 +16,7 @@ const FAQCard: React.FC<FAQCardProps> = ({
   desc,
   expanded = true,
   onToggle,
+  descHTMLString = false,
 }) => {
   const [isExpand, setIsExpand] = useState<boolean>(false);
 
@@ -45,7 +48,7 @@ const FAQCard: React.FC<FAQCardProps> = ({
         }
         style={{ overflow: "hidden" }}
       >
-        {desc}
+        {descHTMLString ? parse(desc) : desc}
       </p>
     </div>
   );
