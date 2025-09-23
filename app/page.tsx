@@ -51,16 +51,16 @@ export default function Home() {
         <WelcomeComponent />
       </section>
       <section className="our-service-section relative">
-        <div className="shape2 shape absolute top-[150px] right-[150px] animate-[spin_3s_linear_infinite]" >
+        <div className="shape2 shape absolute top-[50px] right-[20px] lg:top-[150px] lg:right-[150px] xl:top-[150px] xl:right-[150px] sm:top-[50ppx] sm:right-[80px] animate-[spin_3s_linear_infinite]" >
           {/* Use a public asset (available at /assets) */}
           <Image src="/assets/shape1.svg" alt="shape" width={24} height={24}/>
         </div>
-        <div className="shape2 shape absolute top-[150px] left-[150px] animate-[spin_6s_linear_infinite]" >
+        <div className="shape2 shape absolute top-[50px] left-[20px] lg:top-[150px] lg:left-[150px] xl:top-[150px] xl:left-[150px] sm:top-[50ppx] sm:left-[80px] animate-[spin_6s_linear_infinite]" >
           {/* Use a public asset (available at /assets) */}
           <Image src="/assets/shape2.svg" alt="shape" width={30} height={30}/>
         </div>
         <OurCoreServices />
-        <div className="shape2 shape absolute bottom-[150px] left-[100px] animate-[spin_5s_linear_infinite]" >
+        <div className="shape2 hidden xl:block shape absolute bottom-[150px] left-[100px] animate-[spin_5s_linear_infinite]" >
           {/* Use a public asset (available at /assets) */}
           <Image src="/assets/shape1.svg" alt="shape" width={24} height={24}/>
         </div>
@@ -86,7 +86,7 @@ export default function Home() {
         <OurCommitment />
       </section>
       <section className="it-support-insights-section relative">
-      <div className="shape2 shape absolute top-[100px] left-[100px] rounded-full shadow-md h-[80px] w-[80px] bg-gradient-to-r from-[#61CE70] to-blue-500  flip-animation" >
+      <div className="shape2 shape absolute top-[100px] left-[100px] rounded-full shadow-md h-[80px] w-[80px] bg-gradient-to-r from-[#61CE70] to-blue-500  flip-animation  hidden xl:block" >
           {/* Use a public asset (available at /assets) */}
           
         </div>

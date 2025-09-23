@@ -5,8 +5,8 @@ export default function IndustriesWeServe() {
   const t = useTranslations("Industries");
 
   return (
-    <section className="py-16 bg-white">
-      <div className="sm:px-6 md:px-40  py-10 px-4">
+    <section className="lg:py-16 py-10 bg-white">
+      <div className="sm:px-6 xl:px-40 md:px-10 lg:py-10 px-4">
         <div className="section-heading">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-center pb-4"
@@ -14,7 +14,7 @@ export default function IndustriesWeServe() {
             data-aos-duration="700">
             {t("title")}
           </h2>
-          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-12 relative rounded-full"></div>
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  md:mb-12 mb-6 relative rounded-full"></div>
           <p 
             className="text-lg text-center text-gray-700 mb-12 max-w-4xl mx-auto" 
             data-aos="fade-up"

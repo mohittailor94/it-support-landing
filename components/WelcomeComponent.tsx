@@ -14,18 +14,35 @@ export default function WelcomeComponent() {
   }, []);
 
   return (
-    <section className="relative lg:flex md:flex-row md:flex-col items-center h-auto  px-4 sm:px-6 md:px-20 xl:px-40  py-10 px-4  overflow-hidden">
+    <section className="relative xl:flex xl:flex-row xl:flex-col items-center h-auto  px-4 sm:px-4 md:px-10 xl:px-40  py-10 px-4  overflow-hidden">
       {/* Decorative background glow */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[#61CE70]/10 blur-3xl lg:order-2"
+        className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[#61CE70]/10 blur-3xl"
       />
       <div
         aria-hidden
         className="pointer-events-none absolute bottom-0 right-0 h-80 w-80 rounded-full bg-blue-400/10 blur-3xl"
       />
+
+<div
+        className="w-full h-full  pl-0 xl:pl-8  flex rounded-4xl  mb-10 xl:mb-0 order-1 md:order-1 xl:order-2"
+        data-aos="fade-left"
+        data-aos-delay="200"
+      >
+        <video
+          className="w-full h-full object-cover rounded-3xl shadow-xl ring-1 ring-black/5"
+          src="https://d3euc6irt3la1j.cloudfront.net/it-support-services.mp4"
+          muted
+          autoPlay={true}
+          loop={true}
+          playsInline={false}
+          preload="auto"
+        ></video>
+      </div>
+
       <div
-        className="flex flex-col h-full justify-center mb-8 md:mb-5 items-start max-w-3xl w-full lg-order-2"
+        className="flex flex-col h-full justify-center mb-8 md:mb-5 items-start max-w-3xl w-full xl-order-2"
          data-aos="fade-right"
       >
         <h1
@@ -97,21 +114,7 @@ export default function WelcomeComponent() {
           </Link>
         </div>
       </div>
-      <div
-        className="w-full h-full p-2.5 md:pl-8 flex rounded-4xl lg:order-1"
-        data-aos="fade-left"
-        data-aos-delay="200"
-      >
-        <video
-          className="w-full h-full object-cover rounded-3xl shadow-xl ring-1 ring-black/5"
-          src="https://d3euc6irt3la1j.cloudfront.net/it-support-services.mp4"
-          muted
-          autoPlay={true}
-          loop={true}
-          playsInline={false}
-          preload="auto"
-        ></video>
-      </div>
+      
     </section>
   );
 }

@@ -29,7 +29,7 @@ export default function Header() {
       }`}
     >
       <div className="flex justify-between items-center h-16 md:h-20 px-4 sm:px-6 md:px-40lg:px-40 xl:px-40">
-        <div className="flex items-center w-60 px-0">
+        <div className="flex items-center xl:w-60 md:w-40  px-0">
           <Link href="/">
             <Image
               alt={t("logoAlt")}

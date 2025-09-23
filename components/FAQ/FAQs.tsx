@@ -19,7 +19,7 @@ export default function FAQs({
   const t = useTranslations("FAQs");
 
   return (
-    <section className="py-16 px-4 sm:px-6 bg-white">
+    <section className="lg:py-16 py:10 px-4 sm:px-6 bg-white">
       <div className="max-w-4xl mx-auto" style={{ opacity: 1 }}>
         <div className="section-heading">
             <h2
@@ -30,7 +30,7 @@ export default function FAQs({
             >
             {t("title")}
           </h2>
-          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-12 relative rounded-full"></div>
+          <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  md:mb-12 mb-6 relative rounded-full"></div>
         </div>
         <div style={{ opacity: 1, transform: "none" }}>
           <section className="my-5">
