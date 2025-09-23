@@ -52,3 +52,39 @@ body {
   0% { left: 0; }
   100% { left: calc(100% - 0.60rem); }
 }
+
+@keyframes move-left-right {
+  0%   { left: 0; }
+  50%  { left: 20px; }   /* move to right */
+  100% { left: 0; }
+}
+.left-right-animation {
+  animation: move-left-right 5s ease-in-out infinite alternate;
+}
+
+@keyframes move-top-bottom {
+  0%   { top: 50px; }
+  50%  { bottom: 80px; }   /* move to right */
+  100% { left: 50px; }
+}
+.top-bottom-animation {
+  animation: move-top-bottom 5s ease-in-out infinite alternate;
+}
+
+@keyframes move-top-bottom-right {
+  0%   { bottom: 50px; }
+  50%  { bottom: 80px; }   /* move to right */
+  100% { right: 100px; }
+}
+.top-bottom-right-animation {
+  animation: move-top-bottom-right 5s ease-in-out infinite alternate;
+}
+
+@keyframes move-flip {
+  0%   { transform: rotateY(0deg); }
+  50%  { transform: rotateY(180deg); }   /* move to right */
+  100% { transform: rotateY(360deg); }
+}
+.flip-animation {
+  animation: move-flip 3s ease-in-out infinite alternate;
+}

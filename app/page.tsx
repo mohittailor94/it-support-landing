@@ -50,18 +50,34 @@ export default function Home() {
       <section className="hero-section">
         <WelcomeComponent />
       </section>
-      <section className="our-service-section">
-        <div className="shape2">
+      <section className="our-service-section relative">
+        <div className="shape2 shape absolute top-[150px] right-[150px] animate-[spin_3s_linear_infinite]" >
           {/* Use a public asset (available at /assets) */}
-          {/* <Image src="/assets/shape1.svg" alt="shape" width={24} height={24} priority/> */}
+          <Image src="/assets/shape1.svg" alt="shape" width={24} height={24}/>
+        </div>
+        <div className="shape2 shape absolute top-[150px] left-[150px] animate-[spin_6s_linear_infinite]" >
+          {/* Use a public asset (available at /assets) */}
+          <Image src="/assets/shape2.svg" alt="shape" width={30} height={30}/>
         </div>
         <OurCoreServices />
+        <div className="shape2 shape absolute bottom-[150px] left-[100px] animate-[spin_5s_linear_infinite]" >
+          {/* Use a public asset (available at /assets) */}
+          <Image src="/assets/shape1.svg" alt="shape" width={24} height={24}/>
+        </div>
       </section>
       <section className="industries-section">
         <IndustriesWeServe />
       </section>
-      <section className="global-presence-section">
+      <section className="global-presence-section relative">
+      <div className="shape2 shape absolute top-[150px] left-[100px] top-bottom-animation" >
+          {/* Use a public asset (available at /assets) */}
+          <Image src="/assets/shape3.svg" alt="shape" width={40} height={40}/>
+        </div>
         <OurGlobalPresence />
+        <div className="shape2 shape absolute bottom-[150px] right-[150px] top-bottom-right-animation" >
+          {/* Use a public asset (available at /assets) */}
+          <Image src="/assets/shape3.svg" alt="shape" width={40} height={40}/>
+        </div>
       </section>
       <section className="why-choose-section">
         <WhyChoose />
@@ -69,11 +85,29 @@ export default function Home() {
       <section className="our-commitment-section">
         <OurCommitment />
       </section>
-      <section className="it-support-insights-section">
+      <section className="it-support-insights-section relative">
+      <div className="shape2 shape absolute top-[100px] left-[100px] rounded-full shadow-md h-[80px] w-[80px] bg-gradient-to-r from-[#61CE70] to-blue-500  flip-animation" >
+          {/* Use a public asset (available at /assets) */}
+          
+        </div>
         <ITSupportInsights />
+        <div className="shape2 shape absolute bottom-[150px] right-[150px] top-bottom-right-animation" >
+          {/* Use a public asset (available at /assets) */}
+          <Image src="/assets/shape3.svg" alt="shape" width={40} height={40}/>
+        </div>
       </section>
-      <section className="faq-section">
+      <section className="faq-section relative">
         <FAQs data={FAQsData} />
+        <div className="absolute bottom-[0px] right-0" >
+          <svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <circle cx="5" cy="5" r="2" fill="#61CE70" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#dots)" />
+          </svg>
+        </div>
       </section>
 
       <ScrollToTop />
