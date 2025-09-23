@@ -1,6 +1,6 @@
 import FeatureCard from "../[slug]/_components/FeatureCard";
 
-const whyChooseData = [
+const whyChooseDataDetail = [
   {
     icon: (
       <svg
@@ -94,23 +94,35 @@ const whyChooseData = [
   },
 ];
 
-export default function ServiceWhyChoose() {
+export default function ServiceWhyChoose({
+  whyChooseData = whyChooseDataDetail,
+}: {
+  whyChooseData?: typeof whyChooseDataDetail;
+}) {
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-16 bg-gray-50 sm:px-6 xl:px-40 md:px-10 py-10 px-4">
+      <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-10 text-center text-gray-800">
-            Why Choose{" "}
-            <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
-              ITSupport.net.in
-            </span>{" "}
-            ?
-          </h2>
-          <p className="text-gray-600 mb-12 text-center">
-            With over a decade of dedicated service and thousands of satisfied
-            customers across India, ITSupport.net.in stands out as the clear
-            choice for all your printer support needs.
-          </p>
+          <section className="section-heading">
+            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-lg-12 mb-6"
+            data-aos="fade-up"
+            data-aos-duration="700">
+              Why Choose{" "}
+                <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
+                  ITSupport.net.in
+                </span>{" "}
+                ?
+            </h2>
+            <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-lg-12 mb-6 relative rounded-full"></div>
+              <p className="text-gray-600 mb-12 text-center"
+              data-aos="fade-up"
+              data-aos-delay={100}
+              data-aos-duration="700">
+                With over a decade of dedicated service and thousands of satisfied
+                customers across India, ITSupport.net.in stands out as the clear
+                choice for all your printer support needs.
+              </p>
+            </section>
           <div className="grid md:grid-cols-2 gap-8">
             {whyChooseData.map((whyD) => (
               <FeatureCard
