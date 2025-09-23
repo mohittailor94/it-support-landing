@@ -93,6 +93,100 @@ const whyChooseDataDetail = [
     description: "Our priority is getting you back to printing seamlessly.",
   },
 ];
+export const whyChooseDataDetailEs = [
+  {
+    icon: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-8 h-8 text-[#4CD964]"
+        aria-hidden="true"
+        data-id="element-244"
+      >
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+        <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+        <circle cx="9" cy="7" r="4"></circle>
+      </svg>
+    ),
+    title: "Técnicos Expertos",
+    description: "Profesionales altamente capacitados y experimentados.",
+  },
+  {
+    icon: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-8 h-8 text-[#4CD964]"
+        aria-hidden="true"
+        data-id="element-246"
+      >
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="12 6 12 12 16 14"></polyline>
+      </svg>
+    ),
+    title: "Soporte 24/7",
+    description: "Asistencia cuando la necesite.",
+  },
+  {
+    icon: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-8 h-8 text-[#4CD964]"
+        aria-hidden="true"
+        data-id="element-248"
+      >
+        <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+        <path d="m9 11 3 3L22 4"></path>
+      </svg>
+    ),
+    title: "Soluciones Remotas",
+    description:
+      "Muchos problemas se resuelven eficientemente desde cualquier lugar.",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-8 h-8 text-[#4CD964]"
+        aria-hidden="true"
+        data-id="element-250"
+      >
+        <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+        <circle cx="12" cy="8" r="6"></circle>
+      </svg>
+    ),
+    title: "Satisfacción del Cliente",
+    description: "Nuestra prioridad es que vuelva a imprimir sin problemas.",
+  },
+];
 
 export default function ServiceWhyChoose({
   whyChooseData = whyChooseDataDetail,

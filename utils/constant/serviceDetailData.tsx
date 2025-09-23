@@ -885,7 +885,7 @@ export const servicesDetailData: Service[] = [
       {
         label: "Why is my printer not printing, even though it's turned on?",
         desc: 'This could be due to several reasons, including connectivity issues (Wi-Fi/USB), empty paper trays, low ink/toner, a paused print queue, or an "offline" status.',
-        expanded: false,
+        expanded: true,
       },
       {
         label: "How do I fix a paper jam when there's no paper visible?",
@@ -1636,7 +1636,7 @@ export const servicesDetailData: Service[] = [
       {
         label: "Which cloud providers do you support?",
         desc: "We work with AWS, Google Cloud, Microsoft Azure, and other platforms.",
-        expanded: false,
+        expanded: true,
       },
       {
         label: "Can you migrate my existing data to the cloud?",
@@ -2926,23 +2926,23 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "email-setup-support",
-    title: "Seamless Communication: Email Services",
+    title: "Uninterrupted Online Presence",
     subtitle:
-      "Your Inbox, Our Priority: Over a Decade of Global Excellence for 100,000+ Customers",
-    subtitle1: "In today's interconnected world, email is the lifeblood of communication for businesses and individuals alike. It's how you connect with clients, collaborate with colleagues, and manage critical information. Any disruption to your email service can lead to missed opportunities, operational delays, and significant frustration. At ITSupport.net.in, we understand that a reliable and secure email experience is non-negotiable. For over 10 years, we have proudly served more than 100,000 customers globally, providing comprehensive email support services that ensure your messages are always delivered, your inboxes are secure, and your communication flows without a hitch. We handle the complexities of email, so you can focus on what truly matters: connecting with your world.",
+      "Your Digital Foundation, Our Expertise: Over a Decade of Global Web Hosting Excellence",
+    subtitle1: `In today's digital-first world, your website is often the first point of contact for customers, the engine of your online business, and a reflection of your brand. Any hiccup in its availability or performance can translate directly into lost opportunities and revenue. At ITSupport.net.in, we deeply understand the critical importance of a stable, secure, and fast web presence. For over 10 years, we have proudly served more than 1,000 customers globally, providing comprehensive web hosting support services that ensure your website is always online, responsive, and secure. We handle the complexities of hosting, so you can focus on growing your digital footprint without worry.`,
     heroImage:
-      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
-        "Navigating the Email Ecosystem: Common Challenges We Expertly Resolve",
+        "Navigating the Hosting Landscape: Common Challenges We Expertly Resolve",
       subheadline: "",
       description:
-        "Email issues can be incredibly frustrating, impacting personal productivity and entire business operations. From basic access problems to complex deliverability and security threats, our team of dedicated email specialists is adept at diagnosing, troubleshooting, and resolving a broad spectrum of email-related challenges.",
+        "Web hosting environments, while robust, are susceptible to a range of issues that can impact your website's performance, security, and accessibility. Our team of certified web hosting specialists is adept at diagnosing, troubleshooting, and resolving these intricate problems, ensuring your online assets remain fully functional and optimized.",
       image:
-        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
-      title: "Why Choose Our Email Setup Support?",
+      title: "Why Choose Our Hosting & Domain Support?",
       services: [
         {
           icon: (
@@ -2959,66 +2959,67 @@ export const servicesDetailData: Service[] = [
               stroke-linejoin="round"
               className="inline mr-2 text-gray-500"
             >
-              <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"></path>
-              <path d="M10 19v-3.96 3.15"></path>
-              <path d="M7 19h5"></path>
-              <rect width="6" height="10" x="16" y="12" rx="2"></rect>
-            </svg>
-          ),
-          title: "Multi-Device Setup",
-          description:
-            "Configure email on desktops, laptops, and mobile devices.",
-        },
-        {
-          icon: (
-            <svg
-              data-v-15b35c9e=""
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="inline mr-2 text-gray-500"
-            >
-              <path d="M17 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 1-1.732"></path>
-              <path d="m22 5.5-6.419 4.179a2 2 0 0 1-2.162 0L7 5.5"></path>
-              <rect x="7" y="3" width="15" height="12" rx="2"></rect>
-            </svg>
-          ),
-          title: "Business Email Integration",
-          description:
-            "Professional email setup for businesses using custom domains.",
-        },
-        {
-          icon: (
-            <svg
-              data-v-15b35c9e=""
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="inline mr-2 text-gray-500"
-            >
-              <path d="M7 3.34V5a3 3 0 0 0 3 3"></path>
-              <path d="M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
               <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
-              <path d="M12 2a10 10 0 1 0 9.54 13"></path>
-              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
-              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+              <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <circle cx="12" cy="12" r="10"></circle>
             </svg>
           ),
-          title: "Spam & Security",
+          title: "Domain Management",
+          description: "Purchase, transfer, and configure domains with ease.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+            </svg>
+          ),
+          title: "Seamless Migration",
           description:
-            "Advanced spam filtering and secure email configuration.",
+            "Smooth website and email migration with minimal downtime.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 9v1.258"></path>
+              <path d="M16 3v5.46"></path>
+              <path d="M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75"></path>
+              <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z"></path>
+              <path d="M3 15h7"></path>
+              <path d="M3 9h12.142"></path>
+              <path d="M8 15v6"></path>
+              <path d="M8 3v6"></path>
+            </svg>
+          ),
+          title: "SSL & Security",
+          description:
+            "SSL certificate setup and proactive security monitoring.",
         },
       ],
     },
@@ -3608,11 +3609,10 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "wifi-network-support",
-    title:
-      "Seamless Connectivity and Unrivaled Speed",
+    title: "Seamless Connectivity and Unrivaled Speed",
     subtitle:
       "Your Wireless World, Our Expertise: Over a Decade of Global Excellence for 20,000+ Customers",
-      subtitle1: `In today's hyper-connected world, Wi-Fi is no longer a luxury; it's the invisible infrastructure powering our homes, offices, and businesses. From streaming entertainment to mission-critical business operations, a reliable and fast wireless connection is paramount. At ITSupport.net.in, we understand that frustrating Wi-Fi issues can disrupt your productivity and peace of mind. For over 10 years, we have proudly served over 20,000 customers globally, providing comprehensive Wi-Fi support services that ensure your wireless network is always stable, secure, and optimized for peak performance. We eliminate the guesswork and frustration, empowering you to connect with confidence.`,
+    subtitle1: `In today's hyper-connected world, Wi-Fi is no longer a luxury; it's the invisible infrastructure powering our homes, offices, and businesses. From streaming entertainment to mission-critical business operations, a reliable and fast wireless connection is paramount. At ITSupport.net.in, we understand that frustrating Wi-Fi issues can disrupt your productivity and peace of mind. For over 10 years, we have proudly served over 20,000 customers globally, providing comprehensive Wi-Fi support services that ensure your wireless network is always stable, secure, and optimized for peak performance. We eliminate the guesswork and frustration, empowering you to connect with confidence.`,
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -4093,16 +4093,18 @@ export const servicesDetailData: Service[] = [
 
 export const serviceDetailDataEs: Service[] = [
   {
-    slug: "soporte-remoto-de-ti",
-    title: "Soporte de Copia de Seguridad de Datos",
-    subtitle: "Soluciones de respaldo automatizadas y seguras",
+    slug: "mejores-servicios-de-respaldo-y-recuperación-de-datos",
+    title: "Proteja sus Datos Críticos y Asegura ",
+    subtitle: "Servicios de soporte de copia de seguridad y recuperación",
+    subtitle1: `En el panorama empresarial actual, impulsado por los datos, la información es la piedra angular del éxito. Sin embargo, este activo invaluable se enfrenta a amenazas constantes, desde fallos inesperados del sistema y ciberataques maliciosos como el ransomware, hasta errores humanos o desastres naturales. Una interrupción o pérdida de datos no solo puede paralizar las operaciones, sino que también puede generar pérdidas financieras significativas y dañar de forma irreparable la reputación de su marca. En ITSupport.net.in, entendemos que la seguridad de su información no es negociable. Durante más de 20 años, nos hemos dedicado a ofrecer servicios de soporte de TI que no solo solucionan problemas, sino que los previenen. Hemos trabajado con más de 10,000 clientes satisfechos en todo el mundo, ayudándoles a construir una fortaleza digital alrededor de sus datos más valiosos. Nuestra misión es proporcionarle una tranquilidad total, sabiendo que su información está segura, accesible y lista para ser restaurada en cualquier momento.`,
     heroImage:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Servicios confiables de copia de seguridad de datos",
-      subheadline: "Proteja los datos críticos de su empresa",
+      headline:
+        "La Imperiosa Necesidad de un Plan de Copia de Seguridad Robusto",
+      subheadline: "",
       description:
-        "Nuestros servicios de respaldo de datos garantizan que sus archivos y datos empresariales críticos permanezcan seguros y recuperables en caso de emergencia. Utilizamos soluciones líderes en la industria para automatizar, monitorear y restaurar sus datos.",
+        "Un plan de copia de seguridad no es un simple seguro; es una inversión fundamental en la continuidad y resiliencia de su negocio. En un mundo donde el tiempo de inactividad se mide en miles de euros por minuto, una estrategia de respaldo eficiente es lo único que le permite recuperarse rápidamente de cualquier adversidad. Nuestros expertos trabajan con usted para evaluar los riesgos, entender sus operaciones y diseñar una estrategia de protección de datos que se adapte perfectamente a sus necesidades, presupuesto y tolerancia al riesgo.",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     },
@@ -4110,38 +4112,213 @@ export const serviceDetailDataEs: Service[] = [
       title: "¿Por qué elegir nuestro respaldo de datos?",
       services: [
         {
-          icon: "<svg>...</svg>",
-          title: "Respaldos automatizados",
-          description: "Olvídese de los respaldos manuales.",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 12a9 3 0 0 0 5 2.69"></path>
+              <path d="M21 9.3V5"></path>
+              <path d="M3 5v14a9 3 0 0 0 6.47 2.88"></path>
+              <path d="M12 12v4h4"></path>
+              <path d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16"></path>
+            </svg>
+          ),
+          title: "Copias de seguridad automatizadas",
+          description:
+            "No vuelva a preocuparse por copias de seguridad manuales.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+              <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+              <path d="M10 9H8"></path>
+              <path d="M16 13H8"></path>
+              <path d="M16 17H8"></path>
+            </svg>
+          ),
           title: "Almacenamiento híbrido",
-          description: "Opciones en la nube y local para máxima seguridad.",
+          description: "Opciones en la nube + local para máxima seguridad.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 2v8"></path>
+              <path d="m16 6-4 4-4-4"></path>
+              <rect width="20" height="8" x="2" y="14" rx="2"></rect>
+              <path d="M6 18h.01"></path>
+              <path d="M10 18h.01"></path>
+            </svg>
+          ),
           title: "Recuperación ante desastres",
-          description: "Restauración rápida en caso de emergencia.",
+          description: "Restauración rápida en caso de emergencias.",
         },
       ],
     },
     issuecategory: {
-      title: "Problemas comunes de respaldo de datos",
-      subTitle: "Resolvemos fallos de respaldo, restauraciones lentas y más.",
+      title: "La Imperiosa Necesidad de un Plan de Copia de Seguridad Robusto",
+      subTitle:
+        "Un plan de copia de seguridad no es un simple seguro; es una inversión fundamental en la continuidad y resiliencia de su negocio. En un mundo donde el tiempo de inactividad se mide en miles de euros por minuto, una estrategia de respaldo eficiente es lo único que le permite recuperarse rápidamente de cualquier adversidad.",
       issueCategories: [
         {
-          title: "Fallos de respaldo",
-          description: "Respaldos automáticos o manuales que no se completan.",
+          title: "Riesgos de la Pérdida de Datos",
+          description:
+            "Identificamos los principales factores que pueden poner en peligro la integridad y disponibilidad de su información crítica. Estos riesgos incluyen:",
           issues: [
             {
-              title: "El respaldo programado no se ejecuta",
-              problemDescription:
-                "Los respaldos no se activan según lo programado por problemas de software o permisos.",
-              solution:
-                "Revisamos los registros de respaldo, permisos y reconfiguramos los horarios.",
+              title: "Factores de Riesgo",
+              type: "list",
+              options: [
+                {
+                  title: "Fallos de Hardware:",
+                  desc: "Los discos duros y servidores pueden fallar en cualquier momento, a menudo sin previo aviso.",
+                },
+                {
+                  title: "Ciberataques:",
+                  desc: "El ransomware y otros ataques maliciosos pueden cifrar o eliminar sus datos, exigiendo un rescate o paralizando sus operaciones.",
+                },
+                {
+                  title: "Errores Humanos:",
+                  desc: "Un archivo borrado accidentalmente o un comando ejecutado por error puede provocar una pérdida de datos irrecuperable sin un respaldo adecuado.",
+                },
+                {
+                  title: "Desastres Naturales y Físicos:",
+                  desc: "Incendios, inundaciones o robos en su oficina pueden destruir sus sistemas y datos físicos.",
+                },
+              ],
             },
           ],
+        },
+        {
+          title: "Nuestro Proceso de Copia de Seguridad",
+          description:
+            "Ofrecemos un servicio integral que va más allá de la simple copia de archivos. Nuestro enfoque incluye consultoría, implementación, monitoreo y soporte continuo:",
+          issues: [
+            {
+              title: "Etapas del Proceso",
+              type: "list",
+              options: [
+                {
+                  title: "Diseño del Plan:",
+                  desc: "Creación de una estrategia de respaldo adaptada a su negocio.",
+                },
+                {
+                  title: "Implementación:",
+                  desc: "Configuración de la tecnología y los sistemas de copia de seguridad.",
+                },
+                {
+                  title: "Monitoreo Proactivo:",
+                  desc: "Supervisión continua para garantizar que cada copia de seguridad se realice correctamente.",
+                },
+                {
+                  title: "Pruebas de Restauración:",
+                  desc: "Realización de pruebas periódicas para verificar que los datos se puedan restaurar de forma rápida y fiable.",
+                },
+                {
+                  title: "Soporte Dedicado:",
+                  desc: "Asistencia experta 24/7 en caso de que necesite recuperar sus datos.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    issuecategory2: {
+      title: "Soluciones de Respaldo a Medida: Flexibilidad y Seguridad Máxima",
+      subTitle:
+        "Ofrecemos una variedad de soluciones para cubrir cualquier necesidad, desde la empresa más pequeña hasta la corporación global.",
+      issueCategories: [
+        {
+          title: "Copia de Seguridad en la Nube (Cloud Backup)",
+          description:
+            "Almacenamos sus datos de forma segura en servidores remotos de última generación. Esta solución es ideal para:",
+          issues: [
+            {
+              title: "Beneficios de la Nube",
+              type: "list",
+              options: [
+                {
+                  title: "Protección contra Desastres:",
+                  desc: "Mantiene sus datos a salvo de cualquier evento físico que afecte a su ubicación.",
+                },
+                {
+                  title: "Acceso Global:",
+                  desc: "Acceda y restaure sus datos de forma segura desde cualquier lugar con conexión a Internet.",
+                },
+                {
+                  title: "Escalabilidad:",
+                  desc: "Permite un crecimiento ilimitado del almacenamiento sin la necesidad de comprar hardware adicional.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Copia de Seguridad Local",
+          description:
+            "Mantenemos sus datos respaldados en dispositivos de almacenamiento físicos (como servidores o discos duros NAS) dentro de sus instalaciones. Esta opción es perfecta para:",
+          issues: [
+            {
+              title: "Beneficios Locales",
+              type: "list",
+              options: [
+                {
+                  title: "Velocidad de Restauración:",
+                  desc: "Ofrece la restauración más rápida posible, ideal para archivos de gran tamaño.",
+                },
+                {
+                  title: "Control Directo:",
+                  desc: "Permite tener el control total sobre sus datos y la infraestructura de respaldo.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Copia de Seguridad Híbrida",
+          description:
+            "La estrategia más completa. Combina la velocidad del almacenamiento local con la seguridad de la nube para maximizar la protección y redundancia de los datos.",
+        },
+        {
+          title: "ITSupport.net.in: Dos Décadas de Excelencia y Confianza",
+          description:
+            "Con más de 20 años en el mercado y 10,000 clientes satisfechos en todo el mundo, hemos demostrado nuestro compromiso con la seguridad digital y la satisfacción del cliente. Somos un socio confiable que evoluciona junto con la tecnología.",
         },
       ],
     },
@@ -4154,29 +4331,72 @@ export const serviceDetailDataEs: Service[] = [
     ],
     faqs: [
       {
-        label:
-          "¿Por qué necesito servicios profesionales de respaldo de datos?",
-        desc: "El respaldo profesional asegura que sus archivos importantes estén protegidos contra fallos de hardware, ciberataques y eliminación accidental.",
+        label: "¿Con qué frecuencia se debe hacer una copia de seguridad?",
+        desc: "La frecuencia ideal se determina por la cantidad de datos que su negocio genera y la criticidad de los mismos. Para información que cambia constantemente, se recomienda una copia diaria o continua.",
+        expanded: true,
+      },
+      {
+        label: "¿Qué es la regla de copia de seguridad 3-2-1?",
+        desc: "Es una estrategia de seguridad de datos fundamental: mantener 3 copias de sus datos, en 2 tipos de medios diferentes, con 1 de esas copias almacenada fuera de sus instalaciones.",
         expanded: false,
       },
       {
-        label: "¿Pueden recuperar datos después de un fallo del sistema?",
-        desc: "Sí, nuestras soluciones de recuperación ante desastres ayudan a restaurar sus archivos rápidamente tras un fallo.",
+        label: "¿Qué datos debo respaldar?",
+        desc: "Se debe respaldar toda la información crítica para el funcionamiento de su negocio, incluyendo bases de datos de clientes, archivos de proyectos, registros financieros, correos electrónicos y software vital.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué tan seguros están mis datos con su servicio de respaldo?",
+        desc: "La seguridad es nuestra máxima prioridad. Usamos encriptación de grado militar para proteger sus datos en todo momento. Nuestros centros de datos cumplen con los más altos estándares de seguridad y acceso, y el monitoreo es constante.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es un plan de recuperación ante desastres (DRP)?",
+        desc: "Un DRP es un plan formal que su empresa seguirá para responder a una interrupción tecnológica, como una falla de sistema o un ciberataque, con el objetivo de restaurar las operaciones lo más rápido posible.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Cómo se restaura la información en caso de una pérdida de datos?",
+        desc: "En caso de un incidente, nuestro equipo de soporte le asistirá de inmediato. Se conectará de forma segura a su sistema para restaurar la información desde la copia de seguridad más reciente, asegurando un tiempo de recuperación mínimo.",
+        expanded: false,
+      },
+      {
+        label: "¿Es mejor el respaldo local o en la nube?",
+        desc: "El respaldo local es rápido, pero vulnerable a desastres físicos. El respaldo en la nube es más seguro y accesible, pero la restauración puede ser más lenta. Por ello, una solución híbrida es ideal para combinar ambas ventajas.",
+        expanded: false,
+      },
+      {
+        label: "¿Puedo hacer mis propias copias de seguridad?",
+        desc: "Aunque es posible, un servicio profesional de respaldo de datos ofrece automatización, monitoreo, redundancia y la experiencia de un equipo de expertos para garantizar que sus copias de seguridad sean siempre fiables.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué pasa si mis copias de seguridad fallan?",
+        desc: "Con nuestro servicio, sus copias de seguridad se monitorean de forma proactiva. En caso de cualquier fallo, nuestro equipo es notificado al instante para tomar medidas correctivas y garantizar que sus datos permanezcan protegidos.",
+        expanded: false,
+      },
+      {
+        label: "¿Cuál es la principal ventaja de usar ITSupport.net.in?",
+        desc: "Nuestra principal ventaja es nuestra trayectoria. Con 20 años de experiencia y la confianza de 10,000 clientes, ofrecemos la tranquilidad y el conocimiento que solo un líder en el sector puede proporcionar.",
         expanded: false,
       },
     ],
   },
   {
-    slug: "soporte-presencial",
-    title: "Soporte Antivirus",
-    subtitle: "Manténgase protegido contra amenazas en línea",
+    slug: "servicios-de-soporte-de-antivirus",
+    title: "Servicios de Soporte Antivirus",
+    subtitle: "Su Escudo contra las Amenazas Digitales con ITSupport.net.in",
+    subtitle1:
+      "En el ecosistema digital actual, las amenazas cibernéticas son una constante. Virus, malware, ransomware y ataques de phishing son solo algunas de las peligrosas realidades que pueden comprometer su información, paralizar sus operaciones y dañar la reputación de su negocio. En ITSupport.net.in, entendemos que la ciberseguridad es una prioridad, no un lujo. Con más de 20 años de experiencia en el sector, hemos construido una sólida reputación como el socio de confianza para miles de empresas y particulares. Hemos ayudado a más de 10,000 clientes satisfechos en todo el mundo a navegar por el complejo mundo de la seguridad digital, proporcionando servicios de soporte antivirus robustos y proactivos. Nuestra misión es simple: ofrecer una protección integral y confiable para que usted pueda centrarse en lo que mejor sabe hacer, sabiendo que sus sistemas están seguros bajo nuestra supervisión experta.",
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Soluciones antivirus integrales",
-      subheadline: "Proteja sus dispositivos contra malware",
+      headline:
+        "Protección Proactiva vs. Solución Reactiva: La Clave para la Seguridad",
+      subheadline: "",
       description:
-        "Manténgase protegido contra virus, malware y amenazas en línea con nuestros servicios confiables de instalación y soporte antivirus.",
+        "No espere a que su sistema sea infectado para buscar ayuda. Una estrategia de seguridad proactiva es la mejor defensa contra las amenazas digitales. Nuestro enfoque no solo se centra en la eliminación de virus, sino en la prevención de infecciones antes de que ocurran. Con nuestro servicio de soporte, usted obtiene un socio que se anticipa a los riesgos, mantiene su protección actualizada y le asesora para fortalecer las defensas de su red.",
       image:
         "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     },
@@ -4184,278 +4404,500 @@ export const serviceDetailDataEs: Service[] = [
       title: "Nuestros servicios antivirus",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M7 3.34V5a3 3 0 0 0 3 3"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M12 2a10 10 0 1 0 9.54 13"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
           title: "Protección en tiempo real",
           description: "Monitoreo continuo de amenazas.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Soporte para múltiples dispositivos",
-          description: "Proteja todos sus dispositivos.",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"></path>
+              <path d="M10 19v-3.96 3.15"></path>
+              <path d="M7 19h5"></path>
+              <rect width="6" height="10" x="16" y="12" rx="2"></rect>
+            </svg>
+          ),
+          title: "Compatibilidad con múltiples dispositivos",
+          description: "Protect all your devices.",
         },
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="m14.5 12.5-5-5"></path>
+              <path d="m9.5 12.5 5-5"></path>
+              <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+              <path d="M12 17v4"></path>
+              <path d="M8 21h8"></path>
+            </svg>
+          ),
           title: "Eliminación experta",
-          description: "Eliminamos incluso el malware más difícil.",
+          description: "Eliminamos incluso el malware más resistente.",
         },
       ],
     },
     issuecategory: {
-      title: "Problemas comunes de antivirus",
+      title:
+        "Protección Proactiva vs. Solución Reactiva: La Clave para la Seguridad",
       subTitle:
-        "Resolvemos problemas de instalación, actualización y detección.",
+        "No espere a que su sistema sea infectado para buscar ayuda. Una estrategia de seguridad proactiva es la mejor defensa contra las amenazas digitales. Nuestro enfoque no solo se centra en la eliminación de virus, sino en la prevención de infecciones antes de que ocurran. Con nuestro servicio de soporte, usted obtiene un socio que se anticipa a los riesgos, mantiene su protección actualizada y le asesora para fortalecer las defensas de su red.",
       issueCategories: [
         {
-          title: "Problemas de instalación",
-          description: "El antivirus no se instala o activa.",
+          title: "Riesgos Comunes que Enfrenta su Negocio",
+          description: "",
           issues: [
             {
-              title: "Fallo de activación",
-              problemDescription:
-                "La clave de licencia no es aceptada o está vencida.",
-              solution:
-                "Verificamos su licencia y reinstalamos si es necesario.",
+              title: "Principales riesgos comunes que enfrenta su empresa",
+              type: "list",
+              options: [
+                {
+                  title: "Virus y Malware:",
+                  desc: "Software malicioso diseñado para dañar su sistema, robar información o interrumpir sus operaciones.",
+                },
+                {
+                  title: "Ransomware:",
+                  desc: "Un tipo de malware que cifra sus archivos y exige un rescate para liberarlos, paralizando su negocio al instante.",
+                },
+                {
+                  title: "Spyware",
+                  desc: "Un software que se instala sin su consentimiento para monitorear sus actividades en línea y robar información confidencial.",
+                },
+                {
+                  title: "Phishing:",
+                  desc: "Ataques de ingeniería social diseñados para engañarle y hacerle revelar datos sensibles como contraseñas o números de tarjetas de crédito.",
+                },
+                {
+                  title: "Ataques a la Red:",
+                  desc: "Intentos de acceso no autorizado a su red para robar información o tomar el control de sus sistemas.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Nuestro Enfoque Metodológico de Seguridad",
+          description:
+            "Nuestro servicio de soporte antivirus va más allá de la simple instalación de software. Seguimos un proceso riguroso para asegurar la máxima protección:",
+          issues: [
+            {
+              title: "Etapas Clave",
+              type: "list",
+              options: [
+                {
+                  title: "1. Evaluación de Seguridad:",
+                  desc: "Analizamos su red y sistemas actuales para identificar vulnerabilidades y riesgos potenciales.",
+                },
+                {
+                  title: "2. Implementación Personalizada:",
+                  desc: "Recomendamos y configuramos la solución antivirus más adecuada para sus necesidades específicas, ya sea para una sola PC o para una red corporativa compleja.",
+                },
+                {
+                  title: "3. Monitoreo Proactivo:",
+                  desc: "Supervisamos sus sistemas de forma continua para detectar cualquier actividad sospechosa y neutralizarla antes de que cause daños.",
+                },
+                {
+                  title: "4. Actualizaciones y Parches:",
+                  desc: "Nos aseguramos de que su software antivirus esté siempre actualizado con las últimas bases de datos de amenazas y parches de seguridad.",
+                },
+                {
+                  title: "5. Educación del Usuario:",
+                  desc: "Proporcionamos formación básica sobre las mejores prácticas de ciberseguridad para empoderar a su equipo.",
+                },
+              ],
             },
           ],
         },
       ],
     },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte Antivirus Integrales para una Protección Total",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos una gama completa de servicios para mantener su entorno digital seguro.",
+      issueCategories: [
+        {
+          title: "Instalación y Configuración",
+          description:
+            "Nos encargamos de la instalación y configuración completa de su software antivirus, asegurándonos de que esté optimizado para la máxima protección y el mínimo impacto en el rendimiento de su sistema.",
+        },
+        {
+          title: "Eliminación de Virus y Malware",
+          description:
+            "Si su sistema ya está infectado, nuestro equipo de expertos está preparado para actuar. Usamos herramientas y técnicas avanzadas para eliminar el malware de forma segura y restaurar su sistema a un estado limpio y funcional.",
+        },
+        {
+          title: "Mantenimiento y Soporte Continuo",
+          description:
+            "La seguridad es un proceso continuo. Ofrecemos planes de soporte que incluyen escaneos regulares, actualizaciones automáticas, configuración de cortafuegos y un servicio de asistencia técnica disponible 24/7 para cualquier emergencia.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra trayectoria es nuestro mayor aval. Durante dos décadas, hemos perfeccionado nuestros servicios para ofrecer soluciones de soporte antivirus que se adaptan a las amenazas cambiantes del panorama digital. La confianza de más de <strong>10,000 clientes satisfechos a nivel mundial</strong> demuestra nuestro compromiso inquebrantable con la excelencia y la seguridad. Con ITSupport.net.in, no solo obtiene un servicio, sino un socio de confianza que trabaja para proteger su negocio día y noche.",
+        },
+      ],
+    },
     description:
-      "Manténgase protegido contra virus, malware y amenazas en línea con nuestros servicios confiables de instalación y soporte antivirus.",
+      "Stay protected from viruses, malware, and online threats with our reliable antivirus installation and support services.",
     features: [
-      "Configuración e instalación de software antivirus",
-      "Monitoreo y eliminación de amenazas en tiempo real",
-      "Actualizaciones regulares para máxima seguridad",
+      "Setup and configuration of antivirus software",
+      "Real-time threat monitoring and removal",
+      "Regular updates for maximum security",
     ],
     faqs: [
       {
-        label: "¿Qué marcas de antivirus soportan?",
-        desc: "Soportamos soluciones populares como Norton, McAfee, Kaspersky, Avast y más.",
+        label: "¿Qué es la diferencia entre un antivirus y un antimalware?",
+        desc: "Un antivirus tradicionalmente se enfoca en virus informáticos conocidos, mientras que un antimalware está diseñado para detectar y eliminar una gama más amplia de amenazas, como spyware, adware y ransomware.",
+        expanded: true,
+      },
+      {
+        label: "¿Es suficiente con un antivirus gratuito?",
+        desc: "Si bien los antivirus gratuitos ofrecen una protección básica, a menudo carecen de funciones avanzadas de seguridad, como protección en tiempo real, cortafuegos integrado o soporte técnico, que son cruciales para la seguridad de un negocio.",
         expanded: false,
       },
       {
-        label: "¿Ofrecen actualizaciones regulares de antivirus?",
-        desc: "Sí, aseguramos que su antivirus esté actualizado regularmente para la mejor protección.",
+        label: "¿Qué hago si mi antivirus detecta una amenaza?",
+        desc: "Lo más importante es no interactuar con la amenaza. Aísle el sistema si es posible y contacte de inmediato con nuestro equipo de soporte para que analicemos y eliminemos la amenaza de forma segura.",
+        expanded: false,
+      },
+      {
+        label: "¿Necesito un antivirus en mis dispositivos móviles?",
+        desc: "Sí. Con el creciente uso de smartphones y tabletas para fines laborales, estos dispositivos son un objetivo cada vez más común para los ciberdelincuentes. La protección móvil es esencial.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es un cortafuegos y por qué es importante?",
+        desc: "Un cortafuegos (firewall) es una barrera de seguridad que monitorea y controla el tráfico de red, impidiendo el acceso no autorizado a su red. Es una capa de defensa fundamental contra las intrusiones externas.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Con qué frecuencia debo realizar un escaneo completo de mi sistema?",
+        desc: "Recomendamos realizar un escaneo completo al menos una vez a la semana. Nuestro servicio automatiza este proceso para que no tenga que preocuparse por olvidarlo.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo protegen mis sistemas contra el ransomware?",
+        desc: "Nuestra protección antivirus incluye tecnología específica para detectar y bloquear el ransomware antes de que pueda cifrar sus archivos. También ofrecemos soluciones de respaldo para que pueda recuperar sus datos si es necesario.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden eliminar un virus de un sistema ya infectado?",
+        desc: "Sí, nuestro equipo de expertos está altamente capacitado para diagnosticar y eliminar virus y malware de sistemas ya infectados, minimizando los daños y restaurando su funcionamiento normal.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es un ataque de phishing y cómo puedo protegerme?",
+        desc: "Un ataque de phishing utiliza correos electrónicos fraudulentos para engañarle y hacerle revelar información personal. La mejor protección es la educación y la vigilancia, junto con un filtro de spam avanzado y soluciones de seguridad que detecten enlaces maliciosos.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Cuál es la principal ventaja de usar ITSupport.net.in para soporte antivirus?",
+        desc: "Nuestra principal ventaja es nuestra combinación de experiencia y servicio proactivo. Con 20 años en el sector, no solo instalamos software; gestionamos su seguridad de forma integral para que usted pueda tener total tranquilidad.",
         expanded: false,
       },
     ],
   },
   {
-    slug: "mesa-de-ayuda-24-7",
-    title: "Soporte de Impresoras",
+    slug: "servicios-de-soporte-de-impresoras",
+    title: "Solucione sus Problemas de Impresora",
     subtitle:
-      "Reparación de impresoras en sitio y remota • Soluciones de impresión gestionadas",
+      "Solucione sus Problemas de Impresora Rápidamente con ITSupport.net.in",
+    subtitle1:
+      "En el entorno de oficina moderno, una impresora que no funciona puede ser una fuente de gran frustración y una interrupción significativa en el flujo de trabajo. Desde fallos de conexión y errores de drivers hasta atascos de papel inesperados, los problemas de impresora pueden causar retrasos costosos y aumentar el estrés innecesario. En ITSupport.net.in, entendemos que la eficiencia de su oficina depende de que todo funcione a la perfección, y eso incluye su equipo de impresión. Con una sólida experiencia de más de 20 años en el sector del soporte de TI, nos hemos establecido como un socio de confianza, brindando soluciones rápidas y efectivas a miles de empresas y particulares. Hemos ayudado a más de 10,000 clientes satisfechos a nivel mundial a resolver sus problemas de impresión, garantizando que su hardware funcione sin interrupciones. Nuestra misión es ofrecerle tranquilidad, brindándole el soporte experto que necesita para mantener su impresora siempre lista.",
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Servicios expertos de soporte de impresoras por ",
-      subheadline:
-        "Su socio de confianza para impresiones perfectas por más de una década",
+      headline: "Deje de Perder Tiempo con Problemas de Impresora",
+      subheadline: "",
       description:
-        "En ITSupport.net.in, entendemos que una impresora funcionando correctamente es crucial tanto para hogares como empresas. Por más de 10 años, hemos atendido con orgullo a más de 10,000 clientes globalmente, brindando servicios confiables y completos de soporte de impresoras. Nuestra amplia experiencia garantiza que podamos diagnosticar y resolver rápidamente una gran variedad de problemas, minimizando su tiempo de inactividad y maximizando su productividad.",
+        "El tiempo que usted y su equipo pasan intentando solucionar problemas de impresora es tiempo perdido que podría dedicarse a tareas más productivas. Los errores de impresión son complejos y pueden ser difíciles de diagnosticar sin la experiencia adecuada. Nuestro enfoque proactivo y nuestro profundo conocimiento de una amplia gama de marcas y modelos de impresoras nos permiten identificar la raíz del problema rápidamente y aplicar una solución duradera. No solo resolvemos el problema inmediato, sino que también le proporcionamos las herramientas para prevenir futuros inconvenientes.",
       image:
         "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
-      title: "Nuestros servicios integrales de soporte de impresoras",
+      title: "Nuestros Servicios Integrales de Soporte de Impresoras",
       services: [
         {
-          icon: "<svg>...</svg>",
-          title: "Soporte integral",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 21V7"></path>
+              <path d="m16 12 2 2 4-4"></path>
+              <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3"></path>
+            </svg>
+          ),
+          title: "Soporte Integral",
           description:
             "Soluciones expertas para todas las marcas y modelos de impresoras",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Tiempo de respuesta rápido",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z"></path>
+              <path d="M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z"></path>
+            </svg>
+          ),
+          title: "Tiempo de Respuesta Rápido",
           description: "Diagnóstico rápido y resolución eficiente de problemas",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Técnicos certificados",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M10 10 7 7"></path>
+              <path d="m10 14-3 3"></path>
+              <path d="m14 10 3-3"></path>
+              <path d="m14 14 3 3"></path>
+              <path d="M14.205 4.139a4 4 0 1 1 5.439 5.863"></path>
+              <path d="M19.637 14a4 4 0 1 1-5.432 5.868"></path>
+              <path d="M4.367 10a4 4 0 1 1 5.438-5.862"></path>
+              <path d="M9.795 19.862a4 4 0 1 1-5.429-5.873"></path>
+              <rect x="10" y="8" width="4" height="8" rx="1"></rect>
+            </svg>
+          ),
+          title: "Técnicos Certificados",
           description: "Profesionales capacitados con años de experiencia",
         },
       ],
     },
     issuecategory: {
-      title: "Problemas comunes de impresoras que resolvemos",
-      subTitle:
-        "Las impresoras, aunque esenciales, pueden ser fuente de frustración. Desde fallos menores hasta grandes averías, nuestros técnicos expertos están preparados para todo. Aquí un resumen de los problemas más comunes que resolvemos eficazmente.",
+      title: "Olvídate de los Problemas de Impresora",
+      subTitle: "",
       issueCategories: [
         {
-          title: "Problemas de conectividad",
+          title: "Problemas de Impresora Comunes que Resolvemos",
           description:
-            "Uno de los problemas más frecuentes es lograr que la impresora se conecte correctamente a la computadora o red.",
+            "Identificamos y solucionamos los problemas más frecuentes de impresoras para que su flujo de trabajo no se detenga.",
           issues: [
             {
-              title: "Impresora inalámbrica no se conecta",
-              problemDescription:
-                "Su impresora inalámbrica aparece como fuera de línea, no se une a la red Wi-Fi o pierde conexión intermitentemente. Puede deberse a configuraciones incorrectas, interferencias, drivers desactualizados o problemas con el router.",
-              solution:
-                "Solucionamos la configuración de red, actualizamos el firmware, verificamos la IP y resolvemos conflictos de conectividad.",
+              title: "Soporte de Impresoras",
+              type: "list",
+              options: [
+                {
+                  title: "Problemas de Conectividad:",
+                  desc: "La impresora no se conecta a la red Wi-Fi o al ordenador.",
+                },
+                {
+                  title: "Errores de Software:",
+                  desc: "Errores de drivers o de configuración que impiden la impresión.",
+                },
+                {
+                  title: "Atascos de Papel Frecuentes:",
+                  desc: "Ayudamos a identificar la causa de los atascos y a prevenirlos.",
+                },
+                {
+                  title: "Mala Calidad de Impresión:",
+                  desc: "Impresiones borrosas, rayas o colores incorrectos.",
+                },
+                {
+                  title: "Errores del Sistema:",
+                  desc: "Mensajes de error en la pantalla de la impresora o en el ordenador que no sabe cómo interpretar.",
+                },
+              ],
             },
             {
-              title: "Impresora USB no reconocida",
-              problemDescription:
-                "Al conectar la impresora USB, la computadora no la detecta o aparece como 'dispositivo desconocido'. Suele ser por cables defectuosos, puertos dañados o drivers faltantes/corruptos.",
-              solution:
-                "Verificamos los cables, probamos los puertos USB, reinstalamos o actualizamos los drivers necesarios y resolvemos conflictos.",
-            },
-          ],
-        },
-        {
-          title: "Problemas de calidad de impresión",
-          description:
-            "Nada es más frustrante que un documento con rayas, texto desvanecido o colores incorrectos.",
-          issues: [
-            {
-              title: "Rayas, líneas y impresiones desvanecidas",
-              problemDescription:
-                "Las páginas impresas tienen líneas horizontales/verticales, rayas de tinta o aparecen desvanecidas. Suele ser por cabezales obstruidos, bajo nivel de tóner, rodillos sucios o problemas con la unidad de tambor.",
-              solution:
-                "Realizamos limpieza/alineación de cabezales, revisamos niveles de tinta/tóner, limpiamos componentes internos y reemplazamos consumibles defectuosos.",
-            },
-            {
-              title: "Colores incorrectos o manchas",
-              problemDescription:
-                "Los colores no coinciden con la pantalla o hay manchas de tinta/tóner. Puede deberse a calibración incorrecta, cartuchos incompatibles o cabezales/fusores dañados.",
-              solution:
-                "Recalibramos los colores, aseguramos el uso de cartuchos genuinos y solucionamos daños físicos.",
-            },
-          ],
-        },
-        {
-          title: "Problemas de manejo de papel",
-          description:
-            "Los atascos de papel son frustrantes, pero no son el único problema relacionado.",
-          issues: [
-            {
-              title: "Atascos de papel constantes",
-              problemDescription:
-                "La impresora reporta atascos aunque no haya papel visible, o se atasca físicamente al alimentar. Puede ser por bandejas mal alineadas, rodillos desgastados, papel incorrecto o residuos internos.",
-              solution:
-                "Inspeccionamos el recorrido del papel, limpiamos y alineamos rodillos, verificamos la carga y recomendamos el tipo de papel adecuado.",
-            },
-            {
-              title: "El papel no se alimenta correctamente",
-              problemDescription:
-                "La impresora no toma el papel o toma varias hojas a la vez. Suele ser por rodillos desgastados, problemas con la bandeja o humedad en el papel.",
-              solution:
-                "Limpiamos o reemplazamos rodillos y asesoramos sobre almacenamiento y carga de papel.",
-            },
-          ],
-        },
-        {
-          title: "Problemas de software y drivers",
-          description:
-            "Las impresoras dependen de software y drivers correctos para comunicarse con la computadora.",
-          issues: [
-            {
-              title: "Errores de instalación de drivers",
-              problemDescription:
-                "No puede instalar el driver o se instala incorrectamente, impidiendo la impresión. Puede ser por archivos corruptos, conflictos de sistema operativo o restos de instalaciones previas.",
-              solution:
-                "Eliminamos drivers antiguos, instalamos los correctos y resolvemos conflictos de software.",
-            },
-            {
-              title: "Estado fuera de línea de la impresora",
-              problemDescription:
-                'La impresora aparece como "fuera de línea" aunque esté encendida y conectada. Puede ser por drivers, problemas de red o configuración incorrecta del puerto.',
-              solution:
-                "Reconfiguramos los puertos, actualizamos/reinstalamos drivers y solucionamos la conectividad.",
-            },
-          ],
-        },
-        {
-          title: "Rendimiento y mensajes de error",
-          description:
-            "Impresión lenta o mensajes de error pueden detener su trabajo.",
-          issues: [
-            {
-              title: "Impresión extremadamente lenta",
-              problemDescription:
-                "La impresora tarda mucho en imprimir incluso documentos simples. Puede ser por calidad alta, disco fragmentado, poca RAM o congestión de red.",
-              solution:
-                "Optimizamos la configuración, limpiamos la cola de impresión y recomendamos mejoras.",
-            },
-            {
-              title: "Códigos de error misteriosos",
-              problemDescription:
-                "La impresora muestra códigos alfanuméricos sin explicación, impidiendo su uso.",
-              solution:
-                "Interpretamos los mensajes, solucionamos el fallo y realizamos reparaciones o reinicios necesarios.",
+              title: "Nuestro Proceso de Soporte",
+              type: "list",
+              options: [
+                {
+                  title: "Consulta Rápida:",
+                  desc: "Nos contacta a través de nuestro servicio de atención al cliente 24/7 y describe el problema.",
+                },
+                {
+                  title: "Diagnóstico Experto:",
+                  desc: "Un técnico especializado diagnostica la causa del problema a través de soporte remoto o, si es necesario, le guía para la solución.",
+                },
+                {
+                  title: "Solución Rápida:",
+                  desc: "Aplicamos la solución más adecuada, ya sea reparando el driver, reconfigurando la red o limpiando el hardware.",
+                },
+                {
+                  title: "Verificación del Funcionamiento:",
+                  desc: "Nos aseguramos de que su impresora esté funcionando perfectamente antes de finalizar la sesión.",
+                },
+              ],
             },
           ],
         },
       ],
     },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte de Impresoras Personalizados para una Protección Completa",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos una gama completa de servicios para mantener su equipo de impresión en óptimas condiciones, sin importar la marca o el modelo.",
+      issueCategories: [
+        {
+          title: "Instalación y Configuración",
+          description:
+            "Nos encargamos de la instalación completa de su nueva impresora, incluyendo la configuración de los drivers, la conexión a la red (cableada o inalámbrica) y la configuración de las opciones de impresión. Nos aseguramos de que su impresora esté lista para usar desde el primer momento.",
+        },
+        {
+          title: "Reparación y Mantenimiento",
+          description:
+            "Si su impresora no funciona correctamente, nuestro equipo de expertos está preparado para actuar. Usamos técnicas de diagnóstico avanzadas para identificar y solucionar problemas de hardware y software, garantizando que su equipo vuelva a funcionar lo antes posible. También ofrecemos servicios de mantenimiento preventivo para prolongar la vida útil de su impresora.",
+        },
+        {
+          title: "Soporte de Software y Conectividad",
+          description:
+            "Nos encargamos de los problemas más complejos, desde la configuración de una red de impresoras compartida hasta la solución de errores de drivers o la actualización de software. Garantizamos que su impresora se comunique correctamente con todos sus dispositivos.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de impresoras de todo tipo, desde las más sencillas hasta las más complejas. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia y la satisfacción del cliente. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio de confianza que se asegura de que sus herramientas de trabajo funcionen sin fallos.",
+        },
+      ],
+    },
     faqs: [
       {
-        label: "¿Por qué mi impresora no imprime aunque esté encendida?",
-        desc: "Puede deberse a problemas de conectividad (Wi-Fi/USB), bandejas vacías, poca tinta/tóner, cola de impresión pausada o estado 'fuera de línea'.",
+        label: "¿Pueden reparar mi impresora de forma remota?",
+        desc: "Sí, la mayoría de los problemas de software, como errores de drivers, problemas de conexión y errores de configuración, pueden resolverse de forma segura a través de nuestro soporte remoto, ahorrándole tiempo y molestias.",
+        expanded: true,
+      },
+      {
+        label: "¿Dan soporte a todas las marcas de impresoras?",
+        desc: "Sí, nuestro equipo de técnicos tiene experiencia con la mayoría de las marcas de impresoras del mercado, incluyendo HP, Epson, Canon, Brother, Lexmark y muchas otras.",
         expanded: false,
       },
       {
-        label: "¿Cómo soluciono un atasco de papel si no hay papel visible?",
-        desc: "A menudo hay pequeños trozos de papel o residuos. Apague la impresora, desconéctela y revise todas las áreas accesibles con una linterna.",
-        expanded: false,
-      },
-      {
-        label:
-          "Mi impresora inalámbrica no se conecta a la nueva red Wi-Fi. ¿Qué hago?",
-        desc: "Debe poner la impresora en modo configuración y conectarla a la nueva red, ingresando la contraseña. Consulte el manual para pasos específicos.",
-        expanded: false,
-      },
-      {
-        label: "¿Por qué mis impresiones salen desvanecidas o con rayas?",
-        desc: "En impresoras de inyección suele ser por cabezales obstruidos o poca tinta. En láser, por bajo tóner o problemas con el tambor. Limpiar cabezales o cambiar cartuchos suele resolverlo.",
+        label: "¿Qué hago si mi impresora muestra un mensaje de error?",
+        desc: "Si su impresora muestra un mensaje de error, es mejor no intentar solucionar el problema usted mismo. Tome una foto del mensaje y contáctenos de inmediato para que podamos diagnosticar y resolver el problema correctamente.",
         expanded: false,
       },
       {
         label:
-          "¿Con qué frecuencia debo actualizar los drivers de la impresora?",
-        desc: "Actualice los drivers si tiene problemas, instala un nuevo sistema operativo o hay actualizaciones importantes. Si funciona bien, no es necesario hacerlo frecuentemente.",
+          "¿Por qué mi impresora no imprime aunque el ordenador la detecta?",
+        desc: "Este es un problema común. A menudo se debe a un driver corrupto, un error en la cola de impresión o una configuración incorrecta. Nuestro equipo puede diagnosticar la causa y solucionarlo rápidamente.",
         expanded: false,
       },
       {
-        label:
-          "¿ITSupport.net.in puede ayudar con todas las marcas de impresoras?",
-        desc: "Sí, nuestros técnicos tienen experiencia con HP, Epson, Canon, Brother, Lexmark, Samsung y más.",
+        label: "¿Qué es un driver de impresora y por qué es importante?",
+        desc: "Un driver es un software que permite que su ordenador se comunique con la impresora. Si el driver está obsoleto, dañado o es incorrecto, su impresora no funcionará correctamente.",
         expanded: false,
       },
       {
-        label: '¿Qué significa que mi impresora esté "fuera de línea"?',
-        desc: "Significa que la computadora no se comunica con la impresora. Puede ser por problemas de conexión, configuración o drivers.",
+        label: "¿Pueden ayudarme a conectar mi impresora de forma inalámbrica?",
+        desc: "Sí, ofrecemos asistencia completa para configurar su impresora en una red inalámbrica, asegurándonos de que todos sus dispositivos puedan imprimir de forma segura.",
         expanded: false,
       },
       {
-        label: "¿Es mejor usar cartuchos originales o compatibles?",
-        desc: "Los compatibles pueden ser más baratos, pero los originales ofrecen mejor calidad y fiabilidad, y no suelen anular la garantía.",
+        label: "¿Qué es un atasco de papel y cómo lo prevengo?",
+        desc: "Un atasco de papel ocurre cuando el papel no pasa correctamente por el mecanismo de la impresora. A menudo se puede prevenir usando papel de buena calidad y asegurándose de que la bandeja de papel no esté sobrecargada.",
         expanded: false,
       },
       {
-        label: "¿Cómo limpio la cola de impresión en mi computadora?",
-        desc: 'Vaya a "Dispositivos e impresoras" (Windows) o "Impresoras y escáneres" (Mac), haga doble clic en la impresora y seleccione "Abrir cola de impresión" para cancelar los documentos.',
+        label: "¿También dan soporte para problemas de calidad de impresión?",
+        desc: "Sí, podemos ayudar a diagnosticar y solucionar problemas de calidad de impresión, como rayas, manchas o colores desvanecidos, que a menudo se deben a cabezales de impresión sucios o cartuchos de tinta defectuosos.",
         expanded: false,
       },
       {
-        label: "¿Ofrecen soporte remoto para impresoras?",
-        desc: "Sí, gran parte del soporte puede ser remoto para diagnosticar y solucionar problemas de software, drivers y conectividad.",
+        label: "¿Qué debo hacer si mi impresora imprime páginas en blanco?",
+        desc: "Este problema suele estar relacionado con un cartucho de tinta o tóner vacío, un cabezal de impresión obstruido o un error del driver. Le guiaremos a través de la solución adecuada para el problema.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen soporte para cartuchos de tinta y tóner?",
+        desc: "Aunque no vendemos consumibles directamente, podemos asesorarle sobre los tipos de tinta o tóner adecuados para su impresora y ayudarle a solucionar problemas relacionados con cartuchos defectuosos o no reconocidos.",
         expanded: false,
       },
     ],
   },
   {
-    slug: "soporte-de-red-wifi",
-    title: "Soporte de Redes",
-    subtitle: "Soluciones de red rápidas, seguras y confiables",
+    slug: "servicios-de-soporte-de-redes",
+    title: "Servicios de soporte de red robustos",
+    subtitle: "Conectividad perfecta durante una década",
+    subtitle1:
+      "En el núcleo de toda empresa moderna se encuentra una red de datos robusta y confiable. Una conexión lenta, una desconexión inesperada o un fallo en el servidor pueden paralizar las operaciones, impactar la productividad y poner en riesgo la seguridad de su información crítica. En ITSupport.net.in, entendemos que una red funcional no es solo una conveniencia, sino un pilar esencial para el éxito de su negocio.Con una trayectoria de más de 20 años en la industria de TI, hemos perfeccionado nuestros Servicios de Soporte de Redes para ofrecerle soluciones integrales, seguras y eficientes. Hemos brindado soporte a más de 10,000 clientes satisfechos a nivel mundial, ayudándoles a construir, gestionar y mantener redes que funcionan sin interrupciones. Nuestra misión es proporcionarle una tranquilidad total, sabiendo que la columna vertebral de su infraestructura tecnológica está en manos de expertos.",
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Soporte experto de redes para hogar y empresa",
-      subheadline: "Manténgase conectado y productivo",
+      headline: "Cómo abordar y resolver los desafíos comunes de la red",
+      subheadline: "",
       description:
-        "Nuestros expertos en redes garantizan conexiones rápidas, seguras y confiables para su oficina o hogar. Diseñamos, instalamos y mantenemos infraestructuras robustas para que su negocio funcione sin problemas.",
+        "Los problemas de red pueden ser complejos y a menudo requieren conocimientos especializados para ser diagnosticados y resueltos.",
       image:
         "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     },
@@ -4463,782 +4905,1777 @@ export const serviceDetailDataEs: Service[] = [
       title: "¿Por qué elegir nuestro soporte de redes?",
       services: [
         {
-          icon: "<svg>...</svg>",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 20h.01"></path>
+              <path d="M2 8.82a15 15 0 0 1 20 0"></path>
+              <path d="M5 12.859a10 10 0 0 1 14 0"></path>
+              <path d="M8.5 16.429a5 5 0 0 1 7 0"></path>
+            </svg>
+          ),
           title: "Configuración de LAN y Wi-Fi",
           description:
-            "Instalación y configuración profesional para conectividad sin interrupciones.",
+            "Instalación y configuración profesional para una conectividad sin interrupciones.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Optimización de rendimiento",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18 12h2"></path>
+              <path d="M18 16h2"></path>
+              <path d="M18 20h2"></path>
+              <path d="M18 4h2"></path>
+              <path d="M18 8h2"></path>
+              <path d="M4 12h2"></path>
+              <path d="M4 16h2"></path>
+              <path d="M4 20h2"></path>
+              <path d="M4 4h2"></path>
+              <path d="M4 8h2"></path>
+              <path d="M8 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-1.5c-.276 0-.494.227-.562.495a2 2 0 0 1-3.876 0C9.994 2.227 9.776 2 9.5 2z"></path>
+            </svg>
+          ),
+          title: "Optimización de Rendimiento",
           description:
             "Identificamos y resolvemos cuellos de botella para máxima velocidad.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Monitoreo de seguridad",
-          description: "Monitoreo continuo para proteger su red de amenazas.",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 9v1.258"></path>
+              <path d="M16 3v5.46"></path>
+              <path d="M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75"></path>
+              <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z"></path>
+              <path d="M3 15h7"></path>
+              <path d="M3 9h12.142"></path>
+              <path d="M8 15v6"></path>
+              <path d="M8 3v6"></path>
+            </svg>
+          ),
+          title: "Monitoreo de Seguridad",
+          description:
+            "Monitoreo continuo para proteger su red contra amenazas.",
         },
       ],
     },
     issuecategory: {
-      title: "Problemas comunes de red que resolvemos",
+      title: "Deje de Luchar con Problemas de Red y Concéntrese en su Negocio",
       subTitle:
-        "Desde velocidades lentas hasta amenazas de seguridad, resolvemos todos sus desafíos de red.",
+        "Los problemas de red pueden ser complejos y a menudo requieren conocimientos especializados para ser diagnosticados y resueltos. En lugar de que su equipo pierda tiempo valioso intentando solucionar fallos, nuestro servicio le permite delegar estas tareas en profesionales. Un soporte de red proactivo no solo soluciona los problemas, sino que los previene, garantizando una operación fluida y una seguridad sólida.",
       issueCategories: [
         {
-          title: "Problemas de conectividad",
-          description: "Problemas al conectar dispositivos a la red.",
+          title: "Soporte de Red Empresarial",
+          description:
+            "Ofrecemos soluciones completas para resolver problemas comunes de red y optimizar el rendimiento de su infraestructura, garantizando conectividad estable, segura y eficiente.",
           issues: [
             {
-              title: "Cortes frecuentes de Wi-Fi",
-              problemDescription:
-                "Los dispositivos pierden conexión o sufren cortes intermitentes.",
-              solution:
-                "Optimizamos la ubicación del router, actualizamos el firmware y reducimos interferencias.",
+              title: "Problemas de Red Comunes que Resolvemos",
+              type: "list",
+              options: [
+                {
+                  title: "Conectividad Lenta o Intermitente:",
+                  desc: "Diagnóstico y solución de la causa de una velocidad de red deficiente o desconexiones frecuentes.",
+                },
+                {
+                  title: "Problemas de Configuración:",
+                  desc: "Dificultades para configurar nuevos dispositivos, routers, servidores o redes inalámbricas.",
+                },
+                {
+                  title: "Fallas de Hardware:",
+                  desc: "Identificación y reemplazo de equipos de red defectuosos, como routers, switches o puntos de acceso.",
+                },
+                {
+                  title: "Vulnerabilidades de Seguridad:",
+                  desc: "Detección de puntos débiles en su red que podrían ser explotados por atacantes.",
+                },
+                {
+                  title: "Problemas de Acceso Remoto:",
+                  desc: "Dificultades para conectarse de forma segura a la red de su oficina desde ubicaciones remotas.",
+                },
+              ],
             },
             {
-              title: "Ethernet no funciona",
-              problemDescription:
-                "Los dispositivos cableados no acceden a la red.",
-              solution:
-                "Verificamos cables, puertos de switch y configuración del adaptador.",
+              title: "Nuestro Proceso de Soporte de Red",
+              type: "list",
+              options: [
+                {
+                  title: "Evaluación de la Red:",
+                  desc: "Realizamos un análisis completo de su infraestructura para identificar cuellos de botella, vulnerabilidades de seguridad y áreas de mejora.",
+                },
+                {
+                  title: "Diseño e Implementación:",
+                  desc: "Diseñamos y configuramos su red, ya sea desde cero o mejorando la existente, para garantizar un rendimiento óptimo y una seguridad robusta.",
+                },
+                {
+                  title: "Monitoreo Constante:",
+                  desc: "Supervisamos su red de forma proactiva para detectar cualquier actividad inusual o fallo potencial antes de que afecte sus operaciones.",
+                },
+                {
+                  title: "Soporte Remoto y en Sitio:",
+                  desc: "Ofrecemos asistencia rápida a través de soporte remoto para la mayoría de los problemas y programamos visitas en sitio para inconvenientes de hardware que lo requieran.",
+                },
+                {
+                  title: "Mantenimiento Preventivo:",
+                  desc: "Realizamos tareas de mantenimiento regulares, como actualizaciones de firmware y optimización de configuraciones, para asegurar la estabilidad de su red.",
+                },
+              ],
             },
           ],
         },
+      ],
+    },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte de Redes a Medida: Soluciones que Crecen con Usted",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios de red para cubrir todas las necesidades de su negocio.",
+      issueCategories: [
         {
-          title: "Rendimiento lento de la red",
-          description: "La red está lenta o no responde.",
-          issues: [
-            {
-              title: "Internet lento",
-              problemDescription: "Las webs y apps en la nube cargan despacio.",
-              solution:
-                "Diagnosticamos el uso de ancho de banda, optimizamos QoS y recomendamos mejoras.",
-            },
-            {
-              title: "Retrasos en videollamadas o streaming",
-              problemDescription:
-                "Las videollamadas se congelan o hay buffering.",
-              solution:
-                "Priorizamos el tráfico y aseguramos conexiones estables para apps críticas.",
-            },
-          ],
+          title: "Configuración de Redes Cableadas e Inalámbricas",
+          description:
+            "Nos encargamos de la configuración completa de su red, incluyendo routers, switches y puntos de acceso Wi-Fi. Nos aseguramos de que su red esté optimizada para ofrecer la máxima velocidad, cobertura y estabilidad en su oficina.",
         },
         {
-          title: "Problemas de seguridad",
-          description: "Proteja su red de accesos no autorizados.",
-          issues: [
-            {
-              title: "Wi-Fi no seguro",
-              problemDescription: "La red está abierta o usa cifrado débil.",
-              solution: "Configuramos WPA3 y contraseñas fuertes.",
-            },
-            {
-              title: "Dispositivos desconocidos en la red",
-              problemDescription:
-                "Aparecen dispositivos no reconocidos en su red.",
-              solution:
-                "Auditamos los dispositivos conectados y bloqueamos accesos no autorizados.",
-            },
-          ],
+          title: "Seguridad de Red y VPN",
+          description:
+            "Implementamos soluciones de seguridad de última generación, como firewalls y redes privadas virtuales (VPN), para proteger su red de accesos no autorizados, malware y otras amenazas. Garantizamos que sus datos viajen de forma segura, tanto dentro como fuera de la oficina.",
+        },
+        {
+          title: "Diagnóstico y Solución de Problemas",
+          description:
+            "Nuestro equipo de expertos está preparado para diagnosticar y solucionar cualquier problema de red, desde un router que no responde hasta fallos de conectividad complejos. Utilizamos herramientas de diagnóstico avanzadas para identificar y resolver la causa raíz del problema de manera eficiente.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de red de todo tipo, desde las configuraciones más sencillas hasta arquitecturas de red complejas. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que se asegura de que la red de su negocio esté siempre funcionando a la perfección.",
         },
       ],
     },
     description:
-      "Nuestros expertos en redes garantizan conexiones rápidas, seguras y confiables para su oficina o hogar.",
+      "Our networking experts ensure fast, secure, and reliable connections for your office or home networks.",
     features: [
-      "Configuración de LAN y Wi-Fi",
-      "Optimización del rendimiento de la red",
-      "Monitoreo de firewall y seguridad",
+      "LAN and Wi-Fi setup and configuration",
+      "Network performance optimization",
+      "Firewall and security monitoring",
     ],
     faqs: [
       {
-        label: "¿Pueden optimizar velocidades lentas de internet?",
-        desc: "Sí, identificamos cuellos de botella y optimizamos su red para mayor velocidad y estabilidad.",
+        label: "¿Por qué mi red Wi-Fi es lenta y se desconecta con frecuencia?",
+        desc: "La lentitud puede deberse a la saturación del canal, la distancia al router, interferencias de otros dispositivos o una configuración incorrecta. Realizamos un diagnóstico para optimizar su red y resolver estos problemas.",
+        expanded: true,
+      },
+      {
+        label: "¿Cuál es la diferencia entre un módem y un router?",
+        desc: "Un módem es un dispositivo que se conecta a Internet a través de su proveedor de servicios. Un router es el dispositivo que distribuye esa conexión de Internet a todos los dispositivos en su red (computadoras, teléfonos, etc.).",
         expanded: false,
       },
       {
-        label: "¿Ofrecen configuración de redes seguras?",
-        desc: "Por supuesto, configuramos firewalls y cifrado para proteger su red.",
-        expanded: false,
-      },
-    ],
-  },
-  {
-    slug: "servicios-de-soporte-de-antivirus",
-    title: "Soporte en la Nube",
-    subtitle: "Integración y soporte en la nube sin interrupciones",
-    heroImage:
-      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-    intro: {
-      headline: "Desbloquea el poder de la nube",
-      subheadline: "Soluciones en la nube flexibles, seguras y escalables",
-      description:
-        "Desbloquea el poder de la nube con nuestros servicios personalizados de soporte para almacenamiento, colaboración y seguridad. Te ayudamos a migrar, gestionar y optimizar tu entorno en la nube para máxima eficiencia.",
-      image:
-        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-    },
-    serviceHighlights: {
-      title: "Nuestros servicios de soporte en la nube",
-      services: [
-        {
-          icon: "<svg>...</svg>",
-          title: "Migración a la nube",
-          description:
-            "Migración sin interrupciones de tus datos y aplicaciones a la nube.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Sincronización de datos",
-          description:
-            "Mantén tus archivos actualizados y accesibles en todos los dispositivos.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Respaldo seguro",
-          description:
-            "Respaldos automatizados y cifrados para tu tranquilidad.",
-        },
-      ],
-    },
-    issuecategory: {
-      title: "Problemas comunes en la nube que resolvemos",
-      subTitle:
-        "Te ayudamos a superar desafíos de migración, acceso y seguridad.",
-      issueCategories: [
-        {
-          title: "Desafíos de migración",
-          description: "Dificultades al mover datos y aplicaciones a la nube.",
-          issues: [
-            {
-              title: "Pérdida de datos durante la migración",
-              problemDescription:
-                "Algunos archivos o correos faltan después de la migración.",
-              solution:
-                "Verificamos la integridad de los datos y migramos nuevamente los elementos faltantes.",
-            },
-            {
-              title: "Tiempo de inactividad durante la migración",
-              problemDescription:
-                "Las operaciones se interrumpen durante la migración.",
-              solution:
-                "Planificamos migraciones fuera de horario y minimizamos el tiempo de inactividad.",
-            },
-          ],
-        },
-        {
-          title: "Problemas de acceso y sincronización",
-          description: "Problemas al acceder o sincronizar datos en la nube.",
-          issues: [
-            {
-              title: "Archivos no se sincronizan",
-              problemDescription:
-                "Los cambios realizados en un dispositivo no aparecen en otros.",
-              solution:
-                "Solucionamos la configuración de sincronización y resolvemos conflictos.",
-            },
-            {
-              title: "Errores de permisos",
-              problemDescription:
-                "Los usuarios no pueden acceder a carpetas o archivos compartidos.",
-              solution:
-                "Revisamos y actualizamos la configuración de permisos y compartición.",
-            },
-          ],
-        },
-        {
-          title: "Seguridad y cumplimiento",
-          description:
-            "Asegurando que tus datos en la nube estén seguros y cumplan normativas.",
-          issues: [
-            {
-              title: "Acceso no autorizado",
-              problemDescription:
-                "Se detectan inicios de sesión sospechosos o brechas de datos.",
-              solution:
-                "Activamos autenticación multifactor y monitoreamos registros de acceso.",
-            },
-            {
-              title: "Preocupaciones de privacidad de datos",
-              problemDescription:
-                "Dudas sobre dónde y cómo se almacenan los datos.",
-              solution:
-                "Configuramos residencia de datos y ajustes de cumplimiento.",
-            },
-          ],
-        },
-      ],
-    },
-    description:
-      "Desbloquea el poder de la nube con nuestros servicios personalizados de soporte para almacenamiento, colaboración y seguridad.",
-    features: [
-      "Asistencia en migración y configuración en la nube",
-      "Sincronización de datos entre dispositivos",
-      "Opciones de respaldo y almacenamiento seguro en la nube",
-    ],
-    faqs: [
-      {
-        label: "¿Qué proveedores de nube soportan?",
-        desc: "Trabajamos con AWS, Google Cloud, Microsoft Azure y otras plataformas.",
+        label: "¿Cómo puedo asegurar mi red Wi-Fi de accesos no autorizados?",
+        desc: "Es crucial proteger su red con una contraseña WPA2/WPA3 fuerte, cambiar el nombre de usuario y contraseña predeterminados del router y configurar un cortafuegos. Podemos ayudarle a implementar todas estas medidas de seguridad.",
         expanded: false,
       },
       {
-        label: "¿Pueden migrar mis datos existentes a la nube?",
-        desc: "Sí, ofrecemos servicios de migración a la nube sin interrupciones y de forma segura.",
+        label: "¿Pueden ayudarme a configurar una VPN para el trabajo remoto?",
+        desc: "Sí, ofrecemos servicios completos de configuración de VPN para garantizar que su equipo pueda acceder de forma segura a la red de la oficina desde cualquier lugar, protegiendo los datos confidenciales.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué son los puntos de acceso Wi-Fi y por qué los necesito?",
+        desc: "Los puntos de acceso (Access Points) son dispositivos que crean una red inalámbrica. En entornos de oficina grandes, se necesitan múltiples puntos de acceso para garantizar una cobertura Wi-Fi completa y estable en todas las áreas.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué señales indican que mi red tiene un problema?",
+        desc: "Las señales más comunes son la pérdida frecuente de conexión, velocidades de Internet lentas, el no poder acceder a recursos de la red (como impresoras o archivos compartidos) y mensajes de error de conectividad.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué tipo de soporte de redes ofrecen?",
+        desc: "Ofrecemos soporte integral que incluye diagnóstico de problemas, configuración de equipos, optimización de velocidad, seguridad de red, configuración de VPN y monitoreo constante para garantizar un rendimiento óptimo.",
+        expanded: false,
+      },
+      {
+        label: "¿Con qué tipo de hardware de red trabajan?",
+        desc: "Trabajamos con una amplia gama de hardware de red, incluyendo routers, switches, módems, firewalls, puntos de acceso y tarjetas de red, de todas las marcas y modelos principales del mercado.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen un servicio de monitoreo de red?",
+        desc: "Sí, ofrecemos un servicio de monitoreo proactivo 24/7 que nos permite detectar y solucionar posibles problemas de red, como fallos de equipos o interrupciones del servicio, antes de que afecten su negocio.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Cuál es la ventaja de usar un servicio profesional en lugar de solucionar los problemas yo mismo?",
+        desc: "Un servicio profesional como el nuestro le ahorra tiempo y dinero. Un diagnóstico incorrecto puede llevar a un problema mayor, mientras que nuestros expertos identifican la causa raíz y la resuelven de forma rápida y definitiva, garantizando la seguridad y la estabilidad de su red.",
         expanded: false,
       },
     ],
   },
   {
     slug: "servicios-de-soporte-en-la-nube",
-    title: "Soporte para E-Commerce",
-    subtitle: "Mejora el rendimiento y la seguridad de tu tienda online",
-    heroImage:
-      "https://images.unsplash.com/photo-1515168833906-d2a3b82b3027?auto=format&fit=crop&w=400&q=80",
-    intro: {
-      headline: "Soporte experto de e-commerce para todas las plataformas",
-      subheadline: "Haz crecer tu negocio online con confianza",
-      description:
-        "Nuestros servicios de soporte para e-commerce te ayudan a lanzar, gestionar y asegurar tu tienda online. Desde la configuración de la plataforma hasta la integración de pagos y el mantenimiento continuo, aseguramos que tu negocio funcione de manera fluida y segura.",
-      image:
-        "https://images.unsplash.com/photo-1515168833906-d2a3b82b3027?auto=format&fit=crop&w=400&q=80",
-    },
-    serviceHighlights: {
-      title: "¿Por qué elegir nuestro soporte de e-commerce?",
-      services: [
-        {
-          icon: "<svg>...</svg>",
-          title: "Experiencia en plataformas",
-          description: "Soporte para Shopify, WooCommerce, Magento y más.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Integración de pagos",
-          description:
-            "Configuración de pasarelas de pago segura y sin problemas.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Seguridad y disponibilidad",
-          description: "Monitoreo continuo para compras seguras y confiables.",
-        },
-      ],
-    },
-    issuecategory: {
-      title: "Problemas comunes de e-commerce que resolvemos",
-      subTitle:
-        "Desde la configuración hasta la seguridad, resolvemos todos tus desafíos de e-commerce.",
-      issueCategories: [
-        {
-          title: "Configuración y lanzamiento de la tienda",
-          description:
-            "Dificultades para poner tu tienda en línea o configurar productos.",
-          issues: [
-            {
-              title: "Conflictos de temas o plugins",
-              problemDescription:
-                "El diseño de la tienda se rompe o las funciones dejan de funcionar tras instalar nuevos temas o plugins.",
-              solution:
-                "Solucionamos, actualizamos o reemplazamos plugins y temas conflictivos.",
-            },
-            {
-              title: "Errores al subir productos",
-              problemDescription:
-                "Los productos no se suben o se muestran incorrectamente.",
-              solution:
-                "Verificamos formatos de datos, corregimos scripts de subida y aseguramos la configuración adecuada.",
-            },
-          ],
-        },
-        {
-          title: "Problemas de pago y checkout",
-          description: "Problemas con pasarelas de pago o abandono de carrito.",
-          issues: [
-            {
-              title: "La pasarela de pago no funciona",
-              problemDescription:
-                "Los clientes no pueden completar compras por errores de pago.",
-              solution:
-                "Verificamos credenciales, actualizamos plugins y resolvemos problemas de integración.",
-            },
-            {
-              title: "Alto abandono de carrito",
-              problemDescription:
-                "Muchos clientes abandonan sin finalizar la compra.",
-              solution:
-                "Optimizamos el flujo de checkout y resolvemos barreras técnicas o de experiencia de usuario.",
-            },
-          ],
-        },
-        {
-          title: "Seguridad y rendimiento",
-          description: "Protege tu tienda y mantenla rápida.",
-          issues: [
-            {
-              title: "Tienda hackeada o comprometida",
-              problemDescription:
-                "Se detecta malware o cambios no autorizados en tu tienda.",
-              solution:
-                "Eliminamos malware, restauramos respaldos y reforzamos la seguridad.",
-            },
-            {
-              title: "Carga lenta de la tienda",
-              problemDescription:
-                "Las páginas tardan mucho en cargar, afectando las ventas.",
-              solution:
-                "Optimizamos imágenes, código y hosting para mayor velocidad.",
-            },
-          ],
-        },
-      ],
-    },
-    description:
-      "Mejora el rendimiento de tu tienda online con nuestro soporte experto en plataformas, pagos y seguridad.",
-    features: [
-      "Configuración y puesta en marcha de la tienda",
-      "Integración de pasarelas de pago",
-      "Monitoreo de seguridad y disponibilidad",
-    ],
-    faqs: [
-      {
-        label: "¿Soportan todas las plataformas de e-commerce?",
-        desc: "Sí, damos soporte a Shopify, WooCommerce, Magento y otras plataformas.",
-        expanded: false,
-      },
-      {
-        label: "¿Pueden ayudar con problemas de pasarelas de pago?",
-        desc: "Sí, ofrecemos configuración y solución de problemas para pagos en línea seguros.",
-        expanded: false,
-      },
-    ],
-  },
-  {
-    slug: "servicios-de-soporte-para-reparación-de-hardware",
-    title: "Soporte de Reparación de Hardware",
-    subtitle: "Reparaciones de hardware de TI rápidas y confiables",
-    heroImage:
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
-    intro: {
-      headline:
-        "Reparación profesional de hardware para todos los dispositivos",
-      subheadline:
-        "Minimice el tiempo de inactividad, maximice la productividad",
-      description:
-        "Ofrecemos servicios rápidos y confiables de reparación para computadoras de escritorio, portátiles y hardware de TI. Nuestros técnicos certificados diagnostican y solucionan problemas rápidamente para que pueda volver a trabajar con mínima interrupción.",
-      image:
-        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
-    },
-    serviceHighlights: {
-      title: "¿Por qué elegir nuestro servicio de reparación de hardware?",
-      services: [
-        {
-          icon: "<svg>...</svg>",
-          title: "Todas las marcas principales",
-          description: "Reparaciones para Dell, HP, Lenovo, Apple y más.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Entrega rápida",
-          description:
-            "La mayoría de las reparaciones se completan en 24–48 horas.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Mantenimiento preventivo",
-          description:
-            "Actualizaciones y mantenimiento para evitar problemas futuros.",
-        },
-      ],
-    },
-    issuecategory: {
-      title: "Problemas comunes de hardware que resolvemos",
-      subTitle:
-        "Desde pantallas rotas hasta discos fallando, lo arreglamos todo.",
-      issueCategories: [
-        {
-          title: "Problemas de inicio y energía",
-          description:
-            "Los dispositivos no encienden o se apagan aleatoriamente.",
-          issues: [
-            {
-              title: "Sin energía o falla de arranque",
-              problemDescription:
-                "El dispositivo no enciende o se queda atascado al iniciar.",
-              solution:
-                "Revisamos la fuente de poder, la placa madre y reemplazamos componentes defectuosos.",
-            },
-            {
-              title: "Apagados aleatorios",
-              problemDescription: "La computadora se apaga inesperadamente.",
-              solution:
-                "Verificamos sobrecalentamiento, ventiladores y problemas de energía.",
-            },
-          ],
-        },
-        {
-          title: "Rendimiento y almacenamiento",
-          description: "Computadoras lentas o fallas de almacenamiento.",
-          issues: [
-            {
-              title: "Rendimiento lento",
-              problemDescription: "La computadora está lenta o no responde.",
-              solution:
-                "Actualizamos la RAM, reemplazamos discos duros y eliminamos malware.",
-            },
-            {
-              title: "Falla de disco duro",
-              problemDescription:
-                "Pérdida de datos o ruidos extraños en el disco.",
-              solution: "Recuperamos datos y reemplazamos discos defectuosos.",
-            },
-          ],
-        },
-        {
-          title: "Problemas de pantalla y periféricos",
-          description: "Problemas con pantallas, teclados u otros periféricos.",
-          issues: [
-            {
-              title: "Pantalla rota",
-              problemDescription:
-                "La pantalla del portátil o monitor está rota o no muestra imagen.",
-              solution: "Reemplazamos pantallas y probamos conexiones.",
-            },
-            {
-              title: "Teclado/ratón no funciona",
-              problemDescription: "Los dispositivos de entrada no responden.",
-              solution: "Reparamos o reemplazamos periféricos defectuosos.",
-            },
-          ],
-        },
-      ],
-    },
-    description:
-      "Ofrecemos servicios rápidos y confiables de reparación para computadoras de escritorio, portátiles y hardware de TI para minimizar el tiempo de inactividad.",
-    features: [
-      "Diagnóstico y reparación de problemas de hardware",
-      "Reemplazo de componentes defectuosos",
-      "Mantenimiento preventivo y actualizaciones",
-    ],
-    faqs: [
-      {
-        label: "¿Reparan todas las marcas de computadoras?",
-        desc: "Sí, damos servicio a Dell, HP, Lenovo, Apple y otras marcas principales.",
-        expanded: false,
-      },
-      {
-        label: "¿Cuánto tiempo tarda normalmente una reparación de hardware?",
-        desc: "La mayoría de las reparaciones se completan en 24–48 horas, según el problema.",
-        expanded: false,
-      },
-    ],
-  },
-  {
-    slug: "servicios-gestionados-de-ti",
-    title: "Soporte de Hosting y Dominio Web",
-    subtitle: "Soluciones confiables de hosting y dominio",
+    title: "Migre, Gestiona y Optimiza Infraestructura en la Nube",
+    subtitle:
+      "Operaciones en la nube sin interrupciones: más de una década de excelencia global para más de 1,000 clientes",
+    subtitle1: `La nube ha dejado de ser una tecnología del futuro para convertirse en el presente de las empresas de todos los tamaños. A través de la computación en la nube, las empresas pueden lograr una agilidad sin precedentes, reducir costos, mejorar la colaboración y escalar sus operaciones de manera eficiente. Sin embargo, la migración y gestión de una infraestructura en la nube pueden ser complejas, repletas de desafíos de seguridad, optimización de costos y configuración. En ITSupport.net.in, somos su socio estratégico para desbloquear todo el potencial de la nube.`,
     heroImage:
       "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Soporte profesional de hosting y dominio web",
-      subheadline: "Ponga su sitio en línea, rápido y seguro",
+      headline:
+        "Navegando por el panorama de la nube: desafíos comunes que resolvemos",
+      subheadline: "",
       description:
-        "Obtenga soporte profesional para hosting web, configuración de dominios y gestión eficiente de su sitio con nuestros servicios expertos. Garantizamos que su sitio esté siempre accesible, seguro y fácil de administrar.",
+        "Con una experiencia de más de 20 años en el sector, nos hemos consolidado como un líder en soluciones de TI, proporcionando servicios de soporte en la nube expertos y fiables. Hemos ayudado a más de 10,000 clientes satisfechos en todo el mundo a navegar por la complejidad de la nube, garantizando una transición fluida, una seguridad robusta y una gestión eficiente. Nuestra misión es simple: empoderar su negocio para que prospere en la era digital.",
       image:
         "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
-      title: "¿Por qué elegir nuestro soporte de hosting y dominio?",
+      title: "Nuestros Servicios de Soporte en la Nube",
       services: [
         {
-          icon: "<svg>...</svg>",
-          title: "Gestión de dominios",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="m10.852 19.772-.383.924"></path>
+              <path d="m13.148 14.228.383-.923"></path>
+              <path d="M13.148 19.772a3 3 0 1 0-2.296-5.544l-.383-.923"></path>
+              <path d="m13.53 20.696-.382-.924a3 3 0 1 1-2.296-5.544"></path>
+              <path d="m14.772 15.852.923-.383"></path>
+              <path d="m14.772 18.148.923.383"></path>
+              <path d="M4.2 15.1a7 7 0 1 1 9.93-9.858A7 7 0 0 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.2"></path>
+              <path d="m9.228 15.852-.923-.383"></path>
+              <path d="m9.228 18.148-.923.383"></path>
+            </svg>
+          ),
+          title: "Migración a la Nube",
           description:
-            "Compra, transferencia y configuración de dominios fácilmente.",
+            "Migración fluida de sus datos y aplicaciones a la nube.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Migración sin interrupciones",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="m17 15-5.5 5.5L9 18"></path>
+              <path d="M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742"></path>
+            </svg>
+          ),
+          title: "Sincronización de Datos",
           description:
-            "Migración de sitios web y correo electrónico con mínima interrupción.",
+            "Mantenga sus archivos actualizados y accesibles en todos los dispositivos.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "SSL y seguridad",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 12a9 3 0 0 0 5 2.69"></path>
+              <path d="M21 9.3V5"></path>
+              <path d="M3 5v14a9 3 0 0 0 6.47 2.88"></path>
+              <path d="M12 12v4h4"></path>
+              <path d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16"></path>
+            </svg>
+          ),
+          title: "Sincronización de Datos",
           description:
-            "Configuración de certificados SSL y monitoreo proactivo de seguridad.",
+            "Mantenga sus archivos actualizados y accesibles en todos los dispositivos.",
         },
       ],
     },
     issuecategory: {
-      title: "Problemas comunes de hosting y dominio que resolvemos",
+      title: "Los Beneficios de la Nube, Gestionados por Expertos",
       subTitle:
-        "Desde errores de DNS hasta migraciones complicadas, lo manejamos todo.",
+        "La nube ofrece una promesa de flexibilidad, escalabilidad y ahorro de costos. Sin embargo, sin la gestión adecuada, estos beneficios pueden ser difíciles de alcanzar. Un entorno en la nube mal configurado puede generar vulnerabilidades de seguridad, costos inesperados y problemas de rendimiento que afectan a la productividad. Nuestro enfoque proactivo y nuestra profunda experiencia garantizan que su infraestructura en la nube esté siempre optimizada, segura y alineada con los objetivos de su negocio.",
       issueCategories: [
         {
-          title: "Problemas de dominio y DNS",
-          description: "Problemas con la configuración de dominio o DNS.",
+          title: "Beneficios Clave de la Computación en la Nube",
+          description:
+            "Aproveche al máximo la computación en la nube con beneficios que impulsan su negocio:",
           issues: [
             {
-              title: "El dominio no resuelve",
-              problemDescription:
-                "Su sitio web no carga por errores de DNS o mala configuración.",
-              solution:
-                "Revisamos los registros DNS, actualizamos los servidores de nombres y aseguramos la propagación correcta.",
-            },
-            {
-              title: "Correo no funciona tras cambio de dominio",
-              problemDescription:
-                "El correo deja de funcionar tras transferir el dominio o actualizar DNS.",
-              solution:
-                "Actualizamos los registros MX y verificamos la configuración de enrutamiento de correo.",
+              title: "Beneficios Principales",
+              type: "list",
+              options: [
+                {
+                  title: "Escalabilidad:",
+                  desc: "Aumente o reduzca sus recursos informáticos según la demanda, pagando solo por lo que usa.",
+                },
+                {
+                  title: "Reducción de Costos:",
+                  desc: "Elimine la necesidad de invertir en hardware costoso y su mantenimiento asociado.",
+                },
+                {
+                  title: "Flexibilidad:",
+                  desc: "Permita que sus empleados accedan a los datos y aplicaciones desde cualquier lugar y en cualquier dispositivo, mejorando la colaboración.",
+                },
+                {
+                  title: "Recuperación ante Desastres:",
+                  desc: "Proteja sus datos de desastres físicos y fallos del sistema con soluciones de respaldo y recuperación en la nube.",
+                },
+                {
+                  title: "Innovación Acelerada:",
+                  desc: "Utilice herramientas y servicios de vanguardia de forma instantánea para innovar más rápido que su competencia.",
+                },
+              ],
             },
           ],
         },
         {
-          title: "Problemas de hosting y migración",
-          description: "Dificultades al mover o gestionar su sitio web.",
+          title:
+            "Nuestro Proceso de Soporte en la Nube: Un Viaje sin Problemas",
+          description:
+            "Nuestro servicio integral asegura que su transición y gestión en la nube sean un éxito:",
           issues: [
             {
-              title: "Tiempo de inactividad en migración",
-              problemDescription:
-                "El sitio está fuera de línea durante la migración.",
-              solution:
-                "Planificamos migraciones en horas de baja actividad y aseguramos una transición fluida.",
-            },
-            {
-              title: "Errores de certificado SSL",
-              problemDescription:
-                "El navegador muestra advertencias de seguridad por problemas de SSL.",
-              solution:
-                "Instalamos y renovamos certificados SSL y corregimos errores de contenido mixto.",
+              title: "Etapas del Proceso",
+              type: "list",
+              options: [
+                {
+                  title: "Evaluación y Estrategia:",
+                  desc: "Analizamos su infraestructura actual y sus objetivos comerciales para diseñar una estrategia de nube personalizada, decidiendo qué migrar y cómo.",
+                },
+                {
+                  title: "Migración Segura:",
+                  desc: "Ejecutamos la migración de sus datos y aplicaciones a la nube de manera segura y con un tiempo de inactividad mínimo.",
+                },
+                {
+                  title: "Configuración y Optimización:",
+                  desc: "Configuramos su entorno en la nube para garantizar el máximo rendimiento, la seguridad y la optimización de costos desde el primer día.",
+                },
+                {
+                  title: "Soporte y Gestión Continuos:",
+                  desc: "Ofrecemos monitoreo proactivo, soporte 24/7 y gestión continua para asegurarnos de que su infraestructura en la nube funcione sin problemas.",
+                },
+              ],
             },
           ],
+        },
+      ],
+    },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte en la Nube a Medida para la Máxima Eficiencia",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios para gestionar su viaje a la nube, independientemente de la etapa en la que se encuentre su negocio.",
+      issueCategories: [
+        {
+          title: "Migración y Configuración de la Nube",
+          description:
+            "Nos encargamos de todo el proceso de migración, desde la planificación hasta la ejecución, en las principales plataformas de nube como AWS, Microsoft Azure y Google Cloud. Nos aseguramos de que su infraestructura se configure de forma óptima para su rendimiento y seguridad.",
+        },
+        {
+          title: "Gestión de la Seguridad en la Nube",
+          description:
+            "La seguridad en la nube es nuestra prioridad. Implementamos las mejores prácticas de seguridad, como la gestión de identidades y accesos (IAM), la configuración de firewalls y el cifrado de datos, para proteger su información en todo momento y cumplir con las normativas.",
+        },
+        {
+          title: "Optimización de Costos y Rendimiento",
+          description:
+            "Con nuestra experiencia, evitamos costos innecesarios y garantizamos que sus recursos en la nube se utilicen de manera eficiente. Realizamos auditorías periódicas para optimizar el rendimiento y asegurar que usted solo pague por los servicios que realmente necesita.",
+        },
+        {
+          title: "Soporte para Entornos Híbridos y Multicloud",
+          description:
+            "Si su estrategia requiere una combinación de infraestructura local y en la nube (híbrida) o el uso de múltiples proveedores de nube, nuestro equipo tiene la experiencia para gestionar estos entornos complejos, garantizando una operación fluida y una integración perfecta.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de TI y hemos ayudado a empresas a adoptar nuevas tecnologías como la nube. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia y el éxito de nuestros clientes. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que lo guiará en su camino a la nube.",
         },
       ],
     },
     description:
-      "Obtenga soporte profesional para hosting web, configuración de dominios y gestión eficiente de su sitio con nuestros servicios expertos.",
+      "Unlock the power of the cloud with our tailored cloud support services for storage, collaboration, and security.",
     features: [
-      "Compra de dominios y configuración de DNS",
-      "Configuración y migración de hosting",
-      "Configuración de correo electrónico y certificados SSL",
+      "Cloud migration and setup assistance",
+      "Data synchronization across devices",
+      "Secure cloud backup and storage options",
     ],
     faqs: [
       {
-        label: "¿Pueden ayudarme a transferir mi dominio?",
-        desc: "Sí, asistimos en transferencias de dominio y configuración de DNS.",
+        label: "¿Qué es la computación en la nube?",
+        desc: "La computación en la nube es el suministro de servicios informáticos (servidores, almacenamiento, bases de datos, redes, software) a través de Internet, permitiendo acceder a ellos de forma remota en lugar de tenerlos en sus propias instalaciones.",
+        expanded: true,
+      },
+      {
+        label:
+          "¿Cuáles son los principales beneficios de mover mi negocio a la nube?",
+        desc: "Los principales beneficios incluyen la reducción de costos de hardware, la capacidad de escalar sus recursos según la demanda, la mejora en la colaboración entre equipos y la protección avanzada de datos y sistemas.",
         expanded: false,
       },
       {
-        label: "¿Ofrecen soporte para migración de sitios web?",
-        desc: "Por supuesto, gestionamos migraciones de sitios con mínima interrupción.",
-        expanded: false,
-      },
-    ],
-  },
-  {
-    slug: "soporte-para-la-configuración-de-correo-electrónico",
-    title: "Soporte para Configuración de Email",
-    subtitle: "Configuración de correo electrónico empresarial y personal",
-    heroImage:
-      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-    intro: {
-      headline: "Soporte experto en configuración de email",
-      subheadline: "Manténgase conectado con correo confiable",
-      description:
-        "Simplifique la configuración y gestión de su correo electrónico con nuestro soporte experto para cuentas empresariales y personales. Garantizamos que su email funcione perfectamente en todos sus dispositivos.",
-      image:
-        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-    },
-    serviceHighlights: {
-      title: "¿Por qué elegir nuestro soporte de email?",
-      services: [
-        {
-          icon: "<svg>...</svg>",
-          title: "Configuración en múltiples dispositivos",
-          description:
-            "Configure correo en computadoras, portátiles y dispositivos móviles.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Integración de email empresarial",
-          description:
-            "Configuración profesional de correo para empresas con dominios personalizados.",
-        },
-        {
-          icon: "<svg>...</svg>",
-          title: "Spam y seguridad",
-          description:
-            "Filtrado avanzado de spam y configuración segura de email.",
-        },
-      ],
-    },
-    issuecategory: {
-      title: "Problemas comunes de configuración de email que resolvemos",
-      subTitle:
-        "Desde errores de configuración hasta problemas de spam, lo solucionamos todo.",
-      issueCategories: [
-        {
-          title: "Problemas de configuración",
-          description:
-            "Dificultades al configurar o sincronizar cuentas de correo.",
-          issues: [
-            {
-              title: "No se puede agregar la cuenta de email",
-              problemDescription:
-                "No se puede agregar la cuenta en Outlook, Gmail o dispositivo móvil.",
-              solution:
-                "Verificamos la configuración del servidor, puertos y credenciales para una configuración exitosa.",
-            },
-            {
-              title: "Los correos no se sincronizan",
-              problemDescription:
-                "Los emails no aparecen en todos los dispositivos.",
-              solution:
-                "Revisamos la configuración IMAP/POP y resolvemos conflictos de sincronización.",
-            },
-          ],
-        },
-        {
-          title: "Seguridad y spam",
-          description: "Problemas con spam o seguridad en el correo.",
-          issues: [
-            {
-              title: "Recibo demasiado spam",
-              problemDescription:
-                "La bandeja de entrada está llena de correos no deseados.",
-              solution:
-                "Activamos filtros avanzados de spam y bloqueamos remitentes sospechosos.",
-            },
-            {
-              title: "Alertas de inicio de sesión sospechoso",
-              problemDescription:
-                "El proveedor de correo advierte sobre accesos no autorizados.",
-              solution:
-                "Actualizamos contraseñas y activamos la autenticación en dos pasos.",
-            },
-          ],
-        },
-      ],
-    },
-    description:
-      "Simplifique la configuración y gestión de su correo electrónico con nuestro soporte experto para cuentas empresariales y personales.",
-    features: [
-      "Configuración y gestión de cuentas de email",
-      "Integración con Outlook, Gmail y más",
-      "Filtrado de spam y configuración de seguridad",
-    ],
-    faqs: [
-      {
-        label: "¿Pueden configurar email en varios dispositivos?",
-        desc: "Sí, configuramos cuentas de correo en computadoras, portátiles y móviles.",
+        label: "¿Es la nube más segura que tener servidores locales?",
+        desc: "Un entorno en la nube bien configurado y gestionado por expertos es a menudo más seguro que los servidores locales, ya que los proveedores de nube invierten masivamente en medidas de seguridad físicas y digitales de última generación.",
         expanded: false,
       },
       {
-        label: "¿Soportan configuraciones de email empresarial?",
-        desc: "Sí, configuramos correo profesional para empresas con dominios personalizados.",
+        label:
+          "¿Pueden ayudarme a elegir el proveedor de nube adecuado (AWS, Azure, Google)?",
+        desc: "Nuestros expertos le guiarán a través de un análisis exhaustivo para entender sus necesidades y recomendar la plataforma de nube que mejor se adapte a su negocio en términos de servicios, costos y escalabilidad.",
+        expanded: false,
+      },
+      {
+        label: "¿Cuánto tiempo tarda una migración a la nube?",
+        desc: "El tiempo de migración varía según la complejidad de su infraestructura. Una migración simple puede tomar unos pocos días, mientras que una migración completa de un entorno complejo puede durar varios meses.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué tipos de servicios en la nube existen?",
+        desc: "Los tipos de servicio más comunes son: IaaS (Infraestructura como servicio), PaaS (Plataforma como servicio) y SaaS (Software como servicio). Cada uno ofrece un nivel diferente de control y gestión.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo puedo controlar los costos en la nube?",
+        desc: "La gestión proactiva de costos es clave. Nuestro servicio incluye el monitoreo del uso de recursos, la optimización de instancias y el uso de reservas y planes de ahorro para asegurar que sus gastos se mantengan dentro del presupuesto.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es una nube híbrida?",
+        desc: "Una nube híbrida es un entorno que combina una infraestructura local (on-premise) con una nube pública. Esta solución permite a las empresas mantener el control sobre los datos sensibles mientras aprovechan los beneficios de la nube pública.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué pasa con la privacidad de mis datos en la nube?",
+        desc: "Nos aseguramos de que su entorno en la nube cumpla con las normativas de privacidad de datos, como el RGPD, y utilizamos protocolos de encriptación y acceso seguro para garantizar la confidencialidad de su información.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen soporte para entornos que ya están en la nube?",
+        desc: "Ofrecemos servicios de soporte integral para entornos que ya están en la nube. Podemos encargarnos de la gestión, optimización, seguridad y resolución de problemas para cualquier infraestructura en la nube existente.",
         expanded: false,
       },
     ],
   },
   {
     slug: "servicios-de-soporte-para-comercio-electrónico",
-    title: "Soporte de Red Wi-Fi",
-    subtitle: "Conectividad inalámbrica rápida y segura",
+    title: "Eleve su tienda en línea con expertos",
+    subtitle: "Maximice la Conversión y la Fiabilidad de su Tienda Online",
+    subtitle1: `En el competitivo mundo del comercio electrónico, una tienda online no es solo un sitio web; es el corazón de su negocio. Un rendimiento lento, un error en el carrito de compras o una pasarela de pago defectuosa pueden llevar a la pérdida de clientes y a una caída en las ventas. Para tener éxito, su plataforma de e-commerce debe ser rápida, segura y estar siempre disponible. En ITSupport.net.in, somos el socio tecnológico que garantiza que su negocio online funcione sin problemas.`,
     heroImage:
-      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline: "Soporte confiable para redes Wi-Fi",
-      subheadline: "Manténgase conectado en cualquier lugar",
+      headline:
+        "Superando los desafíos del comercio electrónico: Soluciones para su éxito online",
+      subheadline: "",
       description:
-        "Asegure una conectividad inalámbrica rápida y confiable con nuestros servicios de soporte Wi-Fi para hogares y empresas. Optimizamos su red para velocidad, cobertura y seguridad.",
+        "Con una experiencia de más de 20 años en la industria de TI, hemos adaptado nuestra experiencia para ofrecer Servicios de Soporte para Comercio Electrónico de primera línea. Hemos ayudado a más de 10,000 clientes satisfechos a nivel mundial a construir y mantener tiendas online robustas, seguras y altamente eficientes. Nuestra misión es simple: proporcionarle una base técnica sólida para que usted pueda concentrarse en el crecimiento de su negocio.",
       image:
-        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
-      title: "¿Por qué elegir nuestro soporte Wi-Fi?",
+      title: "Why Choose Our E-Commerce Support?",
       services: [
         {
-          icon: "<svg>...</svg>",
-          title: "Configuración y optimización de router",
-          description:
-            "Instalación y configuración profesional para máxima cobertura.",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M18.2 12.27 20 6H4l1.8 6.27a1 1 0 0 0 .95.73h10.5a1 1 0 0 0 .96-.73Z"></path>
+              <path d="M8 13v9"></path>
+              <path d="M16 22v-9"></path>
+              <path d="m9 6 1 7"></path>
+              <path d="m15 6-1 7"></path>
+              <path d="M12 6V2"></path>
+              <path d="M13 2h-2"></path>
+            </svg>
+          ),
+          title: "Platform Expertise",
+          description: "Support for Shopify, WooCommerce, Magento, and more.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Aumento de señal",
-          description: "Extensión de rango y eliminación de zonas muertas.",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"></path>
+              <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"></path>
+              <path d="m2 16 6 6"></path>
+              <circle cx="16" cy="9" r="2.9"></circle>
+              <circle cx="6" cy="5" r="3"></circle>
+            </svg>
+          ),
+          title: "Payment Integration",
+          description: "Seamless and secure payment gateway setup.",
         },
         {
-          icon: "<svg>...</svg>",
-          title: "Red segura",
-          description: "Wi-Fi cifrado y configuración de contraseñas fuertes.",
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M7 3.34V5a3 3 0 0 0 3 3"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2 2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M12 2a10 10 0 1 0 9.54 13"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
+          title: "Security & Uptime",
+          description: "Continuous monitoring for safe and reliable shopping.",
         },
       ],
     },
     issuecategory: {
-      title: "Problemas comunes de Wi-Fi que resolvemos",
+      title: "Los Desafíos del E-commerce, Resueltos por Expertos",
       subTitle:
-        "Desde señales débiles hasta riesgos de seguridad, solucionamos todos sus problemas de Wi-Fi.",
+        "Los negocios online enfrentan una variedad de desafíos técnicos que pueden afectar directamente su rentabilidad. Un solo error puede interrumpir la experiencia del cliente y dañar su credibilidad. Nuestro servicio de soporte proactivo no solo soluciona los problemas, sino que los previene, asegurando que su tienda online esté siempre optimizada para la conversión y la confianza del cliente.",
       issueCategories: [
         {
-          title: "Problemas de cobertura y señal",
-          description: "Dificultades con el alcance o zonas muertas de Wi-Fi.",
+          title: "Desafíos Comunes del Comercio Electrónico que Solucionamos",
+          description:
+            "Identificamos y resolvemos los problemas más frecuentes que afectan a su tienda online:",
           issues: [
             {
-              title: "Señal Wi-Fi débil",
-              problemDescription:
-                "La señal Wi-Fi es débil o se pierde en ciertas áreas.",
-              solution:
-                "Optimizamos la ubicación del router e instalamos extensores de rango.",
-            },
-            {
-              title: "Zonas muertas",
-              problemDescription:
-                "No hay cobertura Wi-Fi en algunas habitaciones.",
-              solution:
-                "Agregamos sistemas mesh o puntos de acceso adicionales.",
+              title: "Problemas Principales",
+              type: "list",
+              options: [
+                {
+                  title: "Rendimiento Lento:",
+                  desc: "Tiempos de carga prolongados que frustran a los clientes y aumentan la tasa de rebote.",
+                },
+                {
+                  title: "Fallos de Pago:",
+                  desc: "Errores en la pasarela de pago que impiden a los clientes completar sus compras.",
+                },
+                {
+                  title: "Problemas de Seguridad:",
+                  desc: "Vulnerabilidades que pueden exponer los datos de los clientes y dañar la reputación de la marca.",
+                },
+                {
+                  title: "Funcionalidad Rota:",
+                  desc: "Carritos de compra, filtros de productos o enlaces que no funcionan correctamente.",
+                },
+                {
+                  title: "Gestión de la Plataforma:",
+                  desc: "Dificultades para configurar nuevos productos, plugins o actualizaciones.",
+                },
+              ],
             },
           ],
         },
         {
-          title: "Seguridad y conectividad",
-          description: "Problemas de seguridad o conexión de dispositivos.",
+          title:
+            "Nuestro Proceso de Soporte para E-commerce: Eficiencia y Confiabilidad",
+          description:
+            "Seguimos un proceso estructurado para garantizar el éxito a largo plazo de su tienda online:",
           issues: [
             {
-              title: "Wi-Fi no seguro",
-              problemDescription:
-                "La red Wi-Fi está abierta o usa cifrado débil.",
-              solution: "Configuramos WPA3 y contraseñas seguras.",
-            },
-            {
-              title: "Los dispositivos no se conectan",
-              problemDescription:
-                "Algunos dispositivos no logran conectarse a Wi-Fi.",
-              solution:
-                "Solucionamos la configuración y actualizamos el firmware.",
+              title: "Etapas del Proceso",
+              type: "list",
+              options: [
+                {
+                  title: "Auditoría Inicial:",
+                  desc: "Realizamos un análisis completo de su plataforma para identificar problemas de rendimiento, seguridad y experiencia de usuario.",
+                },
+                {
+                  title: "Plan de Optimización:",
+                  desc: "Creamos un plan de acción detallado para mejorar la velocidad, seguridad y funcionalidad de su sitio.",
+                },
+                {
+                  title: "Implementación y Mantenimiento:",
+                  desc: "Nos encargamos de la implementación de las mejoras y ofrecemos un servicio de mantenimiento continuo para asegurar que su plataforma esté siempre actualizada y libre de errores.",
+                },
+                {
+                  title: "Soporte Dedicado:",
+                  desc: "Le proporcionamos acceso a un equipo de expertos que está disponible para resolver cualquier problema técnico de forma rápida y eficaz.",
+                },
+              ],
             },
           ],
         },
       ],
     },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte de E-commerce a Medida para un Negocio en Crecimiento",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios para gestionar todos los aspectos técnicos de su tienda online.",
+      issueCategories: [
+        {
+          title: "Gestión de Plataformas y Rendimiento",
+          description:
+            "Proporcionamos soporte experto para las principales plataformas de comercio electrónico, incluyendo Shopify, WooCommerce y Magento. Nos encargamos de la configuración inicial, la optimización del rendimiento, la gestión de temas y plugins, y la resolución de errores para garantizar una experiencia de usuario fluida y rápida.",
+        },
+        {
+          title: "Seguridad y Confianza del Cliente",
+          description:
+            "La seguridad es fundamental para la confianza online. Implementamos las mejores prácticas de seguridad, incluyendo la gestión de certificados SSL, la protección contra ataques de malware y la supervisión de vulnerabilidades, para proteger los datos de sus clientes y su reputación.",
+        },
+        {
+          title: "Integración y Resolución de Pasarelas de Pago",
+          description:
+            "Nos encargamos de la integración de pasarelas de pago populares como PayPal, Stripe y otras soluciones locales. Solucionamos cualquier problema técnico que surja, garantizando que sus clientes puedan completar sus compras de forma segura y sin interrupciones.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra trayectoria es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas tecnológicos y hemos ayudado a empresas a prosperar en línea. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia y el éxito de nuestros clientes. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que se asegura de que su tienda online esté siempre en su mejor forma.",
+        },
+      ],
+    },
     description:
-      "Asegure una conectividad inalámbrica rápida y confiable con nuestros servicios de soporte Wi-Fi para hogares y empresas.",
+      "Enhance your online store performance with our expert e-commerce support for platforms, payments, and security.",
     features: [
-      "Configuración y optimización de router Wi-Fi",
-      "Aumento de señal y extensión de rango",
-      "Configuración de red segura",
+      "Store setup and configuration",
+      "Payment gateway integration",
+      "Security and uptime monitoring",
     ],
     faqs: [
       {
-        label: "¿Pueden solucionar señales Wi-Fi débiles?",
-        desc: "Sí, optimizamos la cobertura y ofrecemos soluciones como extensores de señal.",
+        label: "¿Qué plataformas de comercio electrónico soportan?",
+        desc: "Ofrecemos soporte integral para las plataformas más populares, incluyendo Shopify, WooCommerce, Magento, así como soluciones personalizadas en otros sistemas de gestión de contenido.",
+        expanded: true,
+      },
+      {
+        label: "¿Cómo mejoran la velocidad de mi sitio de e-commerce?",
+        desc: "Mejoramos la velocidad optimizando imágenes, minimizando el código, utilizando la caché del navegador, gestionando eficazmente el alojamiento y garantizando que su plataforma esté actualizada y libre de plugins que la ralenticen.",
         expanded: false,
       },
       {
-        label: "¿Instalan redes Wi-Fi seguras?",
-        desc: "Sí, configuramos Wi-Fi cifrado con contraseñas fuertes para proteger sus datos.",
+        label: "¿Qué hacen para proteger mi tienda online de ciberamenazas?",
+        desc: "Implementamos firewalls de aplicaciones web (WAF), gestionamos los certificados SSL, realizamos escaneos de seguridad regulares, nos encargamos de las actualizaciones y aplicamos las mejores prácticas para proteger su sitio de malware y ataques.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden ayudarme a integrar una nueva pasarela de pago?",
+        desc: "Podemos encargarnos de la integración completa de nuevas pasarelas de pago, asegurando que la configuración sea correcta y que todas las transacciones se procesen de forma segura.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Qué es un certificado SSL y por qué es importante para mi e-commerce?",
+        desc: "Un certificado SSL (Secure Sockets Layer) es un protocolo de seguridad que encripta la conexión entre su sitio web y los navegadores de sus clientes. Es esencial para proteger los datos confidenciales y es clave para la confianza del cliente.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen soporte para la gestión de productos y categorías?",
+        desc: "Ofrecemos soporte para la gestión de su base de datos de productos, incluyendo la carga masiva de productos, la configuración de categorías, la optimización de descripciones y la resolución de problemas relacionados con inventarios y precios.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Cuáles son los beneficios de un mantenimiento continuo para mi tienda online?",
+        desc: "El mantenimiento continuo previene problemas antes de que ocurran, asegura que su sitio esté siempre actualizado y seguro, optimiza el rendimiento y garantiza que la experiencia de sus clientes sea siempre fluida.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo manejan el tiempo de inactividad de mi sitio web?",
+        desc: "Monitoreamos su sitio 24/7. Si se produce un tiempo de inactividad, nuestro equipo es notificado de inmediato para diagnosticar la causa y restaurar el servicio en el menor tiempo posible.",
+        expanded: false,
+      },
+      {
+        label: "¿Ayudan con la optimización para dispositivos móviles?",
+        desc: "Nos aseguramos de que su tienda online esté completamente optimizada para dispositivos móviles, ya que un gran porcentaje del tráfico y las ventas de e-commerce provienen de smartphones y tabletas.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿En qué se diferencia su servicio del soporte estándar de la plataforma (ej. Shopify)?",
+        desc: "El soporte estándar a menudo se limita a problemas de la plataforma. Nosotros ofrecemos un soporte integral que cubre problemas de plugins, temas, integraciones, rendimiento, seguridad y optimización, proporcionándole un servicio personalizado y completo.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "servicios-de-soporte-para-reparación-de-hardware",
+    title: "Servicios de soporte de hardware inigualables",
+    subtitle:
+      "Reparación de Hardware: Restaure sus Dispositivos con Expertos de ITSupport.net.in",
+    subtitle1: `Un fallo de hardware puede ser una de las experiencias más frustrantes y disruptivas en el mundo digital. Su ordenador no se enciende, la pantalla se congela, el disco duro hace ruidos extraños… estos problemas no solo interrumpen su trabajo, sino que también ponen en riesgo sus datos más valiosos. En ITSupport.net.in, somos su solución confiable para todos los problemas de hardware, grandes y pequeños.`,
+    heroImage:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline:
+        "Cómo solucionar los problemas de hardware: problemas comunes que solucionamos con maestría",
+      subheadline: "",
+      description:
+        "Con más de 20 años de experiencia en el sector de TI, hemos perfeccionado nuestros Servicios de Soporte para Reparación de Hardware para ofrecer diagnósticos precisos y soluciones duraderas. Hemos asistido a más de 10,000 clientes satisfechos a nivel mundial a revivir sus dispositivos, restaurar su funcionalidad y recuperar su información crítica. Nuestra misión es simple: devolverle la tranquilidad, asegurando que su tecnología funcione de manera óptima y que su inversión esté protegida.",
+      image:
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Why Choose Our Hardware Repair?",
+      services: [
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+              <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+              <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+              <path d="M10 6h4"></path>
+              <path d="M10 10h4"></path>
+              <path d="M10 14h4"></path>
+              <path d="M10 18h4"></path>
+            </svg>
+          ),
+          title: "All Major Brands",
+          description: "Repairs for Dell, HP, Lenovo, Apple, and more.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M6 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"></path>
+              <path d="M6 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2"></path>
+              <path d="M6 6h.01"></path>
+              <path d="M6 18h.01"></path>
+              <path d="m13 6-4 6h6l-4 6"></path>
+            </svg>
+          ),
+          title: "Quick Turnaround",
+          description: "Most repairs completed within 24–48 hours.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 3V2"></path>
+              <path d="m15.4 17.4 3.2-2.8a2 2 0 1 1 2.8 2.9l-3.6 3.3c-.7.8-1.7 1.2-2.8 1.2h-4c-1.1 0-2.1-.4-2.8-1.2l-1.302-1.464A1 1 0 0 0 6.151 19H5"></path>
+              <path d="M2 14h12a2 2 0 0 1 0 4h-2"></path>
+              <path d="M4 10h16"></path>
+              <path d="M5 10a7 7 0 0 1 14 0"></path>
+              <path d="M5 14v6a1 1 0 0 1-1 1H2"></path>
+            </svg>
+          ),
+          title: "Preventive Maintenance",
+          description: "Upgrades and maintenance to prevent future issues.",
+        },
+      ],
+    },
+    issuecategory: {
+      title:
+        "Diagnóstico Preciso y Soluciones Duraderas: El Camino a la Recuperación",
+      subTitle:
+        "Un diagnóstico incorrecto puede llevar a reparaciones costosas e innecesarias. Nuestros técnicos, con décadas de experiencia, están capacitados para identificar la causa raíz de cualquier fallo de hardware. En lugar de ofrecer soluciones temporales, nos enfocamos en una reparación completa y duradera, utilizando componentes de calidad y aplicando las mejores prácticas de la industria. No solo solucionamos el problema, sino que también le asesoramos para que pueda prevenir fallos futuros.",
+      issueCategories: [
+        {
+          title: "Fallos de Hardware Comunes que Resolvemos",
+          description:
+            "Identificamos y resolvemos los problemas más frecuentes que afectan a sus dispositivos de hardware:",
+          issues: [
+            {
+              title: "Problemas Principales",
+              type: "list",
+              options: [
+                {
+                  title: "Fallo de Arranque:",
+                  desc: "El ordenador no se enciende o se reinicia de forma inesperada.",
+                },
+                {
+                  title: "Componentes Dañados:",
+                  desc: "Tarjetas madre, tarjetas de video, módulos de RAM o fuentes de alimentación defectuosos.",
+                },
+                {
+                  title: "Problemas de Almacenamiento:",
+                  desc: "Discos duros que fallan, hacen ruidos extraños o no son detectados por el sistema.",
+                },
+                {
+                  title: "Pantallas Dañadas:",
+                  desc: "Pantallas de portátiles o monitores con pixeles muertos, rayas o que no muestran imagen.",
+                },
+                {
+                  title: "Rendimiento Lento:",
+                  desc: "Una degradación significativa en la velocidad del sistema, a menudo causada por hardware obsoleto o fallas en el disco duro.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Nuestro Proceso de Reparación: Transparente y Profesional",
+          description:
+            "Seguimos un proceso estructurado para garantizar que su dispositivo esté en las mejores manos:",
+          issues: [
+            {
+              title: "Etapas del Proceso",
+              type: "list",
+              options: [
+                {
+                  title: "Diagnóstico Inicial:",
+                  desc: "Realizamos un diagnóstico exhaustivo de su dispositivo para identificar el componente fallido y la causa del problema.",
+                },
+                {
+                  title: "Presupuesto Claro:",
+                  desc: "Le proporcionamos un presupuesto detallado y transparente, explicando la reparación necesaria y el costo asociado antes de proceder.",
+                },
+                {
+                  title: "Reparación Experta:",
+                  desc: "Nuestros técnicos certificados realizan la reparación con precisión, utilizando herramientas y componentes de alta calidad.",
+                },
+                {
+                  title: "Pruebas Rigurosas:",
+                  desc: "Una vez reparado, su dispositivo se somete a rigurosas pruebas para garantizar que el problema se haya resuelto y que el sistema funcione de manera óptima.",
+                },
+                {
+                  title: "Entrega y Garantía:",
+                  desc: "Le entregamos su dispositivo reparado y ofrecemos una garantía sobre la reparación y los componentes reemplazados.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    issuecategory2: {
+      title:
+        "Servicios de Reparación de Hardware a Medida para la Máxima Eficiencia",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios para restaurar y mejorar el rendimiento de sus equipos.",
+      issueCategories: [
+        {
+          title: "Diagnóstico y Reparación de Componentes",
+          description:
+            "Identificamos y reemplazamos componentes fallidos como tarjetas madre, procesadores, tarjetas gráficas, módulos de RAM y fuentes de poder. Nuestro objetivo es restaurar la funcionalidad de su dispositivo de manera eficiente y económica.",
+        },
+        {
+          title: "Recuperación de Datos de Discos Duros",
+          description:
+            "Un disco duro fallido no siempre significa la pérdida de sus datos. Nuestros expertos utilizan herramientas avanzadas para intentar la recuperación de datos de discos duros defectuosos, dándole una segunda oportunidad a su información crítica.",
+        },
+        {
+          title: "Actualizaciones y Mejoras de Rendimiento",
+          description:
+            "Podemos darle una nueva vida a sus equipos antiguos. Ofrecemos servicios de actualización, como la instalación de discos SSD para una velocidad de arranque ultrarrápida y la ampliación de la memoria RAM, para mejorar el rendimiento general de su sistema.",
+        },
+        {
+          title: "Reparación de Portátiles y Periféricos",
+          description:
+            "Desde la reparación de pantallas rotas y teclados que no funcionan en portátiles, hasta la solución de problemas en impresoras y otros periféricos. Nuestro equipo está capacitado para trabajar en una amplia variedad de dispositivos y accesorios.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de hardware y hemos ayudado a empresas y particulares a maximizar la vida útil de sus equipos. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que se asegura de que su hardware funcione de manera impecable.",
+        },
+      ],
+    },
+    description:
+      "We provide fast and reliable repair services for desktops, laptops, and IT hardware to minimize downtime.",
+    features: [
+      "Diagnosis and repair of hardware issues",
+      "Replacement of faulty components",
+      "Preventive maintenance and upgrades",
+    ],
+    faqs: [
+      {
+        label: "¿Qué tipo de hardware reparan?",
+        desc: "Reparamos una amplia gama de hardware, incluyendo ordenadores de escritorio, portátiles, servidores, discos duros, fuentes de poder, tarjetas gráficas, pantallas y periféricos como impresoras.",
+        expanded: true,
+      },
+      {
+        label: "¿Cómo sé si mi problema es de hardware o de software?",
+        desc: "Las señales de un problema de hardware suelen ser físicas, como ruidos extraños, el dispositivo que no enciende, o una pantalla que no muestra imagen. Un problema de software suele manifestarse con errores del sistema operativo o el mal funcionamiento de un programa.",
+        expanded: false,
+      },
+      {
+        label: "¿Es mejor reparar o reemplazar mi dispositivo?",
+        desc: "Esto depende de la edad del dispositivo y la gravedad del problema. Un técnico de nuestro equipo le proporcionará un diagnóstico y un presupuesto claro, ayudándole a decidir si la reparación es una opción más rentable que el reemplazo.",
+        expanded: false,
+      },
+      {
+        label: "¿Cuánto tiempo tarda una reparación de hardware?",
+        desc: "El tiempo de reparación varía según la complejidad del problema y la disponibilidad de las piezas. Le proporcionaremos una estimación de tiempo clara y le mantendremos informado durante todo el proceso.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden recuperar datos de un disco duro dañado?",
+        desc: "Contamos con herramientas y técnicas especializadas para intentar la recuperación de datos de discos duros que han fallado, incluso en casos donde el sistema ya no lo detecta.",
+        expanded: false,
+      },
+      {
+        label: "¿Ofrecen garantía sobre sus reparaciones?",
+        desc: "Todas nuestras reparaciones y los componentes que reemplazamos están respaldados por una garantía para darle total tranquilidad sobre la calidad de nuestro servicio.",
+        expanded: false,
+      },
+      {
+        label: "¿Cuál es el costo de una reparación de hardware?",
+        desc: "El costo varía según el problema y los componentes necesarios. Después de realizar un diagnóstico, le proporcionaremos un presupuesto sin compromiso antes de comenzar cualquier trabajo.",
+        expanded: false,
+      },
+      {
+        label: "¿Dan soporte a todas las marcas de hardware?",
+        desc: "Nuestro equipo tiene experiencia trabajando con la mayoría de las marcas principales, incluyendo Dell, HP, Apple, Lenovo, Acer, Asus, entre muchas otras.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo puedo preparar mi dispositivo para una reparación?",
+        desc: "Si es posible, se recomienda hacer una copia de seguridad de sus datos antes de llevarlo. Si esto no es posible, infórmenos y tomaremos las precauciones necesarias para proteger su información durante el proceso.",
+        expanded: false,
+      },
+      {
+        label: "¿También ofrecen soporte remoto para hardware?",
+        desc: "El diagnóstico de un problema de hardware a menudo se puede hacer de forma remota. Sin embargo, la reparación física de un componente requiere la intervención de un técnico. Ofrecemos una combinación de soporte remoto y en sitio para un servicio completo.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "soporte-de-dominio-de-alojamiento-web",
+    title: "Presencia en línea ininterrumpida",
+    subtitle: "Garantice una Presencia Online Sin Fallos con ITSupport.net.in",
+    subtitle1: `Su sitio web y su dominio son la tarjeta de presentación de su negocio en el mundo digital. Un sitio web que no funciona, un correo electrónico que no se envía o una caída inesperada del servidor pueden dañar su reputación, perder clientes y paralizar sus operaciones. En ITSupport.net.in, entendemos que una presencia online fiable y segura es fundamental para el éxito de su empresa.`,
+    heroImage:
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline:
+        "Navegando por el panorama del hosting: desafíos comunes que resolvemos con experiencia",
+      subheadline: "",
+      description:
+        "Con una sólida experiencia de más de 20 años en el sector de TI, nos hemos consolidado como un líder en Soporte de Alojamiento Web y Dominio, proporcionando soluciones expertas y personalizadas. Hemos asistido a más de 10,000 clientes satisfechos a nivel mundial a construir y mantener una presencia online impecable, garantizando que sus servicios digitales funcionen sin interrupciones. Nuestra misión es simple: encargarnos de los detalles técnicos para que usted pueda centrarse en el crecimiento de su negocio.",
+      image:
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Why Choose Our Hosting & Domain Support?",
+      services: [
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <circle cx="12" cy="12" r="10"></circle>
+            </svg>
+          ),
+          title: "Domain Management",
+          description: "Purchase, transfer, and configure domains with ease.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+            </svg>
+          ),
+          title: "Seamless Migration",
+          description:
+            "Smooth website and email migration with minimal downtime.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 9v1.258"></path>
+              <path d="M16 3v5.46"></path>
+              <path d="M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75"></path>
+              <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z"></path>
+              <path d="M3 15h7"></path>
+              <path d="M3 9h12.142"></path>
+              <path d="M8 15v6"></path>
+              <path d="M8 3v6"></path>
+            </svg>
+          ),
+          title: "SSL & Security",
+          description:
+            "SSL certificate setup and proactive security monitoring.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Los Retos de la Gestión Web, Resueltos por Expertos",
+      subTitle:
+        "La gestión de un sitio web, un dominio y un correo electrónico puede ser un desafío. Los problemas de DNS, los fallos del servidor, las renovaciones de dominios olvidadas y las vulnerabilidades de seguridad son comunes y pueden tener graves consecuencias. Nuestro servicio permite delegar estas tareas en profesionales, garantizando una operación fluida y una seguridad sólida.",
+      issueCategories: [
+        {
+          title: "Problemas de Alojamiento y Dominio Comunes que Resolvemos",
+          description: "",
+          issues: [
+            {
+              title: "Problemas Principales",
+              type: "list",
+              options: [
+                {
+                  title: "Caídas del Sitio Web:",
+                  desc: "Su sitio web no está disponible o carga lentamente, afectando la experiencia del usuario y las ventas.",
+                },
+                {
+                  title: "Problemas de Correo Electrónico:",
+                  desc: "Errores de envío o recepción de correos, o configuraciones de servidor incorrectas.",
+                },
+                {
+                  title: "Dominio Vencido:",
+                  desc: "La caducidad del dominio puede resultar en la pérdida de su dirección web y el cierre de su sitio.",
+                },
+                {
+                  title: "Vulnerabilidades de Seguridad:",
+                  desc: "Su sitio es vulnerable a ataques de hackers o malware, comprometiendo sus datos y los de sus clientes.",
+                },
+                {
+                  title: "Migración de Sitio Web:",
+                  desc: "Dificultades para transferir su sitio web a un nuevo servidor sin perder datos ni sufrir tiempo de inactividad.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title:
+            "Nuestro Proceso de Soporte Web: Eficiencia y Experiencia a su Servicio",
+          description:
+            "Seguimos un proceso riguroso para asegurar la máxima eficiencia y seguridad de su presencia online:",
+          issues: [
+            {
+              title: "Etapas del Proceso",
+              type: "list",
+              options: [
+                {
+                  title: "Auditoría Inicial:",
+                  desc: "Realizamos un análisis completo de su dominio, hosting y configuración de correo electrónico para identificar problemas y oportunidades de mejora.",
+                },
+                {
+                  title: "Configuración e Implementación:",
+                  desc: "Diseñamos e implementamos una estrategia de alojamiento web y dominio que se adapte a las necesidades de su negocio.",
+                },
+                {
+                  title: "Monitoreo Constante:",
+                  desc: "Supervisamos su sitio web y servidor de forma proactiva para detectar cualquier fallo o vulnerabilidad antes de que afecte sus operaciones.",
+                },
+                {
+                  title: "Soporte Técnico 24/7:",
+                  desc: "Nuestro equipo de expertos está disponible en todo momento para resolver cualquier problema técnico, desde el más sencillo hasta el más complejo.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    issuecategory2: {
+      title:
+        "Servicios de Alojamiento y Dominio a Medida para una Presencia Online Impecable",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios para gestionar todos los aspectos técnicos de su presencia online.",
+      issueCategories: [
+        {
+          title: "Registro y Gestión de Dominio",
+          description:
+            "Nos encargamos del registro de su dominio y de su gestión continua. Nos aseguramos de que su dominio esté siempre activo y configurado correctamente, incluyendo la gestión de DNS y la renovación automática para evitar interrupciones.",
+        },
+        {
+          title: "Configuración y Migración de Alojamiento Web",
+          description:
+            "Ya sea que necesite configurar un nuevo sitio web o migrar uno existente, nuestro equipo de expertos se encarga de todo. Nos aseguramos de que su sitio se configure en un servidor fiable, optimizado para el rendimiento y con un tiempo de inactividad mínimo durante la migración.",
+        },
+        {
+          title:
+            "Alojamiento y Configuración de Correo Electrónico Profesional",
+          description:
+            "Ofrecemos servicios de alojamiento de correo electrónico para su dominio. Nos encargamos de la configuración de las cuentas, la gestión de alias y los problemas de envío y recepción, garantizando que su comunicación sea profesional y segura.",
+        },
+        {
+          title: "Seguridad Web y Certificados SSL",
+          description:
+            "La seguridad es fundamental para la confianza online. Implementamos las mejores prácticas de seguridad, incluyendo la instalación y gestión de certificados SSL para encriptar la conexión, y la configuración de firewalls para proteger su sitio de ataques maliciosos.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de alojamiento y dominio, y hemos ayudado a empresas de todos los tamaños a establecer una presencia online exitosa. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que se asegura de que su presencia online sea siempre impecable.",
+        },
+      ],
+    },
+    description:
+      "We provide fast and reliable repair services for desktops, laptops, and IT hardware to minimize downtime.",
+    features: [
+      "Diagnosis and repair of hardware issues",
+      "Replacement of faulty components",
+      "Preventive maintenance and upgrades",
+    ],
+    faqs: [
+      {
+        label: "¿Cuál es la diferencia entre un dominio y un alojamiento web?",
+        desc: "Un dominio es la dirección de su sitio web (por ejemplo, https://www.google.com/search?q=google.com). El alojamiento web es el espacio en un servidor donde se almacenan los archivos de su sitio web, haciendo que esté accesible en Internet.",
+        expanded: true,
+      },
+      {
+        label: "¿Pueden ayudarme a elegir un nombre de dominio?",
+        desc: "Sí, podemos asesorarle sobre la selección de un nombre de dominio que sea relevante para su negocio, fácil de recordar y que esté disponible para su registro.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden ayudarme a migrar mi sitio web a un nuevo host?",
+        desc: "Sí, nos encargamos de todo el proceso de migración, transfiriendo los archivos de su sitio web y la base de datos de forma segura, con un tiempo de inactividad mínimo.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es un certificado SSL y por qué lo necesito?",
+        desc: "Un certificado SSL encripta la conexión entre su sitio web y los visitantes, protegiendo los datos que se transmiten. Es crucial para la seguridad y la confianza, y es un factor importante para el posicionamiento en buscadores.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué hago si mi sitio web se cae?",
+        desc: "Contáctenos de inmediato. Con nuestro servicio de monitoreo 24/7, a menudo podemos detectar y solucionar el problema antes de que usted lo note. Actuaremos de forma rápida para restaurar el servicio.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Ofrecen soporte para el correo electrónico profesional de mi dominio?",
+        desc: "Sí, ofrecemos soporte completo para la configuración y gestión de cuentas de correo electrónico con su dominio, incluyendo la resolución de problemas de envío, recepción y configuración de clientes de correo.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Con qué frecuencia se debe hacer una copia de seguridad de un sitio web?",
+        desc: "La frecuencia ideal depende de la frecuencia con la que se actualiza su sitio. Para un sitio de e-commerce, se recomienda una copia de seguridad diaria para no perder datos de transacciones.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo protegen mi sitio web de ciberataques?",
+        desc: "Protegemos su sitio implementando firewalls, gestionando certificados SSL, escaneando en busca de malware y aplicando parches de seguridad para las vulnerabilidades del sistema.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es un DNS y por qué es importante?",
+        desc: "El DNS (Domain Name System) es el sistema que traduce los nombres de dominio a direcciones IP. Es fundamental para que los usuarios puedan encontrar su sitio web. Nosotros nos encargamos de su configuración y gestión para evitar fallos.",
+        expanded: false,
+      },
+      {
+        label: "¿También gestionan las renovaciones de dominio y hosting?",
+        desc: "Sí, como parte de nuestro servicio, nos encargamos de monitorear y gestionar las renovaciones de su dominio y hosting, asegurándonos de que su presencia online se mantenga activa y sin interrupciones.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "soporte-para-la-configuración-de-correo-electrónico",
+    title: "Presencia en línea ininterrumpida",
+    subtitle: "Garantice una Presencia Online Sin Fallos con ITSupport.net.in",
+    subtitle1: `Su sitio web y su dominio son la tarjeta de presentación de su negocio en el mundo digital. Un sitio web que no funciona, un correo electrónico que no se envía o una caída inesperada del servidor pueden dañar su reputación, perder clientes y paralizar sus operaciones. En ITSupport.net.in, entendemos que una presencia online fiable y segura es fundamental para el éxito de su empresa.`,
+    heroImage:
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline:
+        "Navegando por el panorama del hosting: desafíos comunes que resolvemos con experiencia",
+      subheadline: "",
+      description:
+        "Con una sólida experiencia de más de 20 años en el sector de TI, nos hemos consolidado como un líder en Soporte de Alojamiento Web y Dominio, proporcionando soluciones expertas y personalizadas. Hemos asistido a más de 10,000 clientes satisfechos a nivel mundial a construir y mantener una presencia online impecable, garantizando que sus servicios digitales funcionen sin interrupciones. Nuestra misión es simple: encargarnos de los detalles técnicos para que usted pueda centrarse en el crecimiento de su negocio.",
+      image:
+        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Why Choose Our Hosting & Domain Support?",
+      services: [
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
+              <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"></path>
+              <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"></path>
+              <circle cx="12" cy="12" r="10"></circle>
+            </svg>
+          ),
+          title: "Domain Management",
+          description: "Purchase, transfer, and configure domains with ease.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+              <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+            </svg>
+          ),
+          title: "Seamless Migration",
+          description:
+            "Smooth website and email migration with minimal downtime.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M12 9v1.258"></path>
+              <path d="M16 3v5.46"></path>
+              <path d="M21 9.118V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5.75"></path>
+              <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z"></path>
+              <path d="M3 15h7"></path>
+              <path d="M3 9h12.142"></path>
+              <path d="M8 15v6"></path>
+              <path d="M8 3v6"></path>
+            </svg>
+          ),
+          title: "SSL & Security",
+          description:
+            "SSL certificate setup and proactive security monitoring.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Deje de Luchar con la Configuración de Correo Electrónico",
+      subTitle:
+        "La configuración de correo puede ser frustrante, afectando la productividad personal y las operaciones del negocio. Desde problemas de acceso básicos hasta amenazas complejas de entregabilidad y seguridad, nuestro equipo de especialistas en correo electrónico está capacitado para diagnosticar, solucionar y resolver una amplia gama de problemas relacionados con el correo.",
+      issueCategories: [
+        {
+          title: "Conectividad y Acceso",
+          description:
+            "Garantizando que siempre esté conectado a sus servicios de correo.",
+          issues: [
+            {
+              title: "Garantizando que siempre esté conectado",
+              type: "list",
+              options: [
+                {
+                  title: "Rendimiento Lento",
+                  desc: "Tiempos de carga prolongados que frustran a los clientes y aumentan la tasa de rebote.",
+                },
+                {
+                  title: "Fallos de Pago",
+                  desc: "Errores en la pasarela de pago que impiden a los clientes completar sus compras.",
+                },
+                {
+                  title: "Problemas de Seguridad",
+                  desc: "Vulnerabilidades que pueden exponer los datos de los clientes y dañar la reputación de la marca.",
+                },
+                {
+                  title: "Funcionalidad Rota",
+                  desc: "Carritos de compra, filtros de productos o enlaces que no funcionan correctamente.",
+                },
+                {
+                  title: "Gestión de la Plataforma",
+                  desc: "Dificultades para configurar nuevos productos, plugins o actualizaciones.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte de Correo Electrónico a Medida para una Comunicación Impecable",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios para gestionar todos los aspectos técnicos de su correo electrónico.",
+      issueCategories: [
+        {
+          title: "Configuración de Clientes de Correo",
+          description:
+            "Nos encargamos de la configuración de su correo electrónico en todos los clientes de correo populares, como Microsoft Outlook, Gmail, Apple Mail, Thunderbird, y otros. Nos aseguramos de que su correo esté configurado correctamente para que funcione sin problemas en su ordenador, teléfono o tablet.",
+        },
+        {
+          title: "Migración de Correos Electrónicos",
+          description:
+            "Si necesita cambiar de proveedor de correo o de servicio, nuestro equipo de expertos se encarga de la migración completa de sus correos electrónicos, carpetas y contactos, garantizando que no se pierda ninguna información valiosa durante la transición.",
+        },
+        {
+          title: "Gestión de la Seguridad y el Spam",
+          description:
+            "Configuramos las mejores medidas de seguridad para su correo electrónico. Esto incluye la activación de filtros de spam avanzados para mantener su bandeja de entrada limpia, así como la configuración de protocolos de seguridad para proteger su cuenta de accesos no autorizados.",
+        },
+        {
+          title: "Soporte para Dispositivos Móviles",
+          description:
+            "Ofrecemos asistencia completa para configurar su correo electrónico en dispositivos móviles, tanto iOS como Android. Nos aseguramos de que pueda acceder a su correo, calendarios y contactos desde cualquier lugar y en cualquier momento, de forma segura.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de correo electrónico y hemos ayudado a empresas de todos los tamaños a mantener una comunicación fluida y profesional. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que se asegura de que su correo electrónico funcione a la perfección.",
+        },
+      ],
+    },
+    description:
+      "We provide fast and reliable repair services for desktops, laptops, and IT hardware to minimize downtime.",
+    features: [
+      "Diagnosis and repair of hardware issues",
+      "Replacement of faulty components",
+      "Preventive maintenance and upgrades",
+    ],
+    faqs: [
+      {
+        label: "¿Cuál es la diferencia entre los protocolos IMAP y POP3?",
+        desc: "IMAP (Internet Message Access Protocol) le permite acceder a sus correos desde múltiples dispositivos, ya que los mensajes se sincronizan con el servidor. POP3 (Post Office Protocol 3) descarga los correos al dispositivo local y los elimina del servidor, siendo ideal para un único dispositivo.",
+        expanded: true,
+      },
+      {
+        label: "¿Por qué mis correos no se envían o no los recibo?",
+        desc: "Esto puede deberse a una variedad de razones, como una configuración de servidor incorrecta, problemas con su conexión a Internet o un filtro de spam que bloquea los correos. Nuestro equipo puede diagnosticar la causa y solucionarlo rápidamente.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Pueden ayudarme a configurar mi correo en mi teléfono o tablet?",
+        desc: "Sí, ofrecemos soporte completo para configurar su correo electrónico en dispositivos móviles, ya sean iOS (iPhone, iPad) o Android, asegurando una sincronización perfecta de correos, calendarios y contactos.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo puedo detener los correos no deseados (spam)?",
+        desc: "Podemos configurar filtros de spam avanzados en su servidor de correo y cliente para bloquear los correos no deseados. También le asesoraremos sobre las mejores prácticas para evitar el spam.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué hago si creo que mi cuenta de correo ha sido hackeada?",
+        desc: "Si sospecha que su cuenta ha sido comprometida, el primer paso es cambiar su contraseña inmediatamente. Luego, contáctenos para que podamos revisar los registros de acceso, asegurar la cuenta y verificar si se ha enviado algún correo malicioso.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden migrar mis correos antiguos a un nuevo proveedor?",
+        desc: "Sí, ofrecemos servicios de migración de correo electrónico para transferir de forma segura todos sus correos, carpetas y contactos de un proveedor a otro sin perder información.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Cuál es la mejor manera de configurar el correo para un nuevo dominio?",
+        desc: "Le guiaremos a través del proceso completo, desde la configuración de los registros DNS necesarios hasta la creación de las cuentas de correo electrónico y su configuración en los dispositivos de su equipo.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué clientes de correo soportan?",
+        desc: "Damos soporte a la mayoría de los clientes de correo populares, como Outlook, Gmail, Apple Mail, Thunderbird y la configuración de correo web.",
+        expanded: false,
+      },
+      {
+        label: "¿Por qué recibo un error al enviar correos?",
+        desc: "Esto puede deberse a un problema de autenticación, una configuración de servidor SMTP incorrecta o a que su IP está en una lista de bloqueo. Realizaremos un diagnóstico completo para identificar la causa y restaurar el servicio.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿También ofrecen servicios de alojamiento de correo electrónico?",
+        desc: "Sí, ofrecemos servicios de alojamiento de correo electrónico para su dominio. Nos encargamos de la gestión completa del servicio, incluyendo la creación de cuentas, la seguridad y el soporte.",
+        expanded: false,
+      },
+    ],
+  },
+  {
+    slug: "soporte-de-red-wifi",
+    title: "Conectividad perfecta y velocidad inigualable",
+    subtitle:
+      "Conexión Inalámbrica Sin Fallos: Su Solución de Soporte Wi-Fi con ITSupport.net.in",
+    subtitle1: `En el mundo actual, la conectividad inalámbrica es una necesidad fundamental, tanto en el hogar como en la oficina. Una señal débil, una conexión lenta o los puntos muertos pueden ser una fuente de frustración constante, interrumpiendo videoconferencias, descargas importantes y la productividad diaria. En ITSupport.net.in, entendemos que una red Wi-Fi fiable no es un lujo, sino un pilar esencial para la eficiencia y la comunicación.`,
+    heroImage:
+      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    intro: {
+      headline:
+        "Su mundo inalámbrico, nuestra experiencia: más de una década de excelencia global para más de 20.000 clientes",
+      subheadline: "",
+      description:
+        "Con una sólida experiencia de más de 20 años en el sector de TI, nos hemos consolidado como líderes en Servicios de Soporte de Red Wi-Fi, proporcionando soluciones expertas y personalizadas. Hemos asistido a más de 10,000 clientes satisfechos a nivel mundial a construir y mantener redes Wi-Fi rápidas, estables y seguras. Nuestra misión es simple: encargarnos de los desafíos técnicos para que usted pueda disfrutar de una conectividad fluida en cada rincón de su espacio.",
+      image:
+        "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    },
+    serviceHighlights: {
+      title: "Why Choose Our Wi-Fi Support?",
+      services: [
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <rect width="20" height="8" x="2" y="14" rx="2"></rect>
+              <path d="M6.01 18H6"></path>
+              <path d="M10.01 18H10"></path>
+              <path d="M15 10v4"></path>
+              <path d="M17.84 7.17a4 4 0 0 0-5.66 0"></path>
+              <path d="M20.66 4.34a8 8 0 0 0-11.31 0"></path>
+            </svg>
+          ),
+          title: "Router Setup & Optimization",
+          description:
+            "Professional installation and configuration for maximum coverage.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M4.9 16.1C1 12.2 1 5.8 4.9 1.9"></path>
+              <path d="M7.8 4.7a6.14 6.14 0 0 0-.8 7.5"></path>
+              <circle cx="12" cy="9" r="2"></circle>
+              <path d="M16.2 4.8c2 2 2.26 5.11.8 7.47"></path>
+              <path d="M19.1 1.9a9.96 9.96 0 0 1 0 14.1"></path>
+              <path d="M9.5 18h5"></path>
+              <path d="m8 22 4-11 4 11"></path>
+            </svg>
+          ),
+          title: "Signal Boosting",
+          description: "Range extension and dead zone elimination.",
+        },
+        {
+          icon: (
+            <svg
+              data-v-15b35c9e=""
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="inline mr-2 text-gray-500"
+            >
+              <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13"></path>
+              <path d="M2 12h8.5"></path>
+              <path d="M20 6V4a2 2 0 1 0-4 0v2"></path>
+              <rect width="8" height="5" x="14" y="6" rx="1"></rect>
+            </svg>
+          ),
+          title: "Secure Network",
+          description: "Encrypted Wi-Fi and strong password setup.",
+        },
+      ],
+    },
+    issuecategory: {
+      title: "Deje de Luchar con los Puntos Muertos y la Baja Velocidad",
+      subTitle:
+        "Los problemas de Wi-Fi pueden afectar la productividad y la experiencia de usuario. Desde señal débil hasta desconexiones frecuentes, nuestro equipo de especialistas diagnostica, optimiza y asegura su red Wi-Fi para un rendimiento óptimo.",
+      issueCategories: [
+        {
+          title: "Problemas Comunes de Red Wi-Fi",
+          description: "",
+          issues: [
+            {
+              title: "Problemas Comunes",
+              type: "list",
+              options: [
+                {
+                  title: "Señal Débil o Inestable",
+                  desc: "La señal es fuerte cerca del router, pero se debilita en otras áreas.",
+                },
+                {
+                  title: "Velocidad Lenta",
+                  desc: "El Internet es lento incluso cuando la conexión es fuerte.",
+                },
+                {
+                  title: "Desconexiones Frecuentes",
+                  desc: "Los dispositivos se desconectan constantemente de la red Wi-Fi.",
+                },
+                {
+                  title: "Problemas de Configuración",
+                  desc: "Dificultad para configurar un nuevo router o conectar nuevos dispositivos.",
+                },
+                {
+                  title: "Vulnerabilidades de Seguridad",
+                  desc: "La red Wi-Fi no está protegida con una contraseña segura, exponiendo sus datos.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    issuecategory2: {
+      title:
+        "Servicios de Soporte Wi-Fi a Medida para una Conectividad Impecable",
+      subTitle:
+        "En ITSupport.net.in, ofrecemos un espectro completo de servicios para gestionar y optimizar su red Wi-Fi.",
+      issueCategories: [
+        {
+          title: "Configuración e Instalación de Redes Wi-Fi",
+          description:
+            "Nos encargamos de la instalación y configuración completa de su router y de otros equipos de red. Optimizamos los canales y la configuración para minimizar las interferencias, y nos aseguramos de que su red esté protegida con la última tecnología de encriptación.",
+        },
+        {
+          title: "Eliminación de Puntos Muertos y Extensión de Cobertura",
+          description:
+            "Si tiene áreas de su casa u oficina donde la señal es débil, instalamos y configuramos extensores de rango, puntos de acceso o sistemas de malla (mesh systems) para garantizar una cobertura Wi-Fi completa y estable en cada rincón.",
+        },
+        {
+          title: "Seguridad de Redes Inalámbricas",
+          description:
+            "La seguridad es fundamental para su red Wi-Fi. Implementamos contraseñas seguras, cifrado WPA2/WPA3 y redes de invitados separadas para proteger su red principal.",
+        },
+        {
+          title: "Solución de Problemas y Diagnóstico",
+          description:
+            "Si su red Wi-Fi es lenta o se desconecta con frecuencia, utilizamos herramientas de diagnóstico avanzadas para identificar la causa raíz del problema y aplicar una solución duradera de forma remota o en sitio.",
+        },
+        {
+          title:
+            "ITSupport.net.in: 20 Años de Experiencia, 10,000 Clientes Satisfechos",
+          description:
+            "Nuestra longevidad en el mercado es un testimonio de nuestra fiabilidad y experiencia. Durante dos décadas, hemos resuelto innumerables problemas de redes inalámbricas y hemos ayudado a empresas y particulares a disfrutar de una conectividad sin fallos. La confianza de más de 10,000 clientes satisfechos a nivel mundial demuestra nuestro compromiso con la excelencia. Con ITSupport.net.in, usted no solo contrata un servicio, sino que obtiene un socio tecnológico que se asegura de que su red Wi-Fi sea siempre rápida, segura y fiable.",
+        },
+      ],
+    },
+    description:
+      "We provide fast and reliable repair services for desktops, laptops, and IT hardware to minimize downtime.",
+    features: [
+      "Diagnosis and repair of hardware issues",
+      "Replacement of faulty components",
+      "Preventive maintenance and upgrades",
+    ],
+    faqs: [
+      {
+        label:
+          "¿Por qué la señal de mi Wi-Fi es débil en algunas partes de mi casa?",
+        desc: "Esto se debe a la distancia del router, los obstáculos físicos como paredes de concreto, y las interferencias de otros dispositivos electrónicos. Una auditoría de red puede identificar estos problemas y recomendar soluciones.",
+        expanded: true,
+      },
+      {
+        label: "¿Qué puedo hacer para mejorar la velocidad de mi Wi-Fi?",
+        desc: "Puede mejorar la velocidad optimizando la ubicación de su router, cambiando a un canal menos congestionado, actualizando el firmware del router o actualizando su hardware a un modelo más nuevo.",
+        expanded: false,
+      },
+      {
+        label: "¿Cuál es la diferencia entre las bandas de 2.4 GHz y 5 GHz?",
+        desc: "La banda de 2.4 GHz tiene un mayor alcance, pero ofrece velocidades más lentas y es más propensa a interferencias. La banda de 5 GHz ofrece velocidades más rápidas y menos interferencias, pero tiene un alcance más corto.",
+        expanded: false,
+      },
+      {
+        label: "¿Cómo puedo asegurar mi red Wi-Fi?",
+        desc: "Para asegurar su red, debe usar una contraseña fuerte, activar el cifrado WPA2/WPA3, cambiar el nombre de usuario y contraseña predeterminados del router y crear una red de invitados separada.",
+        expanded: false,
+      },
+      {
+        label: "¿Qué es un sistema de malla (mesh system) y lo necesito?",
+        desc: "Un sistema de malla utiliza varios dispositivos para crear una red Wi-Fi unificada en toda su casa u oficina, eliminando los puntos muertos y garantizando una señal fuerte en todas las áreas. Es ideal para espacios grandes o con múltiples plantas.",
+        expanded: false,
+      },
+      {
+        label: "¿Pueden ayudarme a configurar una red Wi-Fi para invitados?",
+        desc: "Sí, podemos configurar una red Wi-Fi separada y segura para sus invitados, lo que les permite acceder a Internet sin comprometer la seguridad de su red principal.",
+        expanded: false,
+      },
+      {
+        label: "¿Por qué mi Wi-Fi se desconecta con tanta frecuencia?",
+        desc: "Las desconexiones pueden ser causadas por interferencias, un router sobrecargado, un firmware obsoleto o problemas con el proveedor de Internet. Nuestro equipo puede diagnosticar la causa y solucionar el problema.",
+        expanded: false,
+      },
+      {
+        label: "¿Dan soporte a todas las marcas de routers?",
+        desc: "Sí, nuestros técnicos tienen experiencia con una amplia gama de marcas de routers y equipos de red, incluyendo TP-Link, Netgear, Linksys, D-Link, y muchas otras.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿Cómo puedo saber si hay vulnerabilidades de seguridad en mi red Wi-Fi?",
+        desc: "Las señales pueden ser el acceso no autorizado a su red, la pérdida de velocidad sin motivo aparente o la aparición de dispositivos desconocidos en la lista de equipos conectados. Podemos realizar una auditoría de seguridad para detectar estos problemas.",
+        expanded: false,
+      },
+      {
+        label:
+          "¿También pueden ayudarme con la configuración de un nuevo router?",
+        desc: "Sí, ofrecemos un servicio completo para la configuración de su nuevo router, incluyendo la conexión al módem, la configuración de la red Wi-Fi y la implementación de medidas de seguridad iniciales.",
         expanded: false,
       },
     ],
