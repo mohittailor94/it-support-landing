@@ -239,6 +239,118 @@ export default function ServiceDetail({ params }: Props) {
             </Typography>
           </div>
         )}
+
+        {service?.issuecategory3 && (
+          <div className="py-8 w-full px-4">
+            <Typography
+              variant="h2"
+              className="font-bold mb-8 text-center text-gray-800"
+            >
+              {service.issuecategory3?.title}
+            </Typography>
+            {service.issuecategory3?.subTitle && (
+              <Typography
+                variant="p"
+                className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+                htmlString={service?.issuecategory3?.subTitle || ""}
+              />
+            )}
+
+            {service.issuecategory3?.issueCategories.map((cat) => (
+              <div
+                className="space-y-12 mt-12 flex justify-center"
+                key={`service-issue-category-${cat.title}`}
+              >
+                <IssueCategory
+                  title={cat.title}
+                  description={cat.description}
+                  bottomDesc={cat.bottomDesc}
+                >
+                  {cat?.issues?.map((catIssue) =>
+                    catIssue.type === "list" ? (
+                      <SpecificIssueList
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        options={catIssue.options || []}
+                      />
+                    ) : (
+                      <SpecificIssue
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        problemDescription={catIssue.problemDescription}
+                        solution={catIssue.solution}
+                      />
+                    )
+                  )}
+                </IssueCategory>
+              </div>
+            ))}
+            {/* {service?.issuecategory3?.bottomDesc && (
+              <Typography
+                variant="p"
+                className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+              >
+                {service.issuecategory3?.bottomDesc}
+              </Typography>
+            )} */}
+          </div>
+        )}
+
+        {service?.issuecategory4 && (
+          <div className="py-8 w-full px-4">
+            <Typography
+              variant="h2"
+              className="font-bold mb-8 text-center text-gray-800"
+            >
+              {service.issuecategory4?.title}
+            </Typography>
+            {service.issuecategory4?.subTitle && (
+              <Typography
+                variant="p"
+                className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+                htmlString={service?.issuecategory4?.subTitle || ""}
+              />
+            )}
+
+            {service.issuecategory4?.issueCategories.map((cat) => (
+              <div
+                className="space-y-12 mt-12 flex justify-center"
+                key={`service-issue-category-${cat.title}`}
+              >
+                <IssueCategory
+                  title={cat.title}
+                  description={cat.description}
+                  bottomDesc={cat.bottomDesc}
+                >
+                  {cat?.issues?.map((catIssue) =>
+                    catIssue.type === "list" ? (
+                      <SpecificIssueList
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        options={catIssue.options || []}
+                      />
+                    ) : (
+                      <SpecificIssue
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        problemDescription={catIssue.problemDescription}
+                        solution={catIssue.solution}
+                      />
+                    )
+                  )}
+                </IssueCategory>
+              </div>
+            ))}
+            {/* {service?.issuecategory4?.bottomDesc && (
+              <Typography
+                variant="p"
+                className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
+              >
+                {service?.issuecategory4?.bottomDesc}
+              </Typography>
+            )} */}
+          </div>
+        )}
       </section>
 
       <ServiceWhyChoose />
