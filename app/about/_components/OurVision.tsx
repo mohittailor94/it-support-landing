@@ -12,7 +12,7 @@ export default function OurVision() {
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
            {t.rich("OurVision.description", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}
           </p>

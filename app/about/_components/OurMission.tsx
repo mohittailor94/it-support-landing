@@ -13,12 +13,12 @@ export default function OurMission() {
         <p className="text-lg text-gray-700 mb-8 leading-relaxed">
          {t("OurMission.description1")}
         </p>
-        <p className="text-lg text-gray-700 mb-8 leading-relaxed font-extrabold">
+        <p className="text-lg text-gray-700 mb-8 leading-relaxed">
           {t("OurMission.description2")}
         </p>
         <p className="text-lg text-gray-700 mb-8 leading-relaxed">
             {t.rich("OurMission.description3", {
-            b: (chunks) => <strong className="font-extrabold">{chunks}</strong>
+            b: (chunks) => <strong className="">{chunks}</strong>
           })}
         </p>
       </div>
