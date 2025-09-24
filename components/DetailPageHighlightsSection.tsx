@@ -74,7 +74,7 @@ const DetailPageHighlightsSection: React.FC<
         {serviceHighlights.title}
       </Typography>
       <div className="grid md:grid-cols-3 gap-6 mb-4">
-        {serviceHighlights.services.map((serv, servIndex) => (
+        {(serviceHighlights?.services ?? []).map((serv, servIndex) => (
           <ServiceCard
             key={`service-service-highlights-service-${servIndex}-${serviceHighlights.title}`}
             icon={
@@ -117,7 +117,7 @@ const DetailPageHighlightsSection: React.FC<
         />
       )}
 
-      {issuecategory.issueCategories.map((cat) => (
+      {(issuecategory?.issueCategories ?? []).map((cat) => (
         <div
           className="space-y-12 mt-12 flex justify-center"
           key={`service-issue-category-${cat.title}`}
@@ -172,27 +172,27 @@ const DetailPageHighlightsSection: React.FC<
           />
         )}
 
-        {issuecategory2.issueCategories.map((cat) => (
+        {(issuecategory2?.issueCategories || []).map((cat) => (
           <div
             className="space-y-12 mt-12 flex justify-center"
             key={`service-issue-category-${cat.title}`}
           >
             <IssueCategory
-              title={cat.title}
+              title={cat?.title || ''}
               description={cat.description}
               bottomDesc={cat.bottomDesc}
             >
-              {cat.issues.map((catIssue) =>
+              {(cat?.issues || []).map((catIssue) =>
                 catIssue.type === "list" ? (
                   <SpecificIssueList
                     key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
-                    title={catIssue.title}
+                    title={catIssue.title || ''}
                     options={catIssue.options || []}
                   />
                 ) : (
                   <SpecificIssue
                     key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
-                    title={catIssue.title}
+                    title={catIssue.title || ''}
                     problemDescription={catIssue.problemDescription}
                     solution={catIssue.solution}
                   />
@@ -226,7 +226,7 @@ const DetailPageHighlightsSection: React.FC<
           />
         )}
 
-        {issuecategory3?.issueCategories.map((cat) => (
+        {issuecategory3?.issueCategories.map((cat: any) => (
           <div
             className="space-y-12 mt-12 flex justify-center"
             key={`service-issue-category-${cat.title}`}
@@ -236,7 +236,7 @@ const DetailPageHighlightsSection: React.FC<
               description={cat.description}
               bottomDesc={cat.bottomDesc}
             >
-              {cat?.issues?.map((catIssue) =>
+              {cat?.issues?.map((catIssue: any) =>
                 catIssue.type === "list" ? (
                   <SpecificIssueList
                     key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
@@ -278,11 +278,11 @@ const DetailPageHighlightsSection: React.FC<
           <Typography
             variant="p"
             className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
-            htmlString={service?.issuecategory4?.subTitle || ""}
+            htmlString={issuecategory4?.subTitle || ""}
           />
         )}
 
-        {issuecategory4?.issueCategories.map((cat) => (
+        {issuecategory4?.issueCategories.map((cat: any) => (
           <div
             className="space-y-12 mt-12 flex justify-center"
             key={`service-issue-category-${cat.title}`}
@@ -292,7 +292,7 @@ const DetailPageHighlightsSection: React.FC<
               description={cat.description}
               bottomDesc={cat.bottomDesc}
             >
-              {cat?.issues?.map((catIssue) =>
+              {cat?.issues?.map((catIssue: any) =>
                 catIssue.type === "list" ? (
                   <SpecificIssueList
                     key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}

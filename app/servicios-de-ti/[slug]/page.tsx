@@ -226,12 +226,12 @@ export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
                 </IssueCategory>
               </div>
             ))}
-            <Typography
+            {/* <Typography
               variant="p"
               className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
             >
               {service.issuecategory2?.bottomDesc}
-            </Typography>
+            </Typography> */}
           </div>
         )}
 
@@ -280,14 +280,14 @@ export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
                 </IssueCategory>
               </div>
             ))}
-            {service.issuecategory3?.bottomDesc && (
+            {/* {service.issuecategory3?.bottomDesc && (
               <Typography
                 variant="p"
                 className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
               >
                 {service.issuecategory3?.bottomDesc}
               </Typography>
-            )}
+            )} */}
           </div>
         )}
 
@@ -336,14 +336,14 @@ export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
                 </IssueCategory>
               </div>
             ))}
-            {service.issuecategory4?.bottomDesc && (
+            {/* {service.issuecategory4?.bottomDesc && (
               <Typography
                 variant="p"
                 className="text-gray-600 mb-8 text-center max-w-5xl mx-auto"
               >
                 {service.issuecategory4?.bottomDesc}
               </Typography>
-            )}
+            )} */}
           </div>
         )}
       </section>

@@ -2,7 +2,6 @@ import outCoreData, { outCoreDataEs } from "@/utils/constant/outCoreData";
 
 import { useLocale, useTranslations } from "next-intl";
 
-import AOS from "aos";
 import "aos/dist/aos.css";
 import IndustriesWhyChoose from "./_component/IndustriesWhyChoose";
 import IndustriesWeServe from "@/components/IndustriesWeServe";
