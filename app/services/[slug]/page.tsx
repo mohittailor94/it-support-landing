@@ -103,7 +103,7 @@ export default function ServiceDetail({ params }: Props) {
       />
 
       {/* ------------------------------- */}
-      <section className="px-16 sm:px-6 bg-[#f4f7fa]">
+      <section className="sm:px-16 px-2 bg-[#f4f7fa]">
         <div className="w-full px-4">
           <Typography
             variant="h2"
@@ -353,11 +353,14 @@ export default function ServiceDetail({ params }: Props) {
         )}
       </section>
 
-      <ServiceWhyChoose
-        cards={service?.whyChoose?.whyChoosecategories ?? []}
-        title={service.whyChoose?.title ?? ""}
-        desc={service.whyChoose?.desc ?? ""}
-      />
+      {service?.whyChoose &&
+        service?.whyChoose?.whyChoosecategories?.length > 0 && (
+          <ServiceWhyChoose
+            cards={service.whyChoose.whyChoosecategories}
+            title={service.whyChoose.title}
+            desc={service.whyChoose.desc}
+          />
+        )}
       <FAQs data={service.faqs} descHTMLString />
     </>
   );

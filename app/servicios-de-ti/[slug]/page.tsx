@@ -95,7 +95,7 @@ export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
       />
 
       {/* ------------------------------- */}
-      <section className="px-16 sm:px-6 bg-[#f4f7fa]">
+      <section className="sm:px-16 px-2 bg-[#f4f7fa]">
         <div className="w-full px-4">
           <Typography
             variant="h2"

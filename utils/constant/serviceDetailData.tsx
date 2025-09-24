@@ -892,6 +892,89 @@ export const servicesDetailData: Service[] = [
         },
       ],
     },
+    whyChoose: {
+      title: "Why Choose ITSupport.net.in?",
+      desc: "With over a decade of dedicated service and thousands of satisfied customers globally, ITSupport.net.in stands out for its:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Expert Technicians",
+          desc: "Highly trained and experienced professionals.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Support",
+          desc: "Assistance whenever you need it.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Remote Solutions",
+          desc: "Many issues resolved efficiently from anywhere.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Customer Satisfaction",
+          desc: "Our priority is getting you back to printing seamlessly.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "Why is my printer not printing, even though it's turned on?",
@@ -1158,6 +1241,108 @@ export const servicesDetailData: Service[] = [
       "Network performance optimization",
       "Firewall and security monitoring",
     ],
+    whyChoose: {
+      title: "Why Choose ITSupport.net.in for Network Support?",
+      desc: "With over a decade of dedicated service and a track record of supporting more than 10,000 customers globally, ITSupport.net.in is your ideal partner for network health. Our commitment to excellence is reflected in:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Experienced Network Engineers",
+          desc: "Our team comprises highly skilled and certified professionals.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Proactive Monitoring",
+          desc: "We offer solutions to monitor your network for potential issues before they become critical.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Rapid Response",
+          desc: "Quick diagnosis and resolution to minimize network downtime.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Availability",
+          desc: "Around-the-clock support to ensure your business stays connected.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Customized Solutions",
+          desc: "Tailored network strategies to meet your specific business needs and scale.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "Why is my internet so slow all of a sudden?",
@@ -1643,6 +1828,127 @@ export const servicesDetailData: Service[] = [
       "Data synchronization across devices",
       "Secure cloud backup and storage options",
     ],
+    whyChoose: {
+      title: "Why Partner with ITSupport.net.in for Cloud Services?",
+      desc: "Choosing ITSupport.net.in as your cloud support partner means leveraging over a decade of hands-on experience and a global footprint of over 10,000 satisfied customers. Our commitment to your success is built on:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Platform Agnostic Expertise",
+          desc: "Proficient across all major cloud providers.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proactive Monitoring & Support",
+          desc: "We detect and resolve issues often before you even notice them.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Cost Optimization Focus",
+          desc: "Ensuring you get the most value from your cloud investment.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Enhanced Security & Compliance",
+          desc: "Protecting your data and meeting regulatory requirements.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Scalability & Flexibility",
+          desc: "Ensuring your cloud infrastructure grows seamlessly with your business.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Dedicated & Certified Cloud Engineers",
+          desc: "A team committed to your cloud success.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "Which cloud providers do you support?",
@@ -1991,6 +2297,127 @@ export const servicesDetailData: Service[] = [
       "Payment gateway integration",
       "Security and uptime monitoring",
     ],
+    whyChoose: {
+      title: "Why Partner with ITSupport.net.in for E-commerce Success?",
+      desc: "Choosing ITSupport.net.in means entrusting your online store to a team with over a decade of specialized experience and a track record of supporting 500+ happy e-commerce customers globally. Our commitment to your business growth is reflected in:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Platform Agnostic Expertise",
+          desc: "Proficient across all major e-commerce platforms and technologies.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proactive Monitoring",
+          desc: "We identify and resolve issues before they impact your sales.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Sales-Driven Solutions",
+          desc: "Our support is focused on improving your store’s performance, conversions, and revenue.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Enhanced Security & Compliance",
+          desc: "Protecting your valuable customer data and maintaining trust.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Scalability & Performance Optimization",
+          desc: "Ensuring your store can handle traffic surges and grow with your business.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Dedicated & Certified E-commerce Specialists",
+          desc: "A team truly invested in your online retail success.",
+        },
+      ],
+    },
     faqs: [
       {
         label: `What exactly does "E-commerce Support Service" entail?`,
@@ -2470,6 +2897,127 @@ export const servicesDetailData: Service[] = [
       "Replacement of faulty components",
       "Preventive maintenance and upgrades",
     ],
+    whyChoose: {
+      title: "Why Partner with ITSupport.net.in for Hardware Services?",
+      desc: "Choosing ITSupport.net.in for your hardware support means leveraging over a decade of hands-on experience and a track record of serving 10,000+ satisfied customers globally. Our commitment to your operational continuity is built on:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Multi-Brand Expertise",
+          desc: "Proficient in diagnosing and repairing hardware from all major manufacturers.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Component-Level Repair",
+          desc: "Beyond simple fixes, we can often repair components, saving you replacement costs.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Rapid Response",
+          desc: "Quick diagnosis and efficient resolution to minimize hardware downtime.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Preventative Maintenance",
+          desc: "Proactive services to extend the lifespan of your hardware and prevent future issues.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Genuine Parts & Quality Service",
+          desc: "Using authentic replacement parts and delivering top-tier technical assistance.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Global Reach, Local Touch",
+          desc: "Expert support available wherever you are, with personalized service.",
+        },
+      ],
+    },
     faqs: [
       {
         label:
@@ -2879,6 +3427,127 @@ export const servicesDetailData: Service[] = [
       "Hosting setup and migration",
       "Email and SSL certificate setup",
     ],
+    whyChoose: {
+      title: "Why Partner with ITSupport.net.in for Web Hosting Success?",
+      desc: "Choosing ITSupport.net.in as your web hosting support partner means leveraging over a decade of dedicated expertise and a global track record of empowering 1,000+ satisfied customers. Our commitment to your online success is built on:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Platform-Agnostic Expertise",
+          desc: "Proficient across all major web hosting providers and technologies.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proactive Monitoring",
+          desc: "We detect and resolve hosting issues often before they impact your website.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Speed & Uptime Focus",
+          desc: "Our primary goal is to ensure your website is consistently fast and available.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Enhanced Security",
+          desc: "Robust measures to protect your website from malware, hacks, and data breaches.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Seamless Migrations & Backups",
+          desc: "Ensuring your data is always safe and transitions are smooth.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Dedicated & Certified Hosting Specialists",
+          desc: "A team truly invested in your online presence and growth.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "What common problems does Web Hosting Support address?",
@@ -4166,6 +4835,127 @@ export const servicesDetailData: Service[] = [
       "Signal boosting and range extension",
       "Secure network configuration",
     ],
+    whyChoose: {
+      title: "Why Partner with ITSupport.net.in for Flawless Wi-Fi?",
+      desc: "Choosing ITSupport.net.in as your Wi-Fi support partner means leveraging over a decade of specialized expertise and a global track record of empowering 20,000+ satisfied customers. Our commitment to your uninterrupted wireless connectivity is built on:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Multi-Brand Expertise",
+          desc: "Proficient in diagnosing, troubleshooting, and optimizing Wi-Fi solutions across all major router and networking brands.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proactive Monitoring & Rapid Response",
+          desc: "We detect and resolve Wi-Fi issues often before they disrupt your productivity.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Speed & Coverage Optimization",
+          desc: "Our primary goal is to ensure you have fast, reliable Wi-Fi everywhere you need it.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Enhanced Security",
+          desc: "Implementing robust measures to protect your wireless network from unauthorized access and threats.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Seamless Setup & Configuration",
+          desc: "We make setting up new networks or devices simple and hassle-free.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Dedicated & Certified Wi-Fi Specialists",
+          desc: "A team truly invested in your seamless wireless experience.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "What common Wi-Fi problems does ITSupport.net.in resolve?",
@@ -4963,6 +5753,89 @@ export const serviceDetailDataEs: Service[] = [
         },
       ],
     },
+    whyChoose: {
+      title: "¿Por qué elegir ITSupport.net.in?",
+      desc: "Con más de una década de servicio dedicado y miles de clientes satisfechos a nivel mundial, ITSupport.net.in se destaca por:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Técnicos Expertos",
+          desc: "Profesionales altamente capacitados y experimentados.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Soporte 24/7",
+          desc: "Asistencia cuando la necesite.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Soluciones Remotas",
+          desc: "Muchos problemas se resuelven de manera eficiente desde cualquier lugar.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Satisfacción del Cliente",
+          desc: "Nuestra prioridad es que vuelva a imprimir sin problemas.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Pueden reparar mi impresora de forma remota?",
@@ -5226,6 +6099,108 @@ export const serviceDetailDataEs: Service[] = [
       "Network performance optimization",
       "Firewall and security monitoring",
     ],
+    whyChoose: {
+      title: "¿Por qué elegir ITSupport.net.in para soporte de red?",
+      desc: "Con más de una década de servicio dedicado y una trayectoria de apoyo a más de 10,000 clientes a nivel mundial, ITSupport.net.in es su socio ideal para la salud de su red. Nuestro compromiso con la excelencia se refleja en:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Ingenieros de Red Experimentados",
+          desc: "Nuestro equipo está compuesto por profesionales altamente cualificados y certificados.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Monitoreo Proactivo",
+          desc: "Ofrecemos soluciones para monitorear su red en busca de posibles problemas antes de que se vuelvan críticos.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Respuesta Rápida",
+          desc: "Diagnóstico y resolución rápidos para minimizar el tiempo de inactividad de la red.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Disponibilidad 24/7",
+          desc: "Soporte las 24 horas del día para asegurar que su negocio permanezca conectado.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Soluciones Personalizadas",
+          desc: "Estrategias de red adaptadas para satisfacer las necesidades y la escala específicas de su negocio.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Por qué mi red Wi-Fi es lenta y se desconecta con frecuencia?",
@@ -5493,6 +6468,128 @@ export const serviceDetailDataEs: Service[] = [
       "Data synchronization across devices",
       "Secure cloud backup and storage options",
     ],
+    whyChoose: {
+      title:
+        "¿Por qué asociarse con ITSupport.net.in para servicios en la nube?",
+      desc: "Elegir ITSupport.net.in como su socio de soporte en la nube significa aprovechar más de una década de experiencia práctica y una huella global de más de 10,000 clientes satisfechos. Nuestro compromiso con su éxito se basa en:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Experiencia en Plataformas Agnósticas",
+          desc: "Competentes en todos los principales proveedores de la nube.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Monitoreo y Soporte Proactivo 24/7",
+          desc: "Detectamos y resolvemos problemas a menudo antes de que usted los note.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Foco en la Optimización de Costos",
+          desc: "Aseguramos que obtenga el máximo valor de su inversión en la nube.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Seguridad y Cumplimiento Mejorados",
+          desc: "Protegemos sus datos y cumplimos con los requisitos regulatorios.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Escalabilidad y Flexibilidad",
+          desc: "Garantizamos que su infraestructura en la nube crezca sin problemas con su negocio.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Ingenieros de Nube Dedicados y Certificados",
+          desc: "Un equipo comprometido con su éxito en la nube.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Qué es la computación en la nube?",
@@ -5753,6 +6850,129 @@ export const serviceDetailDataEs: Service[] = [
       "Payment gateway integration",
       "Security and uptime monitoring",
     ],
+    whyChoose: {
+      title:
+        "¿Por qué asociarse con ITSupport.net.in para el éxito del comercio electrónico?",
+      desc: "Elegir ITSupport.net.in significa confiar su tienda en línea a un equipo con más de una década de experiencia especializada y una trayectoria de apoyo a más de 500 clientes de comercio electrónico satisfechos a nivel mundial. Nuestro compromiso con el crecimiento de su negocio se refleja en:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Experiencia en Plataformas Agnósticas",
+          desc: "Competentes en todas las principales plataformas y tecnologías de comercio electrónico.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Monitoreo Proactivo 24/7",
+          desc: "Identificamos y resolvemos problemas antes de que afecten sus ventas.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Soluciones Orientadas a las Ventas",
+          desc: "Nuestro soporte se centra en mejorar el rendimiento, las conversiones y los ingresos de su tienda.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Seguridad y Cumplimiento Mejorados",
+          desc: "Protegemos los datos valiosos de sus clientes y mantenemos la confianza.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Escalabilidad y Optimización del Rendimiento",
+          desc: "Aseguramos que su tienda pueda manejar picos de tráfico y crecer con su negocio.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title:
+            "Especialistas en Comercio Electrónico Dedicados y Certificados",
+          desc: "Un equipo verdaderamente comprometido con el éxito de su tienda en línea.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Qué plataformas de comercio electrónico soportan?",
@@ -6024,6 +7244,128 @@ export const serviceDetailDataEs: Service[] = [
       "Replacement of faulty components",
       "Preventive maintenance and upgrades",
     ],
+    whyChoose: {
+      title:
+        "¿Por qué asociarse con ITSupport.net.in para servicios de hardware?",
+      desc: "Elegir a ITSupport.net.in para su soporte de hardware significa aprovechar más de una década de experiencia práctica y una trayectoria de servicio a más de 10,000 clientes satisfechos a nivel mundial. Nuestro compromiso con su continuidad operativa se basa en:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Experiencia en Múltiples Marcas",
+          desc: "Competentes en el diagnóstico y la reparación de hardware de todos los principales fabricantes.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Reparación a Nivel de Componente",
+          desc: "Más allá de las soluciones simples, a menudo podemos reparar componentes, lo que le ahorra costos de reemplazo.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Respuesta Rápida 24/7",
+          desc: "Diagnóstico rápido y resolución eficiente para minimizar el tiempo de inactividad del hardware.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Mantenimiento Preventivo",
+          desc: "Servicios proactivos para extender la vida útil de su hardware y prevenir futuros problemas.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Repuestos Genuinos y Servicio de Calidad",
+          desc: "Utilizamos repuestos auténticos y ofrecemos asistencia técnica de primer nivel.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Alcance Global, Toque Local",
+          desc: "Soporte experto disponible dondequiera que esté, con un servicio personalizado.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Qué tipo de hardware reparan?",
@@ -6286,6 +7628,128 @@ export const serviceDetailDataEs: Service[] = [
       "Replacement of faulty components",
       "Preventive maintenance and upgrades",
     ],
+    whyChoose: {
+      title:
+        "Warum Sie mit ITSupport.net.in für erfolgreiches Webhosting zusammenarbeiten sollten?",
+      desc: "Wenn Sie ITSupport.net.in als Ihren Webhosting-Support-Partner wählen, profitieren Sie von über einem Jahrzehnt spezialisierter Expertise und einer globalen Erfolgsbilanz, die 1.000+ zufriedene Kunden umfasst. Unser Engagement für Ihren Online-Erfolg basiert auf:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Plattformunabhängige Expertise",
+          desc: "Kompetent über alle gängigen Webhosting-Anbieter und -Technologien hinweg.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proaktive Überwachung",
+          desc: "Wir erkennen und beheben Hosting-Probleme oft, bevor sie Ihre Website beeinträchtigen.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Fokus auf Geschwindigkeit & Verfügbarkeit",
+          desc: "Unser Hauptziel ist es, sicherzustellen, dass Ihre Website stets schnell und verfügbar ist.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Verbesserte Sicherheit",
+          desc: "Robuste Maßnahmen zum Schutz Ihrer Website vor Malware, Hacks und Datenlecks.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Nahtlose Migrationen & Backups",
+          desc: "Sicherstellung der Datensicherheit und reibungsloser Übergänge.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Engagierte & zertifizierte Hosting-Spezialisten",
+          desc: "Ein Team, das sich voll und ganz für Ihre Online-Präsenz und Ihr Wachstum einsetzt.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Cuál es la diferencia entre un dominio y un alojamiento web?",
@@ -6878,6 +8342,128 @@ export const serviceDetailDataEs: Service[] = [
       "Replacement of faulty components",
       "Preventive maintenance and upgrades",
     ],
+    whyChoose: {
+      title:
+        "Warum Sie mit ITSupport.net.in für makelloses WLAN zusammenarbeiten sollten?",
+      desc: "Wenn Sie ITSupport.net.in als Ihren Wi-Fi-Support-Partner wählen, profitieren Sie von über einem Jahrzehnt spezialisierter Erfahrung und einer globalen Erfolgsbilanz, die 20.000+ zufriedene Kunden umfasst. Unser Engagement für Ihre unterbrechungsfreie drahtlose Konnektivität basiert auf:",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Markenübergreifende Expertise",
+          desc: "Kompetent in der Diagnose, Fehlerbehebung und Optimierung von Wi-Fi-Lösungen für alle gängigen Router- und Netzwerkanbieter.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proaktive Überwachung & Schnelle Reaktion",
+          desc: "Wir erkennen und beheben Wi-Fi-Probleme oft, bevor sie Ihre Produktivität beeinträchtigen.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H7a3 3 0 00-3 3v8a3 3 0 003 3z"
+              ></path>
+            </svg>
+          ),
+          title: "Optimierung von Geschwindigkeit & Abdeckung",
+          desc: "Unser Hauptziel ist es, Ihnen überall schnelles und zuverlässiges Wi-Fi zu gewährleisten.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Verbesserte Sicherheit",
+          desc: "Implementierung robuster Maßnahmen zum Schutz Ihres drahtlosen Netzwerks vor unbefugtem Zugriff und Bedrohungen.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Nahtlose Einrichtung & Konfiguration",
+          desc: "Wir gestalten die Einrichtung neuer Netzwerke oder Geräte einfach und unkompliziert.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Engagierte & zertifizierte Wi-Fi-Spezialisten",
+          desc: "Ein Team, das sich voll und ganz für Ihr nahtloses drahtloses Erlebnis einsetzt.",
+        },
+      ],
+    },
     faqs: [
       {
         label:
