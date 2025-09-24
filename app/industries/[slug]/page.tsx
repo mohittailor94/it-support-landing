@@ -3,32 +3,60 @@ import ServiceWhyChoose from "@/app/services/_component/ServiceWhyChoose";
 import DetailPageHighlightsSection from "@/components/DetailPageHighlightsSection";
 import FAQs from "@/components/FAQ/FAQs";
 import HeroSection from "@/components/HeroSection";
+import { industriesMeta, IndustriesMetaType } from "@/lib/IndustriesMeta";
+import { buildMetadata, renderJsonLd } from "@/lib/seo";
 import { industryDetailData } from "@/utils/constant/IndustryDetailData";
 import { Service as IndustryInterface } from "@/utils/constant/serviceDetailData";
 import { useLocale } from "next-intl";
+import Head from "next/head";
 
 interface IndustryDetailProps {
   params?: { slug: string };
 }
 
+// generateMetadata runs at build/server time and populates <head>
+export async function generateMetadata({ params }: Props) {
+  const meta = industriesMeta[params?.slug || ""];
+  if (!meta) return {};
+  return buildMetadata(meta);
+}
+
+// optional: pre-render known service slugs at build
+export async function generateStaticParams() {
+  return Object.values(industriesMeta).map((m) => ({ slug: m?.slug || "" }));
+}
+
 export default function IndustryDetail({ params }: IndustryDetailProps) {
+  const meta: IndustriesMetaType | undefined =
+    industriesMeta[params?.slug || ""];
   const decodedString = decodeURIComponent(params?.slug || "");
+
   const locale = useLocale();
 
   let industry: IndustryInterface = {};
 
-  // if (locale === "es") {
   industry = industryDetailData.find((s) => s.slug === decodedString) || {};
-  // } else {
-  //   industry = servicesDetailData.find((s) => s.slug === decodedString) || {};
-  // }
 
   if (!industry?.slug) {
-    return <div className="p-8">Service not found</div>;
+    return <div className="p-8">Industry not found</div>;
   }
+
+  const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
 
   return (
     <>
+      <Head>
+        <h1>{meta?.title}</h1>
+        <p>{meta?.description}</p>
+      </Head>
+      {jsonLdScripts.map((s) => (
+        <script
+          key={s.key}
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: s.json }}
+        />
+      ))}
       <HeroSection
         heroTitle={industry.title || ""}
         heroIntro={industry.subtitle || ""}
@@ -69,7 +97,7 @@ export default function IndustryDetail({ params }: IndustryDetailProps) {
             issueCategories: [],
           }
         }
-        serviceHighlightsItems={'even'}
+        serviceHighlightsItems={"even"}
         serviceHighlights={
           industry.serviceHighlights ?? { title: "", services: [] }
         }

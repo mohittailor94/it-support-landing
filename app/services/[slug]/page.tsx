@@ -42,19 +42,19 @@ export default function ServiceDetail({ params }: Props) {
   const t = useTranslations();
   const locale = useLocale();
 
-  const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
-
   let service: Service = {};
 
-  if (locale === "es") {
-    service = serviceDetailDataEs.find((s) => s.slug === decodedString) || {};
-  } else {
-    service = servicesDetailData.find((s) => s.slug === decodedString) || {};
-  }
+  // if (locale === "es") {
+  //   service = serviceDetailDataEs.find((s) => s.slug === decodedString) || {};
+  // } else {
+  service = servicesDetailData.find((s) => s.slug === decodedString) || {};
+  // }
 
   if (!service) {
     return <div className="p-8">Service not found</div>;
   }
+
+  const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
 
   return (
     <>

@@ -1,3 +1,5 @@
+import Head from "next/head";
+import { useLocale, useTranslations } from "next-intl";
 import IssueCategory from "@/app/services/[slug]/_components/IssueCategory";
 import ServiceCard from "@/app/services/[slug]/_components/ServiceCard";
 import SpecificIssue from "@/app/services/[slug]/_components/SpecificIssue";
@@ -9,38 +11,35 @@ import ServiceWhyChoose, {
 import FAQs from "@/components/FAQ/FAQs";
 import HeroSection from "@/components/HeroSection";
 import Typography from "@/components/ui/Typography";
-import { renderJsonLd } from "@/lib/seo";
+import { buildMetadata, renderJsonLd } from "@/lib/seo";
+import { ServiceMeta, servicesMetaEs } from "@/lib/servicesMeta";
 import {
   Service,
   serviceDetailDataEs,
 } from "@/utils/constant/serviceDetailData";
-import { useLocale, useTranslations } from "next-intl";
 
 interface ServiceDetailSpanishProps {
   params: { slug: string };
 }
 
-// export async function generateMetadata({ params }: Props) {
-//   const meta = servicesMeta[params?.slug || ""];
-//   if (!meta) return {};
-//   return buildMetadata(meta);
-// }
+export async function generateMetadata({ params }: ServiceDetailSpanishProps) {
+  const meta = servicesMetaEs[params?.slug || ""];
+  if (!meta) return {};
+  return buildMetadata(meta);
+}
 
-// // optional: pre-render known service slugs at build
-// export async function generateStaticParams() {
-//   return Object.values(servicesMeta).map((m) => ({ slug: m?.slug || "" }));
-// }
+// optional: pre-render known service slugs at build
+export async function generateStaticParams() {
+  return Object.values(servicesMetaEs).map((m) => ({ slug: m?.slug || "" }));
+}
 
 export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
-  // const decodedString = decodeURIComponent(params.slug);
-
-  // const meta: ServiceMeta | undefined = servicesMeta[params?.slug || ""];
-
   const decodedString = decodeURIComponent(params.slug);
+
+  const meta: ServiceMeta | undefined = servicesMetaEs[decodedString || ""];
+
   const t = useTranslations();
   const locale = useLocale();
-
-  // const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
 
   let service: Service =
     serviceDetailDataEs.find((s) => s.slug === decodedString) || {};
@@ -49,14 +48,22 @@ export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
     return <div className="p-8">Service not found</div>;
   }
 
-  console.log(
-    "service-detail-spanish???",
-    service,
-    service.issuecategory?.issueCategories
-  );
+  const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
 
   return (
     <>
+      <Head>
+        <h1>{meta?.title}</h1>
+        <p>{meta?.description}</p>
+      </Head>
+      {jsonLdScripts.map((s) => (
+        <script
+          key={s.key}
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: s.json }}
+        />
+      ))}
       <HeroSection
         heroTitle={service.title || ""}
         heroIntro={service.subtitle || ""}
