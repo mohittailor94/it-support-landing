@@ -241,8 +241,11 @@ export default function ServiceDetail({ params }: Props) {
         )}
       </section>
 
-      <ServiceWhyChoose />
-
+      <ServiceWhyChoose
+        cards={service?.whyChoose?.whyChoosecategories ?? []}
+        title={service.whyChoose?.title ?? ""}
+        desc={service.whyChoose?.desc ?? ""}
+      />
       <FAQs data={service.faqs} descHTMLString />
     </>
   );
