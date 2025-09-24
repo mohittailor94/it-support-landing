@@ -26,9 +26,11 @@ export default function ServiceOffer({ serviceProvider, heroServices }: ServiceO
       className="flex md:flex-row flex-col h-auto  align-center bg-white rounded-lg mb-6 py-16 bg-gray-50 sm:px-6 xl:px-40 md:px-10 py-10 px-4"
       style={{ alignItems: "center" }}
     >
-      <div className="w-full px-4">
+      <div className="w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
-          <div className="rounded-2xl overflow-hidden shadow-2xl">
+          <div className="rounded-2xl overflow-hidden shadow-2xl"
+          data-aos="fade-right"
+          >
             <img
               alt={serviceProvider.imageAlt}
               title={serviceProvider.title}
@@ -44,7 +46,9 @@ export default function ServiceOffer({ serviceProvider, heroServices }: ServiceO
             />
           </div>
 
-          <div>
+          <div className="offer-content ps-5"
+            data-aos="fade-left"
+          >
             <Typography variant="h3" className="font-bold text-gray-900 mb-4">
               {serviceProvider.title}{" "}
               <span className="text-[#61CE70]">

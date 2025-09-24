@@ -1,3 +1,4 @@
+"use client"; 
 import CoreServiceCard from "@/components/cards/CoreServiceCard";
 import Typography from "@/components/ui/Typography";
 import outCoreData, { outCoreDataEs } from "@/utils/constant/outCoreData";
@@ -6,6 +7,7 @@ import ServiceWhyChoose from "./_component/ServiceWhyChoose";
 import FAQs from "@/components/FAQ/FAQs";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import { useEffect } from "react";
 import {
   heroServicesData,
   heroServicesDataEs,
@@ -16,14 +18,19 @@ import ServiceOffer from "./_component/ServiceOffer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+  
+
 export default function Services() {
+  useEffect(() => {
+    AOS.init({ duration: 750, easing: "ease-out", once: true, offset: 80 });
+  }, []);
+
   const locale = useLocale();
   const t = useTranslations("Services");
   const heroServices = locale === "es" ? heroServicesDataEs : heroServicesData;
   const outCore = locale === "es" ? outCoreDataEs : outCoreData;
   const serviceFQA = locale === "es" ? ServiceFQAsDataEs : ServiceFQAsData;
   console.log("heroServices");
-
   const serviceProvider = {
     imageAlt: t("ServiceProvider.imageAlt"),
     imageTitle: t("ServiceProvider.imageTitle"),
@@ -42,10 +49,8 @@ export default function Services() {
       >
         <div className="w-full lg:pe-4">
           <div className="flex flex-col md:flex-row gap-4 w-full">
-            <div
-              className="flex flex-col justify-center items-center h-full w-full md:w-2/5 relative"
-              style={{ opacity: 1, transform: "none", height: "inherit" }}
-            >
+            
+            <div className="flex flex-col justify-center items-center w-full md:w-2/5 relative h-[inherit]" data-aos="fade-right" data-aos-delay="200">
               <Typography
                 className="mb-4 leading-tight w-full text-left"
                 variant="h1"
@@ -56,7 +61,7 @@ export default function Services() {
                 </span>{" "}
                 {t("heroServices")}
               </Typography>
-              <p className="text-base sm:text-base text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
+              <p className="text-lg sm:text-xl text-gray-700 max-w-4xl leading-relaxed w-full text-left mb-4">
                 {t("heroIntro1")}{" "}
                 <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
                   ITSupport.net.in
@@ -78,8 +83,9 @@ export default function Services() {
                   }}
                 >
                   <span className="inline-flex items-center gap-2">
-                    {t("getSupportNow")}
+                    {t("getSupportNow")} <svg className="w-5 h-5 text-white group-hover:translate-x-1 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                   </span>
+                  
                 </Link>
               </div>
               <div
@@ -87,7 +93,7 @@ export default function Services() {
                 style={{ position: "absolute", bottom: 60 }}
               >
                 <div className="flex items-center gap-2 text-xs">
-                  <span>Home</span>
+                  <span className="text-lg">Home</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -104,13 +110,12 @@ export default function Services() {
                     <path d="M5 12h14"></path>
                     <path d="m12 5 7 7-7 7"></path>
                   </svg>
-                  <span>Services</span>
+                  <span className="text-lg">Services</span>
                 </div>
               </div>
             </div>
             <div
-              className="w-full h-full py-16 flex rounded-4xl md:w-3/5"
-              style={{ opacity: 1, transform: "none" }}
+              className="w-full h-full lg:py-16 flex rounded-4xl md:w-3/5"             
               data-aos="fade-left"
               data-aos-delay="200"    
             >
@@ -198,6 +203,8 @@ export default function Services() {
                   desc={core.desc}
                   icon={core.icon}
                   href={core.href}
+                  dataAos="fade-up"
+                  dataAosDelay={index * 100}
                 />
               ))}
             </div>

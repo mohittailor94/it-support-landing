@@ -1,4 +1,8 @@
+"use client"; 
 import FeatureCard from "../[slug]/_components/FeatureCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const whyChooseDataDetail = [
   {
@@ -99,6 +103,13 @@ export default function ServiceWhyChoose({
 }: {
   whyChooseData?: typeof whyChooseDataDetail;
 }) {
+  useEffect(() => {
+    AOS.init({ 
+      duration: 700, // default duration
+      once: false,   // whether animation should happen only once
+    });
+    AOS.refresh();   // refresh to recalc positions
+  }, []);
   return (
     <section className="py-16 bg-gray-50 sm:px-6 xl:px-40 md:px-10 py-10 px-4">
       <div className="container mx-auto">
@@ -124,12 +135,14 @@ export default function ServiceWhyChoose({
               </p>
             </section>
           <div className="grid md:grid-cols-2 gap-8">
-            {whyChooseData.map((whyD) => (
+            {whyChooseData.map((whyD, index) => (
               <FeatureCard
                 key={`why-choose-data-${whyD.title}`}
                 icon={whyD.icon}
                 title={whyD.title}
                 description={whyD.description}
+                dataAos="fade-up"
+                dataAosDelay={index * 100}
               />
             ))}
           </div>
