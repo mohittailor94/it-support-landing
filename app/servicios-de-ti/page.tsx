@@ -2,17 +2,21 @@ import CoreServiceCard from "@/components/cards/CoreServiceCard";
 import HeroSection from "@/components/HeroSection";
 import { useLocale, useTranslations } from "next-intl";
 import ServiceOffer from "../services/_component/ServiceOffer";
-import { heroServicesDataEs, ServiceFQAsDataEs } from "../services/_component/constant";
+import {
+  heroServicesDataEs,
+  ServiceFQAsDataEs,
+} from "../services/_component/constant";
 import { outCoreDataEs } from "@/utils/constant/outCoreData";
 import Typography from "@/components/ui/Typography";
 import ServiceWhyChoose from "../services/_component/ServiceWhyChoose";
 import FAQs from "@/components/FAQ/FAQs";
+import { whyChooseDataDetailEs } from "../services/_component/ServiceWhyChooseConstant";
 
 export default function ServiciosDeTiPage() {
   const t = useTranslations("Services");
-  const heroServices = heroServicesDataEs
-  const outCore =  outCoreDataEs
-  const serviceFQA = ServiceFQAsDataEs
+  const heroServices = heroServicesDataEs;
+  const outCore = outCoreDataEs;
+  const serviceFQA = ServiceFQAsDataEs;
 
   const serviceProvider = {
     imageAlt: t("ServiceProvider.imageAlt"),
@@ -90,7 +94,11 @@ export default function ServiciosDeTiPage() {
         </div>
       </section>
 
-      <ServiceWhyChoose />
+      <ServiceWhyChoose
+        cards={whyChooseDataDetailEs}
+        title="Por qué asociarse con ITSupport.net.in para la excelencia en el correo electrónico"
+        desc="Elegir a ITSupport.net.in como su socio de soporte de correo electrónico significa aprovechar más de una década de experiencia especializada y una trayectoria global de empoderar a más de 100,000 clientes satisfechos. Nuestro compromiso con su comunicación ininterrumpida se basa en"
+      />
       <FAQs data={serviceFQA} />
     </>
   );

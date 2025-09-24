@@ -3,9 +3,7 @@ import ServiceCard from "@/app/services/[slug]/_components/ServiceCard";
 import SpecificIssue from "@/app/services/[slug]/_components/SpecificIssue";
 import SpecificIssueList from "@/app/services/[slug]/_components/SpecificIssueList";
 import ServiceOffer from "@/app/services/_component/ServiceOffer";
-import ServiceWhyChoose, {
-  whyChooseDataDetailEs,
-} from "@/app/services/_component/ServiceWhyChoose";
+import ServiceWhyChoose from "@/app/services/_component/ServiceWhyChoose";
 import FAQs from "@/components/FAQ/FAQs";
 import HeroSection from "@/components/HeroSection";
 import Typography from "@/components/ui/Typography";
@@ -348,7 +346,11 @@ export default function InsightDetail({ params }: ServiceDetailSpanishProps) {
         )}
       </section>
 
-      <ServiceWhyChoose whyChooseData={whyChooseDataDetailEs} />
+      <ServiceWhyChoose
+        cards={service.whyChoose?.whyChoosecategories ?? []}
+        title={service.whyChoose?.title ?? ""}
+        desc={service.whyChoose?.desc ?? ""}
+      />
 
       <FAQs data={service.faqs} descHTMLString />
     </>
