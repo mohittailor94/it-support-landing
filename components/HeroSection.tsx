@@ -41,7 +41,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             </Typography>
 
             <Typography
-              className="mt-6 mb-4 leading-tight w-full text-left font-bold text-white"
+              className="mt-6 md:mb-4 leading-tight w-full text-left font-bold text-white"
               variant="h3"
             >
               {parse(heroIntro)}
@@ -49,7 +49,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
             {/* Button */}
             {buttonTexts.length > 0 && (
-              <div className="flex justify-start w-full align-center flex-wrap gap-4 items-center mt-9">
+              <div className="flex justify-start w-full align-center flex-wrap gap-4 items-center mt-9 md:mb-9 xl:mb-0">
                 {buttonTexts.map((ctm, index) => (
                   <a
                     className="p-2 inline-block bg-gradient-to-r from-[#61CE70] via-blue-500 to-[#61CE70] text-white rounded-full font-extrabold shadow-xl hover:from-blue-500 hover:to-[#61CE70] hover:scale-105 transition-all duration-300 text-lg sm:text-xl tracking-wide group "
@@ -70,8 +70,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             {/* Breadcrumb */}
             {breadcrumbs.length > 0 && (
               <div
-                className="delay-1000 animate-fill-forwards w-full mt-6 absolute font-bold text-white"
-                style={{ position: "absolute", bottom: 0 }}
+                className="delay-1000 animate-fill-forwards w-full mt-6 md:absolute bottom-0 font-bold text-white"
               >
                 <div className="flex items-center gap-2 text-xs">
                   {breadcrumbs.map((breadcrumb, index) => (

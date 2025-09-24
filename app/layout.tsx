@@ -16,7 +16,7 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <div className="items-center justify-items-center min-h-screen">
             <Header />
-            <main className="mt-16 md:mt-20 px-4 sm:px-6 md:px-40 w-full">
+            <main className="mt-16 md:mt-20 px-4 sm:px-20 xl:px-40 w-full">
               <div className="min-h-screen flex flex-col text-gray-900 font-[family-name:var(--font-geist-sans)]">
                 {children}
               </div>
