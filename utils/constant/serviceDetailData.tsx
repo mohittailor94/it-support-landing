@@ -4,6 +4,16 @@ export interface ServiceFAQ {
   expanded?: boolean;
 }
 
+export interface WhyChooseCategory {
+  svg: string | React.ReactNode; // SVG as string or ReactNode if you render directly
+  title: string;
+  desc: string;
+}
+export interface WhyChoose {
+  title: string;
+  desc: string;
+  whyChoosecategories: WhyChooseCategory[];
+}
 export interface ServiceHighlight {
   icon: string | React.ReactNode; // SVG as string or ReactNode if you render directly
   title: string;
@@ -65,7 +75,7 @@ export interface Service {
   };
   description?: string;
   features?: string[];
-  whyChoose?: any[];
+  whyChoose?: WhyChoose;
   faqs?: ServiceFAQ[];
 }
 
@@ -3549,6 +3559,127 @@ export const servicesDetailData: Service[] = [
       "Integration with Outlook, Gmail, and more",
       "Spam filtering and security setup",
     ],
+    whyChoose: {
+      title: "Why Partner with ITSupport.net.in for Email Excellence",
+      desc: "Choosing ITSupport.net.in as your email support partner means leveraging over a decade of specialized expertise and a global track record of empowering 100,000+ satisfied customers. Our commitment to your uninterrupted communication is built on",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Comprehensive Platform Agnostic Expertise",
+          desc: "Proficient across all major personal, business, and marketing email platforms.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "24/7 Proactive Monitoring & Rapid Response",
+          desc: "We detect and resolve email issues before they disrupt your workflow.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Enhanced Security & Privacy",
+          desc: "Robust measures to protect your inboxes from threats and ensure data confidentiality.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+              ></path>
+            </svg>
+          ),
+          title: "Deliverability Optimization",
+          desc: "Strategies and troubleshooting to ensure your emails reach their intended recipients",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Seamless Migrations & Integrations",
+          desc: "Expert handling of email data transfers and integration with your essential business tools.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Dedicated & Certified Email Specialists",
+          desc: "A team truly invested in your efficient and secure communication.",
+        },
+      ],
+    },
     faqs: [
       {
         label:
@@ -6389,6 +6520,128 @@ export const serviceDetailDataEs: Service[] = [
       "Replacement of faulty components",
       "Preventive maintenance and upgrades",
     ],
+    whyChoose: {
+      title:
+        "Por qué asociarse con ITSupport.net.in para la excelencia en el correo electrónico",
+      desc: "Elegir a ITSupport.net.in como su socio de soporte de correo electrónico significa aprovechar más de una década de experiencia especializada y una trayectoria global de empoderar a más de 100,000 clientes satisfechos. Nuestro compromiso con su comunicación ininterrumpida se basa en",
+      whyChoosecategories: [
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Experiencia integral y agnóstica de la plataforma",
+          desc: "Dominio de todas las principales plataformas de correo electrónico personal, empresarial y de marketing.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              ></path>
+            </svg>
+          ),
+          title: "Monitoreo proactivo 24/7 y respuesta rápida",
+          desc: "Detectamos y resolvemos los problemas de correo electrónico antes de que interrumpan su flujo de trabajo.",
+        },
+        {
+          svg: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-11V7a4 4 0 00-8 0v3"
+              ></path>
+            </svg>
+          ),
+          title: "Seguridad y privacidad mejoradas",
+          desc: "Medidas sólidas para proteger sus bandejas de entrada de amenazas y garantizar la confidencialidad de los datos.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+              ></path>
+            </svg>
+          ),
+          title: "Optimización de la capacidad de entrega",
+          desc: "Estrategias y solución de problemas para garantizar que sus correos electrónicos lleguen a sus destinatarios previstos.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              ></path>
+            </svg>
+          ),
+          title: "Migraciones e integraciones sin problemas",
+          desc: "Manejo experto de las transferencias de datos de correo electrónico e integración con sus herramientas comerciales esenciales.",
+        },
+        {
+          svg: (
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          ),
+          title: "Especialistas en correo electrónico dedicados y certificados",
+          desc: "Un equipo verdaderamente comprometido con su comunicación eficiente y segura.",
+        },
+      ],
+    },
     faqs: [
       {
         label: "¿Cuál es la diferencia entre los protocolos IMAP y POP3?",
