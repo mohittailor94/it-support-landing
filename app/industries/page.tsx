@@ -3,15 +3,9 @@ import CoreServiceCard from "@/components/cards/CoreServiceCard";
 import Typography from "@/components/ui/Typography";
 import outCoreData, { outCoreDataEs } from "@/utils/constant/outCoreData";
 import Link from "next/link";
-// import FAQs from "@/components/FAQ/FAQs";
+
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
-import {
-  heroServicesData,
-  heroServicesDataEs,
-  ServiceFQAsData,
-  ServiceFQAsDataEs,
-} from "./_component/constant";
 
 import { useEffect } from "react";
 import AOS from "aos";
@@ -26,17 +20,7 @@ export default function Industries() {
     const t = useTranslations("IndustriesPage");
     // const heroServices = locale === "es" ? heroServicesDataEs : heroServicesData;
     const outCore = locale === "es" ? outCoreDataEs : outCoreData;
-    // const serviceFQA = locale === "es" ? ServiceFQAsDataEs : ServiceFQAsData;
-    // console.log("heroServices");
-    // const serviceProvider = {
-    //   imageAlt: t("ServiceProvider.imageAlt"),
-    //   imageTitle: t("ServiceProvider.imageTitle"),
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
-    //   title: t("ServiceProvider.title"),
-    //   highlight: t("ServiceProvider.highlight"),
-    //   description: t("ServiceProvider.description"),
-    // };
+
   return (
     <>
       {/* Hero section */}
