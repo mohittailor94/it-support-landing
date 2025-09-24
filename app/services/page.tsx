@@ -13,6 +13,7 @@ import {
 } from "./_component/constant";
 import ServiceOffer from "./_component/ServiceOffer";
 import HeroSection from "@/components/HeroSection";
+import { whyChooseDataDetail } from "./_component/ServiceWhyChooseConstant";
 
 export default function Services() {
   const locale = useLocale();
@@ -98,7 +99,11 @@ export default function Services() {
         </div>
       </section>
 
-      <ServiceWhyChoose />
+      <ServiceWhyChoose
+        cards={whyChooseDataDetail}
+        title="Why Partner with ITSupport.net.in for Email Excellence"
+        desc="Choosing ITSupport.net.in as your email support partner means leveraging over a decade of specialized expertise and a global track record of empowering 100,000+ satisfied customers. Our commitment to your uninterrupted communication is built on"
+      />
       <FAQs data={serviceFQA} />
     </>
   );

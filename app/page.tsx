@@ -12,6 +12,7 @@ import {
 import LocaleProvider from "@/components/LocaleProvider";
 import { JsonLd } from "@/components/JsonLd";
 import JsonLdSchemas from "@/utils/constant/JsonLdSchemas";
+import { WHY_CHOOSE_CARDS } from "@/utils/constant/whyChooseConstants";
 
 const FAQs = dynamic(() => import("@/components/FAQ/FAQs"), {
   loading: () => <p>Loading…</p>,
@@ -180,9 +181,8 @@ export default function Home() {
       <OurCoreServices />
       <IndustriesWeServe />
       <OurGlobalPresence />
-      <WhyChoose />
+      <WhyChoose cards={WHY_CHOOSE_CARDS} title="Why Choose" />
       <OurCommitment />
-
       <ITSupportInsights />
       <FAQs data={FAQsData} />
 

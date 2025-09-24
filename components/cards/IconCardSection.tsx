@@ -1,6 +1,6 @@
 import React from "react";
 
-type Card = {
+export type Card = {
   svg: React.ReactNode;
   title: string;
   desc: string;
@@ -8,20 +8,24 @@ type Card = {
 
 type IconCardSectionProps = {
   title: string;
+  desc?: string;
   titleLinkHref?: string;
   titleLinkText?: string;
   cards: Card[];
-  isColor?:boolean
+  isColor?: boolean;
 };
 export default function IconCardSection({
   title,
+  desc,
   titleLinkHref,
   titleLinkText,
   cards,
-  isColor= false
+  isColor = false,
 }: IconCardSectionProps) {
   return (
-    <section className={`py-16 px-4 sm:px-6 ${isColor ? 'bg-gray-50' :"bg-white"}`}>
+    <section
+      className={`py-16 px-4 sm:px-6 ${isColor ? "bg-gray-50" : "bg-white"}`}
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
           {title}
@@ -36,8 +40,13 @@ export default function IconCardSection({
           )}
           <span className="text-black">?</span>
         </h2>
+        {desc && (
+          <p className="text-lg text-center text-gray-700 mb-12 max-w-4xl mx-auto">
+            {desc}
+          </p>
+        )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {cards.map((card, index) => (
+          {cards?.map((card, index) => (
             <div
               key={index}
               className="text-center group"
