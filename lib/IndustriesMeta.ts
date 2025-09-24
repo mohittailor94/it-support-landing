@@ -205,7 +205,6 @@ export const industriesMeta: Record<string, IndustriesMetaType> = {
         "Trusted healthcare IT support solutions. Network monitoring, cloud services, and HIPAA-compliant assistance for medical organizations.",
       image: "image-url",
       creator: "@L4RGINDIA",
-      imageAlt: "Healthcare IT Support Services",
     },
     robots: "index, follow",
     author: "Healthcare Support industry",

@@ -15,7 +15,7 @@ interface IndustryDetailProps {
 }
 
 // generateMetadata runs at build/server time and populates <head>
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: IndustryDetailProps) {
   const meta = industriesMeta[params?.slug || ""];
   if (!meta) return {};
   return buildMetadata(meta);
@@ -106,7 +106,7 @@ export default function IndustryDetail({ params }: IndustryDetailProps) {
         issuecategory4={industry.issuecategory4}
       />
 
-      <ServiceWhyChoose />
+      {/* <ServiceWhyChoose /> */}
 
       <FAQs data={industry.faqs} descHTMLString />
     </>

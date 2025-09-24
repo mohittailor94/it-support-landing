@@ -28,6 +28,7 @@ export type ServiceMeta = {
     image?: string;
     creator?: string;
   };
+  meta?: any;
   jsonLd?: Array<object>; // array of JSON-LD objects (Product, FAQ, Review, etc.)
 };
 
@@ -6427,11 +6428,6 @@ export const servicesMetaEs: Record<string, ServiceMeta> = {
         "Obtén reparación profesional de computadoras y soporte informático de técnicos locales confiables. Ofrecemos servicio a domicilio, eliminación de virus, recuperación de datos y más.",
       url: "https://www.itsupport.net.in/servicios-de-ti/servicios-de-soporte-para-reparaci%C3%B3n-de-hardware",
       images: ["image-url"],
-      imageAlt:
-        "Reparación de Computadoras Cerca de Mí | Soporte Técnico Rápido y Confiable",
-      imageType: "images/png",
-      imageWidth: "Fix Size",
-      imageHeight: "Fix Size",
       siteName:
         "Servicios Integrales de Soporte de Hardware desde Hace 20 Años.",
       locale: "en_US",
@@ -6471,9 +6467,6 @@ export const servicesMetaEs: Record<string, ServiceMeta> = {
       description:
         "¿Buscas un técnico en computadoras cercano? Ofrecemos reparación el mismo día, soporte a domicilio y servicios informáticos asequibles para hogares o negocios.",
       image: "image-url",
-      imageAlt:
-        "Soporte Técnico Confiable | Profesionales en Reparación de Computadoras",
-      imageType: "images/png",
       creator: "@L4RGINDIA",
     },
     meta: {
