@@ -6,7 +6,7 @@ export default function OurExpertise() {
 
    const richTextComponent = {
     b: (chunks:React.ReactNode) => (
-      <strong className="font-extrabold">{chunks}</strong>
+      <strong className="">{chunks}</strong>
     ),
   };
   const cards = [

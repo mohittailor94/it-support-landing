@@ -39,14 +39,14 @@ export default function OurHistory() {
              <p className="text-lg text-gray-600 leading-relaxed mb-6">
               {t.rich("OurHistory.description1", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}
              </p>
              <p className="text-lg text-gray-600 leading-relaxed mb-6">
               {t.rich("OurHistory.description2", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}
              </p>

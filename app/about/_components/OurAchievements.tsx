@@ -47,7 +47,7 @@ export default function OurAchievements() {
         <p className="text-lg text-center text-gray-700 mt-12 max-w-4xl mx-auto">
           {t.rich("intro", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}
         </p>

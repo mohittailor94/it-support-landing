@@ -27,7 +27,7 @@ export default function WhoWeAre() {
             <p className="text-base sm:text-base leading-relaxed text-gray-700 max-w-4xl w-full text-left mb-4">
               {t.rich("heroIntro1", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}{" "}
               <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
@@ -35,14 +35,14 @@ export default function WhoWeAre() {
               </span>{" "}
               {t.rich("heroIntro2", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}
             </p>
             <p className="text-base sm:text-base leading-relaxed text-gray-700 max-w-4xl w-full text-left mb-4">
               {t.rich("heroIntro3", {
                 b: (chunks) => (
-                  <strong className="font-extrabold">{chunks}</strong>
+                  <strong className="">{chunks}</strong>
                 ),
               })}
             </p>
