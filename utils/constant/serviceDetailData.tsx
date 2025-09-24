@@ -39,6 +39,7 @@ export interface Service {
   };
   serviceHighlights?: {
     title: string;
+    subTitle?: string;
     services: ServiceHighlight[];
   };
   issuecategory?: {
@@ -376,19 +377,19 @@ export const servicesDetailData: Service[] = [
       },
       {
         label: "What is the data recovery process like if I lose my data?",
-        desc: "If data loss occurs, our process focuses on rapid restoration. First, we'll assess the extent of the loss. Then, utilizing your secure backups, our experts will meticulously restore your data to your system. We prioritize minimizing downtime and ensuring data integrity throughout the recovery, getting you back up and running as quickly as possible.",
+        desc: "If data loss occurs, our process focuses on rapid restoration. First, we'll assess the extent of the loss. Then, utilizing your secure backups, our experts will meticulously <strong>restore your data</strong> to your system. We prioritize minimizing downtime and ensuring data integrity throughout the recovery, getting you back up and running as quickly as possible.",
         expanded: false,
       },
       {
         label:
           "How secure is my data when backed up through ITSupport.net.in's services?",
-        desc: "Data security is our top priority. We implement robust encryption protocols for data both in transit and at rest. We also set up strict access controls to ensure only authorized personnel can access your backups. Whether you opt for on-premise, cloud, or hybrid solutions, your data's confidentiality and integrity are paramount.",
+        desc: "Data security is our top priority. We implement <strong>robust encryption protocols</strong> for data both in transit and at rest. We also set up <strong>strict access controls</strong> to ensure only authorized personnel can access your backups. Whether you opt for on-premise, cloud, or hybrid solutions, your data's confidentiality and integrity are paramount.",
         expanded: false,
       },
       {
         label:
           "What makes ITSupport.net.in's data backup and recovery services stand out?",
-        desc: "Our decade of experience and 10,000+ satisfied customers globally speak volumes. We offer tailored, scalable solutions unique to your needs, not one-size-fits-all fixes. Our certified technicians provide proactive monitoring and 24/7 expert support, meaning we're always there when you need us most. We're not just providing a service; we're building a fortress for your invaluable data.",
+        desc: "Our decade of experience and <strong>10,000+ satisfied customers globally</strong> speak volumes. We offer <strong>tailored, scalable solutions</strong> unique to your needs, not one-size-fits-all fixes. Our <strong>certified technicians</strong> provide proactive monitoring and 24/7 expert support, meaning we're always there when you need us most. We're not just providing a service; we're building a fortress for your invaluable data.",
         expanded: false,
       },
     ],
@@ -524,7 +525,7 @@ export const servicesDetailData: Service[] = [
         {
           title: "10,000+ Customers, Global Trust",
           description:
-            "Our success is measured by the trust of our clients. We are proud to have 10,000+ satisfied customers globally who rely on our expertise for their digital security needs. This global footprint and high satisfaction rate speak volumes about our effective solutions and customer-centric approach. We don't just fix problems; we build long-term relationships based on reliability and peace of mind.",
+            "Our success is measured by the trust of our clients. We are proud to have <strong>10,000+ satisfied customers globally</strong> who rely on our expertise for their digital security needs. This global footprint and high satisfaction rate speak volumes about our effective solutions and customer-centric approach. We don't just fix problems; we build long-term relationships based on reliability and peace of mind.",
         },
       ],
     },

@@ -19,17 +19,21 @@ const IssueCategory = ({
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 max-w-3xl w-full">
       <div className="p-6">
-        <Typography
-          variant="h3"
-          className="font-semibold mb-3 text-gray-800"
-          htmlString={title || ""}
-        />
+        {title && (
+          <Typography
+            variant="h3"
+            className="font-semibold mb-3 text-gray-800"
+            htmlString={title || ""}
+          />
+        )}
 
-        <Typography
-          variant="p"
-          className="text-gray-600 mb-6"
-          htmlString={description}
-        />
+        {description && (
+          <Typography
+            variant="p"
+            className="text-gray-600 mb-6"
+            htmlString={description}
+          />
+        )}
 
         <div className="space-y-8">{children}</div>
         <Typography variant="p" className="text-gray-600 mt-4">
