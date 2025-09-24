@@ -112,7 +112,7 @@ export const industryDetailData: Service[] = [
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              className="lucide lucide-hard-drive text-blue-600"
+              className="inline mr-2 text-gray-500"
               aria-hidden="true"
               data-id="element-244"
             >
@@ -138,7 +138,7 @@ export const industryDetailData: Service[] = [
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              className="lucide lucide-database text-blue-600"
+              className="inline mr-2 text-gray-500"
               aria-hidden="true"
               data-id="element-239"
             >
