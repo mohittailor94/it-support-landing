@@ -5,10 +5,10 @@ export default function OurGlobalPresence() {
   const t = useTranslations("GlobalPresence");
 
   return (
-    <section className="md:py-16 py-10 bg-[#f4f7fa]">
+    <section className="md:py-16 bg-[#f4f7fa]">
       <div className="sm:px-6 xl:px-40 md:px-10 py-10 px-4" style={{ opacity: 1 }}>
         <div className="section-heading lg:mb-12 mb-6">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center pb-4"
+          <h2 className="text-2xl lg:text-4xl sm:text-3xl font-bold text-center pb-4"
            data-aos="fade-up"
            data-aos-duration="700">
             {t("title")}

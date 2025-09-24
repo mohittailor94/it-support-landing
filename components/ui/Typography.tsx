@@ -20,8 +20,8 @@ interface TypographyProps {
 }
 
 const variantClasses: Record<Variant, string> = {
-  h1: "text-4xl md:text-5xl font-bold xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight",
-  h2: "text-3xl md:text-4xl sm:text-4xl font-bold text-center",
+  h1: "text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight",
+  h2: "text-2xl lg:text-4xl sm:text-3xl font-bold text-center",
   h3: "text-2xl font-semibold",
   h4: "text-xl font-semibold",
   h5: "text-lg font-medium",

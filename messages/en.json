@@ -166,6 +166,24 @@
     "comprehensiveRange1": "At ",
     "comprehensiveRange2": " , we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions"
   },
+  
+  "IndustriesPage": {
+    "heroTitle": "Global",
+    "heroHighlight": "IT Support",
+    "heroServices": " Services Trusted Worldwide for Over 20 Years",
+    "heroIntro1": "Brief brand intro with key stats, keyword-rich (tech support, IT services, managed IT, global IT support).",
+    "getSupportNow": "Get Support Now",
+    "breadcrumbHome": "Home",
+    "breadcrumbServices": "Industries",
+    "coreServices": "Core Services",
+    "reliableITSupport": "Our Core",
+    "reliableHighlight": "IT Support",
+    "forEveryBusinessStage": "Serivce",
+    "comprehensiveRange1": "At ",
+    "comprehensiveRange2": " , we provide a comprehensive range of services designed to cover every aspect of your IT infrastructure. Click on any service to learn more about our specialized solutions"
+  },
+
+
   "Footer": {
     "description": "Your trusted partner for comprehensive IT solutions. We provide expert support for businesses and individuals worldwide.",
     "phone": "+1 (555) 123-4567",

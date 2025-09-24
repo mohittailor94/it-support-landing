@@ -130,6 +130,9 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+
+      
       <section className="service-provider">
       <ServiceOffer
         serviceProvider={serviceProvider}
@@ -168,7 +171,7 @@ export default function Services() {
                   </span>{" "}
                   {t("forEveryBusinessStage")}
                 </Typography> */}
-                <h2 className="text-3xl sm:text-4xl font-bold text-center mb-lg-12 mb-6"
+                <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-center mb-lg-12 mb-6"
                   data-aos="fade-up"
                   data-aos-duration="700"
                   data-aos-offset="200">

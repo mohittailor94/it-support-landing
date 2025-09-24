@@ -4,10 +4,10 @@ export default function WhyChoose() {
   const t = useTranslations("WhyChoose");
 
   return (
-    <section className="py-16 bg-white">
+    <section className="lg:py-16 bg-white">
       <div className="md:px-40  py-10" style={{ opacity: 1 }}>
         <section className="section-heading">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-lg-12 mb-6"
+          <h2 className="text-2xl lg:text-4xl sm:text-3xl font-bold text-center mb-lg-12 mb-6"
           data-aos="fade-up"
           data-aos-duration="700">
             {t("title.prefix")}

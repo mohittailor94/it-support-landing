@@ -1,15 +1,16 @@
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function IndustriesWeServe() {
   const t = useTranslations("Industries");
-
+  const locale = useLocale();
+      
   return (
     <section className="lg:py-16 py-10 bg-white">
       <div className="sm:px-6 xl:px-40 md:px-10 lg:py-10 px-4">
         <div className="section-heading">
           <h2 
-            className="text-3xl sm:text-4xl font-bold text-center pb-4"
+            className="text-2xl lg:text-4xl sm:text-3xl font-bold text-center pb-4"
             data-aos="fade-up"
             data-aos-duration="700">
             {t("title")}

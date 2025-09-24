@@ -13,7 +13,7 @@ export default function OurCoreServices() {
   const outCoreData = locale === "es" ? servicesMenuItemEs : servicesMenuItem;
 
   return (
-    <section id="services" className="lg:py-16 py-10 bg-[#f4f7fa]">
+    <section id="services" className="lg:py-16 bg-[#f4f7fa]">
       <div className="sm:px-6 xl:px-40 md:px-10 py-10 px-4">
         <div className="section-heading">
           <h2

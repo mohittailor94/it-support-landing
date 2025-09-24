@@ -8,7 +8,7 @@ export default function OurCommitment() {
     <section className="py-16 px-4 sm:px-6 bg-[#f4f7fa]">
       <div className="max-w-4xl mx-auto text-center" style={{ opacity: 1 }}>
         <div className="section-heading">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-8" data-aos="fade-up"
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold mb-8" data-aos="fade-up"
           data-aos-duration="700">
             {t("title")}
           </h2>

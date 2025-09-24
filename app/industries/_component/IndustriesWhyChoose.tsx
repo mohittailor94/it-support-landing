@@ -1,8 +1,8 @@
 "use client"; 
-import FeatureCard from "../[slug]/_components/FeatureCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import FeatureCard from "../[slug]/_components/FeatureCard";
 
 const whyChooseDataDetail = [
   {
@@ -26,7 +26,7 @@ const whyChooseDataDetail = [
         <circle cx="9" cy="7" r="4"></circle>
       </svg>
     ),
-    title: "Expert Technicians",
+    title: "Experience",
     description: "Highly trained and experienced professionals.",
   },
   {
@@ -70,7 +70,7 @@ const whyChooseDataDetail = [
         <path d="m9 11 3 3L22 4"></path>
       </svg>
     ),
-    title: "Remote Solutions",
+    title: "Trust",
     description: "Many issues resolved efficiently from anywhere.",
   },
   {
@@ -93,9 +93,57 @@ const whyChooseDataDetail = [
         <circle cx="12" cy="8" r="6"></circle>
       </svg>
     ),
-    title: "Customer Satisfaction",
+    title: "Certified Experts",
     description: "Our priority is getting you back to printing seamlessly.",
   },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-8 h-8 text-[#4CD964]"
+        aria-hidden="true"
+        data-id="element-250"
+      >
+        <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+        <circle cx="12" cy="8" r="6"></circle>
+      </svg>
+    ),
+    title: "Global Research",
+    description: "Our priority is getting you back to printing seamlessly.",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-8 h-8 text-[#4CD964]"
+        aria-hidden="true"
+        data-id="element-250"
+      >
+        <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+        <circle cx="12" cy="8" r="6"></circle>
+      </svg>
+    ),
+    title: "Customer First Approach",
+    description: "Our priority is getting you back to printing seamlessly.",
+  },
+ 
+
 ];
 
 export default function ServiceWhyChoose({
@@ -112,17 +160,17 @@ export default function ServiceWhyChoose({
   }, []);
   return (
     <section className="py-16 bg-gray-50 sm:px-6 xl:px-40 md:px-10 py-10 px-4">
-      <div className="container mx-auto">
-        <div className="max-w-4xl mx-auto">
+      <div className="container">
+        <div className="mx-auto">
           <section className="section-heading">
-            <h2 className="text-2xl lg:text-4xl sm:text-3xl font-bold text-center mb-lg-12 mb-6"
+            <h2 className="text-2xl xs:text-3xl sm:text-4xlfont-bold text-center mb-lg-12 mb-6"
             data-aos="fade-up"
             data-aos-duration="700">
               Why Choose{" "}
                 <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
                   ITSupport.net.in
                 </span>{" "}
-                ?
+                for Your Business?
             </h2>
             <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-lg-12 mb-6 relative rounded-full"></div>
               <p className="text-gray-600 mb-12 text-center"
@@ -134,7 +182,7 @@ export default function ServiceWhyChoose({
                 choice for all your printer support needs.
               </p>
             </section>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-4">
             {whyChooseData.map((whyD, index) => (
               <FeatureCard
                 key={`why-choose-data-${whyD.title}`}
