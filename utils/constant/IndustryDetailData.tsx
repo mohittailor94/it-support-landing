@@ -1,28 +1,34 @@
+import {
+  SvgBolt,
+  SvgBriefcase,
+  SvgCheckCircle,
+  SvgClipboard,
+  SvgLock,
+} from "@/app/services/_component/ServiceWhyChooseConstant";
 import { Service } from "./serviceDetailData";
 
 export const industryDetailData: Service[] = [
   {
     slug: "healthcare",
-    title: "Finance & Banking IT Support Services",
+    title: "Healthcare IT Support Services",
     subtitle:
-      "Secure, Compliant, and High-Performance IT Solutions for the Global Finance & Banking Industry",
+      "Global healthcare IT support powering patient care with secure and efficient technology",
     subtitle1:
-      "For over 20 years, ITSupport.net.in has been a trusted global provider of IT support services for the finance and banking industry, delivering secure, compliant, and high-performance solutions to clients in 50+ countries. With over 1 million service cases handled and 20,000+ satisfied customers, we understand the unique challenges financial institutions face — from cybersecurity threats to regulatory compliance and real-time transaction processing.",
+      "For over two decades, ITSupport.net.in has been delivering reliable, secure, and innovative IT support services for the healthcare industry across 50+ countries. With 1 million+ service cases handled and 20,000+ satisfied customers, we understand the critical nature of healthcare IT systems — where downtime can directly impact patient care, compliance, and operational efficiency.",
     heroImage:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     intro: {
-      headline:
-        "Trusted IT Support for Finance and Banking Institutions Worldwide",
+      headline: "Two Decades of Proven Healthcare IT Expertise",
       subheadline: "",
       description:
-        "We specialize in IT solutions that empower banks, credit unions, insurance companies, fintech startups, brokerage firms, and investment companies to operate securely, efficiently, and with complete regulatory compliance.",
+        "Our specialized healthcare IT solutions are designed to support hospitals, clinics, diagnostic centers, pharmacies, telemedicine platforms, and healthcare startups, ensuring uninterrupted care delivery while maintaining strict HIPAA and GDPR compliance.",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
-      title: "Why Finance & Banking Needs Specialized IT Support",
+      title: "Why Healthcare Needs Specialized IT Support",
       subTitle:
-        "The financial sector handles <strong>high-value transactions, sensitive customer data, and mission-critical systems.</strong> Any downtime, data breach, or system error can result in <strong>huge financial losses and regulatory penalties.</strong> Key industry needs include:",
+        "The healthcare sector deals with life-critical data, complex workflows, and stringent regulatory requirements. Generic IT solutions often fail to meet these specialized needs. Healthcare IT support requires:",
       services: [
         {
           icon: (
@@ -47,9 +53,9 @@ export const industryDetailData: Service[] = [
               <path d="M16 17H8"></path>
             </svg>
           ),
-          title: "Regulatory Compliance",
+          title: "Data Security & Compliance",
           description:
-            "Meeting PCI DSS, ISO 27001, GDPR, and other global standards.",
+            "Protecting sensitive patient health records from cyber threats.",
         },
         {
           icon: (
@@ -70,9 +76,9 @@ export const industryDetailData: Service[] = [
               <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
             </svg>
           ),
-          title: "Data Security",
+          title: "High Availability",
           description:
-            "Protecting sensitive financial data from hackers and insider threats.",
+            "Ensuring systems and networks run 24/7 without downtime.",
         },
         {
           icon: (
@@ -96,9 +102,9 @@ export const industryDetailData: Service[] = [
               <line x1="6" x2="6.01" y1="18" y2="18"></line>
             </svg>
           ),
-          title: "System Uptime",
+          title: "Integration",
           description:
-            "Ensuring 24/7 availability for transactions and customer services.",
+            "Connecting EHR/EMR systems, lab equipment, and third-party apps seamlessly.",
         },
         {
           icon: (
@@ -122,9 +128,9 @@ export const industryDetailData: Service[] = [
               <line x1="10" x2="10.01" y1="16" y2="16"></line>
             </svg>
           ),
-          title: "Disaster Recovery",
+          title: "Scalability",
           description:
-            "Rapid restoration of services after technical failures or cyberattacks.",
+            "Supporting growing patient volumes and expanding healthcare facilities.",
         },
         {
           icon: (
@@ -147,9 +153,9 @@ export const industryDetailData: Service[] = [
               <path d="M3 12A9 3 0 0 0 21 12"></path>
             </svg>
           ),
-          title: "Technology Integration",
+          title: "Disaster Recovery",
           description:
-            "Seamlessly connecting core banking systems, CRM, and digital banking platforms.",
+            "Minimizing data loss and downtime during technical failures or cyberattacks.",
         },
       ],
     },
@@ -158,19 +164,21 @@ export const industryDetailData: Service[] = [
       subTitle: "",
       issueCategories: [
         {
-          title: "Core Banking System Support",
+          title:
+            "Electronic Medical Records (EMR) & Electronic Health Records (EHR) Support",
           description:
-            "We manage and maintain core banking platforms like Finacle, Temenos, Oracle FLEXCUBE, and FIS. Services include:",
+            "We manage, configure, and maintain EMR/EHR systems such as Epic, Cerner, Allscripts, and Meditech. Our services include:",
           issues: [
             {
               title: "",
               type: "list",
               options: [
-                { title: "System installation & configuration", desc: "" },
-                { title: "Performance optimization", desc: "" },
-                { title: "Database management", desc: "" },
+                { title: "Installation & configuration", desc: "" },
+                { title: "Data migration from legacy systems", desc: "" },
+                { title: "Real-time performance monitoring", desc: "" },
+                { title: "User training for healthcare staff", desc: "" },
                 {
-                  title: "Integration with mobile and internet banking systems",
+                  title: "Integration with lab equipment and pharmacy systems",
                   desc: "",
                 },
               ],
@@ -178,132 +186,135 @@ export const industryDetailData: Service[] = [
           ],
         },
         {
-          title: "",
+          title: "HIPAA & GDPR Compliance Management",
           description:
-            "We help financial institutions meet Payment Card Industry Data Security Standards through:",
-          issues: [
-            {
-              title: "PCI DSS Services",
-              type: "list",
-              options: [
-                { title: "Security gap analysis", desc: "" },
-                { title: "Network segmentation & encryption", desc: "" },
-                { title: "Payment gateway security", desc: "" },
-                { title: "Annual compliance audits", desc: "" },
-              ],
-            },
-          ],
-        },
-        {
-          title: "Cybersecurity Solutions for Finance",
-          description:
-            "Our advanced security services protect financial institutions from fraud, ransomware, and data breaches:",
+            "We ensure your healthcare facility meets all regulatory requirements for patient data protection. Services include:",
           issues: [
             {
               title: "",
               type: "list",
               options: [
-                { title: "24/7 threat detection & monitoring", desc: "" },
-                { title: "Multi-factor authentication (MFA)", desc: "" },
-                { title: "AI-driven fraud detection systems", desc: "" },
-                {
-                  title: "Endpoint protection for staff and customer devices",
-                  desc: "",
-                },
-                {
-                  title: "Penetration testing & vulnerability assessments",
-                  desc: "",
-                },
+                { title: "Security risk assessments", desc: "" },
+                { title: "Data encryption (at rest & in transit)", desc: "" },
+                { title: "Access control & audit logging", desc: "" },
+                { title: "Regular compliance audits", desc: "" },
+                { title: "Staff compliance training", desc: "" },
               ],
             },
           ],
         },
         {
-          title: "Digital Banking Platform Support",
-          description:
-            "We ensure uninterrupted operation of mobile banking, internet banking, and payment apps:",
+          title: "Telemedicine & Remote Patient Monitoring Support",
+          description: "As telehealth grows, we provide robust IT support for:",
           issues: [
             {
               title: "",
               type: "list",
               options: [
-                { title: "Load balancing & uptime monitoring", desc: "" },
-                { title: "API integration for secure transactions", desc: "" },
-                { title: "User authentication & access controls", desc: "" },
-                { title: "Secure mobile app deployment", desc: "" },
-              ],
-            },
-          ],
-        },
-        {
-          title: "Fintech IT Infrastructure Solutions",
-          description:
-            "For fintech companies, we offer agile, scalable, and secure IT environments:",
-          issues: [
-            {
-              title: "",
-              type: "list",
-              options: [
-                {
-                  title: "Cloud hosting on AWS, Azure, or Google Cloud",
-                  desc: "",
-                },
-                { title: "API gateway management", desc: "" },
                 {
                   title:
-                    "Blockchain integration & cryptocurrency wallet support",
+                    "Video conferencing platforms for patient consultations",
                   desc: "",
                 },
-                { title: "Automated compliance reporting", desc: "" },
+                { title: "Secure patient data exchange", desc: "" },
+                {
+                  title:
+                    "Integration with wearable devices and remote monitoring tools",
+                  desc: "",
+                },
+                {
+                  title: "Cloud-based telemedicine software hosting",
+                  desc: "",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Healthcare Cybersecurity Solutions",
+          description:
+            "We protect sensitive patient information from breaches, ransomware, and unauthorized access with:",
+          issues: [
+            {
+              title: "",
+              type: "list",
+              options: [
+                { title: "24/7 threat monitoring", desc: "" },
+                { title: "Multi-factor authentication (MFA)", desc: "" },
+                { title: "Firewalls & intrusion detection systems", desc: "" },
+                { title: "Endpoint security for all devices", desc: "" },
+                { title: "Incident response & recovery", desc: "" },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Medical Device & Equipment Integration",
+          description:
+            "We connect medical devices such as imaging machines, diagnostic tools, and monitoring equipment to your network and EHR systems for:",
+          issues: [
+            {
+              title: "",
+              type: "list",
+              options: [
+                { title: "Real-time data sharing", desc: "" },
+                { title: "Automated reporting", desc: "" },
+                { title: "Improved diagnostic accuracy", desc: "" },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Cloud Solutions for Healthcare",
+          description:
+            "We help healthcare providers transition to secure, compliant cloud platforms:",
+          issues: [
+            {
+              title: "",
+              type: "list",
+              options: [
+                { title: "Microsoft Azure for Healthcare", desc: "" },
+                { title: "AWS HealthLake integration", desc: "" },
+                { title: "Cloud backup & disaster recovery", desc: "" },
+                { title: "Hybrid cloud solutions for data control", desc: "" },
+              ],
+            },
+          ],
+        },
+        {
+          title: "24/7 Remote & On-Site IT Support",
+          description:
+            "Our healthcare IT helpdesk is available round the clock to:",
+          issues: [
+            {
+              title: "",
+              type: "list",
+              options: [
+                { title: "Troubleshoot system issues in real-time", desc: "" },
+                {
+                  title: "Provide remote desktop support for doctors and staff",
+                  desc: "",
+                },
+                { title: "Dispatch on-site engineers when needed", desc: "" },
               ],
             },
           ],
         },
         {
           title: "Data Backup & Disaster Recovery",
-          description: "We protect financial data with:",
+          description: "We protect your healthcare data with:",
           issues: [
             {
               title: "",
               type: "list",
               options: [
-                { title: "Real-time backup solutions", desc: "" },
-                { title: "Encrypted cloud storage", desc: "" },
-                { title: "Multi-location redundancy", desc: "" },
-                { title: "Rapid disaster recovery protocols", desc: "" },
-              ],
-            },
-          ],
-        },
-        {
-          title: "Secure Network Architecture & Monitoring",
-          description:
-            "We design and manage high-performance, secure networks for banking operations:",
-          issues: [
-            {
-              title: "",
-              type: "list",
-              options: [
-                { title: "Firewalls & intrusion prevention systems", desc: "" },
-                { title: "Network performance optimization", desc: "" },
-                { title: "Real-time monitoring dashboards", desc: "" },
-              ],
-            },
-          ],
-        },
-        {
-          title: "Fraud Prevention & Risk Management Tools",
-          description:
-            "We deploy AI-powered tools to detect suspicious activities:",
-          issues: [
-            {
-              title: "",
-              type: "list",
-              options: [
-                { title: "Real-time transaction monitoring", desc: "" },
-                { title: "Machine learning-based anomaly detection", desc: "" },
+                { title: "Automated daily backups", desc: "" },
                 {
-                  title: "Automated alerts for high-risk transactions",
+                  title: "Redundant storage across multiple locations",
+                  desc: "",
+                },
+                {
+                  title: "Rapid recovery systems to minimize downtime",
                   desc: "",
                 },
               ],
@@ -311,23 +322,54 @@ export const industryDetailData: Service[] = [
           ],
         },
         {
-          title: "Regulatory Reporting & Compliance Automation",
-          description:
-            "Our systems automate data collection, validation, and reporting for compliance with:",
+          title: "Healthcare IT Infrastructure Management",
+          description: "We handle the full lifecycle of your IT systems:",
           issues: [
             {
               title: "",
               type: "list",
               options: [
+                { title: "Network setup & optimization", desc: "" },
+                { title: "Server installation & management", desc: "" },
+                { title: "Data center maintenance", desc: "" },
                 {
-                  title: "RBI, SEC, FCA, and other financial regulators",
+                  title: "Hardware procurement & lifecycle management",
                   desc: "",
                 },
-                { title: "Anti-Money Laundering (AML) laws", desc: "" },
-                { title: "Know Your Customer (KYC) requirements", desc: "" },
               ],
             },
           ],
+        },
+      ],
+    },
+    whyChoose: {
+      title: "Benefits of Choosing ITSupport.net.in for Healthcare IT Services",
+      desc: "",
+      whyChoosecategories: [
+        {
+          svg: <SvgCheckCircle />,
+          title: "20+ Years of Healthcare IT Expertise",
+          desc: "Decades of proven experience delivering innovative and reliable healthcare technology solutions.",
+        },
+        {
+          svg: <SvgBolt />,
+          title: "Global Presence Across 50+ Countries",
+          desc: "A trusted partner for healthcare organizations worldwide, ensuring localized support and scalability.",
+        },
+        {
+          svg: <SvgLock />,
+          title: "Compliance with Global Healthcare Standards",
+          desc: "Adherence to HIPAA, GDPR, and other international healthcare regulations for secure, compliant solutions.",
+        },
+        {
+          svg: <SvgBriefcase />,
+          title: "Certified Healthcare IT Professionals",
+          desc: "Specialized experts with industry-recognized certifications to meet complex healthcare challenges.",
+        },
+        {
+          svg: <SvgClipboard />,
+          title: "Comprehensive End-to-End Solutions",
+          desc: "From IT infrastructure to regulatory compliance, we cover every aspect of healthcare technology.",
         },
       ],
     },
@@ -335,29 +377,29 @@ export const industryDetailData: Service[] = [
     features: [],
     faqs: [
       {
-        label: "How do you ensure PCI DSS compliance for our bank?",
-        desc: "We conduct a thorough gap analysis, implement encryption, access controls, and maintain secure payment environments to meet PCI DSS standards.",
+        label: "How do you ensure HIPAA compliance for healthcare IT systems?",
+        desc: "We conduct detailed security audits, implement data encryption, access controls, and maintain audit logs to ensure complete HIPAA compliance.",
         expanded: true,
       },
       {
         label:
-          "Can you integrate our existing core banking system with mobile apps?",
-        desc: "Yes. We specialize in integrating core banking platforms with secure mobile and internet banking applications.",
+          "Can you integrate our existing EMR system with new telemedicine software?",
+        desc: "Yes. Our team specializes in integrating EMR/EHR systems with telemedicine platforms, ensuring secure and seamless data flow.",
         expanded: false,
       },
       {
-        label: "Do you offer IT support for fintech startups?",
-        desc: "Absolutely. We provide scalable cloud solutions, secure APIs, and blockchain integration for fintech companies.",
+        label: "Do you offer 24/7 healthcare IT support?",
+        desc: "Absolutely. We provide round-the-clock remote and on-site IT assistance for healthcare facilities worldwide.",
         expanded: false,
       },
       {
-        label: "How do you protect financial institutions from cyber threats?",
-        desc: "We deploy AI-based fraud detection, intrusion prevention systems, endpoint protection, and 24/7 threat monitoring.",
+        label: "How do you protect against healthcare cyberattacks?",
+        desc: "We use advanced cybersecurity measures like intrusion detection, MFA, endpoint protection, and regular vulnerability scanning to safeguard your network.",
         expanded: false,
       },
       {
-        label: "Can you help us with compliance for multiple regions?",
-        desc: "Yes. We work with banks and finance companies across 50+ countries, ensuring compliance with local and international regulations.",
+        label: "Can you work with multi-location hospitals and clinics?",
+        desc: "Yes, we provide centralized IT management and secure networking solutions for healthcare organizations with multiple locations.",
         expanded: false,
       },
     ],

@@ -1,4 +1,4 @@
-const SvgCheckCircle = () => (
+export const SvgCheckCircle = () => (
   <svg
     className="w-8 h-8 text-white"
     fill="none"
@@ -14,7 +14,7 @@ const SvgCheckCircle = () => (
   </svg>
 );
 
-const SvgBolt = () => (
+export const SvgBolt = () => (
   <svg
     className="w-8 h-8 text-white"
     fill="none"
@@ -30,7 +30,7 @@ const SvgBolt = () => (
   </svg>
 );
 
-const SvgLock = () => (
+export const SvgLock = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="w-8 h-8 text-white"
@@ -47,7 +47,7 @@ const SvgLock = () => (
   </svg>
 );
 
-const SvgBriefcase = () => (
+export const SvgBriefcase = () => (
   <svg
     className="w-8 h-8 text-white"
     fill="none"
@@ -63,7 +63,7 @@ const SvgBriefcase = () => (
   </svg>
 );
 
-const SvgClipboard = () => (
+export const SvgClipboard = () => (
   <svg
     className="w-8 h-8 text-white"
     fill="none"
@@ -79,7 +79,7 @@ const SvgClipboard = () => (
   </svg>
 );
 
-const SvgSmiley = () => (
+export const SvgSmiley = () => (
   <svg
     className="w-8 h-8 text-white"
     fill="none"

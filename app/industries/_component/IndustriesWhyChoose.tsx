@@ -1,6 +1,6 @@
 import FeatureCard from "@/app/services/[slug]/_components/FeatureCard";
 
-const whyChooseDataDetail = [
+export const whyChooseIndustriesDataDetail = [
   {
     icon: (
       <svg
@@ -12,7 +12,7 @@ const whyChooseDataDetail = [
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-8 h-8 text-[#4CD964]"
+        className="w-8 h-8 text-white"
         aria-hidden="true"
         data-id="element-244"
       >
@@ -36,7 +36,7 @@ const whyChooseDataDetail = [
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-8 h-8 text-[#4CD964]"
+        className="w-8 h-8 text-white"
         aria-hidden="true"
         data-id="element-246"
       >
@@ -58,7 +58,7 @@ const whyChooseDataDetail = [
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-8 h-8 text-[#4CD964]"
+        className="w-8 h-8 text-white"
         aria-hidden="true"
         data-id="element-248"
       >
@@ -81,7 +81,7 @@ const whyChooseDataDetail = [
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-8 h-8 text-[#4CD964]"
+        className="w-8 h-8 text-white"
         aria-hidden="true"
         data-id="element-250"
       >
@@ -104,7 +104,7 @@ const whyChooseDataDetail = [
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-8 h-8 text-[#4CD964]"
+        className="w-8 h-8 text-white"
         aria-hidden="true"
         data-id="element-250"
       >
@@ -127,7 +127,7 @@ const whyChooseDataDetail = [
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-8 h-8 text-[#4CD964]"
+        className="w-8 h-8 text-white"
         aria-hidden="true"
         data-id="element-250"
       >
@@ -138,17 +138,15 @@ const whyChooseDataDetail = [
     title: "Customer First Approach",
     description: "Our priority is getting you back to printing seamlessly.",
   },
- 
-
 ];
 
 export default function ServiceWhyChoose({
-  whyChooseData = whyChooseDataDetail,
+  whyChooseData = whyChooseIndustriesDataDetail,
 }: {
-  whyChooseData?: typeof whyChooseDataDetail;
+  whyChooseData?: typeof whyChooseIndustriesDataDetail;
 }) {
   // useEffect(() => {
-  //   AOS.init({ 
+  //   AOS.init({
   //     duration: 700, // default duration
   //     once: false,   // whether animation should happen only once
   //   });
@@ -161,18 +159,18 @@ export default function ServiceWhyChoose({
           <section className="section-heading">
             <h2 className="text-2xl xs:text-3xl sm:text-4xlfont-bold text-center mb-lg-12 mb-6">
               Why Choose{" "}
-                <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
-                  ITSupport.net.in
-                </span>{" "}
-                for Your Business?
+              <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">
+                ITSupport.net.in
+              </span>{" "}
+              for Your Business?
             </h2>
             <div className="bar w-[90px] h-[5px] bg-[#61CE70]/50 mx-auto  mb-lg-12 mb-6 relative rounded-full"></div>
-              <p className="text-gray-600 mb-12 text-center">
-                With over a decade of dedicated service and thousands of satisfied
-                customers across India, ITSupport.net.in stands out as the clear
-                choice for all your printer support needs.
-              </p>
-            </section>
+            <p className="text-gray-600 mb-12 text-center">
+              With over a decade of dedicated service and thousands of satisfied
+              customers across India, ITSupport.net.in stands out as the clear
+              choice for all your printer support needs.
+            </p>
+          </section>
           <div className="grid md:grid-cols-3 gap-4">
             {whyChooseData.map((whyD, index) => (
               <FeatureCard

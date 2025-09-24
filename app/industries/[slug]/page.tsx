@@ -106,6 +106,15 @@ export default function IndustryDetail({ params }: IndustryDetailProps) {
         issuecategory4={industry.issuecategory4}
       />
 
+      {industry?.whyChoose &&
+        industry?.whyChoose?.whyChoosecategories?.length > 0 && (
+          <ServiceWhyChoose
+            cards={industry.whyChoose.whyChoosecategories}
+            title={industry.whyChoose.title}
+            desc={industry.whyChoose.desc}
+          />
+        )}
+
       {/* <ServiceWhyChoose /> */}
 
       <FAQs data={industry.faqs} descHTMLString />
