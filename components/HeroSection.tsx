@@ -44,7 +44,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
             <Typography
               className="mt-6 md:mb-4 leading-tight w-full text-left font-bold text-white"
-              variant="h3"
+              variant="h2"
             >
               {parse(heroIntro)}
             </Typography>
@@ -114,7 +114,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 640 512"
                     className="w-6 h-6 text-white"
                     height="1em"
@@ -132,7 +132,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 640 512"
                     className="w-6 h-6 text-white"
                     height="1em"
