@@ -7,6 +7,10 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 const nextConfig: NextConfig = {
+  i18n: {
+    locales: ["en", "es"],
+    defaultLocale: "en",
+  },
   experimental: {
     optimizePackageImports: ["react", "react-dom"],
   },
