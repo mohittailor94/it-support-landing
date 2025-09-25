@@ -17,7 +17,7 @@ const SpecificIssueList = ({
 
       {options &&
         options.map((option, index) => (
-          <div className="flex items-start mb-2" key={`specific-issue-list-${option.title}`}>
+          <div className="flex items-start mb-2" key={`specific-issue-list-${option.title}-${index}`}>
             <svg
               width="24"
               height="24"

@@ -1,3 +1,19 @@
+import {
+  Database,
+  RotateCcw,
+  ShieldCheck,
+  Bug,
+  Printer,
+  Wrench,
+  Wifi,
+  Server,
+  Cloud,
+  ShoppingCart,
+  Cpu,
+  Globe,
+  Mail,
+} from "lucide-react";
+
 export interface ServiceFAQ {
   label: string;
   desc: string;
@@ -41,6 +57,7 @@ export interface Service {
   subtitle?: string;
   subtitle1?: string;
   heroImage?: string;
+  heroRightSideIcons?: any[];
   intro?: {
     headline: string;
     subheadline: string;
@@ -86,6 +103,10 @@ export const servicesDetailData: Service[] = [
     subtitle: "Backup & Recovery Support Services",
     subtitle1:
       "In the digital age, data is the lifeblood of every business and the repository of every personal memory. From critical business documents and financial records to cherished family photos and vital creative projects, your data represents invaluable assets. Yet, these assets are constantly vulnerable to loss from countless threats – hardware failures, human error, cyber-attacks, natural disasters, and software corruptions.",
+    heroRightSideIcons: [
+      <Database className="w-6 h-6 text-white" />,
+      <RotateCcw className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -410,6 +431,10 @@ export const servicesDetailData: Service[] = [
     subtitle: "Expert Antivirus Support Services",
     subtitle1:
       "In today's interconnected world, your digital life is constantly under threat. From sophisticated ransomware to elusive spyware, malicious software lurks, ready to compromise your data, disrupt your operations, and steal your peace of mind. A simple antivirus program isn't enough; you need robust, proactive, and expert support to truly protect your digital assets. At ITSupport.net.in, we understand the complexities of modern cyber threats. We provide comprehensive antivirus support services designed to keep your systems secure, ensuring you can work, browse, and connect without fear.",
+    heroRightSideIcons: [
+      <ShieldCheck className="w-6 h-6 text-white" />,
+      <Bug className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -691,6 +716,10 @@ export const servicesDetailData: Service[] = [
     subtitle: "Trusted Partner for Flawless Printing Over a Decade",
     subtitle1:
       "At ITSupport.net.in, we understand that a smoothly functioning printer is crucial for both homes and businesses. For over 10 years, we have been proudly serving over 10,000 customers globally, providing reliable and comprehensive printer support services. Our extensive experience ensures that we can quickly diagnose and resolve a wide array of printer issues, minimizing your downtime and maximizing your productivity.",
+    heroRightSideIcons: [
+      <Printer className="w-6 h-6 text-white" />,
+      <Wrench className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -1036,6 +1065,10 @@ export const servicesDetailData: Service[] = [
     subtitle: "Seamless Connectivity Over a Decade",
     subtitle1:
       "In today's interconnected world, a robust and reliable network is the backbone of any successful operation, whether for a home office or a large enterprise. At ITSupport.net.in, we understand the critical role your network plays in daily productivity and communication. For over 10 years, we have been the trusted partner for over 10,000 customers globally, providing unparalleled network support services that ensure seamless connectivity and minimal downtime. Our deep expertise in network architecture, troubleshooting, and security empowers us to tackle any challenge, keeping your digital infrastructure strong and secure.",
+    heroRightSideIcons: [
+      <Wifi className="w-6 h-6 text-white" />,
+      <Server className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -1403,6 +1436,10 @@ export const servicesDetailData: Service[] = [
     subtitle:
       "Seamless Cloud Operations: Over a Decade of Global Excellence for 1,000+ Customers",
     subtitle1: `In the modern digital era, cloud computing is no longer just an option – it's a fundamental necessity for agility, scalability, and innovation. At ITSupport.net.in, we've been at the forefront of this transformation for over 10 years, proudly serving more than 1,000 customers globally. We understand that while the cloud offers immense potential, navigating its complexities requires specialized expertise. Our dedicated Cloud Support Services are designed to ensure your cloud infrastructure is always optimized, secure, and performing at its peak, allowing you to focus on your core business objectives without interruption.`,
+    heroRightSideIcons: [
+      <Cloud className="w-6 h-6 text-white" />,
+      <Server className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -1968,6 +2005,10 @@ export const servicesDetailData: Service[] = [
     subtitle:
       "Seamless Digital Retail: Over a Decade of Global Excellence for 500+ Online Businesses",
     subtitle1: `In the dynamic world of e-commerce, your online store is more than just a website—it's your storefront, sales team, and customer service hub rolled into one. At ITSupport.net.in, we understand that every moment of downtime or every friction point in the customer journey can mean lost sales and damaged reputation. For over 10 years, we have been the trusted ally for over 500 e-commerce businesses globally, providing unparalleled support that ensures your digital storefront operates flawlessly, securely, and efficiently. Our comprehensive e-commerce support services empower you to focus on growth while we handle the technical complexities.`,
+    heroRightSideIcons: [
+      <ShoppingCart className="w-6 h-6 text-white" />,
+      <Server className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -2482,6 +2523,10 @@ export const servicesDetailData: Service[] = [
     subtitle:
       "Powering Your Performance: Over a Decade of Global Hardware Excellence for 100,000+ Customers",
     subtitle1: `In the fast-paced digital landscape, reliable hardware is the bedrock of productivity and innovation. Whether it's a critical server, a high-performance workstation, or your everyday laptop, hardware failures can halt operations, frustrate users, and cost businesses dearly. At ITSupport.net.in, we understand the indispensable role hardware plays in your daily workflow. For over 10 years, we have been the trusted partner for over 100,000 customers globally, providing comprehensive and proactive hardware support services that ensure your devices run smoothly, efficiently, and reliably. From diagnostics to repair and component replacement, our expert team is dedicated to maximizing the lifespan and performance of your valuable hardware assets.`,
+    heroRightSideIcons: [
+      <Cpu className="w-6 h-6 text-white" />,
+      <Wrench className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -3081,6 +3126,10 @@ export const servicesDetailData: Service[] = [
     subtitle:
       "Your Digital Foundation, Our Expertise: Over a Decade of Global Web Hosting Excellence",
     subtitle1: `In today's digital-first world, your website is often the first point of contact for customers, the engine of your online business, and a reflection of your brand. Any hiccup in its availability or performance can translate directly into lost opportunities and revenue. At ITSupport.net.in, we deeply understand the critical importance of a stable, secure, and fast web presence. For over 10 years, we have proudly served more than 1,000 customers globally, providing comprehensive web hosting support services that ensure your website is always online, responsive, and secure. We handle the complexities of hosting, so you can focus on growing your digital footprint without worry.`,
+    heroRightSideIcons: [
+      <Globe className="w-6 h-6 text-white" />,
+      <Server className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
     intro: {
@@ -3606,20 +3655,25 @@ export const servicesDetailData: Service[] = [
   },
   {
     slug: "email-setup-support",
-    title: "Uninterrupted Online Presence",
+    title:
+      "Seamless Communication: Expert Email Support Services by ITSupport.net.in",
     subtitle:
-      "Your Digital Foundation, Our Expertise: Over a Decade of Global Web Hosting Excellence",
-    subtitle1: `In today's digital-first world, your website is often the first point of contact for customers, the engine of your online business, and a reflection of your brand. Any hiccup in its availability or performance can translate directly into lost opportunities and revenue. At ITSupport.net.in, we deeply understand the critical importance of a stable, secure, and fast web presence. For over 10 years, we have proudly served more than 1,000 customers globally, providing comprehensive web hosting support services that ensure your website is always online, responsive, and secure. We handle the complexities of hosting, so you can focus on growing your digital footprint without worry.`,
+      "Your Inbox, Our Priority: Over a Decade of Global Excellence for 100,000+ Customers",
+    subtitle1: `In today's interconnected world, email is the lifeblood of communication for businesses and individuals alike. It's how you connect with clients, collaborate with colleagues, and manage critical information. Any disruption to your email service can lead to missed opportunities, operational delays, and significant frustration. At ITSupport.net.in, we understand that a reliable and secure email experience is non-negotiable. For over 10 years, we have proudly served more than 100,000 customers globally, providing comprehensive email support services that ensure your messages are always delivered, your inboxes are secure, and your communication flows without a hitch. We handle the complexities of email, so you can focus on what truly matters: connecting with your world.`,
+    heroRightSideIcons: [
+      <Mail className="w-6 h-6 text-white" />,
+      <ShieldCheck className="w-6 h-6 text-white" />,
+    ],
     heroImage:
-      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
-        "Navigating the Hosting Landscape: Common Challenges We Expertly Resolve",
+        "Ensuring Reliable Email Operations: Common Challenges We Expertly Handle",
       subheadline: "",
       description:
-        "Web hosting environments, while robust, are susceptible to a range of issues that can impact your website's performance, security, and accessibility. Our team of certified web hosting specialists is adept at diagnosing, troubleshooting, and resolving these intricate problems, ensuring your online assets remain fully functional and optimized.",
+        "Email systems, while essential, can face disruptions that impact communication, productivity, and security. Our certified email support specialists diagnose, troubleshoot, and resolve these issues promptly, ensuring your inbox remains secure, your messages are delivered on time, and your organization's communication stays uninterrupted.",
       image:
-        "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
       title: "Why Choose Our Hosting & Domain Support?",
@@ -3705,117 +3759,7 @@ export const servicesDetailData: Service[] = [
     },
     issuecategory: {
       title:
-        "Navigating the Email Ecosystem: Common Challenges We Expertly Resolve",
-      subTitle:
-        "Email issues can be incredibly frustrating, impacting personal productivity and entire business operations. From basic access problems to complex deliverability and security threats, our team of dedicated email specialists is adept at diagnosing, troubleshooting, and resolving a broad spectrum of email-related challenges.",
-      issueCategories: [
-        {
-          title: "Connectivity & Access Issues",
-          description:
-            "Ensuring you're always connected to your email services.",
-          issues: [
-            {
-              title: "Email Client Configuration Errors",
-              problemDescription:
-                "You're unable to set up your email account in Outlook, Thunderbird, Apple Mail, or other clients due to incorrect server settings, port numbers, or authentication mismatches.",
-              solution:
-                "We provide step-by-step guidance for configuring email accounts, verifying server settings, ports, encryption methods (SSL/TLS), and authentication protocols for seamless connectivity.",
-            },
-            {
-              title: "Account Lockouts & Password Resets",
-              problemDescription:
-                "You're locked out of your account due to too many failed login attempts or forgotten password, preventing access to emails and linked services.",
-              solution:
-                "We guide you through account recovery, troubleshoot MFA issues, and secure your account to prevent future lockouts.",
-            },
-          ],
-        },
-        {
-          title: "Sending & Receiving Failures",
-          description:
-            "Ensuring your messages flow freely without disruptions.",
-          issues: [
-            {
-              title: "Emails Not Sending/Receiving",
-              problemDescription:
-                "Outgoing emails bounce back with errors or incoming emails fail to arrive, caused by DNS issues, blacklisting, full mailboxes, or SMTP misconfigurations.",
-              solution:
-                "We analyze bounce-backs, verify MX, SPF, DKIM, and DMARC records, check for blacklisting, and troubleshoot SMTP/server connectivity.",
-            },
-            {
-              title: "Spam Filtering & Deliverability Issues",
-              problemDescription:
-                "Legitimate emails are marked as spam, or your inbox is flooded with unwanted spam emails, harming productivity and sender reputation.",
-              solution:
-                "We configure spam filters, improve sender reputation, troubleshoot deliverability issues, and whitelist important contacts.",
-            },
-          ],
-        },
-        {
-          title: "Performance & Data Management",
-          description:
-            "Optimizing your email experience for speed and efficiency.",
-          issues: [
-            {
-              title: "Slow Email Client Performance",
-              problemDescription:
-                "Email clients like Outlook or Thunderbird are slow, freezing, or failing to sync due to large data files, corrupted profiles, or connectivity issues.",
-              solution:
-                "We optimize client settings, repair data files, compact mailboxes, and configure efficient sync settings.",
-            },
-            {
-              title: "Mailbox Storage Limits & Archiving",
-              problemDescription:
-                "Constantly hitting storage limits or struggling to manage old messages without deleting them.",
-              solution:
-                "We implement archiving strategies, organize mailboxes, identify large attachments, and advise on storage upgrades or migrations.",
-            },
-          ],
-        },
-        {
-          title: "Security & Privacy Concerns",
-          description: "Protecting your digital communications from threats.",
-          issues: [
-            {
-              title: "Phishing, Spam & Malware Attacks",
-              problemDescription:
-                "Suspicious emails tricking you into revealing data, overwhelming spam, or malicious attachments/links.",
-              solution:
-                "We implement phishing/spam filters, educate users, advise on strong security practices, and assist in reporting/blocking threats.",
-            },
-            {
-              title: "Account Hacking & Unauthorized Access",
-              problemDescription:
-                "Your account has been compromised, sending spam or showing unfamiliar activity.",
-              solution:
-                "We help secure compromised accounts with forced logouts, password resets, MFA setup, activity reviews, and incident reporting.",
-            },
-          ],
-        },
-        {
-          title: "Migration & Integration Complexities",
-          description: "Seamless transitions and workflow integration.",
-          issues: [
-            {
-              title: "Email Migration Challenges",
-              problemDescription:
-                "Transferring accounts, emails, contacts, and calendars between providers risks data loss or downtime.",
-              solution:
-                "We plan and execute secure migrations with minimal downtime, ensuring all data is transferred and compatibility issues resolved.",
-            },
-            {
-              title: "Integration with CRM/Business Tools",
-              problemDescription:
-                "Email system not syncing properly with CRM or other tools, causing duplicated work or incomplete data.",
-              solution:
-                "We troubleshoot API connections, configure sync settings, and resolve data flow issues for cohesive workflows.",
-            },
-          ],
-        },
-      ],
-    },
-    issuecategory2: {
-      title: "Expert Support Across Leading Email & Marketing Platforms",
+        "Expert Support Across Leading Email & Marketing Platforms",
       subTitle:
         "Our expertise extends across the most popular personal and business email platforms, as well as essential email marketing services, ensuring your communication tools are always optimized, secure, and fully functional.",
       issueCategories: [
@@ -3829,15 +3773,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Gmail Functionality:",
+                  title: "Gmail Functionality",
                   desc: "Resolving issues with Gmail interface, filters, labels, search, attachments, and ensuring smooth operation of integrated Calendar and Drive.",
                 },
                 {
-                  title: "Workspace Admin Console:",
+                  title: "Workspace Admin Console",
                   desc: "Assisting with user management, domain verification, MX record configuration, security settings, and shared mailbox setup for Google Workspace accounts.",
                 },
                 {
-                  title: "Deliverability & Sync:",
+                  title: "Deliverability & Sync",
                   desc: "Troubleshooting email sending/receiving problems, sync issues with desktop clients, and ensuring optimal deliverability for both personal and business Gmail accounts.",
                 },
               ],
@@ -3854,15 +3798,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Outlook Desktop Client:",
+                  title: "Outlook Desktop Client",
                   desc: "Resolving PST/OST file corruption, 'Outlook Not Responding' errors, search issues, add-in conflicts, and configuration for Exchange, IMAP, and POP accounts.",
                 },
                 {
-                  title: "Exchange Online & Microsoft 365 Admin:",
+                  title: "Exchange Online & Microsoft 365 Admin",
                   desc: "Assisting with mailbox provisioning, shared mailboxes, distribution lists, migration to/from Exchange Online, and security settings within the Microsoft 365 admin center.",
                 },
                 {
-                  title: "Connectivity & Sync:",
+                  title: "Connectivity & Sync",
                   desc: "Troubleshooting connection issues with Exchange servers, synchronization problems between Outlook client and server, and ensuring smooth email, calendar, and contact sync.",
                 },
               ],
@@ -3879,15 +3823,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Login & Access:",
+                  title: "Login & Access",
                   desc: "Guiding users through password recovery, account lockout issues, and enabling/disabling two-factor authentication.",
                 },
                 {
-                  title: "Interface & Features:",
+                  title: "Interface & Features",
                   desc: "Troubleshooting issues with Yahoo Mail's web interface, filters, folders, and attachment handling.",
                 },
                 {
-                  title: "Spam & Security:",
+                  title: "Spam & Security",
                   desc: "Assisting with managing spam filters, identifying phishing attempts, and securing accounts from unauthorized access.",
                 },
               ],
@@ -3904,15 +3848,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Domain & DNS Configuration:",
+                  title: "Domain & DNS Configuration",
                   desc: "Setting up custom domains, verifying MX, SPF, DKIM, and DMARC records for optimal email delivery.",
                 },
                 {
-                  title: "User & Group Management:",
+                  title: "User & Group Management",
                   desc: "Assisting with adding/removing users, setting up aliases, group mailboxes, and managing storage.",
                 },
                 {
-                  title: "Migration & Sync:",
+                  title: "Migration & Sync",
                   desc: "Supporting migration of emails to Zoho Mail and troubleshooting sync issues with external email clients.",
                 },
               ],
@@ -3929,15 +3873,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Encryption & Decryption:",
+                  title: "Encryption & Decryption",
                   desc: "Troubleshooting issues with sending/receiving encrypted emails, and understanding password protection.",
                 },
                 {
-                  title: "Bridge Application:",
+                  title: "Bridge Application",
                   desc: "Assisting with the ProtonMail Bridge application for desktop client integration (Outlook, Thunderbird) and resolving connectivity issues.",
                 },
                 {
-                  title: "Account & Security:",
+                  title: "Account & Security",
                   desc: "Guiding through account setup, managing two-password mode, and ensuring secure access to your encrypted mailbox.",
                 },
               ],
@@ -3954,15 +3898,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Custom Domain Setup:",
+                  title: "Custom Domain Setup",
                   desc: "Configuring custom domains, DNS records (MX, SPF, DKIM), and email aliases for Fastmail accounts.",
                 },
                 {
-                  title: "Client Configuration:",
+                  title: "Client Configuration",
                   desc: "Assisting with setting up Fastmail accounts in various email clients using IMAP/POP/SMTP settings and app passwords.",
                 },
                 {
-                  title: "Rule & Filter Management:",
+                  title: "Rule & Filter Management",
                   desc: "Helping users create and manage advanced email rules, filters, and smart folders for efficient inbox organization.",
                 },
               ],
@@ -3979,15 +3923,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Login & Password Recovery:",
+                  title: "Login & Password Recovery",
                   desc: "Guiding users through forgotten password processes and resolving account lockout issues.",
                 },
                 {
-                  title: "Interface & Feature Troubleshooting:",
+                  title: "Interface & Feature Troubleshooting",
                   desc: "Assisting with issues related to the AOL Mail web interface, folders, contacts, and spam filters.",
                 },
                 {
-                  title: "Security & Deliverability:",
+                  title: "Security & Deliverability",
                   desc: "Addressing concerns about spam, phishing, and ensuring reliable email sending and receiving from AOL Mail accounts.",
                 },
               ],
@@ -4004,15 +3948,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Account Setup & Access:",
+                  title: "Account Setup & Access",
                   desc: "Troubleshooting login problems, password resets, and account verification issues for Mail.com accounts.",
                 },
                 {
-                  title: "Email Client Integration:",
+                  title: "Email Client Integration",
                   desc: "Assisting with configuring Mail.com accounts in desktop and mobile email clients.",
                 },
                 {
-                  title: "Spam & Filtering:",
+                  title: "Spam & Filtering",
                   desc: "Helping users manage spam and set up email filters for better inbox organization.",
                 },
               ],
@@ -4029,15 +3973,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Domain & DNS Configuration:",
+                  title: "Domain & DNS Configuration",
                   desc: "Setting up and troubleshooting custom domain emails, MX records, and other DNS settings for Neo Mail.",
                 },
                 {
-                  title: "Webmail & Client Access:",
+                  title: "Webmail & Client Access",
                   desc: "Resolving issues related to accessing Neo webmail and configuring accounts in third-party email clients.",
                 },
                 {
-                  title: "Deliverability & Storage:",
+                  title: "Deliverability & Storage",
                   desc: "Addressing sending/receiving issues, bounce backs, and managing mailbox storage limits within the Neo platform.",
                 },
               ],
@@ -4054,15 +3998,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Account Configuration:",
+                  title: "Account Configuration",
                   desc: "Assisting with setting up new email accounts (IMAP/POP/SMTP), troubleshooting existing configurations, and resolving connection errors.",
                 },
                 {
-                  title: "Performance & Data Management:",
+                  title: "Performance & Data Management",
                   desc: "Optimizing Thunderbird performance, managing large mailboxes, compacting folders, and resolving corrupted profile issues.",
                 },
                 {
-                  title: "Add-on & Plugin Conflicts:",
+                  title: "Add-on & Plugin Conflicts",
                   desc: "Diagnosing and resolving issues caused by problematic add-ons or extensions, ensuring Thunderbird's stability.",
                 },
               ],
@@ -4079,15 +4023,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Audience Management:",
+                  title: "Audience Management",
                   desc: "Assisting with importing contacts, segmenting audiences, and troubleshooting sync issues with e-commerce platforms.",
                 },
                 {
-                  title: "Campaign Creation & Sending:",
+                  title: "Campaign Creation & Sending",
                   desc: "Guiding through email template design, campaign setup, A/B testing, and resolving sending errors or deliverability issues.",
                 },
                 {
-                  title: "Automation & Reporting:",
+                  title: "Automation & Reporting",
                   desc: "Setting up marketing automations (e.g., abandoned cart, welcome series) and interpreting campaign reports for optimization.",
                 },
               ],
@@ -4104,15 +4048,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "API Integration:",
+                  title: "API Integration",
                   desc: "Assisting with SendGrid API key setup, integration with applications, and troubleshooting API sending errors.",
                 },
                 {
-                  title: "Deliverability Optimization:",
+                  title: "Deliverability Optimization",
                   desc: "Monitoring sender reputation, resolving bounce and block issues, setting up SPF/DKIM/DMARC records for improved deliverability.",
                 },
                 {
-                  title: "Suppressions & Templates:",
+                  title: "Suppressions & Templates",
                   desc: "Managing suppression lists, designing and deploying dynamic email templates, and interpreting SendGrid analytics.",
                 },
               ],
@@ -4129,15 +4073,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "List Management:",
+                  title: "List Management",
                   desc: "Importing contacts, segmenting lists, managing unsubscribes, and troubleshooting contact sync issues.",
                 },
                 {
-                  title: "Campaign Design & Deployment:",
+                  title: "Campaign Design & Deployment",
                   desc: "Assisting with drag-and-drop email builder, template customization, scheduling campaigns, and resolving sending failures.",
                 },
                 {
-                  title: "Reporting & Automation:",
+                  title: "Reporting & Automation",
                   desc: "Setting up basic automations (e.g., welcome emails) and helping analyze campaign performance reports.",
                 },
               ],
@@ -4154,15 +4098,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "Email Marketing & Automation:",
+                  title: "Email Marketing & Automation",
                   desc: "Creating and managing email campaigns, setting up autoresponders, and designing complex marketing automation workflows.",
                 },
                 {
-                  title: "Landing Page & Webinar Integration:",
+                  title: "Landing Page & Webinar Integration",
                   desc: "Troubleshooting email form integration with landing pages and webinar platforms within GetResponse.",
                 },
                 {
-                  title: "List Hygiene & Deliverability:",
+                  title: "List Hygiene & Deliverability",
                   desc: "Ensuring list health, managing bounces, and optimizing campaigns for better inbox placement.",
                 },
               ],
@@ -4175,19 +4119,19 @@ export const servicesDetailData: Service[] = [
             "HubSpot integrates email marketing seamlessly with its CRM and sales tools. Our HubSpot support focuses on:",
           issues: [
             {
-              title: "Core HubSpot Email Services",
+              title: "Core HubSpot Services",
               type: "list",
               options: [
                 {
-                  title: "Email Builder & Personalization:",
+                  title: "Email Builder & Personalization",
                   desc: "Assisting with HubSpot's email editor, dynamic content, and personalization tokens.",
                 },
                 {
-                  title: "List Segmentation & Automation:",
+                  title: "List Segmentation & Automation",
                   desc: "Creating targeted email lists, setting up workflows for lead nurturing, and troubleshooting automation triggers.",
                 },
                 {
-                  title: "Deliverability & Reporting:",
+                  title: "Deliverability & Reporting",
                   desc: "Monitoring email performance within HubSpot, analyzing open/click rates, and resolving deliverability challenges related to HubSpot's sending infrastructure.",
                 },
               ],
@@ -4204,15 +4148,15 @@ export const servicesDetailData: Service[] = [
               type: "list",
               options: [
                 {
-                  title: "SMTP & API Configuration:",
+                  title: "SMTP & API Configuration",
                   desc: "Assisting with SMTP relay setup, API integration for transactional emails, and troubleshooting sending issues.",
                 },
                 {
-                  title: "Email Design & Campaigns:",
+                  title: "Email Design & Campaigns",
                   desc: "Helping design engaging email templates, set up marketing campaigns, and manage email lists.",
                 },
                 {
-                  title: "Deliverability & Authentication:",
+                  title: "Deliverability & Authentication",
                   desc: "Configuring SPF, DKIM, and DMARC records, monitoring sender reputation, and resolving deliverability challenges to ensure high inbox placement.",
                 },
               ],
@@ -4414,6 +4358,10 @@ export const servicesDetailData: Service[] = [
     subtitle:
       "Your Wireless World, Our Expertise: Over a Decade of Global Excellence for 20,000+ Customers",
     subtitle1: `In today's hyper-connected world, Wi-Fi is no longer a luxury; it's the invisible infrastructure powering our homes, offices, and businesses. From streaming entertainment to mission-critical business operations, a reliable and fast wireless connection is paramount. At ITSupport.net.in, we understand that frustrating Wi-Fi issues can disrupt your productivity and peace of mind. For over 10 years, we have proudly served over 20,000 customers globally, providing comprehensive Wi-Fi support services that ensure your wireless network is always stable, secure, and optimized for peak performance. We eliminate the guesswork and frustration, empowering you to connect with confidence.`,
+    heroRightSideIcons: [
+      <Database className="w-6 h-6 text-white" />,
+      <RotateCcw className="w-6 h-6 text-white" />,
+    ],
     heroImage:
       "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
     intro: {

@@ -1,4 +1,5 @@
 import React from "react";
+import parse from "html-react-parser";
 
 export type Card = {
   svg: React.ReactNode;
@@ -28,7 +29,7 @@ export default function IconCardSection({
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
-          {title}
+          {parse(title)}
           {titleLinkText && (
             <a
               href={titleLinkHref}
@@ -38,7 +39,6 @@ export default function IconCardSection({
               {titleLinkText}
             </a>
           )}
-          <span className="text-black">?</span>
         </h2>
         {desc && (
           <p className="text-lg text-center text-gray-700 mb-12 max-w-4xl mx-auto">

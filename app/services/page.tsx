@@ -1,10 +1,11 @@
+import { useLocale, useTranslations } from "next-intl";
+import { Globe, Server } from "lucide-react";
+
 import CoreServiceCard from "@/components/cards/CoreServiceCard";
 import Typography from "@/components/ui/Typography";
 import outCoreData, { outCoreDataEs } from "@/utils/constant/outCoreData";
-import Link from "next/link";
 import ServiceWhyChoose from "./_component/ServiceWhyChoose";
 import FAQs from "@/components/FAQ/FAQs";
-import { useLocale, useTranslations } from "next-intl";
 import {
   heroServicesData,
   heroServicesDataEs,
@@ -46,6 +47,10 @@ export default function Services() {
         )} <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300"> ITSupport.net.in </span> ${t(
           "heroIntro2"
         )}`}
+        rightSideIcons={[
+          <Globe className="w-6 h-6 text-white" />,
+          <Server className="w-6 h-6 text-white" />,
+        ]}
         buttonTexts={[{ label: "Explore Service", href: "#" }]}
         breadcrumbs={[{ home: "Home" }, { home: "Services" }]}
         imageSrc="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80"

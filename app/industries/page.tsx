@@ -3,9 +3,12 @@ import outCoreData, { outCoreDataEs } from "@/utils/constant/outCoreData";
 import { useLocale, useTranslations } from "next-intl";
 
 import "aos/dist/aos.css";
-import IndustriesWhyChoose from "./_component/IndustriesWhyChoose";
+import IndustriesWhyChoose, {
+  whyChooseIndustriesDataDetail,
+} from "./_component/IndustriesWhyChoose";
 import IndustriesWeServe from "@/components/IndustriesWeServe";
 import HeroSection from "@/components/HeroSection";
+import ServiceWhyChoose from "../services/_component/ServiceWhyChoose";
 export default function Industries() {
   const locale = useLocale();
   const t = useTranslations("IndustriesPage");
@@ -43,8 +46,19 @@ export default function Industries() {
 
       {/* Why Choose IT Support section */}
       <section className="why-choose-section">
-        <IndustriesWhyChoose />
+        <ServiceWhyChoose
+          title={`Why Choose <span className="text-[#61CE70] hover:text-[#4CAF50] transition-colors duration-300">ITSupport.net.in</span> for Your Business?`}
+          desc={
+            "With over a decade of dedicated service and thousands of satisfied customers across India, ITSupport.net.in stands out as the clear choice for all your printer support needs."
+          }
+          cards={whyChooseIndustriesDataDetail.map(card => ({
+            svg: card.icon, // assuming icon is the svg
+            title: card.title,
+            desc: card.description // map description to desc
+          }))}
+        />
       </section>
+
       <section className="industries-section">
         <IndustriesWeServe />
       </section>

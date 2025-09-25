@@ -41,15 +41,11 @@ export default function ServiceOffer({
         <div className="items-center w-full flex justify-center">
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img
-              alt={serviceProvider.imageAlt}
-              title={serviceProvider.title}
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80"
+              alt="Ensuring Reliable Email Operations: Common Challenges We Expertly Handle"
+              title="Ensuring Reliable Email Operations: Common Challenges We Expertly Handle"
+              className="w-full h-auto max-h-[500px] object-cover rounded-2xl"
               loading="lazy"
-              width="1230"
-              height="500"
-              decoding="async"
-              data-nimg="1"
-              src={serviceProvider.imageSrc}
-              style={{ color: "transparent", width: 1230, height: 500 }}
             />
           </div>
         </div>
