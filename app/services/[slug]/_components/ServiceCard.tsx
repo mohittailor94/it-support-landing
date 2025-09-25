@@ -14,7 +14,7 @@ const ServiceCard = ({ icon, title, description }: ServiceCardProps) => {
     <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer group">
       <div className="mb-4">{icon}</div>
       <Typography
-        variant="h4"
+        variant="h3"
         className="font-semibold mb-2 text-gray-800 group-hover:text-[#61CE70] transition-colors duration-300"
       >
         {title}
