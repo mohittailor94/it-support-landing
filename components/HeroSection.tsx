@@ -51,7 +51,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
             {/* Button */}
             {buttonTexts.length > 0 && (
-              <div className="flex justify-start w-full align-center flex-wrap gap-4 items-center mt-9 md:mb-9 xl:mb-0">
+              <div className="flex justify-start w-full align-center flex-wrap gap-4 items-center mt-9 md:mb-9 xl:mb-0 mb-4">
                 {buttonTexts.map((ctm, index) => (
                   <a
                     className="p-2 inline-block bg-gradient-to-r from-[#61CE70] via-blue-500 to-[#61CE70] text-white rounded-full font-extrabold shadow-xl hover:from-blue-500 hover:to-[#61CE70] hover:scale-105 transition-all duration-300 text-lg sm:text-xl tracking-wide group "
