@@ -5,14 +5,21 @@ import "./globals.css";
 
 import { NextIntlClientProvider } from "next-intl";
 import Script from "next/script";
+// import { usePathname } from "next/navigation";
 
 export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: any;
 }>) {
+  const paramsData = await params;
+
+  const lang = paramsData ? "es" : paramsData.locale ?? "en";
+
   return (
-    <html>
+    <html lang={lang ?? "en"}>
       <head>
         <meta
           name="google-site-verification"
