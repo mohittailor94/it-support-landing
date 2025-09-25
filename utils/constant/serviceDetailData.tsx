@@ -3665,7 +3665,7 @@ export const servicesDetailData: Service[] = [
       <ShieldCheck className="w-6 h-6 text-white" />,
     ],
     heroImage:
-      "https://images.unsplash.com/photo-1581091215365-4d7b76109a69?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     intro: {
       headline:
         "Ensuring Reliable Email Operations: Common Challenges We Expertly Handle",
@@ -3673,7 +3673,7 @@ export const servicesDetailData: Service[] = [
       description:
         "Email systems, while essential, can face disruptions that impact communication, productivity, and security. Our certified email support specialists diagnose, troubleshoot, and resolve these issues promptly, ensuring your inbox remains secure, your messages are delivered on time, and your organization's communication stays uninterrupted.",
       image:
-        "https://images.unsplash.com/photo-1581091215365-4d7b76109a69?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
     },
     serviceHighlights: {
       title: "Why Choose Our Hosting & Domain Support?",
