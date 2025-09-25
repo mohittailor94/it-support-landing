@@ -56,6 +56,9 @@ export default function ServiceDetail({ params }: Props) {
 
   const jsonLdScripts = renderJsonLd(meta?.jsonLd ?? []);
 
+  console.log(
+    "service.issuecategory2?.issueCategories?????",
+  );
   return (
     <>
       <Head>
@@ -89,6 +92,7 @@ export default function ServiceDetail({ params }: Props) {
           },
         ]}
         imageSrc={service.heroImage}
+        rightSideIcons={service?.heroRightSideIcons || []}
       />
 
       <ServiceOffer
@@ -165,14 +169,22 @@ export default function ServiceDetail({ params }: Props) {
                 description={cat.description}
                 bottomDesc={cat.bottomDesc}
               >
-                {cat?.issues?.map((catIssue) => (
-                  <SpecificIssue
-                    key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
-                    title={catIssue.title}
-                    problemDescription={catIssue.problemDescription}
-                    solution={catIssue.solution}
-                  />
-                ))}
+                {cat?.issues?.map((catIssue) =>
+                    catIssue.type === "list" ? (
+                      <SpecificIssueList
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        options={catIssue.options || []}
+                      />
+                    ) : (
+                      <SpecificIssue
+                        key={`service-issue-category-categories-${cat.title}-${catIssue.title}`}
+                        title={catIssue.title}
+                        problemDescription={catIssue.problemDescription}
+                        solution={catIssue.solution}
+                      />
+                    )
+                  )}
               </IssueCategory>
             </div>
           ))}
